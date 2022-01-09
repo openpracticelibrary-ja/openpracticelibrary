@@ -1,0 +1,27 @@
+.DS_Store
+node_modules/
+
+# built things
+static/js/lunr/PagesIndex.json
+
+# Cropped images (generated at build)
+static/images/scaled
+
+# Editor files
+*.swp
+
+# Old publish directory (from when we used GitHub pages)
+docs/
+# New publish directory
+public/
+
+.cache/
+static/admin/*.bundle.*
+yarn-error.log
+
+# Local Netlify folder
+.netlify
+
+#Cypress
+cypress/videos
+cypress/screenshots
