@@ -22,7 +22,7 @@ whyDo: >-
   * より小さい独立した単位でコードが開発されるため、よりモジュール化された柔軟なコードにつながる。
 
 
-  * Generates faster feedback, for example by telling you whether your last change (or refactoring) has broken some previously working code.
+  * 例えば、最後に行った変更（またはリファクタリング）が、以前動作していたコードを壊してしまったかどうかを伝えることで、より迅速なフィードバックが得られます。
 
 
   * Creates a detailed specification.
