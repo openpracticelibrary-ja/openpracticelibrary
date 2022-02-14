@@ -86,9 +86,7 @@ export default function ResourcesWeLove(props) {
   return (
     <Box>
       <Typography>
-        Check out these great links which can help you dive a little deeper into
-        running the {props.practiceTitle} practice with your team, customers or
-        stakeholders.
+        {props.practiceTitle} をチームや顧客、ステークホルダーと実施するにあたりより詳細にお知りになりたい場合は、以下のリンクを参照してください。
       </Typography>
 
       <Box marginLeft={2} my={2}>
