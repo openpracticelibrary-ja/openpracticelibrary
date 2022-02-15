@@ -25,7 +25,7 @@ whyDo: >-
   * 例えば、最後に行った変更（またはリファクタリング）が、以前動作していたコードを壊してしまったかどうかを伝えることで、より迅速なフィードバックが得られます。
 
 
-  * Creates a detailed specification.
+  * 詳細な仕様を作成する
 howTo: >-
   ## Further Information
 
