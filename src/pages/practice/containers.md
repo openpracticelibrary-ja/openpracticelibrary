@@ -3,8 +3,7 @@ templateKey: practice-page
 authors:
   - jamesallenred
   - Zenigata
-howTo: "* [Understanding Linux
-  containers](https://www.redhat.com/en/topics/containers) by Red Hat."
+howTo: "* [Linux コンテナについて理解する](https://www.redhat.com/ja/topics/containers) by Red Hat."
 resources:
   - link: https://en.wikipedia.org/wiki/Virtual_machine
     linkType: web
@@ -12,36 +11,34 @@ resources:
   - link: https://en.wikipedia.org/wiki/Bare-metal_server
     linkType: web
     description: Wikipedia entry for Bare Metal Server
-  - link: https://www.redhat.com/en/topics/containers
+  - link: https://www.redhat.com/ja/topics/containers
     linkType: web
-    description: Understanding Linux containers
+    description: Linux コンテナについて理解する
 participants:
   - Developers
   - Operations
   - Infrastructure
 area: foundation-technical
-title: Container
-subtitle: "A software package that contains everything the software needs to run. "
+title: コンテナ
+subtitle: "アプリケーション本体と、アプリケーションの実行に必要なライブラリ・依存関係など、必要最小限の要素をひとつにパッケージする"
 date: 2018-09-04T06:19:38.381Z
 tags: []
 mobiusTag: delivery
 icon: /images/containers.jpg
 whatIs: >-
-  A technical description of a Linux container is a sandboxed process or
-  processes isolated on a [VM](https://en.wikipedia.org/wiki/Virtual_machine) or
-  [bare-metal server](https://en.wikipedia.org/wiki/Bare-metal_server).
+  Linuxコンテナは、技術的には、サンドボックス化されたプロセスもしくは[仮想マシン](https://en.wikipedia.org/wiki/Virtual_machine) や
+  [ベアメタルサーバ](https://en.wikipedia.org/wiki/Bare-metal_server)から隔離されたプロセス群と説明することができます。
 
 
-  These processes are isolated using the tried and tested mechanisms of Linux Namespacing, CGroups, and SELinux contexts. A good way of imagining a container is a way of packaging up applications or services. The container will only contain the files and libraries required for that application or service and will share the underlying components such as the kernel. The package of files and libraries is known as a container image.
+  これらのプロセスは、Linux Namespacing、CGroups、SELinux contextsなどの試行錯誤を経たメカニズムを使って分離されます。コンテナを想像する良い方法は、アプリケーションやサービスをパッケージ化する方法と考えることです。コンテナには、そのアプリケーションやサービスに必要なファイルやライブラリのみが含まれ、カーネルなどの基礎となるコンポーネントは、各コンテナから共有されます。ファイルとライブラリをパッケージしたものは、コンテナ・イメージとして呼ばれています。
 whyDo: >-
-  * **Density** – Containers allow greater utilisation of infrastructure with
-  multiple containers able to run on singular VMs or bare-metal servers.
+  * **リソース効率** – コンテナにより、複数のコンテナを単一の仮想マシンやベアメタルサーバ上で実行することができ、インフラの利用率が高まります。
 
-  * **Portability** – The immutable container image can run in any environment that has the required container engine. This enables a hybrid cloud strategy.
+  * **可搬性** – イミュータブルなコンテナイメージは、適切なコンテナエンジンがある環境であれば、どのような環境でも実行可能です。これにより、ハイブリッドクラウド戦略が可能になります。
 
-  * **Speed** – A container image starts up very quickly, in most cases less than a second, as opposed to multiple minutes if not longer for a traditional system to boot up.
+  * **スピード** – コンテナイメージの起動は非常に速く、ほとんどの場合1秒以下です。従来のシステムの起動に数分かかるのとは対照的です。
 
-  * **DevSecOps Enabler** – Building an immutable container image allows for developers to develop only the application/service specific code while having the security team scan the image to ensure its compliance. Then the container image can be run by the operations team who will only require knowledge on running containers rather than application specific knowledge, thus enabling DevSecOps practices.
+  * **DevSecOpsを可能にする** – イミュータブルなコンテナ・イメージを構築することで、開発者はアプリケーションやサービス固有のコード開発にのみ集中し、セキュリティ・チームがそのイメージをスキャンしてコンプライアンスを確保することができます。そして、アプリケーション固有の知識ではなく、コンテナの実行に関する知識のみを必要とする運用チームがコンテナ・イメージを稼働できるようになり、各チームの責任境界が明確になることで、DevSecOpsの実践が可能になります。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/containers.jpg?raw=true
 people: "1"
@@ -50,17 +47,18 @@ difficulty: moderate
 ---
 ## What is it?
 
-A technical description of a Linux container is a sandboxed process or processes isolated on a [VM](https://en.wikipedia.org/wiki/Virtual_machine) or [bare-metal server](https://en.wikipedia.org/wiki/Bare-metal_server).
+Linuxコンテナは、技術的には、サンドボックス化されたプロセスもしくは[仮想マシン](https://en.wikipedia.org/wiki/Virtual_machine) や
+  [ベアメタルサーバ](https://en.wikipedia.org/wiki/Bare-metal_server)から隔離されたプロセス群と説明することができます。
 
-These processes are isolated using the tried and tested mechanisms of Linux Namespacing, CGroups, and SELinux contexts. A good way of imagining a container is a way of packaging up applications or services. The container will only contain the files and libraries required for that application or service and will share the underlying components such as the kernel. The package of files and libraries is known as a container image.
+これらのプロセスは、Linux Namespacing、CGroups、SELinux contextsなどの試行錯誤を経たメカニズムを使って分離されます。コンテナを想像する良い方法は、アプリケーションやサービスをパッケージ化する方法と考えることです。コンテナには、そのアプリケーションやサービスに必要なファイルやライブラリのみが含まれ、カーネルなどの基礎となるコンポーネントは、各コンテナから共有されます。ファイルとライブラリをパッケージしたものは、コンテナ・イメージとして呼ばれています。
 
 ## Why use it?
 
-* **Density** – Containers allow greater utilisation of infrastructure with multiple containers able to run on singular VMs or bare-metal servers.
-* **Portability** – The immutable container image can run in any environment that has the required container engine. This enables a hybrid cloud strategy.
-* **Speed** – A container image starts up very quickly, in most cases less than a second, as opposed to multiple minutes if not longer for a traditional system to boot up.
-* **DevSecOps Enabler** – Building an immutable container image allows for developers to develop only the application/service specific code while having the security team scan the image to ensure its compliance. Then the container image can be run by the operations team who will only require knowledge on running containers rather than application specific knowledge, thus enabling DevSecOps practices.
+* **リソース効率** – コンテナにより、複数のコンテナを単一の仮想マシンやベアメタルサーバ上で実行することができ、インフラの利用率が高まります。
+* **可搬性** – イミュータブルなコンテナイメージは、適切なコンテナエンジンがある環境であれば、どのような環境でも実行可能です。これにより、ハイブリッドクラウド戦略が可能になります。
+* **スピード** – コンテナイメージの起動は非常に速く、ほとんどの場合1秒以下です。従来のシステムの起動に数分かかるのとは対照的です。
+* **DevSecOpsを可能にする** – イミュータブルなコンテナ・イメージを構築することで、開発者はアプリケーションやサービス固有のコードのみを開発し、セキュリティ・チームがそのイメージをスキャンしてコンプライアンスを確保することができます。そして、アプリケーション固有の知識ではなく、コンテナの実行に関する知識のみを必要とする運用チームがコンテナ・イメージを実行できるようになり、DevSecOpsの実践が可能になります。
 
 ## Further Information
 
-* [Understanding Linux containers](https://www.redhat.com/en/topics/containers) by Red Hat.
+* [Linux コンテナについて理解する](https://www.redhat.com/ja/topics/containers) by Red Hat.
