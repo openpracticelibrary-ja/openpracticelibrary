@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: テスト駆動開発.
+title: aaa テスト駆動開発 aaa
 subtitle: Improving your software in short development cycles.
 date: 2018-09-10T11:36:21.873Z
 authors:
