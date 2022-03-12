@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Continuous Delivery
-subtitle: Automated testing and releasing of software.
+title: 継続的デリバリー
+subtitle: ソフトウェアのテストとリリースの自動化
 date: 2018-09-04T06:44:12.545Z
 authors:
   - syvanen
@@ -11,23 +11,16 @@ tags:
   - methods
 mobiusTag: foundation
 icon: /images/continuous-delivery.png
-whatIs: Continuous Delivery (CD) is an engineering practice where each change
-  could be a potential release ready for production. This practice builds on top
-  of the Continuous Integration practice as its starting point and adds to the
-  end a step that releases artifacts for anyone to use. These artifacts could be
-  software packages, container images or virtual machine images.
+whatIs: 継続的デリバリー（CD）は、各変更を本番稼働可能な状態のリリースにするためのエンジニアリングプラクティスです。このプラクティスは、継続的インテグレーションを出発点として、最後にユーザーが使える状態まで成果物をリリースするステップを追加したものです。ここでの成果物は、ソフトウェアパッケージ、コンテナイメージ、仮想マシンイメージのいずれかになります。
 whyDo: >-
-  * Automation reduces the manual work required to do the release, such as
-  publishing the artifact to required locations for deployment and releasing of
-  change notes that can now be taken from version control commit messages.
+  * 自動化により、次のようなリリースに必要な手作業が軽減されます。デプロイのために成果物を必要な場所に公開すること、バージョンコントロールのコミットメッセージから、変更履歴をリリースすること。
 
-  * Faster feedback cycles from customers as each change to software can be deployed to production.
+  * 本番環境にデプロイするソフトウェアの各変更に対して、顧客からのフィードバックサイクルが早くなります。
 
-  * Happier operations as released software is tested to be ready for production deployment.
+  * 本番環境に導入できる状態のテスト済みソフトウェアがリリースされるため、より充実した運用を実現します。
 
-  * Readiness to do push button deployments. This can also be taken to the next level which is [Continuous Deployment](https://openpracticelibrary.com/practice/continuous-deployment/).
-howTo: This practice typically requires automation that is run on a server such
-  as [Jenkins](https://jenkins.io/) or [Tekton](https://tekton.dev/).
+  * プッシュボタンデプロイメントを行うための準備になります。これは次のレベルである [継続的デプロイメント](https://openpracticelibrary-ja.netlify.app/practice/continuous-deployment/)にもつながります。
+howTo: このプラクティスは、通常、[Jenkins](https://jenkins.io/) や [Tekton](https://tekton.dev/)のようなサーバで実行される自動化が必要となります。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/continuous%20delivery.png?raw=true
 resources:
@@ -57,16 +50,17 @@ difficulty: moderate
 ---
 ## What is it?
 
-Continuous Delivery (CD) is an engineering practice where each change could be a potential release ready for production. This practice builds on top of the Continuous Integration practice as its starting point and adds to the end a step that releases artifacts for anyone to use. These artifacts could be software packages, container images or virtual machine images.
+継続的デリバリー（CD）は、各変更を本番稼働可能な状態のリリースにするためのエンジニアリングプラクティスです。このプラクティスは、継続的インテグレーションを出発点として、最後にユーザーが使える状態まで成果物をリリースするステップを追加したものです。ここでの成果物は、ソフトウェアパッケージ、コンテナイメージ、仮想マシンイメージのいずれかになります。
 
-This practice typically requires automation that is run on a server such as [Jenkins](https://jenkins.io/).
+このプラクティスは、通常、[Jenkins](https://jenkins.io/) や [Tekton](https://tekton.dev/)のようなサーバで実行される自動化が必要となります。
 
 ## Why use it?
 
-* Automation reduces the manual work required to do the release, such as publishing the artifact to required locations for deployment and releasing of change notes that can now be taken from version control commit messages.
-* Faster feedback cycles from customers as each change to software can be deployed to production.
-* Happier operations as released software is tested to be ready for production deployment.
-* Readiness to do push button deployments. This can also be taken to the next level which is [Continuous Deployment](https://openpracticelibrary.com/practice/continuous-deployment/).
+* 自動化により、次のようなリリースに必要な手作業が軽減されます。デプロイのために成果物を必要な場所に公開すること、バージョンコントロールのコミットメッセージから、変更履歴をリリースすること。
+* 本番環境にデプロイするソフトウェアの各変更に対して、顧客からのフィードバックサイクルが早くなります。
+* 本番環境に導入できる状態のテスト済みソフトウェアがリリースされるため、より充実した運用を実現します。
+* プッシュボタンデプロイメントを行うための準備になります。これは次のレベルである [継続的デプロイメント](https://openpracticelibrary-ja.netlify.app/practice/continuous-deployment/)にもつながります。
+
 
 ## Further Information
 
