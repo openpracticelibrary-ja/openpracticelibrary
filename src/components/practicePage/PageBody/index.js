@@ -25,7 +25,7 @@ const PageBody = ({
         {whatIs && (
           <>
             <Typography gutterBottom variant="h4" ref={whatIsRef}>
-              {title} とは?
+              概要
             </Typography>
             <FullText source={whatIs} />
           </>
@@ -33,7 +33,7 @@ const PageBody = ({
         {whyDo && (
           <>
             <Typography gutterBottom ref={whyDoRef} variant="h4">
-              {title} を実施するメリット
+              メリット
             </Typography>
             <FullText source={whyDo} />
           </>
@@ -41,7 +41,7 @@ const PageBody = ({
         {howTo && (
           <>
             <Typography gutterBottom ref={howToRef} variant="h4">
-              {title} の実施方法
+              実施方法
             </Typography>
             <FullText source={howTo} />
           </>
@@ -49,7 +49,7 @@ const PageBody = ({
         {mediaGallery && (
           <>
             <Typography gutterBottom ref={mediaRef} variant="h4">
-              {title} 実施例
+              実施例
             </Typography>
             <MediaGallery
               practiceId={practiceId}
@@ -74,7 +74,7 @@ const PageBody = ({
           </>
         )}
         <Typography ref={discussRef} variant="h4">
-          Discuss with the Community
+          コメント
         </Typography>
         <HyvorTalk.Embed websiteId={1961} />
       </Box>
