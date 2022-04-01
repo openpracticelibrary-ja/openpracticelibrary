@@ -4,7 +4,7 @@ participants:
   - UXD
   - team members
   - business people
-subtitle: '速く、さらに速く学びを得る'
+subtitle: '素早く学び、より早く進める'
 resources:
   - link: 'https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/'
     linkType: web
