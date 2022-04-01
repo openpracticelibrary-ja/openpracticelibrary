@@ -4,14 +4,14 @@ participants:
   - UXD
   - team members
   - business people
-subtitle: 'Learn Fast, Move Even Faster'
+subtitle: '速く、さらに速く学びを得る'
 resources:
-  - link: 'https://openpracticelibrary.com/practice/split-testing-a-b-testing/'
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/'
     linkType: web
-    description: Split Testing A B Testing
-  - link: 'https://openpracticelibrary.com/practice/split-testing-multivari-testing/'
+    description: スプリットテスト - A/Bテスト
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/split-testing-multivari-testing/'
     linkType: web
-    description: Split Testing Multivari Testing
+    description: スプリットテスト - 多変量テスト
   - link: >-
       https://leanchange.org/wp-content/uploads/2015/09/Lean-Change-Management-Experiment-Tracker-1.0.pdf
     linkType: web
@@ -24,152 +24,91 @@ resources:
     linkType: web
     description: 'How to Measure Anything: Finding the Value of "Intangibles" in Business'
 templateKey: practice-page
-title: Design of Experiments
+title: 実験計画法
 date: 2018-11-08T15:37:34.730Z
 authors:
   - valyonchev
 tags: []
 icon: /images/doe-thumbnail.jpg
 whatIs: >-
-  All our ideas about new products, new services, new feature, any changes we
-  can introduce to make things better (growth, revenue, experience, etc.) start
-  as an idea, a hypothesis, an assumption. In traditional approaches one will
-  place the bets based on some form of ROI analysis or investments analysis,
-  making further assumptions in the process. 
+  新製品、新サービス、新機能、より良くする（成長、収益、経験など）ための変更、、、これら全ての発端は、アイデア、仮説、仮定から始まります。従来のトラディショナルなアプローチでは、ROI分析や投資分析に基づいて判断を行い、そのプロセスの中でさらに仮定を作っていました。
 
 
-  The Design of Experiments is an alternative to this approach, in which we are
-  trying to validate as many of those important ideas/hypothesis/assumptions as
-  early as possible. Some of those object of experiments we may want to keep
-  “open” until we get the real world proof, which can be done through Split
-  Testing for example.
+  実験計画法とは、このような重要なアイデア・仮説・仮定をできるだけ早く検証しようというアプローチです。これらの中には、スプリットテストのように、現実の世界で証明されるまで「オープン」にしておきたい実験もあります。
 
 
-
-  The Design of Experiments is the practice we use to turn ideas, hypothesis
-  and/or assumptions into concrete well defined set of experiments which can be
-  carried out in order to validate those ideas, hypothesis and assumptions, i.e.
-  provide us with valuable learning.
+  つまり、実験計画法とは、貴重な学びを得るために、アイデア、仮説、仮定を、具体的に定義された一連の実験に変換し、それを実施するためのプラクティスです。
 whyDo: >-
-  * Design of Experiments is a fail safe way to advance a solution and learn
-  fast
+  * 実験計画法は、解決策を進め、迅速に学習するためのフェイルセーフな方法です。
 
-  * Design of Experiments can provide a quick way to evolve a product
+  * 実験計画法は、製品を進化させるための迅速な方法を提供します。
 
-  * Design of Experiments helps drive innovation in existing as well as new
-  products
+  * 実験計画法は、既存製品だけでなく、新製品においてもイノベーションを促進するのに役立ちます。
 
-  * Design of Experiments enables autonomous team to deliver on leadership
-  intent by placing small bets
+  * 実験計画法では、小さな賭けをすることで、自律的なチームがリーダーシップの意図を実現可能にします。
 
-  * Design of Experiments is essential for realising the Build-Measure-Learn
-  loop
+  * 実験計画法は、「作る・測る・学ぶ」のループを回すために必要不可欠なものです。
 howTo: >-
-  You may need more than one experiment for each item (idea, hypothesis,
-  assumption). An experiment usually only changes a small part of the product or
-  service in order to understand how this change could influence our goals
-  (Target Outcomes). The number of experiments is really defined based on what
-  you want to learn and how many distinctive changes you will be introducing.
+  各項目（アイデア、仮説、仮定）に対して、複数の実験が必要な場合があります。実験とは、通常、製品やサービスのほんの一部を変更し、この変更が私たちの目標（ターゲットとする成果）にどのように影響するかを理解するためのものです。実験の回数は、何を学びたいのか、どの程度の特徴的な変化を導入するのかによって、実際に定義されます。
+
+
+  実験後に振り返ると、何がうまくいって、何がうまくいかなかったのかがわかるようにしたいはずです。実験の分析は、基本的に、構築する製品・サービスの方向性を決定するために使用されます。つまり言い替えると、実験というのは、方向転換をするための要素の一つなのです。
+
+
+  この分析にはデータが必要で、それは定性的なものでも定量的なものでもどちらでも可能です。どのような分析でも、データの質は、結論の質に直結するため重要であり、この質は実験の計画に左右されます。実験を計画する際には、成果を測定する方法、データを収集する方法（測定メソッド）も検討する必要があります。
 
 
 
-  Looking back after the experiment you want to be able to identify what worked
-  and what did not. The analysis of the experiments is essentially used to drive
-  the direction of the product/service you are building.  In other words the
-  experiments are one of the mediums, which allow you to pivot.
+  実験ドキュメントの形式はそれほど重要ではありませんし、キャンバスについては様々な選択肢があります。重要なのは内容であり、どれだけうまく実験を設計できたかです。というのもは、結果が曖昧で判断できないような機会が多いからです。
 
 
 
-  You need data for this analysis and it can be both qualitative and quantitive.
-  As in any analysis the quality of the data is critical for the quality of the
-  conclusions and this quality is driven by the design of the experiment. When
-  you design the experiment, you need to envision the ways you can measure
-  outcomes, ways to collect the data, i.e. measurements methods.
+  良い実験には、次のような要素が最低限必要です:
+
+
+  * **仮説**: 文章として明文化されている（仮定を表現していることが多い）
+
+  * **現在の状況**: 現在の状況はどうなっているか（できるだけ測定可能な範囲で）?
+
+  * **目標の状況**: 何を達成しようとしているのか（できるだけ測定可能な範囲で）?
+
+  * **障害**: 目標の達成を阻むものは何か?何が干渉やノイズの原因になりうるか
+
+  * **合格条件**: ポジティブな合格はどのように定義すればよいか？目標条件が常に達成されるとは限りません。では、実験が仮説を立証していると結論づけるのに十分な、つまり肯定的な結果を伴う合格を、どのように考えればよいのでしょうか？
+
+  * **計測**: 進捗をどのように計測するか?
+
+  * **学び**: 常に成果と学びを把握し、より高次の実験を目指すことが理想
 
 
 
-  The format of the experiment documentation is really not that important and
-  there are multiple ideas about canvases you can find out there. It is the
-  content that is important and how well you have designed the experiment, i.e.
-  does it allow for many opportunities where the outcome is too ambiguous to
-  judge.
+  そして、その結果を分析するために、実験を実施し、追跡し、測定します。理想を言えば、実験は成功か失敗かの二者択一になって欲しいですが、多くの場合、統計的手法を使ってデータを分析し、実験によってもたらされた変化と目標とする成果に対する変化との間に有意な相関関係があるかどうかを調べる必要があります。
+
+
+  NOTE: 成功した実験とは、仮定が正しいことを証明した実験ではありません。成功した実験とは、統計的に有意な結論を示す有効で信頼できるデータを得られた実験のことです。
+
+
+  ### なぜ、どうやって、他のプラクティスと組み合わせるか?
+
+
+  実験計画も実行しなければ意味がありません、これが他のプラクティスと組み合わせる最大の理由です。
 
 
 
-  Good experiments need the following minimum details to be successful:
-
-
-  * **Hypothesis**: formulated as a sentence, often expressing an assumption
-
-  * **Current Condition**: What is the situation now (as measurable as
-  possible)?
-
-  * **Target Condition**: What are we trying to achieve (as measurable as
-  possible)?
-
-  * **Obstacles**: What could prevent us from achieving the target condition?
-  What could cause interference or noise.
-
-  * **Pass**: How can we define positive pass? The target condition may not
-  always be achieved, then what do we consider a significant enough change to
-  conclude the experiment is confirming the hypothesis, i.e. passing with
-  positive outcome.
-
-  * **Measures**: How shall we measure the progress?
-
-  * **Learning**: Always capture outcomes and learning, which should ideally
-  lead to more experiments of higher order
+  実験には優先順位が必要であり、時間内にできることは限られています。[Effort-Impact](https://openpracticelibrary-ja.netlify.app/practice/impact-effort-prioritization-matrix/)あるいは[How-Now-Wow](https://openpracticelibrary-ja.netlify.app/practice/how-now-wow-prioritization-matrix/)といった優先順位付けのマトリクスを組み合わせることで、多くのことが実施可能になります。
 
 
 
-  Once described those experiments are implemented, tracked and measured in
-  order to analyse the outcomes. In an ideal world an experiment will have a
-  binary success/fail criteria, but most often we would need to analyse data
-  using statistical methods to find out if there is a significant correlation
-  between the change introduced with the experiment and the change in the target
-  outcome.
+  実験は、まずラピッドプロトタイピングやプロトタイピング、ユーザーリサーチとテストを通じて行われます。この組み合わせにより、一行でもコードを書けば、すぐに学びが得られるようになります。
 
 
 
-  NOTE: Successful experiments are not experiments that have proven our
-  assumption as correct. Successful experiments are those that provide valid and
-  reliable data which shows a statistically significant conclusion.
-
-
-  ### Why & How to combine it with other practices?
-
-
-  Design of experiment is nothing without execution, which is the main reason
-  for combining this practice with others.
+  実験は、本番環境でも行うことがあります。実際、本番環境でのテストは、実際のデータや顧客の行動によって裏付けられているため、アイデアや仮説、仮定を検証するための究極の方法と言えます。スプリットテストの実践は、非常に価値のある組み合わせです。
 
 
 
-  Experiments need to be prioritized as we can only do so much in the time we
-  have. Combining this practice with the various prioritisation matrices as
-  [Effort-Impact](https://openpracticelibrary.com/practice/impact-effort-prioritization-matrix/)
-  or
-  [How-Now-Wow](https://openpracticelibrary.com/practice/how-now-wow-prioritization-matrix/)
-  helps a lot.
+  多くの場合、一連の実験がラピッドプロトタイピング/ユーザーリサーチを含むプロトタイピングの順序で行われるでしょう。そして、そこで「成功した」実験のサブセットは、スプリットテストを通すために本番環境へ持ち込むことになります。
 
-
-
-  Experiments are often realised first through Rapid Prototyping, Prototyping
-  and are subject to User Research & Testing. This combination provides for fast
-  learning even a single line of code is written.
-
-
-
-  Experiments may be made in production as well. In fact, tests in production
-  are the ultimate form of validation of ideas/hypothesis/assumptions as it is
-  supported by real data or real customer actions. The Split Testing practice
-  provides super valuable combination.
-
-
-
-  Often you may have a set of experiments go through a sequence of Rapid
-  Prototyping / Prototyping with User Research and then a subset of “successful”
-  experiments would be carried forward to production to pass through Split
-  Testing.
 jumbotron: /images/design-of-eperiments.jpg
 area: options
 time: 60+ min
@@ -185,62 +124,79 @@ mobiusTag: options
 ---
 ## What is it?
 
-All our ideas about new products, new services, new feature, any changes we can introduce to make things better (growth, revenue, experience, etc.) start as an idea, a hypothesis, an assumption. In traditional approaches one will place the bets based on some form of ROI analysis or investments analysis, making further assumptions in the process. The Design of Experiments is an alternative to this approach, in which we are trying to validate as many of those important ideas/hypothesis/assumptions as early as possible. Some of those object of experiments we may want to keep “open” until we get the real world proof, which can be done through Split Testing for example.
+新製品、新サービス、新機能、より良くする（成長、収益、経験など）ための変更、、、これら全ての発端は、アイデア、仮説、仮定から始まります。従来のトラディショナルなアプローチでは、ROI分析や投資分析に基づいて判断を行い、そのプロセスの中でさらに仮定を作っていました。
 
-The Design of Experiments is the practice we use to turn ideas, hypothesis and/or assumptions into concrete well defined set of experiments which can be carried out in order to validate those ideas, hypothesis and assumptions, i.e. provide us with valuable learning.
 
-You may need more than one experiment for each item (idea, hypothesis, assumption). An experiment usually only changes a small part of the product or service in order to understand how this change could influence our goals (Target Outcomes). The number of experiments is really defined based on what you want to learn and how many distinctive changes you will be introducing.
+実験計画法とは、このような重要なアイデア・仮説・仮定をできるだけ早く検証しようというアプローチです。これらの中には、スプリットテストのように、現実の世界で証明されるまで「オープン」にしておきたい実験もあります。
 
-Looking back after the experiment you want to be able to identify what worked and what did not. The analysis of the experiments is essentially used to drive the direction of the product/service you are building.  In other words the experiments are one of the mediums, which allow you to pivot.
 
-You need data for this analysis and it can be both qualitative and quantitive. As in any analysis the quality of the data is critical for the quality of the conclusions and this quality is driven by the design of the experiment. When you design the experiment, you need to envision the ways you can measure outcomes, ways to collect the data, i.e. measurements methods.
+つまり、実験計画法とは、貴重な学びを得るために、アイデア、仮説、仮定を、具体的に定義された一連の実験に変換し、それを実施するためのプラクティスです。
 
-The format of the experiment documentation is really not that important and there are multiple ideas about canvases you can find out there. It is the content that is important and how well you have designed the experiment, i.e. does it allow for many opportunities where the outcome is too ambiguous to judge.
+各項目（アイデア、仮説、仮定）に対して、複数の実験が必要な場合があります。実験とは、通常、製品やサービスのほんの一部を変更し、この変更が私たちの目標（ターゲットとする成果）にどのように影響するかを理解するためのものです。実験の回数は、何を学びたいのか、どの程度の特徴的な変化を導入するのかによって、実際に定義されます。
 
-Good experiments need the following minimum details to be successful:
 
-* **Hypothesis**: formulated as a sentence, often expressing an assumption
-* **Current Condition**: What is the situation now (as measurable as possible)?
-* **Target Condition**: What are we trying to achieve (as measurable as possible)?
-* **Obstacles**: What could prevent us from achieving the target condition? What could cause interference or noise.
-* **Pass**: How can we define positive pass? The target condition may not always be achieved, then what do we consider a significant enough change to conclude the experiment is confirming the hypothesis, i.e. passing with positive outcome.
-* **Measures**: How shall we measure the progress?
-* **Learning**: Always capture outcomes and learning, which should ideally lead to more experiments of higher order
+実験後に振り返ると、何がうまくいって、何がうまくいかなかったのかがわかるようにしたいはずです。実験の分析は、基本的に、構築する製品・サービスの方向性を決定するために使用されます。つまり言い替えると、実験というのは、方向転換をするための要素の一つなのです。
 
-Once described those experiments are implemented, tracked and measured in order to analyse the outcomes. In an ideal world an experiment will have a binary success/fail criteria, but most often we would need to analyse data using statistical methods to find out if there is a significant correlation between the change introduced with the experiment and the change in the target outcome.
 
-NOTE: Successful experiments are not experiments that have proven our assumption as correct. Successful experiments are those that provide valid and reliable data which shows a statistically significant conclusion.
+この分析にはデータが必要で、それは定性的なものでも定量的なものでもどちらでも可能です。どのような分析でも、データの質は、結論の質に直結するため重要であり、この質は実験の計画に左右されます。実験を計画する際には、成果を測定する方法、データを収集する方法（測定メソッド）も検討する必要があります。
+
+
+
+実験ドキュメントの形式はそれほど重要ではありませんし、キャンバスについては様々な選択肢があります。重要なのは内容であり、どれだけうまく実験を設計できたかです。というのもは、結果が曖昧で判断できないような機会が多いからです。
+
+
+
+良い実験には、次のような要素が最低限必要です:
+
+
+* **仮説**: 文章として明文化されている（仮定を表現していることが多い）
+* **現在の状況**: 現在の状況はどうなっているか（できるだけ測定可能な範囲で）?
+* **目標の状況**: 何を達成しようとしているのか（できるだけ測定可能な範囲で）?
+* **障害**: 目標の達成を阻むものは何か?何が干渉やノイズの原因になりうるか
+* **合格条件**: ポジティブな合格はどのように定義すればよいか？目標条件が常に達成されるとは限りません。では、実験が仮説を立証していると結論づけるのに十分な、つまり肯定的な結果を伴う合格を、どのように考えればよいのでしょうか？
+* **計測**: 進捗をどのように計測するか?
+* **学び**: 常に成果と学びを把握し、より高次の実験を目指すことが理想
+
+
+そして、その結果を分析するために、実験を実施し、追跡し、測定します。理想を言えば、実験は成功か失敗かの二者択一になって欲しいですが、多くの場合、統計的手法を使ってデータを分析し、実験によってもたらされた変化と目標とする成果に対する変化との間に有意な相関関係があるかどうかを調べる必要があります。
+
+
+NOTE: 成功した実験とは、仮定が正しいことを証明した実験ではありません。成功した実験とは、統計的に有意な結論を示す有効で信頼できるデータを得られた実験のことです。
 
 ## Why use it?
 
-* Design of Experiments is a fail safe way to advance a solution and learn fast
-* Design of Experiments can provide a quick way to evolve a product
-* Design of Experiments helps drive innovation in existing as well as new products
-* Design of Experiments enables autonomous team to deliver on leadership intent by placing small bets
-* Design of Experiments is essential for realising the Build-Measure-Learn loop
+  * 実験計画法は、解決策を進め、迅速に学習するためのフェイルセーフな方法です。
+  * 実験計画法は、製品を進化させるための迅速な方法を提供します。
+  * 実験計画法は、既存製品だけでなく、新製品においてもイノベーションを促進するのに役立ちます。
+  * 実験計画法では、小さな賭けをすることで、自律的なチームがリーダーシップの意図を実現可能にします。
+  * 実験計画法は、「作る・測る・学ぶ」のループを回すために必要不可欠なものです。
 
 ## Why & How to combine it with other practices?
 
-Design of experiment is nothing without execution, which is the main reason for combining this practice with others.
+実験計画も実行しなければ意味がありません、これが他のプラクティスと組み合わせる最大の理由です。
 
-Experiments need to be prioritized as we can only do so much in the time we have. Combining this practice with the various prioritisation matrices as [Effort-Impact](https://openpracticelibrary.com/practice/impact-effort-prioritization-matrix/) or [How-Now-Wow](https://openpracticelibrary.com/practice/how-now-wow-prioritization-matrix/) helps a lot.
 
-Experiments are often realised first through Rapid Prototyping, Prototyping and are subject to User Research & Testing. This combination provides for fast learning even a single line of code is written.
+実験には優先順位が必要であり、時間内にできることは限られています。[Effort-Impact](https://openpracticelibrary-ja.netlify.app/practice/impact-effort-prioritization-matrix/)あるいは[How-Now-Wow](https://openpracticelibrary-ja.netlify.app/practice/how-now-wow-prioritization-matrix/)といった優先順位付けのマトリクスを組み合わせることで、多くのことが実施可能になります。
 
-Experiments may be made in production as well. In fact, tests in production are the ultimate form of validation of ideas/hypothesis/assumptions as it is supported by real data or real customer actions. The Split Testing practice provides super valuable combination.
 
-Often you may have a set of experiments go through a sequence of Rapid Prototyping / Prototyping with User Research and then a subset of “successful” experiments would be carried forward to production to pass through Split Testing.
+実験は、まずラピッドプロトタイピングやプロトタイピング、ユーザーリサーチとテストを通じて行われます。この組み合わせにより、一行でもコードを書けば、すぐに学びが得られるようになります。
+
+
+実験は、本番環境でも行うことがあります。実際、本番環境でのテストは、実際のデータや顧客の行動によって裏付けられているため、アイデアや仮説、仮定を検証するための究極の方法と言えます。スプリットテストの実践は、非常に価値のある組み合わせです。
+
+
+多くの場合、一連の実験がラピッドプロトタイピング/ユーザーリサーチを含むプロトタイピングの順序で行われるでしょう。そして、そこで「成功した」実験のサブセットは、スプリットテストを通すために本番環境へ持ち込むことになります。
 
 ## Related Practices
 
-* [Feature Toggles](https://openpracticelibrary.com/practice/feature-toggles/)
-* [Split Testing - A/B Testing](https://openpracticelibrary.com/practice/split-testing-a-b-testing/)
-* [Split Testing - Multi-vari Testing](https://openpracticelibrary.com/practice/split-testing-multivari-testing/)
+* [Feature Toggles](https://openpracticelibrary-ja.netlify.app/practice/feature-toggles/)
+* [Split Testing - A/B Testing](https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/)
+* [Split Testing - Multi-vari Testing](https://openpracticelibrary-ja.netlify.app/practice/split-testing-multivari-testing/)
 * Prototyping / Pretotyping
 * Rapid Prototyping
 * User Research
 * User Testing
-* [HMW](https://openpracticelibrary.com/practice/hmw/)
+* [HMW](https://openpracticelibrary-ja.netlify.app/practice/hmw/)
 
 ## Further information
 
