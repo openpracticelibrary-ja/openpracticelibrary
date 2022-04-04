@@ -9,14 +9,13 @@ const MobiusDescription = () => (
       <Divider />
     </Box>
     <Typography gutterBottom variant="body2">
-      An iterative process model for rapidly developing digital products.
+      高速なデジタルプロダクト開発のための繰り返し開発モデル
     </Typography>
     <Typography gutterBottom variant="body2">
-      The Open Practice Library is organized around this model.
+      Open Practice Library はこのモデルを中心に構成されています。
     </Typography>
     <Typography variant="body2">
-      The buttons below will show you practices that fall on the relevant part
-      of the loop.
+      各ボタンは対応するプラクティスを表示します。
     </Typography>
   </Box>
 );
