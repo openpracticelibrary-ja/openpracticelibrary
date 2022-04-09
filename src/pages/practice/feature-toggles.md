@@ -1,6 +1,6 @@
 ---
-title: Feature Toggles
-subtitle: AKA Feature Flags/Bits/Flipping/Controls
+title: フィーチャートグル
+subtitle: 別名：機能フラッグ／機能ビット／機能フリップ／機能コントロール
 date: 2018-12-18T19:02:25.307Z
 authors:
   - valyonchev
@@ -20,49 +20,33 @@ participants:
   - Product Team
 templateKey: practice-page
 whatIs: >-
-  Feature Flags (also known as Feature Bits/Toggles/Flipping/Controls) are an
-  engineering practice that can be used to _change your software's functionality
-  without changing and re-deploying your code_.
+  フィーチャートグル（機能ビット/機能フラグ/機能フリッピング/機能コントロールとも呼ばれる。）は、 _コードを変更したり再展開したりすることなく_ ソフトウェアの機能を変更するために使用するエンジニアリング手法です。
+
+  ソフトウェアでは、フラグは "2進数の値を格納するために使用される1つまたは複数のビット"です。つまり、真か偽のどちらかになりうるBooleanです。フラグは、if文でチェックすることができます。また、ソフトウェアにおける機能とは、ある種の価値を提供する一部のファンクションのことです。
 
 
-  In software, a flag is "one or more bits used to store binary values." So it's
-  a Boolean that can either be true or false. A flag can be checked with an if
-  statement. A feature in software is a bit of functionality that delivers some
-  kind of value.
-
-
-  In it's simplest form a feature flag (or toggle) is just an if statement
-  surrounding a bit of functionality in your software.
+  機能フラグ（またはトグル）は、最も単純な形では、ソフトウェアのちょっとした機能を囲った単なるif文です。
 whyDo: >-
-  Feature Toggles are a foundational engineering practice and provide a great
-  way to manage the behaviour of the product in order to perform experiments or
-  safeguard performance when releasing fresh new features.
+  フィーチャートグルは、エンジニアリングの基本的な手法であり、新しい機能をリリースする際に、実験やパフォーマンス保護を目的として、製品の挙動を管理するための優れた方法を提供します。
 howTo: >-
-  There are many ways feature flags are used:
+  機能フラグの使用方法は以下のように様々です:
+
+  - [カナリア リリース](/practice/canary-release/).
+
+  - [ダーク ローンチ](/practice/dark-launches/).
+
+  - [A/B テスト](/practice/split-testing-a-b-testing/).
+
+  - [多変量テスト](/practice/split-testing-multivari-testing/).
+
+  - キルスイッチによって何かを無効化する.
+
+  - サービスを移行、もしくはアップグレードする.
+
+  - トランクベース開発と [継続的デプロイメント](/practice/continuous-deployment/). 開発者は、長時間保持するブランチを避けるために、機能フラグを使用します。機能フラグを使うことで 開発者は、毎日自分のコードを master ブランチにマージすることができます。
 
 
-  - [Canary Releases](/practice/canary-release/).
-
-  - [Dark Launches](/practice/dark-launches/).
-
-  - [A/B Testing,  and running
-  experiments](/practice/split-testing-a-b-testing/).
-
-  - [Multivari Testing](/practice/split-testing-multivari-testing/)
-
-  - Turning things off with a kill switch.
-
-  - Migrations or upgrades to a service.
-
-  - Trunk Based Development and [Continuous
-  Deployment](/practice/continuous-deployment/). Developers use feature flags to
-  avoid long lived branches. Using a feature flag for functionality in
-  development allows a developer to merge their code daily into the master
-  branch.
-
-
-  Here is a simple example using pseudo-code (taken from the [Rollout Guide to
-  Feature Flags](https://rollout.io/blog/ultimate-feature-flag-guide/)):
+  以下は疑似コードを使った簡単な例です。 ([Rollout Guide to Feature Flags](https://rollout.io/blog/ultimate-feature-flag-guide/)からの引用):
 
   ```
 
@@ -72,65 +56,36 @@ howTo: >-
 
   ```
 
-  Our code checks a configuration file, outside of the main program source code,
-  to get the `isHoliday` variable and calls a function `writeGreetingMessage()`
-  with the message `Happy holidays!` when the Boolean `isHoliday` is `true` in
-  the configuration file.
+  このコードは、メインプログラムのソースコードの外にある設定ファイルをチェックして `isHoliday` 変数を取得し、設定ファイルの `isHoliday` というBooleanが `true` であるときに `Happy holidays!` というメッセージとともに `writeGreetingMessage()` という関数を呼び出します。
 
 
-  The important thing about this example is that we are able to change the
-  functionality of our software without changing and re-deploying our code, we
-  can simply update our configuration file during _runtime_. Now every time we
-  want to display the message `Happy holidays!` we can update our configuration
-  file on the fly.
+  この例で重要なのは、コードを変更したり再展開したりすることなく、ソフトウェアの機能を変更することができるという点です。私たち は、_稼働_ 中に設定ファイルを更新するだけでよいのです。これで、`Happy holidays!` というメッセージを表示したい時は、その場で設定ファイルを更新すれば良くなりました。
 
 
-  Effectively feature flags allow us to separate deployment of our code from
-  feature deployment. In order to do this we might use a configuration file, a
-  UI at runtime or dynamically per-request based on the current context (a
-  specific user or organisation etc).
+  機能フラグを利用することで、コードのデプロイメントと機能のデプロイメントを分離することができます。これを実現するために、実行中のUI、あるいは現在のコンテキスト（特定のユーザーや組織など）に基づいたリクエストごとの動的なデプロイメントに対して設定ファイルを使用することができます。
 
 
   [In Martin Fowler's article on Feature
-  Flags](https://www.martinfowler.com/articles/feature-toggles.html) two major
-  dimensions are identified to categorise feature flags: _how long the feature
-  flag will live_ and _how dynamic the toggling decision must be_. The following
-  four broad categories of feature flags are identified by Martin Fowler:
+  Flags](https://www.martinfowler.com/articles/feature-toggles.html)では、機能フラグを分類するために2つの軸を示しています：_機能フラグが有効な期間はどれくらいか？_ と _トグルの決定がいかにダイナミックであるべきか？_ です。以下にしめす機能フラグの４つの分類は、Martin Fowlerによって定義されたものです：
 
-  - **Release Flags** allow incomplete and un-tested codepaths to be shipped to
-  production as latent code which may never be turned on.
+  - **リリースフラグ** は、不完全で未テストのコードパスを、決してオンにされない潜在的なコードとして実運用に出荷することを可能にします。
 
-  - **Experiment Flags** are used to perform multivariate or A/B testing. Each
-  user of the system is placed into a cohort and at runtime the user will be
-  sent down one codepath or another.
+  - **実験フラグ** は、多変量解析やA/Bテストを行うために使用されます。システムの各ユーザーをコホートにグルーピングして、実行時にユーザーは、特定コードパスに送られたり、別のコードパスに送られたりします。
 
-  - **Ops Flags** are used to control operational aspects of our system's
-  behaviour. We might introduce an Ops Flag when rolling out a new feature which
-  has unclear performance implications so that system operators can disable or
-  degrade that feature quickly in production if needed.
+  - **運用フラグ** は、システムの動作の運用面を制御するために使用されます。パフォーマンスへの影響が不明確な新機能をロールアウトする際に運用フラグを導入し、システムオペレータが必要に応じてその機能を本番環境で迅速に無効化もしくは低下させることができるようにすることがあります。
 
-  - **Permissioning Flags** are used to change the features or product
-  experience that certain users receive. For example we may have a set of
-  "premium" features which we only toggle on for our paying customers. Or
-  perhaps we have a set of "alpha" features which are only available to internal
-  users and another set of "beta" features which are only available to internal
-  users plus beta users.
+  - **パーミッションフラグ** は、特定のユーザーが受ける機能または製品体験を変更するために使用されます。例えば、私たちは、お金を払ってくれるお客さんだけが使える”プレミアム”な機能を設定することができます。あるいは、内部ユーザーのみが利用できる”アルファ版”機能と、内部ユーザーとベータユーザーのみが利用できる”ベータ版”機能のセットがあるかもしれません。
 
 
-  These flag types can be summarised by the following image.
+  これらのフラグの種類をまとめると、次のようなイメージになります。
 
   ![These flag types can be summarised by the following
   image.](/images/fowler_feature_toggles.png "Feature Toggles categorised by
   longevity and dynamism")
 
-  ### Why & How to combine it with other practices?
+  ### なぜ、どうやって、他のプラクティスと組み合わせるか?
 
-  The Feature Toggles can greatly complement and make easier the implementation
-  of practices like [A/B Testing](/practice/split-testing-a-b-testing/), [Canary
-  Release](/practice/canary-release/), [Dark Launches](/practice/dark-launches/)
-  in which the Feature Toggle is used to activate the “new” feature or version
-  for a certain group/part of users. It is essential to the implementation of
-  [Design of experiments](/practice/design-of-experiments/) practice.
+  フィーチャートグルは、[A/Bテスト](/practice/split-testing-a-b-testing/)、[カナリア リリース](/practice/canary-release/)、[ダーク ローンチ](/practice/dark-launches/)といった、特定のグループや一部のユーザーに対して”新しい”機能またはバージョンを有効にする際に使用されるプラクティスを大きく補完し、実施を容易にすることが可能です。これは[実験計画法](/practice/design-of-experiments/)の実践にも不可欠と言えます。
 mediaGallery:
   - link: >-
       https://openpracticelibrary.github.io/opl-media/images/karim-manjra-1136416-unsplash.jpg
@@ -152,74 +107,88 @@ resources:
   - link: 'https://featureflags.io/literature/'
     linkType: web
     description: Further links to literature can be found on featureflags.io
-  - link: 'https://openpracticelibrary.com/practice/canary-release/'
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/canary-release/'
     linkType: web
-    description: Canary Release
-  - link: 'https://openpracticelibrary.com/practice/dark-launches/'
+    description: カナリア リリース
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/dark-launches/'
     linkType: web
-    description: Dark Launches
-  - link: 'https://openpracticelibrary.com/practice/split-testing-a-b-testing/'
+    description: ダーク ローンチ
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/'
     linkType: web
-    description: Split Testing A B Testing
-  - link: 'https://openpracticelibrary.com/practice/split-testing-multivari-testing/'
+    description: スプリットテスト - A/B テスト
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/split-testing-multivari-testing/'
     linkType: web
-    description: Split Testing Multivari Testing
-  - link: 'https://openpracticelibrary.com/practice/blue-green-deployments/'
+    description: スプリットテスト - 多変量テスト
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/blue-green-deployments/'
     linkType: web
-    description: Blue Green Deployments
+    description: Blue/Greenデプロイ
 mobiusTag: foundation
 ---
 ## What is it?
 
-Feature Flags (also known as Feature Bits/Toggles/Flipping/Controls) are an engineering practice that can be used to _change your software's functionality without changing and re-deploying your code_.
+フィーチャートグル（機能ビット/機能フラグ/機能フリッピング/機能コントロールとも呼ばれる。）は、 _コードを変更したり再展開したりすることなく_ ソフトウェアの機能を変更するために使用するエンジニアリング手法です。
 
-In software, a flag is "one or more bits used to store binary values." So it's a Boolean that can either be true or false. A flag can be checked with an if statement. A feature in software is a bit of functionality that delivers some kind of value.
+ソフトウェアでは、フラグは "2進数の値を格納するために使用される1つまたは複数のビット"です。つまり、真か偽のどちらかになりうるBooleanです。フラグは、if文でチェックすることができます。また、ソフトウェアにおける機能とは、ある種の価値を提供する一部のファンクションのことです。
 
-In it's simplest form a feature flag (or toggle) is just an if statement surrounding a bit of functionality in your software.
 
-Here is a simple example using pseudo-code (taken from the [Rollout Guide to Feature Flags](https://rollout.io/blog/ultimate-feature-flag-guide/)):
+機能フラグ（またはトグル）は、最も単純な形では、ソフトウェアのちょっとした機能を囲った単なるif文です。
+
+以下は疑似コードを使った簡単な例です。 ([Rollout Guide to Feature Flags](https://rollout.io/blog/ultimate-feature-flag-guide/)からの引用):
 
 ```
+
 if(configFile["IsHoliday"] == true) {
   writeGreetingMessage("Happy holidays!");
 }
+
 ```
 
-Our code checks a configuration file, outside of the main program source code, to get the `isHoliday` variable and calls a function `writeGreetingMessage()` with the message `Happy holidays!` when the Boolean `isHoliday` is `true` in the configuration file.
-
-The important thing about this example is that we are able to change the functionality of our software without changing and re-deploying our code, we can simply update our configuration file during _runtime_. Now every time we want to display the message `Happy holidays!` we can update our configuration file on the fly.
-
-Effectively feature flags allow us to separate deployment of our code from feature deployment. In order to do this we might use a configuration file, a UI at runtime or dynamically per-request based on the current context (a specific user or organisation etc).
-
-[In Martin Fowler's article on Feature Flags](https://www.martinfowler.com/articles/feature-toggles.html) two major dimensions are identified to categorise feature flags: _how long the feature flag will live_ and _how dynamic the toggling decision must be_. The following four broad categories of feature flags are identified by Martin Fowler:
-
-- **Release Flags** allow incomplete and un-tested codepaths to be shipped to production as latent code which may never be turned on.
-- **Experiment Flags** are used to perform multivariate or A/B testing. Each user of the system is placed into a cohort and at runtime the user will be sent down one codepath or another.
-- **Ops Flags** are used to control operational aspects of our system's behaviour. We might introduce an Ops Flag when rolling out a new feature which has unclear performance implications so that system operators can disable or degrade that feature quickly in production if needed.
-- **Permissioning Flags** are used to change the features or product experience that certain users receive. For example we may have a set of "premium" features which we only toggle on for our paying customers. Or perhaps we have a set of "alpha" features which are only available to internal users and another set of "beta" features which are only available to internal users plus beta users.
+このコードは、メインプログラムのソースコードの外にある設定ファイルをチェックして `isHoliday` 変数を取得し、設定ファイルの `isHoliday` というBooleanが `true` であるときに `Happy holidays!` というメッセージとともに `writeGreetingMessage()` という関数を呼び出します。
 
 
-These flag types can be summarised by the following image.
+この例で重要なのは、コードを変更したり再展開したりすることなく、ソフトウェアの機能を変更することができるという点です。私たち は、_稼働_ 中に設定ファイルを更新するだけでよいのです。これで、`Happy holidays!` というメッセージを表示したい時は、その場で設定ファイルを更新すれば良くなりました。
+
+
+機能フラグを利用することで、コードのデプロイメントと機能のデプロイメントを分離することができます。これを実現するために、実行中のUI、あるいは現在のコンテキスト（特定のユーザーや組織など）に基づいたリクエストごとの動的なデプロイメントに対して設定ファイルを使用することができます。
+
+
+[In Martin Fowler's article on Feature
+Flags](https://www.martinfowler.com/articles/feature-toggles.html)では、機能フラグを分類するために2つの軸を示しています：_機能フラグが有効な期間はどれくらいか？_ と _トグルの決定がいかにダイナミックであるべきか？_ です。以下にしめす機能フラグの４つの分類は、Martin Fowlerによって定義されたものです：
+
+- **リリースフラグ** は、不完全で未テストのコードパスを、決してオンにされない潜在的なコードとして実運用に出荷することを可能にします。
+
+- **実験フラグ** は、多変量解析やA/Bテストを行うために使用されます。システムの各ユーザーをコホートにグルーピングして、実行時にユーザーは、特定コードパスに送られたり、別のコードパスに送られたりします。
+
+- **運用フラグ** は、システムの動作の運用面を制御するために使用されます。パフォーマンスへの影響が不明確な新機能をロールアウトする際に運用フラグを導入し、システムオペレータが必要に応じてその機能を本番環境で迅速に無効化もしくは低下させることができるようにすることがあります。
+
+- **パーミッションフラグ** は、特定のユーザーが受ける機能または製品体験を変更するために使用されます。例えば、私たちは、お金を払ってくれるお客さんだけが使える”プレミアム”な機能を設定することができます。あるいは、内部ユーザーのみが利用できる”アルファ版”機能と、内部ユーザーとベータユーザーのみが利用できる”ベータ版”機能のセットがあるかもしれません。
+
+
+これらのフラグの種類をまとめると、次のようなイメージになります。
 
 ![These flag types can be summarised by the following image.](/images/fowler_feature_toggles.png "Feature Toggles categorised by longevity and dynamism")
 
+  
+  
+
 ## Why use it?
 
-Feature Toggles are a foundational engineering practice and provide a great way to manage the behaviour of the product in order to perform experiments or safeguard performance when releasing fresh new features.
+フィーチャートグルは、エンジニアリングの基本的な手法であり、新しい機能をリリースする際に、実験やパフォーマンス保護を目的として、製品の挙動を管理するための優れた方法を提供します。
 
-There are many ways feature flags are used:
+機能フラグの使用方法は以下のように様々です:
 
-- [Canary Releases](/practice/canary-release/).
-- [Dark Launches](/practice/dark-launches/).
-- [A/B Testing,  and running experiments](/practice/split-testing-a-b-testing/).
-- [Multivari Testing](/practice/split-testing-multivari-testing/)
-- Turning things off with a kill switch.
-- Migrations or upgrades to a service.
-- Trunk Based Development and [Continuous Deployment](/practice/continuous-deployment/). Developers use feature flags to avoid long lived branches. Using a feature flag for functionality in development allows a developer to merge their code daily into the master branch.
+- [カナリア リリース](/practice/canary-release/).
+- [ダーク ローンチ](/practice/dark-launches/).
+- [A/B テスト](/practice/split-testing-a-b-testing/).
+- [多変量テスト](/practice/split-testing-multivari-testing/).
+- キルスイッチによって何かを無効化する.
+- サービスを移行、もしくはアップグレードする.
+- トランクベース開発と [継続的デプロイメント](/practice/continuous-deployment/). 開発者は、長時間保持するブランチを避けるために、機能フラグを使用します。機能フラグを使うことで 開発者は、毎日自分のコードを master ブランチにマージすることができます。
 
 ## Why & How to combine it with other practices?
 
-The Feature Toggles can greatly complement and make easier the implementation of practices like [A/B Testing](/practice/split-testing-a-b-testing/), [Canary Release](/practice/canary-release/), [Dark Launches](/practice/dark-launches/) in which the Feature Toggle is used to activate the “new” feature or version for a certain group/part of users. It is essential to the implementation of [Design of experiments](/practice/design-of-experiments/) practice.
+フィーチャートグルは、[A/Bテスト](/practice/split-testing-a-b-testing/)、[カナリア リリース](/practice/canary-release/)、[ダーク ローンチ](/practice/dark-launches/)といった、特定のグループや一部のユーザーに対して”新しい”機能またはバージョンを有効にする際に使用されるプラクティスを大きく補完し、実施を容易にすることが可能です。これは[実験計画法](/practice/design-of-experiments/)の実践にも不可欠と言えます。
+  
 
 ## Related Practices
 
