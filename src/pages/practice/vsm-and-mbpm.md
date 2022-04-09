@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Value Stream Mapping
-subtitle: Visual Representation of how Value flows through your system and
-  identify metrics to inform improvement decisions.
+title: バリュー ストリーム マッピング
+subtitle: 価値の流れを見える化し、改善の意思決定に必要な情報を特定する
 date: 2017-09-12T05:00:00.000Z
 authors:
   - sherl0cks
@@ -15,58 +14,47 @@ tags:
 mobiusTag: foundation
 icon: /images/vsm.jpg
 whatIs: >-
-  Value Stream Mapping (VSM) is a third generation lean process improvement
-  technique.  The Value Stream itself is the series of individual processes that
-  connect together to create the valuable goods or service that an organization
-  produces for its customer.  The process of mapping the Value Stream is
-  designed to view the big, macro picture in order for executives to make
-  strategic decisions as part of an extended organizational transformation
-  effort.
+  バリュー ストリーム マッピング（VSM）は、第三世代のリーンプロセス改善テクニックです。
+  バリュー ストリームとは、組織が顧客のための製品やサービスを作るために作り上げた一連のプロセスのことをいいます。
+  バリュー ストリームをマッピングするこの手法は、組織のエグゼクティブが、組織的なトランスフォーメーションにおいて、マクロ視点で戦略的な意思決定をするために、デザインされています。
 
-
-  The first generation of this technique comes from Toyota's "information and material flow", as documented in Lean Thinking and the second generation from "Learning to See".
+  第一世代は、トヨタの「モノと情報の流れ図」のテクニックとして、リーン思考の中や第二世代である「見方を学ぶ」で明文化されています。
 whyDo: >-
-  In the context of software delivery, VSM is an excellent tool to holistically
-  analyze and optimize existing "brownfield" delivery processes, including
-  everything from requirements definition, infrastructure provisioning and
-  application development.
+  ソフトウェアデリバリおいて、VSM は要求からインフラのプロビジョニングやアプリケーション開発までのすべてのものを含む既存の「ブラウンフィールド」を全体的に分析、最適化するための優れたツールです。
 
+  リーン生産方式からやってきた VSM は顧客が製品やサービスの要求からそれを受け取るまでの価値の流れを見える化します。
+  このプラクティスは特に以下のような場面で効果を発揮します。
 
-  Being derived from Lean Manufacturing, VSM visually represents the way value flows through an organization from the time a customer requests a good/service, until the time a customer receives the good/service. This practice can be particularly effective at:
+  * 価値が実際どのように提供されているかについて、組織全体で共通の理解を作り上げる
 
+  * 明確さを提供することで、コンセンサスを作り、改善に対する危機感を醸成する
 
-  * Building shared understanding throughout the organization on how value is actually provided 
+  * 分断や冗長性、不要な複雑性を明らかにする
 
-  * Providing clarity for building concensus and creating the urgency for improvement
+  * 具体的で、データ駆動の改善計画を策定する
 
-  * Revealing disconnect, redundancies and unnecessary complications
+  * システム思考を適用することで、全体のバリューストリームに対して、部分最適につながる「改善」を防ぐ
 
-  * Formulating specific, data driven improvement plans
-
-  * Applying Systems Thinking by preventing "improvement" work in a particular area that leads to sub-optimization for the entire value stream / process.
 howTo: >-
-  ## Facilitation Materials Needed
+  ## ファシリテーション用の資材
+  
+  ホワイトボードを好むチームもありますが、通常は紙やふせんを使用します。
 
+  * 模造紙
+  
+  * 様々な色の幅広のふせん（4x6サイズなど）
+  
+  * マーカー
+  
+  * ふせん同士を線でつなぐサインペン
 
-  Some teams prefer whiteboards, but the most common approach uses paper and PostIts
+  ## どのようにフィットするか
 
-
-  * Drawing paper roll.
-
-  * Different colored wide format sticky notes like the 4x6 sticky notes
-
-  * Markers for the PostIts
-
-  * Charcoal pencil and eraser to draw lines between PostIts
-
-
-  ## How does it fit?
-
-
-  VSM pairs particularly well with the [Metrics-Based Process Mapping](https://openpracticelibrary.com/practice/metrics-based-process-mapping/) (MBPM) practice.  Used together, VSM represents the flow of value through a system at a macro level in order to make strategic improvements whereas MBPM represents the micro lower-level flow in order to make tactical improvements.
-mediaGallery:
+  VSM は特に[メトリクス ベース プロセスマッピング](https://openpracticelibrary.netlify.app/practice/metrics-based-process-mapping/) （MBPM）と一緒にやると効果的です。一緒に実施すると、VSM はシステム全体を通るマクロレベルの価値の流れを見える化することで、改善における戦略的な意思決定ができるのに対して、MBPMはミクロレベルのフローを見える化することで、戦術的な改善を行うことができます。
+  
+メディアギャラリー:
   - link: https://openpracticelibrary.github.io/opl-media/images/vsm.jpg
-resources:
+リソース:
   - link: https://vimeo.com/149407030
     linkType: video
     description: Webinar - Karen Martin's Value Stream Mapping and Process Mapping
@@ -143,28 +131,26 @@ Both VSM & MBPM document a current state map, and then design a future state map
 - The current state map is typically done in the Why area of the Discovery of the Open Practice Library.
 - The future state map is typically done as part of the Outcomes area of the Discoery of the Open Practice Library.
 
-## Additional Resources
+## 追加情報
 
-### Start With
+### ビデオ
 
 - [Webinar](https://vimeo.com/149407030) and [Slides](https://www.slideshare.net/KarenMartinGroup/vsmmbpmwhenyouoptforeach) from Karen Martin's Value Stream Mapping and Process Mapping: When to Use Each
 
-### VSM Specific Resources
+### VSM のリソース
 
 - [Book](https://www.ksmartin.com/books/value-stream-mapping/) by Karen Martin and Mike Osterling
 - [List of Webinars](https://www.ksmartin.com/webinar/value-stream-mapping/) by Karen Martin
 - [Value Streams are Made of People](https://lizkeogh.com/value-streams-are-made-of-people/) by Liz Keogh
 
-### MBPM Specific Resources
+### MBPM についてのリソース
 
 - [Webinar](https://vimeo.com/54601924) and [Slides](https://www.slideshare.net/KarenMartinGroup/metricsbased-process-mapping-what-when-how) from Karen Martin's Metrics-Based Process Mapping: What, When & How
 - [List of Webinars](https://www.ksmartin.com/webinar/metrics-based-process-mapping/) by Karen Martin
 
-## External References
+## 参照
 
 1. <a name="footnote-1"></a>[Lean Thinking](https://www.lean.org/BookStore/ProductDetails.cfm?SelectedProductID=88)
 2. <a name="footnote-2"></a>[Learning to See](https://www.lean.org/Bookstore/ProductDetails.cfm?SelectedProductId=9)
 3. <a name="footnote-3"></a>[Drawing Paper example](http://www.ikea.com/us/en/catalog/products/80324072/)
 4. <a name="footnote-4"></a>[4x6 sticky notes example](https://www.amazon.com/Post-Sticky-Janeiro-Collection-4621-SSAU/dp/B001UXFT70)
-5. <a name="footnote-5"></a>[charcoal pencil and eraser example](https://www.amazon.com/Studio-25-Piece-Drawing-Artists-Charcoal/dp/1441310207)
-6. <a name="footnote-6"></a>[Double Diamond design model](https://medium.com/digital-experience-design/how-to-apply-a-design-thinking-hcd-ux-or-any-creative-process-from-scratch-b8786efbf812)
