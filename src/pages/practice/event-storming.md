@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Event Storming
-subtitle: A rapid, interactive approach to business process discovery and design
-  that yields high quality models
+title: イベントストーミング
+subtitle: 品質の高いモデルを生み出すことを目的としたビジネスプロセスの発見と設計のための迅速かつインタラクティブなアプローチ
 date: 2017-04-20T05:00:00.000Z
 authors:
   - mtakane
@@ -15,96 +14,92 @@ tags:
 mobiusTag: discovery
 icon: /images/eventstormtile.jpeg
 whatIs: >-
-  Event Storming is a rapid, interactive approach to business process discovery
-  and design that yields high quality models. It was introduced in a blog by
-  Alberto Brandolini in 2013. At the end of the event storm, you should have:
+  イベントストーミングは品質の高いモデルを生み出すことを目的としたビジネスプロセスの発見と設計のための迅速かつインタラクティブなアプローチです。Alberto Brandoliniさんのブログで2013年に紹介されました。イベントストーミングの結果として:
 
-  * A shared understanding of the business process you are building as part of the project, including:
+  * プロジェクトの一環として開発するビジネスプロセスへの共通理解を持つことができます。
 
-    * which steps should be considered in scope and which steps are out of scope
+    * どのステップがスコープ内で、どのステップがスコープ外か
 
-    * the users involved in the process
+    * プロセスに関与するユーザーが誰か
 
-    * an initial inventory of UI screens for the process
+    * プロセスのためにまずはどのようなUIが必要か
 
-    * an initial inventory of Aggregates
+    * まずはどのような集約が必要か
 
-  * A physical diagram with the above information, which can be transferred to a digital format
+  * それらが物理的なダイアグラムに表現されたもの (デジタル形式で共有することも可能)
 
 
-  **Learn more by listening to the [Open Practice Podcast episode](https://anchor.fm/openpracticelibrary/embed/episodes/Event-Storming-w-Patrick-Carney-eamad6/a-a1e5659)!** 🎙️🌠
+  **詳しくお知りになりたい場合は、[Open Practice Podcast episode](https://anchor.fm/openpracticelibrary/embed/episodes/Event-Storming-w-Patrick-Carney-eamad6/a-a1e5659) もご参照ください!** 🎙️🌠
 whyDo: >-
-  * It is significantly faster, and a heck of a lot more fun, than traditional
-  process modeling techniques. You'll be surprised how much you accomplish in a
-  short period
+  * 伝統的なプロセスモデリング技法と比較して、イベントストーミングは非常に速く、楽しく実施することができます。短時間でどれだけのことができるか驚くこともあります。
 
-  * It establishes a common and shared language between Business & IT
+  * ビジネスとITとで共通言語を確立することができます。
 
-  * It sets focus in terms of scope and boundaries
+  * スコープと境界線に集中することができます。
 
-  * The technique is iterative, which allows facilitators to:
+  * この技法はイテレーティブなアプローチを取ります。このことによりファシリテーターは:
 
-    * slowly adding more detail in each session as to not overwhelm participants.
+    * 参加車を圧倒しないよう、セッションごとに段階的に詳細化していくことができます。
 
-    * pick and choose participants by session
+    * セッションごとに必要な参加者に参加してもらうことができます
 
-    * provide cognitive breaks (participants will get tired)
+    * 参加者は疲れるので、必要な休憩を挟むことができます
 
-  * It forces important questions about the customer journey early in the ideation process
+  * アイディエーションプロセスの早い段階で顧客体験における重要な質問をする機会を得られます
 
-  * It gives you the big picture of the solution by placing technical implementation details in context of the business process
+  * 技術的な実装の詳細をビジネスプロセスの文脈の中に位置付けることにより、ソリューションの概要を把握することができます
 
-  * It is particularly effective way to kick start Domain Driven Design
+  * 特にドメイン駆動設計を開始しようとする場合に有効です
 howTo: >-
-  * Business Team maps out the Business Process from a Users perspective
+  * ビジネスチームがユーザー視点でビジネスプロセスを表現します
 
-  * The Best way is to start with the 'happy scenario', where the User successful reaches their goal (eg Student buys movie tickets online)
+  * ユーザーがゴールに無事到達する成功シナリオから開始することがコツです。例えば学生が映画のチケットをオンラインで購入できる部分など
 
-  * In addition, the Business Team identifies which data is required in order to make the business flow successful (eg Movie Name, Session Time, Student discounted price)
+  * ビジネスフローが成功するためにどのようなデータが必要であるか特定します。例えば映画のタイトル、上映時刻、学生割引料金など
 
-  * Once the Business Process has been defined, the IT team will join to provide additional information in forms of Events, Data and User Interfaces. This will establish a shared understanding of what is required
+  * ビジネスプロセスが整理された段階で、ITチームが参加し、イベントやデータ、ユーザーインターフェースの観点で情報を補います。この方法でシステムに必要なものの共通理解が生まれます
 
-  * The architect will start grouping common objects in order to define the microservices to be developed
+  * 開発すべきマイクロサービスを定義するため、アーキテクトが共通のオブジェクトをグループ化を開始します
 
-    ### Facilitation Materials Needed
+    ### ファシリテーション資材
 
-    * Drawing paper roll. Stickies tend to fall off walls otherwise.
+    * 壁に貼る大きな紙。壁に直接貼る場合、付箋がはがれやすいため
 
-    * 2 different colors of wide format sticky notes like the 4x6 sticky notes
+    * 大きなサイズの付箋 (4 x 6など) 2色
 
-    * 4 different colors of small square sticky notes like the 3x3 sticky notes
+    * 小さな正方形のサイズの付箋 (3 x 3など) 4色
 
-    * Permanent Markers for the stickies
+    * 付箋用のペン
 
-    * Whiteboard markers if you use whiteboard roll, or charcoal pencils if you use drawing paper. Theses are useful to jot adhoc lines/arrows/annotations
+    * 消すことができる筆記用具。ホワイトボードならホワイトボード用のペン、紙を使うのであれば鉛筆など。線や矢印、注意書きなどを書き留めるために便利。
 
-    ### Tips for Remote Sessions
+    ### リモートセッション用のTips
 
-    * All the usual pre-requisites about having the right participants representing different areas of expertise still apply. However, consider the overall number of participants for a remote session as too many can be hard for conversation flow and for everyone to be able to contribute.
+    * 異なる領域のエキスパートを代表する適切なメンバーの参加者の招集はリモートの場合でも必要です。しかしながらリモートセッションの場合、参加者の人数に注意する必要があります。人数が多すぎる場合はメンバー間の会話がしにくくなるため、積極的な参加が見込めなくなります
 
-    * Event Storms can take time to create (depending on the complexity of the scenario). Plan for multiple remote sessions with virtual breaks in each session and set this expectation with participants.
+    * イベントストーミングは対象のシナリオの複雑度により時間がかかります。複数のリモートセッションを設けて間に休憩をとるように計画し、参加者にも進め方をあらかじめ説明しておきます
 
-    * If participants are new to Event Storming, provide reference information (such as this page) and examples of complete Event Storms prior to the session. Consider holding a short Event Storming introduction session prior to the main session if this is feasible.
+    * 参加者がイベントストーミングを実施したことがない場合、イベントストーミングの参考情報と、過去の実施例などを用いて説明します。可能であれば冒頭にイベントストーミングの簡単な説明を実施ます
 
-    * Prepare an online collaboration board with an Event Storm key and space set out to create the Event Storm. Place an example picture of a completed Event Storm on the board so that participants can visualise what they are working towards.
+    * イベントストーミングを実施するスペースとしてオンラインコラボレーションボードを用意します。イベントストーミングの実施例などを貼り付け、参加者が何をすべきかわかるようにしておきます
 
-    * If enough is known about the scenario before the session, consider preparing an event spine beforehand to save time and provide a skeleton to start with. This can also help to orientate participants not familiar with the practice. Explain that this is just a starting point and anything can be changed during the session.
+    * イベントストーミングセッション前にシナリオに対する十分な知見がある場合、あらかじめ骨子の部分を作っておくことで、時間の節約ができます。イベントストーミングのプラクティスに馴染みのない参加者がいた場合でもこの方法であれば既に実施済みの部分を参考にしながら参加することができます。開始時には既に出来上がったものはスタートポイントであり、イベントストーミングセッション中はどこでもどのようにでも変更ができることを説明しておきます。
 
-    * Ensure cameras are switched on where possible as this encourages participants to stay engaged and makes conversation easier. You want active participation to provide as much information and questions as possible.
+    * 可能であればカメラをオンにしてもらうように促します。参加者間のコミュニケーションを活性化し、よりセッションに集中してもらうことができます。情報や質問をなるべく引き出すため、参加者の積極的な参加は重要です。
 
-    * The facilitator(s) should ask open questions and leave a silence if required to encourage participation.
+    * ファシリテーターはオープン質問を投げかけ、必要に応じて場が静かにすることによっても参加者の参加を促すことができます
 
-    * The facilitator(s) should make extra effort to engage all participants. It is easy for participants of remote Event Storming to disengage or go into view only mode so active prompts are likely to be required.
+    * ファシリテーターは全ての参加者が議論に参加するように注意を払う必要があります。リモートセッションでは別のことに注意を向けたり、発言をしないオブザーバーモードになったりしがちです。そうならないためにファシリテーターは積極的に参加を促す必要があります
 
-    * Ideally you want everyone involved in the Event Storm to be able to interact with the board. However, if Event Storming is a new technique for participants and doing it remotely isn’t easy, consider to start interaction among facilitators (at least until participants have basic familiarity with the practice).
+    * 全ての参加者がボードに直接書き込んでイベントストーミングに参加することが理想です。ただしイベントストーミングを実施したことのない参加者には、リモートで参加をしにくいと感じるでしょう。この場合は最初はファシリテーターの間だけで実施し、参加者が異ベントストーミングに慣れてもらう時間を設けることが効果的な場合があります
 
-    * Make sure you walk through the Event Storm (forwards and backwards) regularly, perhaps more regularly then normal, to make sure everyone shares understanding and to prompt for input.
+    * イベントストーミングを定期的に見直します。リモートの場合はオフラインのセッションよりも頻繁に見直しを促す日強9雨があるかもしれません。全員の共通理解を確立し、必要に応じて情報を追加してもらうためです
 
-    * For large Event Storms consider breaking into groups using more than one remote session where each session works on a different part of the Event Storm. Make sure to check in as a whole group regularly in order to sync on progress and rotate groups and areas worked on.
+    * 大きなイベントストーミングイベントの場合、必要に応じて別の場所のイベントストーミングを実施するために小グループに分けて実施することが必要な場合があります。定期的に全体に進捗を報告してもらう、グループや作業分野をローテーションするなどの工夫も実施します
 
 
 
-    **Want to run this practice remotely? [Here’s some help](https://app.mural.co/template/5cf73c69-1709-4c8f-b2d4-d9dcc7142694/f1708695-c17b-4f38-a301-fcb25da81afa) to jump start your session 💻🙏**
+    **リモートで実施する際のツールが必要な場合、[このようなツールがあります](https://app.mural.co/template/5cf73c69-1709-4c8f-b2d4-d9dcc7142694/f1708695-c17b-4f38-a301-fcb25da81afa)  💻🙏**
 mediaGallery:
   - link: https://youtu.be/N8fxzeZh4Kc
   - link: https://openpracticelibrary.github.io/opl-media/images/eventstorm.jpeg
@@ -112,69 +107,69 @@ mediaGallery:
 resources:
   - link: http://ziobrando.blogspot.com/2013/11/introducing-event-storming.html
     linkType: web
-    description: Alberto Brandolini's Original Blog
+    description: Alberto Brandolini さんのブログ
   - link: https://martinfowler.com/bliki/DDD_Aggregate.html
     linkType: web
-    description: Aggregates as Defined by Martin Fowler
+    description: 集約は Martin Fowler によって紹介されました
   - link: https://anchor.fm/openpracticelibrary/embed/episodes/Event-Storming-w-Patrick-Carney-eamad6/a-a1e5659
     linkType: podcast
-    description: Event Storming with Patrick Carney
+    description: Patrick Carney のイベントストーミング解説
   - link: https://www.youtube.com/watch?v=m6h_ppEDPrU
     linkType: video
-    description: Red Hat Summit 2017 Session
+    description: Red Hat Summit 2017 セッション
   - link: https://blog.redelastic.com/corporate-arts-crafts-modelling-reactive-systems-with-event-storming-73c6236f5dd7
     linkType: web
-    description: Blog Explaining How Event Storming, DDD and Reactive Systems Relate
+    description: イベントストーミング、DDD、リアクティブシステムの関連についての説明ブログ
   - link: https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420
     linkType: web
-    description: Vaughn Vernon's Domain Driven Design Distilled (Chapter 7)
+    description: Vaughn Vernon の Domain Driven Design Distilled (Chapter 7)
   - link: http://www.designkit.org/methods/63
     linkType: web
-    description: Journey Mapping by Design Kit
+    description: Design Kit によるジャーニーマップの解説
   - link: https://methods.18f.gov/decide/site-mapping/
     linkType: web
-    description: Site Mapping by 18f
+    description: 18f によるサイトマッピングの解説
   - link: https://methods.18f.gov/make/wireframing/
     linkType: web
-    description: Wireframing by 18f
+    description: 18f によるワイヤフレームの解説
   - link: http://www.ikea.com/us/en/catalog/products/80324072/
     linkType: purchase
-    description: Drawing Paper Example
+    description: 用意すべき大きな紙のサンプル
   - link: https://www.amazon.com/Post-Sticky-Janeiro-Collection-4621-SSAU/dp/B001UXFT70
     linkType: purchase
-    description: 4x6 Sticky Notes
+    description: 4x6 サイズの付箋
   - link: https://www.amazon.com/dp/B01N1UE0JY?psc=1
     linkType: purchase
-    description: 3x3 Sticky Notes
+    description: 3x3 サイズの付箋
   - link: http://eventstorming.com/
     linkType: book
-    description: Alberto Brandolini's Book
+    description: Alberto Brandolini による解説本
   - link: https://www.youtube.com/watch?v=1i6QYvYhlYQ
     linkType: video
-    description: Alberto Brandolini's 50,000 Orange Stickies Later from Explore DDD 2017
+    description: Alberto Brandolini による解説動画 (50,000 Orange Stickies Later from Explore DDD 2017)
   - link: https://www.linkedin.com/pulse/using-event-storming-practice-heritage-bank-sandra-arps/
     linkType: web
-    description: Using 'Event Storming Practice' @ Heritage Bank (Red Hat Open
+    description: Heritage Bank でのイベントストーミング適用例 (Red Hat Open
       Innovation Labs)
   - link: https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d
     linkType: web
-    description: A Facilitator's Recipe for Event Storming
+    description: イベントストーミングファシリテーターレシピ
   - link: https://openpracticelibrary.com/blog/facilitation-tips-for-remote-sessions/
     linkType: web
-    description: Remote Facilitation Tips
+    description: リモートファシリテーションTips
 participants:
-  - Facilitator
-  - Product Owner
-  - User Experience Design
-  - Analysts
-  - Developers
-  - Testers
-  - Security
-  - Operations / Infrastructure
+  - ファシリテーター
+  - プロダクトオーナー
+  - UXデザイナー
+  - アナリスト
+  - 開発者
+  - テスト担当者
+  - セキュリティ
+  - 運用チーム、インフラチーム
 jumbotron: /images/eventstorm.jpeg
 area: discovery-loop-outcomes
 people: 5+
-time: ~6 Hours not including breaks
+time: ~6 (休憩を含まない)
 perspectives:
   - domain-driven-design
   - facilitation-tips-for-remote-sessions
