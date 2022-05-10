@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Contract-First Development
-subtitle: Get agreement upfront when creating reusable services
+title: コントラクトファースト開発
+subtitle: 再利用可能なサービスを作る時に先に合意を取り付けておく
 date: 2019-06-20T12:49:38.825Z
 authors:
   - infosec812
@@ -11,48 +11,37 @@ tags: []
 mobiusTag: delivery
 icon: /images/contract-first-api-development.png
 whatIs: >-
-  Contract-First Development is about making your intent clear across team
-  members, external teams or 3-party systems. By using tools like
-  [OpenAPI](https://swagger.io/docs/specification/about/) (for synchronous
-  interactions) or [AsyncAPI](https://www.asyncapi.com/) (for asynchronous
-  interactions), we can define our programming API clearly at the outset. We
-  also update the "contract" before we implement changes to the code. Further
-  benefits include:
+  コントラクトファースト開発とは、チームメンバーや外部のチーム、サードパーティのシステムとの間に自身が開発するものの意図を明確にしておくことを指します。[OpenAPI](https://swagger.io/docs/specification/about/) (同期的インタラクション用) や [AsyncAPI](https://www.asyncapi.com/) (非同期的インタラクション用) を使うことで、自分達が開発するAPIを最初に定義しておくことができます。また変更の必要が発生した時も、実際にコードで実装する前に「契約 (コントラクト)」を事前にアップデートします。この進め方には以下のメリットがあります:
 
 
-  * Code generation for both clients and servers
+  * クライアント側とサーバー側の両方で実装を同時に進めることができます
 
-  * Automated testing and validation tools
+  * テストの自動化や検証ツールの使用をすることができます
 
-  * Simple mocking of the service under development
+  * 開発中でもサービスをモックで利用することができます
 
-  * More relevant and current documentation
-whyDo: So that everyone can be productive in parallel AND we can have strong
-  guarantees of the resulting applications working together properly. Instead of
-  UI development being blocked awaiting a working service to code against, UI
-  and Service developers can work in parallel. Also, if you define the contract
-  first when developing or changing API interfaces, you have a clearer
-  "Definition of Done" and "Acceptance Criteria" for the work.
+  * 関連ドキュメントを最新に保つことができます
+
+whyDo: 一緒に動作するアプリケーション同士が適切に動く状態を担保し、それらを同時並行で生産的に開発することができます。UI開発では一般的に動作するバックエンドサービスが開発され立ち上がるのを待つため開発が待ち状態になることがありますが、コントラクトファースト開発ではUI開発者とバックエンドサービス開発者が同時並行で開発することができます。またAPIのインターフェース開発時や更新時にコントラクトを最初に定義しておくことで、明確な「Doneの定義」や「受け入れ条件」を定義することができます。
 howTo: >-
-  In case of synchronous interactions, basically HTTP and REST endpoints,
-  OpenAPI provides many references:
+  HTTPを使ったRESTエンドポイントに代表される同期的インタラクションの場合、OpenAPIが多くのリファレンスを用意しています:
 
 
   * [OpenAPI](https://swagger.io/docs/specification/about/)
 
-  * [OpenAPI Generator](https://openapi-generator.tech/)
+  * [OpenAPI ジェネレーター](https://openapi-generator.tech/)
 
-  * [OpenAPI Tools](https://openapi.tools/)
-
-
-  In case of asynchronous interactions, very typical in Event-Driven Architectures or Messaging systems, AsyncAPI provides many references:
+  * [OpenAPI ツール](https://openapi.tools/)
 
 
-  * [AsynAPI WebSite](https://www.asyncapi.com/)
+  イベントドリブンアーキテクチャの場合やメッセージングシステムを活用するための非同期的インタラクションの場合、AsyncAPIがリファレンスを用意しています:
 
-  * [AsyncAPI Generators](https://www.asyncapi.com/generator)
 
-  * [AsyncAPI Documentation](https://www.asyncapi.com/docs/specifications/v2.1.0)
+  * [AsynAPI Webサイト](https://www.asyncapi.com/)
+
+  * [AsyncAPI ジェネレーター](https://www.asyncapi.com/generator)
+
+  * [AsyncAPI ドキュメント](https://www.asyncapi.com/docs/specifications/v2.1.0)
 mediaGallery:
   - link: https://openpracticelibrary.github.io/opl-media/images/contract-first-api-development.png
   - link: https://openpracticelibrary.github.io/opl-media/images/async-api-spec.png
@@ -63,19 +52,19 @@ resources:
     description: OpenAPI
   - link: https://openapi.tools/
     linkType: web
-    description: OpenAPI Tools
+    description: OpenAPI ツール
   - link: https://openapi-generator.tech/
     linkType: web
-    description: OpenAPI Generator
+    description: OpenAPI ジェネレーター
   - link: https://www.asyncapi.com/
     linkType: web
-    description: AsyncAPI Spec
+    description: AsyncAPI 仕様
   - link: https://www.asyncapi.com/docs/getting-started
     linkType: web
     description: Getting started with AsyncAPI
   - link: https://openpracticelibrary.com/practice/definition-of-done/
     linkType: web
-    description: Definition Of Done
+    description: Doneの定義
 participants:
   - DevOps Team
 jumbotron: /images/contract-first-api-development.png
@@ -86,36 +75,3 @@ perspectives:
   - product-ownership
 difficulty: moderate
 ---
-## What is it?
-
-Contract-First Development is about making your intent clear across team members and external teams. By using a tool like [OpenAPI](https://swagger.io/docs/specification/about/), we can define our programming API clearly at the outset. We also update the "contract" before we implement changes to the code.
-
-![Contract-First Development](/images/contract-first-api-development.png "Contract-First Development")
-
-## Why use it?
-
-So that everyone can be productive in parallel AND we can have strong guarantees of the resulting applications working together properly. Instead of UI development being blocked awaiting a working service to code against, UI and Service developers can work in parallel. Also, if you define the contract first when developing or changing API interfaces, you have a clearer "Definition Of Done" and "Acceptance Criteria" for the work.
-
-Here's a quick intro video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zQncznMLrt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Further benefits include:
-
-- Code generation for both clients and servers
-- Automated testing and validation tools
-- Simple mocking of the service under development
-- More relevant and current documentation
-
-More tooling around OpenAPI can be found [HERE](https://openapi.tools/)
-
-
-## Related Practices
-
-- [Definition Of Done](https://openpracticelibrary.com/practice/definition-of-done/)
-
-## Further Information
-
-- [OpenAPI](https://swagger.io/docs/specification/about/)
-- [OpenAPI Generator](https://openapi-generator.tech/)
-- [OpenAPI Tools](https://openapi.tools/)
