@@ -27,30 +27,34 @@ const ListItems = ({ toggle }) => {
     <List data-testid="drawerPractices">
       <ListSubheader>
         <Typography variant="overline" color="primary">
-          Practices
+          プラクティス
         </Typography>
       </ListSubheader>
-      <ListItemLink to="/" primary="View Library" toggle={toggle} />
+      <ListItemLink to="/" primary="ライブラリ" toggle={toggle} />
       <ListItemLink
         to="/learn"
-        primary="Learn More"
+        primary="Open Practice Libraryについて"
         toggle={toggle}
         data-testid="SeeEverything"
       />
+      <!-- プラクティス追加を非表示にします
       <ListItemLink
         to={`${window.location.origin}/admin/#/collections/practice/new`}
         primary="Add a Practice"
         toggle={toggle}
       />
+      -->
       <Divider />
       <ListSubheader>
         <Typography variant="overline" color="primary">
-          Community
+          コミュニティ
         </Typography>
       </ListSubheader>
-      <ListItemLink to="/about" primary="About Us" data-testid="LearnAboutUs" />
-      <ListItemLink to="/blog" primary="Blog" />
+      <ListItemLink to="/about" primary="Open Innovation Labs" data-testid="LearnAboutUs" />
+      <ListItemLink to="/blog" primary="ブログ" />
+      <!-- Contributionを非表示にします
       <ListItemLink to="/page/contribution-guide" primary="Contributing" />
+      -->
     </List>
   );
 };
