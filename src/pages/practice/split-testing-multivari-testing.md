@@ -53,10 +53,10 @@ howTo: >-
 
   ## 関連プラクティス
 
-  [スプリットテスト - A/B テスト](https://https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/)
+  [スプリットテスト - A/B テスト](https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/)
 
 
-  [実験計画法](https://https://openpracticelibrary-ja.netlify.app/practice/design-of-experiments/)
+  [実験計画法](https://openpracticelibrary-ja.netlify.app/practice/design-of-experiments/)
 mediaGallery:
   - link: >-
       https://openpracticelibrary.github.io/opl-media/images/steve-harvey-702421-unsplash.jpg
@@ -73,10 +73,10 @@ resources:
     description: >-
       Multivariate Testing In Action: Five Simple Steps To Increase Conversion
       Rates, Paras Chopra, Smashing Magazine
-  - link: 'https://https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/'
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/'
     linkType: web
     description: スプリットテスト - A/Bテスト
-  - link: 'https://https://openpracticelibrary-ja.netlify.app/practice/design-of-experiments/'
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/design-of-experiments/'
     linkType: web
     description: 実験計画法
 mobiusTag: delivery

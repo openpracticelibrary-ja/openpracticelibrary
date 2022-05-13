@@ -37,13 +37,13 @@ const ListItems = ({ toggle }) => {
         toggle={toggle}
         data-testid="SeeEverything"
       />
-      <!-- プラクティス追加を非表示にします
+      {/* <!-- プラクティス追加を非表示にします
       <ListItemLink
         to={`${window.location.origin}/admin/#/collections/practice/new`}
         primary="Add a Practice"
         toggle={toggle}
       />
-      -->
+      --> */}
       <Divider />
       <ListSubheader>
         <Typography variant="overline" color="primary">
@@ -52,9 +52,9 @@ const ListItems = ({ toggle }) => {
       </ListSubheader>
       <ListItemLink to="/about" primary="Open Innovation Labs" data-testid="LearnAboutUs" />
       <ListItemLink to="/blog" primary="ブログ" />
-      <!-- Contributionを非表示にします
+      {/* <!-- Contributionを非表示にします
       <ListItemLink to="/page/contribution-guide" primary="Contributing" />
-      -->
+      --> */}
     </List>
   );
 };
