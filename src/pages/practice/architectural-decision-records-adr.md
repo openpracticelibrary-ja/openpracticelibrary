@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Architectural Decision Records (ADR)
-subtitle: Open & Transparent Decision History
+title: アーキテクチャディシジョンレコード (ADR)
+subtitle: 決定履歴の見える化
 date: 2021-04-06T18:59:59.091Z
 authors:
   - infosec812
@@ -10,76 +10,75 @@ tags:
 mobiusTag: foundation
 icon: /images/decisions-1.jpg
 whatIs: >-
-  ## Overview
+  ## 概要
 
 
-  An [Architectural Decision (AD)](https://en.wikipedia.org/wiki/Architectural_decision) is a software design choice that addresses a functional or non-functional requirement that is architecturally significant. This might, for instance, be a technology choice (e.g., Java vs. JavaScript), a choice of the IDE (e.g., IntelliJ vs. Eclipse IDE), a choice between a library (e.g., [SLF4J](https://www.slf4j.org/) vs [java.util.logging](https://docs.oracle.com/javase/8/docs/api/java/util/logging/package-summary.html)), or a decision on features (e.g., infinite undo vs. limited undo). Do not take the term “architecture” too seriously or interpret it too strongly. As the examples illustrate, any decisions that might have an impact on the architecture somehow are architectural decisions.
+  ソフトウェアを設計する際、機能要件や非機能要件に対応する上でアーキテクチャ観点で重要な設計の判断をすることがあります。このアーキテクチャ観点で重要な判断を[アーキテクチャディシジョン (Architectural Decision, AD)](https://en.wikipedia.org/wiki/Architectural_decision) と呼びます。
+  例えばJavaかJavaScriptかといった技術の選択であったり、IntelliJかEclipse IDEかといったIDEの選択であったり、[SLF4J](https://www.slf4j.org/) か [java.util.logging](https://docs.oracle.com/javase/8/docs/api/java/util/logging/package-summary.html) かといったライブラリの選択であったり、Undoを何度実行できるようにしておくかといった機能実装上の判断などです。厳密に「アーキテクチャ」に関する決定と捉えがちですが、それより意味は広く、上記の例に挙げたような、何らかの形でアーキテクチャへの影響の可能性がある決定はアーキテクチャディシジョンと呼びます。
+
+  アーキテクチャディシジョンレコードはアーキテクチャディシジョンの履歴を取るために行われます。できるだけ簡単に実施できるべきもので、a) 決定を記録する b) 決定のバージョンを管理する ことができるようにします。
 
 
-  It should be as easy as possible to a) write down the decisions and b) to version the decisions.
+  ## ADRはどのようなフォーマットか
 
 
-  ## What Does an ADR Look Like?
-
-
-  Here's an example of an Architectural Decision Record (In Markdown format) for deciding to adopt Architectural Decision Records.
+  以下にアーキテクチャディシジョンレコードのサンプルを、「アーキテクチャディシジョンレコードをマークダウンで記録することを決定する」シナリオで記述してみます。
 
 
   ```markdown
 
-  # Use Markdown Architectural Decision Records
+  # マークダウン形式のアーキテクチャディシジョンレコードを使用する
 
 
-  ## Context and Problem Statement
+  ## コンテキストと課題
 
 
-  We want to record architectural decisions made in this project.
+  このプロジェクトで決定されたアーキテクチャディシジョンを記録することにしたい。
 
-  Which format and structure should these records follow?
-
-
-  ## Considered Options
+  どのようなフォーマットと構造で記録するべきか。
 
 
-  * [MADR](https://adr.github.io/madr/) 2.1.2 – The Markdown Architectural Decision Records
+  ## 検討した選択肢
 
-  * [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) – The first incarnation of the term "ADR"
+
+  * [MADR](https://adr.github.io/madr/) 2.1.2 – マークダウンアーキテクチャディシジョンレコード
+
+  * [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) – "ADR" の用語が初めて使われたのはこちら
 
   * [Sustainable Architectural Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions) – The Y-Statements
 
-  * Other templates listed at <https://github.com/joelparkerhenderson/architecture_decision_record>
+  * その他のテンプレートはこちらにリストされています <https://github.com/joelparkerhenderson/architecture_decision_record>
 
-  * Formless – No conventions for file format and structure
-
-
-  ## Decision Outcome
+  * 型式の指定なし – ファイルフォーマットや構造の指定なし
 
 
-  Chosen option: "MADR 2.1.2", because
+  ## 決定事項
 
 
-  * Implicit assumptions should be made explicit.
-    Design documentation is important to enable people understanding the decisions later on.
-    See also [A rational design process: How and why to fake it](https://doi.org/10.1109/TSE.1986.6312940).
-  * The MADR format is lean and fits our development style.
+  採用した選択肢: "MADR 2.1.2"
+  理由:
 
-  * The MADR structure is comprehensible and facilitates usage & maintenance.
 
-  * The MADR project is vivid.
+  * 暗黙の前提は明確にする必要がある
+    設計ドキュメントは後日になっても決定事項を理解できるようにするために重要である
+    [A rational design process: How and why to fake it](https://doi.org/10.1109/TSE.1986.6312940) も参照のこと。
+  * MADRのフォーマットは無駄がなく、我々の開発スタイルにあっている
 
-  * Version 2.1.2 is the latest one available when starting to document ADRs.
+  * MADRの構造は理解しやすく、利用やメンテナンスが容易
+
+  * MADRプロジェクトは活発である
+
+  * 我々がADRを記録し始めた時にバージョン 2.1.2が利用可能な最新である
 
   ```
 whyDo: |-
-  We use this practice to:
+  このプラクティスを使う理由:
 
-  * Have a quick reference to understand what has been done in the past
-  * Allow us to share our thinking and methods with our stakeholders
-  * Maintain open and transparent communication inside and outside of our teams
-howTo: Have a look at some of the available templates and start reading about
-  them. You can choose to use one of the ones linked below or create your own
-  adaptation of the template in a format which works for your team and your
-  organization.
+  * 過去に何を実施したかがわかるクイックリファレンスとなる
+  * どのような考えに基づいて何をしたのかをステークホルダーと共有できる
+  * オープンで透明性の高いコミュニケーションをチーム内外で実現することができる
+
+howTo: まずは利用可能なテンプレートを読んでみてください。以下のリンクにある既存のテンプレートを使うか、あるいは組織やチームが使いやすいテンプレートを自分で作ることもできます。
 resources:
   - link: https://adr.github.io/madr/
     linkType: web
