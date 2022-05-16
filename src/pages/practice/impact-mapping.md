@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: インパクトマッピング
-subtitle: An engaging, graphical, strategic planning technique
+subtitle: 魅力的でグラフィカルな戦略立案手法
 date: 2017-09-06T05:00:00.000Z
 authors:
   - sherl0cks
@@ -32,7 +32,6 @@ whyDo: >-
   
   * インパクトマッピングは非常にシンプルな人間中心デザイン (HCD) プロセスを導入しており、軽量なデザイン思考のテクニックを実践するのに最適な方法です。
 
-  * It's a graphical mind map, which reduces the barrier to entry for participants and facilitators alike
   * インパクトマッピングはグラフィカルであるため、参加者とファシリテータにとっての障壁が低くなっています
 
   * インパクトマッピングのコアとなるマインドマップはシンプルであるがゆえに、非常に適応性が高い。Gojko Adzic 氏の原文では、4週間以内のエグゼクティブレベルの戦略計画ワークショップで実施するとされていますが、プロダクト開発計画の早い段階で、プロジェクトスポンサーとともに実施する4〜6時間のセッションでも使うことができます。とはいえ、これれは無限にあるバリエーションの2つでしかありません。（つまり、インパクトマッピングを使える場面はもっとたくさんあります）
@@ -41,7 +40,6 @@ whyDo: >-
 
   * 主要なステークホルダーにおけるインパクトを成果（アウトカム）にうまく翻訳することができます。
 
-  * Impact Mapping is a way for leaders to practice leadership by intent (ref [David Marquet](https://www.davidmarquet.com/))
   * リーダーにとっては、leadership by intent を実践するツールにもなります（参照 [David Marquet](https://www.davidmarquet.com/ ))
  
 howTo: >-
@@ -60,10 +58,8 @@ howTo: >-
 
   最も短い場合：
 
-  * 2-4 hours of prep to establish a goal or problem statement *before* the session. This is important, or your session will go sideways!
   * セッションの前に2〜4時間程度、目的や問題定義の準備をする時間。（横道にそれないようにするために非常に重要です）
 
-  * optionally - 2 hours before the session to create an outline of the Impact Map based on your current understanding, as a way to introduce the subject to participants
   * （任意）現在の理解をベースにしたインパクトマップのアウトラインを作るために2時間。テーマを参加者に紹介するために使う。
 
   * 4時間以下（＋休憩）のファシリテートされたセッション
@@ -121,12 +117,12 @@ howTo: >-
   ### 関連するプラクティス
 
   * [Start At The End](/practice/start-at-the-end/) も、同じようなアウトプットを生み出す方法です。Start At The End と比較して、インパクトマッピングはドメインに対してより忠実な理解を生み出すことができますが、ファシリテーションの複雑さが増すという代償を払う必要があります。一般的に、インパクトマッピングはプロダクトやサービスを構築することに向いていて、Start At The End は組織変更や漠然とした取り組みに向いています。
-メディアギャラリー:
-  - リンク: https://youtu.be/pmSS69Dh71Q
-  - リンク: https://youtu.be/N8fxzeZh4Kc
-  - リンク: https://github.com/openpracticelibrary/opl-media/blob/master/Impact%20Mapping.jpeg?raw=true
-  - リンク: https://github.com/openpracticelibrary/opl-media/blob/master/images/impact-mapping-questions.jpg?raw=true
-リソース:
+mediaGallery:
+  - link: https://youtu.be/pmSS69Dh71Q
+  - link: https://youtu.be/N8fxzeZh4Kc
+  - link: https://github.com/openpracticelibrary/opl-media/blob/master/Impact%20Mapping.jpeg?raw=true
+  - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/impact-mapping-questions.jpg?raw=true
+resources:
   - link: https://www.impactmapping.org/book.html
     linkType: web
     description: Gojko Adzic 氏の原本
