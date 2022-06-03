@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
 title: Docs As Code
-subtitle: Have the whole team deliver current, useful, documentation using the
-  minimum of effort.
+subtitle: チーム全体が最小限の労力で、最新かつ有用なドキュメントを提供すること
 date: 2021-07-22T02:07:51.398Z
 authors:
   - alecthegeek
@@ -11,48 +10,43 @@ tags:
 mobiusTag: delivery
 icon: /images/treat-docs-like-code.png
 whatIs: >-
-  Docs As Code (also known as “Docs Like Code”) is a popular approach to
-  delivering documentation for software projects.
+  Docs As Code (“Docs Like Code”としても知られている)は、ソフトウェアプロジェクトにおけるドキュメントを提供するための一般的なアプローチです。
 
 
-  There are three common themes that you can expect to see.
+  共通するテーマは3つあります。
 
 
-  1. Adopt an “[agile](https://en.wikipedia.org/wiki/Agile_software_development)” approach to content creation, namely
+  1. コンテンツ作成に、“[agile](https://en.wikipedia.org/wiki/Agile_software_development)”なアプローチを採用すること。
 
-  2. The whole team is responsible for content
+  2. チーム全体がコンテンツに責任を持つこと。
 
-  3. Be adaptive and improve both your content, and your process, over time.
-
-
-  Tools and processes will need to be adapted for your project (and then adapted again for the project after that).
+  3. 時間経過とともに、コンテンツとプロセスを適応させ、改善していくこと。ツールやプロセスは、プロジェクトに合わせて適応させる必要があります（その後のプロジェクトでもまた適応させる必要があります）。
 
 
-  Docs As Code image copyright Anne Gentle. Released under an MIT license.
+  Docs As Code イメージの著作権：Anne Gentle. MITライセンスのもとで公開されています。
 whyDo: >
-  1. Deliver valuable documentation faster with higher quality (multiple voices,
-  collaboration)
+  1. 価値あるドキュメントをより早く、より高い品質で提供（マルチボイス、コラボレーション）
 
-  2. Stop documentation being a bottleneck in the release cycle
+  2. ドキュメントがリリースサイクルのボトルネックになることを防ぐ
 
-  3. Release technical writers to deliver higher value content (information architecture, customer experience, ....)
+  3. より価値の高いコンテンツ（情報アーキテクチャ、顧客体験、...）を提供するために、テクニカルライターを解放する
 
-  4. Remove need for proprietary technical writing tools
+  4. 独自のテクニカルライティングツールの必要性をなくす
 howTo: >
-  Use developer tools, and process, to create and deliver content. Specifically:
+  開発者用ツールやプロセスを使用して、コンテンツを作成し、提供する。  具体例:
 
 
-  1. Text based file content with embedded, lightweight, markup tags
+  1. テキストベースのファイルコンテンツに、軽量なマークアップタグを埋め込む。
 
-  2. Developer based workflows. For example:
-        1. Version Control using tools such as Git
-        2. Change control driven though bugs and feature requests tickets
-        3. Content reviews and merges
-  3. Machine generated content
+  2. 開発者ベースのワークフロー。 例:
+        1. Gitなどのツールを使ったバージョン管理
+        2. バグや機能リクエストのチケットによる変更管理
+        3. コンテンツのレビューとマージ
+  3. マシンによるコンテンツ生成
 
-  4. Automated testing and verification
+  4. 自動化されたテストと検証
 
-  5. Rapid online publication using web pages (using static site generators) or wikis. For example [Sphinx](https://www.sphinx-doc.org/) or [Hugo](https://gohugo.io/).
+  5. ウェブページ（静的サイトジェネレータを使用など）またはWikiを使用した迅速なオンライン公開。 例えば [Sphinx](https://www.sphinx-doc.org/) や [Hugo](https://gohugo.io/).
 mediaGallery:
   - link: https://openpracticelibrary.com/static/8dd15b5897ff4f0f5954afce32831396/ee604/treat-docs-like-code.png
 resources:
