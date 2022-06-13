@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Design Sprint
-subtitle: A five-day process for testing new ideas
+title: デザインスプリント
+subtitle: 新しいアイデアを検証する5日間のプロセス
 date: 2018-12-19T21:42:38.398Z
 authors:
   - eformat
@@ -12,57 +12,58 @@ tags:
 mobiusTag: options
 icon: /images/screenshot-from-2018-12-20-08-55-34.png
 whatIs: >-
-  It is a 5 day customer-centric process for rapidly solving a key challenge,
-  creating new products, or improving existing ones.
+  これは、新製品開発や既存製品の改良のためのアイデア検証を5日間で実施するとした顧客中心プロセスです。
 
-  Design sprints enable you to:
+  デザインスプリントでは以下のようなことができるようになります。
 
-  * Clarify the problem at hand, and identify the needs of potential users
+  * 問題・課題をすばやく明確にし、潜在的なユーザニーズを特定する
 
-  * Explore solutions through brainstorming and sketching exercises
+  * ブレイン・ストーミングやスケッチのエクササイズによってソリューションを探索する
 
-  * Distil your ideas into one or two solutions that you can test
+  * 1〜2個の検証可能なアイデアに絞り込む
 
-  * Prototype your solution and bring it to life
+  * ソリューションのプロトタイプを作成しアイデアに命を吹き込む
 
-  * Test the prototype with people who would use it
+  * プロトタイプを使いそうなユーザでアイデアを検証する
 
-  The process phases include: Understand, Define, Sketch, Decide, Prototype and Validate.
+  プロセスには次の要素が含まれます：理解する、定義する、スケッチする、決定する、プロタイプを作る、検証する
 whyDo: >-
-  The aim is to fast-forward into the future to see your finished product and
-  customer reactions, before making any expensive commitment. It is a simple and
-  cheap way to validate major assumptions, the Big question/s and point to the
-  different options to explore further through delivery.
+  デザインスプリントの狙いは、高くつくコミットをする前に、未来にいって完成品と顧客の反応を見ることです。
+  デザインスプリントは実際に顧客にものを使ってもらうことで、主要な予測や、疑問、要点などを検証し、他の選択肢を探求するためのシンプルで安価な方法なのです。
+  
+  このプラクティスの集まりは、新しい製品やサービス、機能などを市場に投入する際のリスクを減らします。
+  デザインスプリントは、プロダクトやプロジェクトが実施する価値があるか、機能や取り組みに価値があるかを判断する最も早い方法です。
+  後者については、[Research Sprint](https://library.gv.com/the-gv-research-sprint-a-4-day-process-for-answering-important-startup-questions-97279b532b25) も参照してください。
+  
 
-  This set of practices reduces risks when bringing a new product, service or a feature to the market. Design Sprints are the fastest way to find out if a product or project is worth undertaking, if a feature is worth the effort, or if your value proposition is really valid. For the latter one should also consider running a [Research Sprint](https://library.gv.com/the-gv-research-sprint-a-4-day-process-for-answering-important-startup-questions-97279b532b25).
-
-  It compresses work into one week and importantly tests the design idea and provides real user feedback in rapid fashion.
+  デザインスプリントは、1週間という短期間でデザインのアイデアを検証し、ユーザからのフィードバックを得ることができます。
 howTo: >-
-  ### A Sample Agenda
+  ### アジェンダのサンプル
 
-  By now there are many different variations of the format. You may come across the Google variation, a GV variation, the Design Sprint 2.0 (which is the agenda shown below).
+  デザインスプリントには、さまざまなバリエーションがあります。Google や GV あるいや Design Sprint 2.0 (以下で紹介するアジェンダ）といったバリエー蘇ションを見たことがあるかもしれません。
+  
 
-  The best is to try different variations and judge which one works for what context.
+  重要なのは、いくつかの異なるバリエーションを実施して、実施するコンテキストに合わせて機能するものを判断することです。
 
-  #### Monday
+  #### 月曜日
 
-  * Intro * How Might We * Map * Lightning Demos * Notes Taking * Crazy 8's * Long Term Goals * Sprint Questions * Lightning Demos * Drawing Ideas * Start user test recruiting * Develop Concepts
+  * イントロ *専門家に聞こう*, *どうすればメモ (HMW)*, *長期目標*, *スプリントクエスチョン*, *マップ*, *ライトニング・デモ*, *スケッチ*, 
 
-  #### Tuesday
+  #### 火曜日
 
-  * Decide on Solution * Storyboard design * Decider Vote * Storyboard Final Walk-through * User test recruiting
+  * ソリューション決定 *美術館*, *ヒートマップ投票*, *スピード品評*, *模擬投票*, *スーパー投票*, *ユーザテストフロー*, *ストーリーボード*
 
-  #### Wednesday
+  #### 水曜日
 
-  * Prototype creation * User test preparation * Interview room setup
+  * プロトタイプ作成 *ユーザテスト準備*
 
-  #### Thursday
+  #### 木曜日
 
-  * Testing with end-users * Analyse results and prepare findings
+  * エンドユーザテスト
 
   #### Friday
 
-  * Showcase (demonstrate process & findings)
+  * ショーケース (デモ & 発表）
 mediaGallery:
   - link: https://youtu.be/K2vSQPh6MCE
   - link: https://openpracticelibrary.github.io/opl-media/images/img_20181219_140828.jpg
@@ -107,78 +108,81 @@ perspectives:
 difficulty: hard
 jumbotronAlt: Design Sprint
 ---
-## What is it?
+## これは何？
 
-It is a 5 day customer-centric process for rapidly solving a key challenge, creating new products, or improving existing ones.
+  これは、新製品開発や既存製品の改良のためのアイデア検証を5日間で実施するとした顧客中心プロセスです。
 
-Design sprints enable you to:
+  デザインスプリントでは以下のようなことができるようになります。
 
-* Clarify the problem at hand, and identify the needs of potential users
-* Explore solutions through brainstorming and sketching exercises
-* Distil your ideas into one or two solutions that you can test
-* Prototype your solution and bring it to life
-* Test the prototype with people who would use it
+  * 問題・課題をすばやく明確にし、潜在的なユーザニーズを特定する
+  * ブレイン・ストーミングやスケッチのエクササイズによってソリューションを探索する
+  * 1〜2個の検証可能なアイデアに絞り込む
+  * ソリューションのプロトタイプを作成しアイデアに命を吹き込む
+  * プロトタイプを使いそうなユーザでアイデアを検証する
 
-The process phases include: Understand, Define, Sketch, Decide, Prototype and Validate.
+  プロセスには次の要素が含まれます：理解する、定義する、スケッチする、決定する、プロタイプを作る、検証する
 
 <figure class="video_container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K2vSQPh6MCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-## Why use it?
+## なせ使うのか
+  デザインスプリントの狙いは、高くつくコミットをする前に、未来にいって完成品と顧客の反応を見ることです。
+  デザインスプリントは実際に顧客にものを使ってもらうことで、主要な予測や、疑問、要点などを検証し、他の選択肢を探求するためのシンプルで安価な方法なのです。
+  
+  このプラクティスの集まりは、新しい製品やサービス、機能などを市場に投入する際のリスクを減らします。
+  デザインスプリントは、プロダクトやプロジェクトが実施する価値があるか、機能や取り組みに価値があるかを判断する最も早い方法です。
+  後者については、[Research Sprint](https://library.gv.com/the-gv-research-sprint-a-4-day-process-for-answering-important-startup-questions-97279b532b25) も参照してください。
+  
 
-The aim is to fast-forward into the future to see your finished product and customer reactions, before making any expensive commitment. It is a simple and cheap way to validate major assumptions, the Big question/s and point to the different options to explore further through delivery.
-
-This set of practices reduces risks when bringing a new product, service or a feature to the market. Design Sprints are the fastest way to find out if a product or project is worth undertaking, if a feature is worth the effort, or if your value proposition is really valid. For the latter one should also consider running a [Research Sprint](https://library.gv.com/the-gv-research-sprint-a-4-day-process-for-answering-important-startup-questions-97279b532b25).
-
-It compresses work into one week and importantly tests the design idea and provides real user feedback in rapid fashion.
-
-## How to do a Design Sprint? - A Sample Agenda
-
-By now there are many different variations of the format. You may come across the Google variation, a GV variation, the Design Sprint 2.0 (which is the agenda shown below).
-
-The best is to try different variations and judge which one works for what context.
-
-### Monday
-
-* Intro
-* How Might We
-* Map
-* Lightning Demos
-* Notes Taking
-* Crazy 8's
-* Long Term Goals
-* Sprint Questions
-* Lightning Demos
-* Drawing Ideas
-* Start user test recruiting
-* Develop Concepts
-
-### Tuesday
-
-* Decide on Solution
-* Storyboard design
-* Decider Vote
-* Storyboard Final Walk-through
-* User test recruiting
-
-### Wednesday
-
-* Prototype creation
-* User test preparation
-* Interview room setup
-
-### Thursday
-
-* Testing with end-users
-* Analyse results and prepare findings
-
-### Friday
-
-* Showcase (demonstrate process & findings)
+  デザインスプリントは、1週間という短期間でデザインのアイデアを検証し、ユーザからのフィードバックを得ることができます。
 
 
-## Related Practices
+
+## どうやってるのか？
+
+  デザインスプリントには、さまざまなバリエーションがあります。Google や GV あるいや Design Sprint 2.0 (以下で紹介するアジェンダ）といったバリエー蘇ションを見たことがあるかもしれません。
+  
+  重要なのは、いくつかの異なるバリエーションを実施して、実施するコンテキストに合わせて機能するものを判断することです。
+
+### 月曜日
+
+* イントロ
+* 専門家に聞こう
+* どうすればメモ (HMW)
+* 長期目標*
+* スプリントクエスチョン
+* マップ
+* ライトニング・デモ
+* スケッチ 
+ 
+### 火曜日
+
+* 美術館
+* ヒートマップ投票
+* スピード品評
+* 模擬投票
+* スーパー投票
+* ユーザテストフロー
+* ストーリーボード
+
+### 水曜日
+
+* プロトタイプ作成
+* ユーザテスト準備
+* インタビュールーム準備
+
+### 木曜日
+
+* エンドユーザテスト
+* 結果分析
+
+### 金曜日
+
+* ショーケース（デモ、発表）
+
+
+## 関連プラクティス
 
 Research Sprint
 
