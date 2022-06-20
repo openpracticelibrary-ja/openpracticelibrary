@@ -1,103 +1,100 @@
 ---
-title: Kanban
+title: かんばん
 templateKey: practice-page
-subtitle: Visualized workflow management method to maximize efficiency and
-  become more agile.
+subtitle: 効果を最大化し、よりアジャイルになるための可視化されたワークフロー管理手法
 date: 2020-09-15T12:02:15.251Z
 authors:
   - rmarting
 mobiusTag: delivery
 icon: /images/kanban-board.png
 whatIs: >-
-  Kanban is a framework used to implement agile software development based in
-  the following practices:
+  かんばんは、以下のプラクティスに基づき、アジャイルソフトウェア開発を実施するために使用されるフレームワークです:
 
 
-  * Visualize the workflow
+  * ワークフローを可視化
 
-  * Limit Work in Progress (WIP)
+  * 進行中の作業（WIP）を制限
 
-  * Manage flow
+  * フローを管理
 
-  * Make Process Policies Explicit
+  * プロセスポリシーの明確化
 
-  * Feedback loops
-
-
-  Visualization is the key practice of this framework. Each Work Item (Kanban Card) is represented visually on a board (Kanban Board) allowing team members to see the status of every item across the process at any time. This frameworks helps to optimize and maximize the efficiency of the flow.
+  * フィードバックループ
 
 
-  **Kanban Board** represents the process with a set of columns representing the different step or stages of the flow. Each **Kanban Card** represents a work item (requested or already in progress) containing valuable information about the task and its status (e.g: summary, responsible person, deadline, ...). 
+   このフレームワークでは、「見える化」が重要なプラクティスです。各作業項目（かんばんカード）は、ボード（かんばんボード）上に視覚的に表現され、チームメンバーはいつでもプロセス全体のすべての項目の状況を確認することができます。このフレームワークにより、フローの最適化・効率化を図ることができます。
 
 
-  **Work In Progress (WIP)** represent the number of work items that a team is currently working on in each stage. This limit frames the capacity of the teams's workflow at any moment and helps to identify bottlenecks. This value will help us to define a stable workflow and then a predictable delivery.
+  **かんばんボード**は、フローの異なるステップまたはステージを表す一連の列でプロセスを表します。それぞれの**かんばんカード**は、タスクとそのステータスに関する貴重な情報（例：概要、責任者、期限、...）を含むワークアイテム（要求された、またはすでに進行中のもの）を表します。
+ 
+
+  **進行中の作業（WIP：Work In Progress）**は、各ステージでチームが現在作業しているワークアイテムの数を表します。この限界値は、各チームのワークフローの能力を表し、ボトルネックの特定に役立ちます。この値は、安定したワークフローを定義し、予測可能なデリバリーを行うために役立ちます。
+
 whyDo: >-
-  Kanban applies in situations where work arrives in an unpredictable fashion
-  and/or when work items should be deployed as soon as they are ready, rather
-  than waiting for other work items.
+  かんばんは、仕事が予測不可能な形で到着する状況、もしくは他の仕事を待つのではなく、準備ができ次第すぐに展開すべき状況に適用されます。
 
 
-  This framework helps you to:
+  このフレームワークは、次のようなことに役立ちます:
 
 
-  * Visually see work in progress
+  * 進行中の作業を視覚的に確認できる
 
-  * Identify bottlenecks or impediments and take steps to remove them
+  * ボトルネックや阻害要因を特定し、それを取り除くための手段を講じる
 
-  * Improve team collaboration
+  * チームコラボレーションを向上させる
 
-  * Increase efficiency and productivity, reducing the time it takes to take a project or user story from start to finish.
+  * プロジェクトやユーザーストーリーの開始から終了までにかかる時間を短縮し、効率性と生産性を向上させる
 
-  * Reduce waste
+  * 無駄を省く
 howTo: >-
-  **Who do you need?**
+  **誰が必要か?**
 
 
-  Kanban involves the whole team working on software development, delivery and/or deployment, Product Owners and other stakeholders with a knowledge about the process. Also a Facilitator could be useful if the team is new to this framework.
+  かんばんには、ソフトウェア開発、デリバリー、デプロイメントに取り組むチーム全体、プロダクトオーナー、およびこのプロセスに関する知識を持つ他の利害関係者が参加します。また、チームがこのフレームワークに慣れていない場合は、ファシリテーターにとって役に立つものになります。
 
 
-  **What do you need?**
+  **何が必要か?**
 
 
-  * A process or workflow defined as a set of step or stages to conclude (develop, deploy, deliver) a work item.
+  * ワークアイテムを完成させる（開発、デプロイ、デリバリー）ための一連のステップまたはそのためのステップとして定義されるプロセスまたはワークフロー。
 
-  * Explicit Process Policies: Rules for how the team works and should be developed collaboratively. These rules describe when a work item could be moved from one column to other.
+  * 明示的なプロセスポリシー：チームがどのように働くかについてのルールで、チーム内共同で開発されるべきもの。これらのルールは、あるワークアイテムをある列から他の列に移動させることができる条件などを記述します。
 
-  * Kanban Board (virtual or physical) divided in a set of columns. Each column (step or stage of the process) is well-know for each member of the team.
+  * かんばんボード（仮想または物理）は、列の集合で分けられる。各列（プロセスのステップまたは段階）の意味は、チームの各メンバーにとってよく理解されている必要があります。
 
-  * Kanban Card Template: Identifies a work item with a set of properties, values or definitions to describe the task during the process. This template will help us to create the Kanban Cards.
-
-
-  **What will you get?**
+  * かんばんカードのテンプレート：プロセス中のタスクを記述するために、一連のプロパティ、値、または定義でワークアイテムを識別します。このテンプレートは、かんばんカードを作成するのに役立ちます。
 
 
-  Kanban will provide you a set of metrics to measure your process. These metrics are very usefull to improve your flow and identify points of failure.
+  **何を得るか?**
 
 
-  * **Lead Time**: Measures how much time a task spends in the Kanban board, since get in and get out. A measure for our customers.
-
-  * **Cycle Time**: Measures how much time a task spends going through the process, from when the task started.
-
-  * **Throughput**: Measures the total amount of work delivered (completed work items).
+  かんばんは、あなたのプロセスを測定するための一連のメトリクスを提供します。これらの測定基準は、フローを改善し、失敗のポイントを特定するのに非常に有用です。
 
 
-  These metrics are connected by the Little's Law: **Cycle Time = WIP / Throughput**
+  * **リードタイム（Lead Time）**: タスクがかんばんボードに入ってから、出ていくまでの時間を計測します。我々のお客様のための指標です。
+
+  * **サイクルタイム（Cycle Time）**: タスクが開始された時点から、そのタスクがプロセスを通過するのに費やした時間を測定します。
+
+  * **スループット（Throughput）**: デリバリーされた作業（完了したワークアイテム）の総量を測定します。
 
 
-  **Tips for remote Kanban**
+  これらの指標には、リトルの法則が適用できます: **Cycle Time = WIP / Throughput**
 
 
-  * This framework can be applicable in remote teams.
+  **リモートかんばんのTips**
 
-  * Easy to apply if the team can use the same tools for documents and whiteboard.
 
-  * One facilitator shares the primary screen, showing the tool to allow everyone to understan where is the focus.
+  * このフレームワークは、リモート環境のチームにも適用可能です。
 
-  * If the tool you are using allows you to see where are the people in the room, it is very helpful to be focused on the same topic.
+  * ドキュメントやホワイトボードなど、チームで同じツールを使えると適用しやすくなります。
+
+  * 一人のファシリテーターが主画面を共有し、ツールを見せて、どこに焦点があるのかを全員が理解できるようにします。
+
+  * もし、使っているツールが、どこに人がいるかを確認できるものであれば、同じトピックに集中することができ、とても便利です。
 mediaGallery:
   - link: https://upload.wikimedia.org/wikipedia/commons/d/d3/Simple-kanban-board-.jpg
 resources:
-  - link: https://openpracticelibrary.com/practice/kanban-picture/
+  - link: https://openpracticelibrary-ja.netlify.app/practice/kanban-picture/
     linkType: web
     description: Kanban Picture
 people: 4+
