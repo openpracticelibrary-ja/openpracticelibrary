@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Definition of Done
-subtitle: Shared knowledge and understanding regarding what it means for a work
-  item to be done by a team
+title: 完成の定義
+subtitle: なにをもって作業アイテムが完成したについての共有理解
 date: 2018-08-29T20:14:43.236Z
 authors:
   - tdbeattie
@@ -13,27 +12,23 @@ tags:
 mobiusTag: foundation
 icon: /images/dod.jpeg
 whatIs: >-
-  * Criteria agreed across the team and shared with others that should be met
-  before any work items is considered complete by any team member.
+  * チーム内で合意され他の人と共有された、ある作業アイテムが完成したとみなされる基準
 
-  * *Collaboratively created, maintained and enforced criteria by the team.*
+  * *チームによって共同で作成、維持、強化される基準*
 
-  * A place where non-functional and functional work that should be performed for each and every work item can be managed.
+  * すべての作業アイテムに対して適用される非機能的作業や機能的作業が管理できる場所
 whyDo: >-
-  * Aligns understanding and shared expectations across stakeholder groups on,
-  for example, quality, assurance and documentation activities being performed
-  throughout delivery.
+  * 例えば、品質、動作保証、ドキュメント作成といった活動を通じて実行されるものについて、ステークホルダーの理解や予測を一致させるため
 
-  * Drives quality into products being built incrementally.
+  * インクリメンタルに作られる製品に対して、品質を組み込む活動を促進するため
 howTo: >-
-  ### Tips for Remote Working
+  ### リモートワークするときのヒント
 
+  * リモートワークでもかんたんに確認できるようになっていること
 
-  * It is reasonably easy to find an agreement on both definition of ready and done remotely.
+  * *ファシリテーターがみんなの意見を書けるようになっているか、みんなで共同編集ができるようになっていること*
 
-  * *One person can be a facilitator writing it based on everyone's input or everyone can co-edit.*
-
-  * Use virtual white-boarding tool and use techniques such as "roman voting" or adding a sticky w/name to gain consensus.
+  * ホワイトボードツールを使用したり、親指サインによる投票や記名の付箋などを使ってコンセンサスが得られるようにすること
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/DoD.JPG?raw=true
 resources:
@@ -60,20 +55,20 @@ difficulty: easy
 ---
 ## What is it?
 
-* Criteria agreed across the team and shared with others that should be met before any work items is considered complete by any team member.
-* Collaboratively created, maintained and enforced criteria by the team.
-* A place where non-functional and functional work that should be performed for each and every work item can be managed.
+* チーム内で合意され他の人と共有された、ある作業アイテムが完成したとみなされる基準
+* *チームによって共同で作成、維持、強化される基準*
+* すべての作業アイテムに対して適用される非機能的作業や機能的作業が管理できる場所
 
 ## Why use it?
 
-* Aligns understanding and shared expectations across stakeholder groups on, for example, quality, assurance and documentation activities being performed throughout delivery.
-* Drives quality into products being built incrementally.
+* 例えば、品質、動作保証、ドキュメント作成といった活動を通じて実行されるものについて、ステークホルダーの理解や予測を一致させるため
+* インクリメンタルに作られる製品に対して、品質を組み込む活動を促進するため
 
 ## Tips for Remote Working
 
-* It is reasonable easy to find an agreement on both definition of ready and done remotely.
-* One person can be a facilitator writing it based on everyone input or everyone can co-edit.
-* Use virtual white-boarding tool and use techniques such as "roman voting" or adding a sticky w/name to gain consensus.
+* リモートワークでもかんたんに確認できるようになっていること
+* *ファシリテーターがみんなの意見を書けるようになっているか、みんなで共同編集ができるようになっていること*
+* ホワイトボードツールを使用したり、親指サインによる投票や記名の付箋などを使ってコンセンサスが得られるようにすること
 
 ## Want to learn more?
 
