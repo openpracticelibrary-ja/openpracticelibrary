@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: GitOps
-subtitle: If it’s not in Git, it’s not real.
+subtitle: Gitにないものは、本物ではない。
 date: 2021-04-20T22:55:04.468Z
 authors:
   - ckavili
@@ -10,55 +10,47 @@ tags:
 mobiusTag: foundation
 icon: /images/screenshot-2021-04-21-at-01.01.49.png
 whatIs: >-
-  GitOps is a pattern to manage the flow of work from development to production
-  through Git operations. The concept behind GitOps is quite straightforward:
+  GitOpsは、開発から本番までの作業の流れをGitの運用で管理するパターンです。GitOpsのコンセプトは、以下のように非常にわかりやすいものです:
 
 
-  * [Everything as Code:](https://openpracticelibrary.com/practice/everything-as-code/) Git is always the source of truth on what happens in the system
+  * [Everything as Code:](https://openpracticelibrary-ja.netlify.app//practice/everything-as-code/) Gitは常に、システムで起きていることに対する、信頼できる情報源である。
 
-  * Deployments, tests, and rollbacks always controlled through Git flow
+  * デプロイ、テスト、ロールバックは常にGitのフローで管理される。
 
-  * No manual deployments/changes: If you need to make a change, you need to make a Git operation such as commit, or raise a pull request.
+  * 手動でのデプロイや変更はできない：変更が必要な場合は、commit などの Git 操作を行うか、pull request を上げる必要がある。
 
 
-  GitOps offers simplified operations, better developer experience, and better visibility of what is happening on the system. The most popular GitOps tools today are ArgoCD and Flux. As the adoption of GitOps is increasing, best practices around the approach and the tools are also forming rapidly.
+  GitOpsは、シンプルな運用、より良い開発者体験、システム上で起きていることのより良い可視性を提供します。今日、最も人気のあるGitOpsツールは、ArgoCDとFluxです。GitOpsの採用が進むにつれて、そのアプローチとツールに関するベストプラクティスも急速に形成されつつあります。
 whyDo: >-
-  Basically, GitOps is here to solve the “how do I make my platform reflect what
-  I have in Git'' problem. It removes the need to interact with the platform
-  directly and put the interaction with Git repositories instead. However, there
-  is more than GitOps can offer for an organization beyond *everything as code*
-  approach, especially that would like to adopt DevOps **culture** and
-  **practices**.
+  基本的に、GitOpsは「Gitにあるものをどうやって自分のプラットフォームに反映させるか」という問題を解決するためのものです。プラットフォームと直接やりとりする必要性をなくし、代わりにGitリポジトリとやりとりするようにします。しかし、GitOps は、特に DevOps **文化** と **プラクティス** を採用したいと考えている企業にとって、*everything as code* のアプローチを超える、それ以上の価値を組織へ提供します。
+  
+
+  GitOpsの効果:
 
 
-  Benefits of GitOps:
+  * 宣言的な記述とバージョン管理を強制します。開発者はアプリケーションのコードにGitを使うことに慣れていますが、GitOpsはソースコードと並んで、アプリケーションの他のリソースも保存する必要があることを意味します。もし、それらがGitになければ、本物ではないのです！
+
+  * アプリケーションコードとインフラコードの区別を減らします。
+
+  * DevOpsの文化とプラクティス採用を加速。GitOpsを適用することで、宣言型記述の自動デプロイメントが可能になり、リードタイムの短縮につながります。
+
+  * トレーサビリティの向上。痕跡を残さず変更する方法はありません。
+
+  * セキュリティの向上。コンプライアンス要件がマニフェストとして定義され、Git に保存されている場合、GitOps を通してその適用を確認することができます。さらに、Gitは変更を追跡するため、信頼できる唯一の情報源（the single source of truth）となり、大きなセキュリティ上の利点を提供します。
+
+  * 設定ドリフトを最小化する。GitOpsツールは、Gitにあるものとシステムで適用されているものに違いがある場合に警告を出し、変更を戻す手助けもします。
+
+  * ソフトウェアのライフサイクル全体をセルフ文書化し、可視化する。リポジトリを見れば、プラットフォーム上で何が動いているかが簡単にわかるようになります。
+
+  * 平均修復時間（MTTR）を下げる。以前のバージョンへのロールバックは、単に過去のコミットを使用するだけです。
 
 
-  * Enforces declarative descriptions and version control. Even though developers are familiar with using Git for application code, GitOps means that alongside the source code, you need to store other resources of the application as well. If they are not in Git, then they are not real!
-
-  * Less distinction between application code and infra code.
-
-  * Accelerate adoption of DevOps culture and practices. Applying GitOps provides automated deployments of declarative descriptions which leads to faster lead time.
-
-  * Increased traceability. There is no way to make a change without leaving a trace.
-
-  * Improved security. If your compliance requirements are defined as manifests and stored in Git, you can make sure they are applied through GitOps. Plus, Git provides big security advantages by being the single source of truth as it keeps track of changes.
-
-  * Minimize config drift. GitOps tools alert if there is a difference between what is in Git and what is applied in the system, and even help to revert the change.
-
-  * Self-documentation and visibility on the whole software lifecycle. Easy to see what is running on the platform by looking at repositories.
-
-  * Lower Mean Time To Recovery. Rollback to a previous version is simply using a past commit.
-
-
-  As listed above, having a GitOps approach in place means not only that you care about Git hashes and pull requests but also have visibility on the products and more importantly the teams too. Applying GitOps to onboarding and scaling your IT Delivery capability can massively accelerate your responsiveness to the market or global events. A GitOps approach can provide a better experience for creating repeatable environments and tooling for new teams as well as existing ones. It can also deliver a better production experience for migrating existing applications and quick adoption for dynamic team structures.
+  上記のように、GitOps のアプローチを導入することは、Git ハッシュやPull Requestを気にするだけでなく、製品やより重要なチームについても可視化できることを意味します。ITデリバリー能力の立ち上げとスケーリングにGitOpsを適用することで、市場やグローバルな出来事への対応を大幅に加速させることができます。GitOps のアプローチは、新しいチームや既存のチームに対して、再現性のある環境とツールを作成するためのより良い体験を提供することができます。また、既存のアプリケーションを移行する場合は、生産性を向上させ、ダイナミックなチーム構造を迅速に採用することができます。
 howTo: >-
-  In the Cloud Native world, Continuous Delivery is the practice where every
-  commit is automatically sent to production without any human intervention.
-  Therefore GitOps approach is the perfect match for CD.
+  Cloud Nativeの世界では、継続的デリバリーとは、すべてのコミットが人手を介さずに自動的に本番環境に送信されるプラクティスです。したがって、GitOpsのアプローチは、CDに完璧にマッチしています。
 
 
-  As a team, you should discuss and agree on what you mean by GitOps in practice. Define the structure of Git repositories and where to store which configuration files. Then have the right tool in place for your needs. Of course, there are multiple ways to set repositories. Here is a high-level example flow for a CI/CD pipeline utilizing one configuration repository and a separate source code repository:
+  チームとして、実際にGitOpsとは何を意味するのかについて話し合い、合意する必要があります。Git リポジトリの構造や、どの設定ファイルをどこに保存するかを定義します。そして、ニーズに合わせて適切なツールを用意しましょう。もちろん、リポジトリを設定する方法は複数あります。 ここでは、1つの設定リポジトリと別のソースコードリポジトリを利用するCI/CDパイプラインのハイレベルなフロー例を示します:
 
 
   ![GitOps Approach with Helm and Argo CD](/images/helm-argo-cd-page-1.png)
@@ -66,10 +58,10 @@ howTo: >-
 
 
 
-  #### ***The Open Practice Library benefits from it!***
+  #### ***The Open Practice Library はGitOpsを活用しています!***
 
 
-  The Open Practice Library is a collection of microservices and a front-end application, spread across multiple [Git repositories](https://github.com/openpracticelibrary/opl-cd). These microservices are defined as manifests and manifest changes are automatically triggered to release versions of the Open Practice Library via GitHub Actions in the various code repos. It is watched by ArgoCD, automatically updating apps running in Red Hat OpenShift Container Platform with any manifest changes.
+  Open Practice Libraryは、複数の[Gitリポジトリ](https://github.com/openpracticelibrary/opl-cd)に分散するマイクロサービスのコレクションとフロントエンドアプリケーションです。これらのマイクロサービスはマニフェストとして定義され、マニフェストの変更は自動的にトリガーされ、様々なコードレポのGitHub Actionsを介してOpen Practice Libraryのバージョンがリリースされます。これは ArgoCD によって監視され、Red Hat OpenShift Container Platform で実行されているアプリをマニフェストの変更で自動的に更新します。
 resources:
   - link: https://github.com/rht-labs/ubiquitous-journey
     linkType: web
