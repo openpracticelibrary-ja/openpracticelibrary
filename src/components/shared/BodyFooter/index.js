@@ -13,6 +13,7 @@ import {
   GitHub,
   YouTube,
   Instagram,
+  Twitter,
 } from "@material-ui/icons";
 import { CCHeart } from "../../../assets/icons/index";
 import Logo from "../../../components/shared/Logo";
@@ -48,7 +49,7 @@ const BodyFooter = () => {
             <Grid container spacing={2}>
               <Grid item>
                 <Link
-                  href="https://podcasts.apple.com/us/podcast/open-practice-podcast/id1501715186"
+                  href="https://anchor.fm/openpracticelibrary"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -81,7 +82,16 @@ const BodyFooter = () => {
                 >
                   <Instagram />
                 </Link>
-              </Grid>           
+              </Grid>
+              <Grid item>
+                <Link
+                  href="https://www.twitter.com/practicelibrary/?hl=en"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <Twitter />
+                </Link>
+              </Grid> 
             </Grid>
           </Box>
         </Box>
