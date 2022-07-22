@@ -54,6 +54,7 @@ whatIs: >-
 
   Ron Westrumは、創造的な組織における「安全」の文化について述べていますが、創造的な文化では心理的安全性が高まり、その基本となっていることが容易に理解できます。Amy Edmondsonは、2008年に "Is yours a learning organization? "という論文で「学習する組織」について述べ、同様に、企業がどれだけよく学び、どれだけ巧みに戦略やプロセスを洗練させているかを測定するための評価フレームワークを提案しています。
 
+
   Photo by [Meghan Lamle](https://unsplash.com/@mlamle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/rUpbBdEBCFs)
 whyDo: >-
   2015年、Jez Humble、Joanne Molesky、Barry O'Reillyは、"Lean Enterprise: How High Performance Organizations Innovate at Scale "を執筆し、文化がパフォーマンスにとっていかに重要であるかを強調し、Westrumの類型化モデルについて強調しました。"不健全な組織文化を補うためにコントロールしようとするのではなく、人々が自分の行動の結果に責任を持つような文化を作ることが解決策である"
