@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Technical Debt
-subtitle: The cost of reworking quickly implemented solutions
+title: 技術的負債
+subtitle: 近道したソリューションの手戻りコスト
 date: 2020-02-17T13:56:42.629Z
 authors:
   - dappleyard93
@@ -11,24 +11,16 @@ tags:
 mobiusTag: delivery
 icon: /images/Tech debt Radar.jpg
 whatIs: >-
-  Technical debt as a concept reflects the cost of rework caused by taking
-  shortcuts or choosing an easier solution, instead of using a better approach
-  that may take longer. Technical debt can in some ways be compared to monetary
-  debt in that it can accumulate 'interest', making it harder to implement
-  changes later on. Unaddressed technical debt increases software entropy, slows
-  development and may cause much bigger problems further down the line.
+  技術的負債とは、時間がかかるかもしれないがより良いアプローチを使う代わりに、近道をしたり、より簡単なソリューションを選んだりすることによって生じる手戻りのコストを示すコンセプトです。技術的負債は、「金利」が蓄積され、後で変更を実施するのが難しくなるという点で、ある意味、金銭的負債と比較することができます。技術的負債に対処できない場合、ソフトウェアのエントロピーを増大させ、開発を遅らせ、さらに大きな問題を引き起こす可能性があります。
 
 
-  You may question if it causes all these issues why use it in the first place?
+  このような問題を引き起こすのであれば、そもそもなぜ使うのかと疑問に思われるかもしれません。
 whyDo: >-
-  In the short term ; Technical debt is not necessarily a bad thing, and
-  sometimes technical debt is required to move projects forward and access value
-  now. The key is staying on top of this technical debt, ensuring visibility and
-  managing it in the backlog.
+  短期的には、技術的負債は必ずしも悪いことではなく、プロジェクトを前進させ、今すぐ価値を得るためには、技術的負債が必要な場合もあります。重要なのは、この技術的負債を常に把握し、可視性を確保し、バックログで管理することです。
 
 
-  Beware, beware the technical debt cycle! Oh too often this can become the death of a product or company as things gradually get slower and less stable all in the false believe that the decisions being made will somehow bring more value.  However as we can see below this value is short lived.
-howTo: See below for further information.
+  注意：技術的負債のサイクルに気をつけましょう！これらは、何かが徐々に遅くなり、安定しなくなるにつれて、なされた決定が何らかの形でより多くの価値をもたらすという誤った考えのもとに、製品や会社の命取りになることがよくあります。 しかし、以下に示すように、この価値は短命です。
+howTo: 詳細については、以下を参照してください。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/technical-debt-cycle.png?raw=true
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/tech-debt-radar.jpg?raw=true
