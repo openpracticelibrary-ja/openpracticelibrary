@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Code Review
-subtitle: Also a review on the developer's ego
+title: コードレビュー
+subtitle: 開発者のエゴでレビューも実施
 date: 2020-08-12T20:44:12.964Z
 authors:
   - mabulgu
@@ -10,84 +10,75 @@ tags:
 mobiusTag: delivery
 icon: /images/code-review.png
 whatIs: >-
-  Code Review is a software quality assurance activity that someone other than
-  the author(s) checks the relevant piece of code and considers questions like:
+  コードレビューとは、作者以外の人が該当するコードをチェックし、以下のような質問を検討するソフトウェアの品質保証のためのアクティビティです:
 
 
-  * **TL;DR:** Is the code [clean](https://learning.oreilly.com/library/view/clean-code/9780136083238/)? :)
+  * **TL;DR:** コードは[clean](https://learning.oreilly.com/library/view/clean-code/9780136083238/)か? :)
 
-  * **Design:** Is the code well-designed and appropriate for your system?
+  * **設計(Design):** コードはよく設計され、あなたのシステムに適しているか？
 
-  * **Functionality:** Does the code behave as the developer likely intended? Is it the right behavior for users? Looking at the requirements, are all cases/functions fully implemented?
+  * **機能性(Functionality):** 開発者が意図したと思われる動作をするコードか？ユーザーにとって正しい動作か？要求事項を見ると、すべてのケース/機能が完全に実装されているか？
 
-  * **Complexity:** Could the code be made simpler? Would another developer be able to easily understand and use this code when they come across it in the future? As Martin Fowler states in his book [Refactoring: Improving the Design of Existing Code](https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/):
+  * **複雑性(Complexity):** このコードをもっとシンプルにできないか？将来、別の開発者がこのコードに出会ったとき、簡単に理解して使うことができるだろうか？マーティン・ファウラー氏の著書[Refactoring: Improving the Design of Existing Code](https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/)の中で述べているように:
 
-    > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+    > コンピュータが理解できるコードを書くのはどんなバカでもできる。優れたプログラマーは、人間が理解できるコードを書きます。
 
-  * **Tests:** Does the code have correct and well-designed automated tests? Are the new automated tests sufficient for the new code? Do existing automated tests need to be rewritten due to the changes in the code?
+  * **テスト(Tests):** コードには正しく、よく設計された自動テストがあるか？新しい自動テストは新しいコードに対して十分か？コードの変更に伴い、既存の自動テストは書き直す必要があるか？
 
-  * **Naming:** Did the developer choose clear names for variables, classes, methods, etc.?
+  * **命名規約(Naming):** 変数、クラス、メソッドなどの名称を明確に決めているか？
 
-  * **Comments:** Are the comments clear and useful?
+  * **コメント(Comments):** コメントは明確で有用か？
 
-  * **Style:** Does the code follow the existing style guides?
+  * **スタイル(Style):** スタイルガイドに沿ったコードになっているか？
 
-  * **Documentation:** Did the developer also update relevant documentation?
+  * **ドキュメント(Documentation):** また、関連するドキュメントを更新しているか？
+
 whyDo: >-
-  The most important benefit of Code Review is [Collective Code
-  Ownership](https://wiki.c2.com/?CollectiveCodeOwnership) which is an [eXtreme
-  Programming (XP)](http://www.extremeprogramming.org/) practice that states the
-  "[Code Ownership](https://martinfowler.com/bliki/CodeOwnership.html)" of any
-  project belongs to nobody individually, but the team itself. In his book [Code
-  Complete](https://learning.oreilly.com/library/view/code-complete-second/0735619670/),
-  Steve McConnell mentions about this as "Collective Ownership in Construction"
-  which is the idea that all code is owned by a group of contributors who can
-  each equally access and modify the collectively-owned project:
+  コードレビューの最も重要な利点は、[Collective Code Ownership](https://wiki.c2.com/?CollectiveCodeOwnership)です。これは、あらゆるプロジェクトの"[Code Ownership](https://martinfowler.com/bliki/CodeOwnership.html)"は、個人ではなく、チームそのものに属するという[eXtreme Programming (XP)](http://www.extremeprogramming.org/) のプラクティスです。スティーブ・マコーネルは、彼の著書 "[Code
+  Complete](https://learning.oreilly.com/library/view/code-complete-second/0735619670/)" の中で、このことを"Collective Ownership in Construction（構造における集団所有）"と呼んでいます。これは、すべてのコードが貢献者(contributors)のグループによって所有され、貢献者はそれぞれ平等に、集団で所有するプロジェクトにアクセスし、変更することができるという考え方です:
+
+    > ソフトウェアエンジニアリングのプロセスを管理する方法の1つは、”最低価値"の段階、つまり、投資が最も少なく、問題の修正に最もコストがかからない段階で問題を発見することです。この目標を達成するために、開発者は”クオリティゲート"と呼ばれる定期的なテストやレビューを行い、ある段階での製品の品質が次の段階に進むのに十分であるかどうかを判断するのである。
 
 
-  > One part of managing a software-engineering process is catching problems at the "lowest-value" stage—that is, at the time at which the least investment has been made and at which problems cost the least to correct. To achieve such a goal, developers use "quality gates," periodic tests or reviews that determine whether the quality of the product at one stage is sufficient to support moving on to the next.
+  これによって、2つ目の重要な利点は、[Ego-less Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)が挙げられます。ジェフ・アトウッドがブログ記事で以下のように述べています：
+
+    > ***あなたはあなたのコードではありません。*** レビューの目的は問題を発見することであり、問題は必ず発見されることを忘れないでください。問題が発見されても、それを個人的に受け止めないでください。
 
 
-  By this, a second important benefit is revealed: [Ego-less Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/). As Jeff Atwood states in his blog post:
+  もし誰かが間違いを犯したとしても、この方法ならそれを受け入れ、修正することが容易になります。そして、***"あなたがどれだけ '空手'を知っていても"***、ジェフ・アトウッドが言うように、***"他の誰かがもっと知っている"***のです。
 
 
-  > **You are not your code.** Remember that the entire point of a review is to find problems, and problems will be found. Don't take it personally when one is uncovered.
+  また、開発者よりも知らない人がいる場合もあり、そのような場合には、敬意と忍耐の両方を示さなければなりません。コードレビューによって、開発者はこれらのことを短時間で理解することができます。
 
 
-  If someone does some mistakes, it will be easier to accept them and fix them with this way. And ***"no matter how much 'karate' you know"***, as Jeff Atwood stated, ***"someone else will always know more".***
+  その他の重要な利点としては、以下のようなものが挙げられます：
 
 
-  As another case, someone may know less than the developer, in that case both deference and patience has to come out. Code Reviews make the developers understand all these in a shortcut way.
+  * 知識の共有と新人エンジニアのメンタリング
 
+  * より良いコード
 
-  Other important benefits may be listed as follows:
+  * 不具合の発見
 
+  * コミッターのモチベーションを高める
 
-  * Sharing knowledge & mentoring newer engineers
-
-  * Better code
-
-  * Finding defects
-
-  * Makes committers motivated
-
-  * Results in better estimations -in long term
+  * 長期的には、より良い見積もり
 howTo: >-
-  Code Reviews types can be separated into 3, regarding to how long it takes and
-  review's intend:
+  コードレビューの種類は、所要時間とレビューの目的によって3つに分類されます:
 
 
-  * **Inspections:** Long code reviews which take about an hour. A third person as "the moderator" may also join this session as well, to moderate the review process which is highly possible to take more than an hour. In this case performance and attention-to-detail tend to drop off after that point.
+  * **インスペクション:** 1時間程度かかる長時間のコードレビュー。"モデレーター"と呼ばれる第三者がこのセッションに参加し、1時間以上かかることも大いにあり得るレビューの進行をモデレートします。この場合、これ以降はパフォーマンスや細部へのこだわりが低下する傾向があります。
 
-  * **Walkthroughs:** It is for a mid-level code that takes much less time that generally transforms into a working meeting usually intended to provide teaching opportunities for senior developers to explain concepts to newer programmers.
+  * **ウォークスルー:** これは、通常、先輩開発者が新人プログラマーにコンセプトを説明するための教育機会を提供することを目的としたワーキングミーティングに変化する、より時間のかからない中堅レベルのコードのためのものです。
 
-  * **Short reviews:** Code reviews for small changes which takes around 10 mins., especially for release-fixes or bug fixes that takes a very very short time to fix.
-
-
-  ### Efficiency of Code Review Techniques
+  * **ショートレビュー:** 小さな変更へのコードレビューであれば10分程度、特にリリースフィックスやバグフィックスは非常に短い時間で修正することができます。
 
 
-  [Mob Programming](https://openpracticelibrary.com/practice/mob-programming/), [Pair Programming](https://openpracticelibrary.com/practice/pair-programming/) -or sub-methods like [Ping-Pong Programming](https://openpracticelibrary.com/practice/ping-pong-programming/)- can be counted as code review techniques, since all of them provide the benefits of the code review and suit well code review's definition. The only difference is you are sitting side-by-side with the reviewer when you are doing "Pair Programming" and your code is reviewed as you write it. That's why, the efficiency levels are different, and can be queued from the highest efficient to lowest efficient as follows:
+  ### 効率的なコードレビュー手法
+
+
+   [モブプログラミング](https://openpracticelibrary-ja.netlify.app/practice/mob-programming/)、[ペアプログラミング](https://openpracticelibrary-ja.netlify.app/practice/pair-programming/)、 -あるいは[ピンポンプログラミング](https://openpracticelibrary-ja.netlify.app/practice/ping-pong-programming/)のようなサブメソッド- は、コードレビューの利点を提供し、コードレビューの定義によく合っているので、コードレビュー技法としてカウントすることができます。ただ、"ペアプログラミング"の場合は、レビュアーと並んで座り、コードを書きながらレビューされるという違いがあります。そのため、効率性のレベルはそれぞれ異なり、効率の高いものから低いものへと以下のように分類することができます:
+  
 
 
   ![](/images/code_review_efficency.png)
@@ -96,10 +87,10 @@ howTo: >-
   *[from "10 Faulty Behaviors of Code Review"](https://speakerdeck.com/lemiorhan/10-faulty-behaviors-of-code-review?slide=7)*
 
 
-  As it can be seen from the image, apart from doing a side-by-side programming in pairs, the highest efficient code review technique is opening "pull requests", which is a very efficient technique actively used by git providers like GitHub, GitLab, etc.
+  上記からわかるように、ペアでサイドバイサイドのプログラミングを行う以外に、最も効率の良いコードレビュー手法は"プルリクエスト"を開くことで、これはGitHubやGitLabなどのgitプロバイダで活発に使われている非常に効率の良い技術です。
 mediaGallery:
-  - link: https://openpracticelibrary.com/images/code-review.png
-  - link: https://openpracticelibrary.com/images/code_review_efficency.png
+  - link: https://openpracticelibrary-ja.netlify.app/images/code-review.png
+  - link: https://openpracticelibrary-ja.netlify.app/images/code_review_efficency.png
 resources:
   - link: https://www.wikiwand.com/en/Code_review
     linkType: web
