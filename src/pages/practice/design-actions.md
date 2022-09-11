@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: "Design Retro : Active"
-subtitle: Improve the quality and usability of your product design
+title: "デザインレトロ：アクティブ"
+subtitle: 製品設計の品質とユーザビリティを向上させる
 date: 2021-02-03T19:01:43.149Z
 authors:
   - philipdouble
@@ -10,44 +10,38 @@ tags:
   - learn
 mobiusTag: delivery
 icon: /images/design-retro-active.jpeg
-whatIs: This post-delivery practice is an opportunity to review the design
-  journey of an engagement.  It is an open forum critique involving the
-  designer, a product owner (or engagement lead) and an audience of designers (a
-  designer guild).
+whatIs: このデリバリー後に実施するプラクティスは、エンゲージメントの設計に関する一連の取り組み（ジャーニー）をレビューする機会です。 デザイナー、プロダクトオーナー（またはエンゲージメントリード）、デザイナーの観客（デザイナーギルド）が参加するオープンフォーラム形式の批評会です。
 whyDo: >-
-  The goal of this practice is to map and analyze the process and practices
-  utilized on an engagement in an attempt to collect honest feedback from owners
-  and utilize that feedback to continuously improve our practices and deliveries
-  in an effort to evaluate and maximize return on investment.
+  このプラクティスの目的は、オーナーから率直なフィードバックを収集し、そのフィードバックを活用してプラクティスとデリバリーを継続的に改善し、投資収益率を評価し最大化するために、エンゲージメントで利用したプロセスとプラクティスをマッピングおよび分析することです。
 
 
-  By performing this practice with the guild we are able to radiate the learnings immediately without a need for extra meetings or documentation. The guild also receives the feedback directly from the customer, minimizing the risk of introducing subjective or emotional biases. 
+  この実践をギルドで行うことで、余分なミーティングや文書化を必要とせず、学んだことをすぐにアウトプットすることができるのです。また、ギルドはお客様から直接フィードバックを受けるため、主観的・感情的なバイアスが入るリスクも最小限に抑えることができます。
 
 
-  Similar to a traditional retro - this is an opportunity to take a break, ideate and then take actions to improve or update the design journey - leveraging the collective wisdom of the guild to bear on the honing of the practices.
+  これは従来のレトロスペクティブと同様、休憩を取り、アイデアを出し、デザインのジャーニーを改善・更新するための行動を起こす機会であり、ギルドの集合知を活用して実践に磨きをかけます。
 howTo: >-
   **BEFORE THE DESIGN RETRO : ACTIVE**
 
 
-  1. Maintain a diary of the process and practices utilized in the design journey of the engagement.
+  1. デザインジャーニーで活用されたプロセスやプラクティスを日記に残す。
 
-  2. Present any new practices utilized on the engagement to the guild during several lightening talks in order to reduce the time of the final Design Retro : Active.
+  2. 最終的なデザインレトロ：アクティブの時間を短縮するために、数回のライトニングトークで、エンゲージメントで使用される新しいプラクティスをギルドに提示しておく。
 
-  3. Brief the product owner on the practices to be covered in the Design Retro : Active.
+  3. デザインレトロ：アクティブでカバーすべきプラクティスについて、プロダクトオーナーに説明する。
 
-  4. Product owner reflects upon the practices to be covered in the Design Retro : Active gathering quantitative and qualitative metrics and feedback on the efficacy and cost of each practice 
+  4. プロダクトオーナーは、デザインレトロ：アクティブでカバーすべきプラクティスを検討し、各プラクティスの有効性とコストに関する定量的、定性的な指標とフィードバックを収集します。
 
 
   **PERFORMING THE DESIGN RETRO : ACTIVE**
 
 
-  1. Present and review, step by step the practices and the feedback with the PO... During this step of the practice any member of the guild can stop to ask questions to clarify or help to sharpen the diagnosis
+  1. POと一緒にプラクティスとフィードバックを段階的に発表、レビューする...このステップでは、ギルドのメンバーであれば誰でも立ち止まって質問をすることができ、診断を明確にし、研ぎ澄ます手助けをすることができます。
 
-  2. Iterate until all practices of the journey are covered - wash and repeat
+  2. ジャーニーのプラクティスをすべて網羅するまで繰り返す。 - 何回も繰り返す
 
-  3. Ideate with the guild and the product owner on how the practices could have been improved and which could have been added to the Design Journey.
+  3. ギルドやプロダクトオーナーと一緒に、プラクティスをどのように改善できたか、デザインジャーニーにどれを追加できるかについてアイデアを出し合う。
 
-  4. Take Actions: Update the design journey with updated or new practices to continuously radiate and improve our design toolkit
+  4. Take Actions: デザインジャーニーを更新し、デザインツールキットを継続的に向上させる。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/Design%20Retro%20Active%20Example.png?raw=true
   - link: https://videos.learning.redhat.com/media/Riley%20Ghiles%2C%20%C3%98ystein%20Bedin%20and%20Philip%20Double%20-%20Design%20Retro%20%3A%20Active%3A%20Making%20good%20things%20better/1_3lr97ldn
