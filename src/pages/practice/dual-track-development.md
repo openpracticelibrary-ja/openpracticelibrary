@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Dual Track Delivery
-subtitle: A collaborative practice for developers and designers to build shared
-  understanding in service of outcomes based delivery.
+title: デュアル トラック デリバリー
+subtitle: 開発者とデザイナーが、アウトカムデリバリーに基づくサービスを提供するために、共通の理解を構築するためのコラボレーションプラクティスです。
 date: 2021-03-19T07:35:09.113Z
 authors:
   - chloecelani
@@ -11,52 +10,46 @@ tags:
   - methods
 mobiusTag: delivery
 icon: /images/img_1863.jpg
-whatIs: Dual Track agile is a way to incorporate user experience designers into
-  agile delivery teams to support cross team collaboration, align design and
-  development kanbans and optimise the efficiency of both teams. Lynn Miller
-  wrote about the approach in a 2006 paper titled "[Case Study of Customer Input
-  For a Successful
-  Product](https://research.cs.vt.edu/ns/cs5724papers/miller.agile.pdf)". It was
-  later popularised by Jeff Patton, and Marty Cagan.
+whatIs: デュアルトラックデリバリー（デュアルトラックアジャイル、ディアルトラック開発）は、ユーザーエクスペリエンスのデザイナーをアジャイルデリバリーチームに組み込むことで、チーム間のコラボレーションをサポートし、デザインと開発のカンバンを共有して、両チームの効率を最適化する方法です。Lynn Miller氏は、2006年に「[Case Study of Customer Input For a Successful Product](https://research.cs.vt.edu/ns/cs5724papers/miller.agile.pdf)と題する論文で、このアプローチについて書いています。その後、Jeff PattonやMarty Caganによって一般化されました。
+
 whyDo: >-
   
 
-  Dual Track Agile helps organisations address common challenges product delivery teams experience when scaling, particularly in environments where UX and development teams have been working in silos and are required to adapt to cross functional ways of working.
+  デュアルトラックアジャイルは、特にUXチームと開発チームがサイロで作業していた環境において、製品のデリバリーチームがスケーリングする時に経験する共通の課題に対応することを支援します。
 
 
-  In the absence of dual track practices, teams may experience the following challenges:
+  デュアルトラックの実践がない場合、チームは以下のような課題を経験する可能性があります:
 
 
-  * Designers becoming aware of developers need for wireframes too late
+  * デザイナーが開発者にワイヤーフレームの必要性を認識させるのが遅すぎる
 
-  * Developers receiving designs that are not possible / unnecessarily time consuming to implement
+  * 開発者が、実装不可能な／不必要に時間のかかる設計を受け取っている
 
-  * Designers working on features without understanding the priority from a delivery perspective
-
-
-  The key benefits include:
+  * デザイナーが納期的な優先順位を理解せずに機能を作ってしまう
 
 
-  * Creating a shared understanding through cross collaboration
+  主なメリットは以下の通り:
 
-  * Validating features with customers before development begins
 
-  * Less rework of code
+  * クロスコラボレーションによる共通理解の創出
 
-  * Reducing protracted feedback loops between design and development teams
+  * 開発開始前にお客様との機能検証ができる
+
+  *  コードの手戻りが少ない
+
+  * 設計チームと開発チーム間の長引くフィードバックループの削減
 howTo: >-
-  * Combine design and development teams into one team. Co-locate and setup
-  spaces for collaboration (ideally with wall space and whiteboards)
+  * デザインチームと開発チームを1つのチームにまとめる。共同作業をするためのスペースを設置する（壁面やホワイトボードがあるのが理想的）。
 
-  * Merge design tasks into the same product backlog as delivery tasks. 
+  * 設計タスクをデリバリータスクと同じプロダクトバックログに統合する。
 
-  * Enable DesignOps. DesignOps sets standards and reﬁnes processes for the design eg. design tools and systems, communications, recruitment & scheduling of participants for testing.
+  * DesignOpsを有効にする。DesignOpsは、デザインツールやシステム、コミュニケーション、テストのための参加者の募集とスケジュールなど、デザインのための標準を設定し、プロセスを再定義するものです。
 
-  * Bake in collaborative story mapping. 
+  * ストーリーマップを共同制作する。 
 
-  * Delivery team members dedicate 10% of their time per sprint to collaborating with the design team on the stories in the design kanban.
+  * デリバリーチームのメンバーは、1スプリントあたり10%の時間を、デザインカンバンのストーリーに関するデザインチームとのコラボレーションに充てる。
 
-  * Or - just pick one of the above and get started!
+  * または - 上記から1つを選び、開始してください！
 mediaGallery: []
 resources:
   - link: https://research.cs.vt.edu/ns/cs5724papers/miller.agile.pdf
