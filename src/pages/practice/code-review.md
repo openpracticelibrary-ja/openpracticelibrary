@@ -13,13 +13,13 @@ whatIs: >-
   コードレビューとは、作者以外の人が該当するコードをチェックし、以下のような質問を検討するソフトウェアの品質保証のためのアクティビティです:
 
 
-  * **TL;DR:** コードは[clean](https://learning.oreilly.com/library/view/clean-code/9780136083238/)か? :)
+  * **TL;DR:** コードは[clean](https://www.amazon.co.jp/Clean-Code-%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AB%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%81%94%E4%BA%BA%E3%81%AE%E6%8A%80-%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%89%E3%83%AF%E3%83%B3%E3%82%B4-%EF%BC%B2%EF%BD%8F%EF%BD%82%EF%BD%85%EF%BD%92%EF%BD%94-%EF%BC%A3%EF%BC%8E%EF%BC%AD%EF%BD%81%EF%BD%92%EF%BD%94%EF%BD%89%EF%BD%8E-ebook/dp/B078HYWY5X/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1SSD3RDZLZ8FC&keywords=clean+code&qid=16641)か? :)
 
   * **設計(Design):** コードはよく設計され、あなたのシステムに適しているか？
 
   * **機能性(Functionality):** 開発者が意図したと思われる動作をするコードか？ユーザーにとって正しい動作か？要求事項を見ると、すべてのケース/機能が完全に実装されているか？
 
-  * **複雑性(Complexity):** このコードをもっとシンプルにできないか？将来、別の開発者がこのコードに出会ったとき、簡単に理解して使うことができるだろうか？マーティン・ファウラー氏の著書[Refactoring: Improving the Design of Existing Code](https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/)の中で述べているように:
+  * **複雑性(Complexity):** このコードをもっとシンプルにできないか？将来、別の開発者がこのコードに出会ったとき、簡単に理解して使うことができるだろうか？マーティン・ファウラー氏の著書[Refactoring: Improving the Design of Existing Code](https://www.amazon.co.jp/%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0-%E7%AC%AC2%E7%89%88-%E6%97%A2%E5%AD%98%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%89%E5%85%A8%E3%81%AB%E6%94%B9%E5%96%84%E3%81%99%E3%82%8B-OBJECT-TECHNOLOGY/dp/4274224546/ref=pd_lpo_1?pd_rd_i=4274224546&psc=1)の中で述べているように:
 
     > コンピュータが理解できるコードを書くのはどんなバカでもできる。優れたプログラマーは、人間が理解できるコードを書きます。
 

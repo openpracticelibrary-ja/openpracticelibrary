@@ -1,6 +1,6 @@
 ---
-title: Expand and Contract Pattern
-subtitle: A pattern to help in modernisation and migration projects.
+title: Expand / Contract パターン
+subtitle:  モダナイゼーションやマイグレーションプロジェクトに役立つパターン。
 date: 2020-07-23T05:12:29.611Z
 authors:
   - gsampaio-rh
@@ -11,26 +11,64 @@ participants: []
 templateKey: practice-page
 mobiusTag: delivery
 icon: /images/expand-contract-pattern.jpg
+whatIs: >-
+  マイグレーションプロジェクトやモダナイゼーションプロジェクトは、開発者が同じアプリケーションの異なるコンポーネントやバージョンに対処する必要がある2つの例に過ぎません。リファクタリングは頻繁に行われ、A/Bテスト、カナリアリリース、Blue/Greenデプロイメントなどのプラクティスを使用してこれらの異なるモデルをデプロイしますが、ほとんどの場合、アーキテクチャにはそれらと通信する他のコンポーネントがあり、後方互換性が必要となる場合があります。両方の構造が適切に動作するように維持するのは大変なことで、新しいデータを受け取りながら古いスキーマを新しい構成へ置き換え、すでにあるものを更新するのはさらに難しいことです。Expand/Contractパターンは、これらを行うための信頼性の高い３段階の移行パターンです。
+
+whyDo: >-
+  レガシークライアントをブレークアウトせずに新しい構成へ移行させ、ユーザーに大きな影響がない状態でアプリケーションを完全に更新できるようにできます。
+
+howTo: >-
+  ### 1st phase - Expand 
+
+  最初のフェーズは”Expand（拡張）"と呼ばれます。ここでは、新しいコードを実装します。そうすることで、アプリケーションは新旧両方の実装をサポートすることができます。例えば、Shirt というテーブルがあり、このテーブルの中で、シャツの色を識別するために色の名前を使用しているとしましょう。デザイナーが”濃紺のシャツ”という意味で”青のシャツ”を要求したのに、”水色”が送られてきたことが何度かあったため、色の名前を識別のために使用すると、本番稼働中に問題が発生することがありました。この問題を解決するために、私たちはこのプロセスを変更し、色の名前を使う代わりに、これからは色の16進コードを使うことにします。
+
+
+  ![1st phase](/images/expand-contract-pattern-1-.jpg "Expand phase")
+
+  ### 2nd phase - Transition 
+
+  さて、新しいコードができたので、それをユーザー/クライアントに公開する必要があります。この時点で、両方の実装を動作させる"Transition（移行）"フェーズを開始します。こうすることで、新しいデータを新しくて”正しい”フォーマットで導入しつつ、古いデータと連携ポイントを適切に移行するための時間を確保することができます。このフェーズでは、データを新旧両方の方式で保存する必要があるため、冗長さに対処する必要があります。トリガー（DB機能のトリガー）を導入して、古いシステムにデータを保存し、トリガーがそれを変換して新しいスキームに保存できるようにすることもできます。これで自信がついたら、旧データベースから新データベースにデータを移行することができます。その際、冗長なデータを処理することを常に念頭に置いてください。移行したデータの整合性を確認し、古い構造からの読み込みを停止します。そして、このフェーズからの最後のステップは、古いスキームへの書き込みを停止することになります。
+
+
+  ### 3rd phase - Contract 
+
+  もう古い構造は使わないので、今度は”Contract（収縮）”フェーズを導入して、古いコードを構造から完全に削除します。シャツの例に戻りましょう。もう古い構造は使わないし、古いデータも適切に移行したので、colorName カラムを削除して colorCode だけを使用することができます。
+
+  ![3rd phase](/images/expand-contract-pattern-2-.jpg "Contract phase")
+
+resources:
+  - link: https://openpracticelibrary-ja.netlify.app/practice/blue-green-deployments/
+    linkType: web
+    description: "Blue/Greenデプロイメント"
+  - link: https://openpracticelibrary-ja.netlify.app/practice/canary-release/
+    linkType: web
+    description: "カナリアリリース"
+  - link: https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/
+    linkType: web
+    description: "スプリットテスト - A/B テスト"
+
 ---
-## What is it/Why use it?
+## 概要 / メリット
 
-Migration and modernization projects are just two examples where developers might need to deal with different components/versions from the same application. Refactoring is a frequent process and while using practices like A/B testing, canary releases, and blue/green deployments to deploy these distinct models, most of the time, there are other components in the architecture that communicate with them and some might require backward compatibility. It's a challenge to maintain both structures properly working and it's even more difficult to relocate old schemes to a new composition while receiving new data, and updating the one that is already in the system. The Expand and Contract pattern introduce a reliable process to do this transition, breaking the process into 3 stages where you are going to extend the interface to a new process without removing the old one, so you can transition legacy clients to the new structure without any breakouts, and then fully update the application in the absence of any major impacts to the users.
+マイグレーションプロジェクトやモダナイゼーションプロジェクトは、開発者が同じアプリケーションの異なるコンポーネントやバージョンに対処する必要がある2つの例に過ぎません。リファクタリングは頻繁に行われ、A/Bテスト、カナリアリリース、Blue/Greenデプロイメントなどのプラクティスを使用してこれらの異なるモデルをデプロイしますが、ほとんどの場合、アーキテクチャにはそれらと通信する他のコンポーネントがあり、後方互換性が必要となる場合があります。両方の構造が適切に動作するように維持するのは大変なことで、新しいデータを受け取りながら古いスキーマを新しい構成へ置き換え、すでにあるものを更新するのはさらに難しいことです。Expand/Contractパターンは、この移行を行うための信頼性の高いプロセスを導入し、プロセスを3段階に分けて、古いプロセスを削除せずに新しいプロセスにインターフェースを拡張することで、レガシークライアントをブレークアウトせずに新しい構成へ移行させ、ユーザーに大きな影響がない状態でアプリケーションを完全に更新できるようにするものです。
 
-## How to do it?
+## 実施方法
 
 ### 1st phase - Expand 
 
-The first phase is called "Expand". This is where we are going to implement our new code. Doing that the application can support both, old and new, implementations. Let's suppose that we have a table called Shirt and in this table, we use the colour's name to identify which colour the shirt has. It happens that using a name to identify the colour was causing problems during production because a couple of times the designer asked for a "blue shirt" meaning a "dark blue shirt", but received a "light blue". To resolve that problem we are going to change this process and instead of using a colour's name, we are going to use the colour's hex code from now on.
+最初のフェーズは”Expand（拡張）"と呼ばれます。ここでは、新しいコードを実装します。そうすることで、アプリケーションは新旧両方の実装をサポートすることができます。例えば、Shirt というテーブルがあり、このテーブルの中で、シャツの色を識別するために色の名前を使用しているとしましょう。デザイナーが”濃紺のシャツ”という意味で”青のシャツ”を要求したのに、”水色”が送られてきたことが何度かあったため、色の名前を識別のために使用すると、本番稼働中に問題が発生することがありました。この問題を解決するために、私たちはこのプロセスを変更し、色の名前を使う代わりに、これからは色の16進コードを使うことにします。
+
 
 ![1st phase](/images/expand-contract-pattern-1-.jpg "Expand phase")
 
 ### 2nd phase - Transition 
 
-Now that we have our new code in place we need to expose it to our users/clients. At this point, we start the "Transition" phase, where we have both implementations working. This way we are introducing the new data in the new "correct" format while this will give us time to properly migrate the old data and integration points in our architecture. During this phase will need to deal with redundancy as the data needs to be saved in both schemes, old and new. You might introduce a trigger and just save the data in the old system, so the trigger can convert it and save it in the new scheme. Once that you feel confident you can move the data from the old database to the new one. Always have in mind to deal with the redundant data that was created during that time. Make sure about the data integrity that was migrated and then stops reading from the old structure. Now the last step from this phase would be to stop writing into the old schemes.
+さて、新しいコードができたので、それをユーザー/クライアントに公開する必要があります。この時点で、両方の実装を動作させる"Transition（移行）"フェーズを開始します。こうすることで、新しいデータを新しくて”正しい”フォーマットで導入しつつ、古いデータと連携ポイントを適切に移行するための時間を確保することができます。このフェーズでは、データを新旧両方の方式で保存する必要があるため、冗長さに対処する必要があります。トリガー（DB機能のトリガー）を導入して、古いシステムにデータを保存し、トリガーがそれを変換して新しいスキームに保存できるようにすることもできます。これで自信がついたら、旧データベースから新データベースにデータを移行することができます。その際、冗長なデータを処理することを常に念頭に置いてください。移行したデータの整合性を確認し、古い構造からの読み込みを停止します。そして、このフェーズからの最後のステップは、古いスキームへの書き込みを停止することになります。
+
 
 ### 3rd phase - Contract 
 
-As we are not using the old structure anymore, now we introduce the "Contract" phase and delete the old code completely from our structure. Let's go back to our shirt example. Now that we don't use the old structure anymore, and the old data was properly migrated, you can remove the colourName column and just use the colourCode.
+もう古い構造は使わないので、今度は”Contract（収縮）”フェーズを導入して、古いコードを構造から完全に削除します。シャツの例に戻りましょう。もう古い構造は使わないし、古いデータも適切に移行したので、colorName カラムを削除して colorCode だけを使用することができます。
 
 ![3rd phase](/images/expand-contract-pattern-2-.jpg "Contract phase")
 
@@ -38,6 +76,6 @@ As we are not using the old structure anymore, now we introduce the "Contract" p
 
 
 
-* [Blue Green Deployments](https://openpracticelibrary.com/practice/blue-green-deployments/)
-* [Canary Release](https://openpracticelibrary.com/practice/canary-release/)
-* [Split Testing - A/B Testing](https://openpracticelibrary.com/practice/split-testing-a-b-testing/)
+* [Blue/Greenデプロイメント](https://openpracticelibrary-ja.netlify.app/practice/blue-green-deployments/)
+* [カナリアリリース](https://openpracticelibrary-ja.netlify.app/practice/canary-release/)
+* [スプリットテスト - A/B テスト](https://openpracticelibrary-ja.netlify.app/practice/split-testing-a-b-testing/)
