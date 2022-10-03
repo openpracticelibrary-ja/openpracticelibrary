@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Weighted Shortest Job First
-subtitle: Practice for quantitatively assessing and agreeing backlog prioritisation
+title: Weighted Shortest Job First (WSJF)
+subtitle: バックログの優先順位を定量的に評価し、合意するためのプラクティス
 date: 2021-04-13T08:58:44.242Z
 authors:
   - nick-woods
@@ -10,54 +10,50 @@ tags:
 mobiusTag: options
 icon: /images/wsjf-template.jpg
 whatIs: >-
-  Weighted Shortest Job First, WSJF, is a method for assessing the items which
-  are the most cost beneficial and the smallest job size, to infer work items we
-  should prioritise and deliver first. 
+  Weighted Shortest Job First (WSJF) はバックログに蓄積されたワークアイテムから最初にデリバリすべきワークアイテムを見つけるために、コストメリットやジョブサイズを使って評価し優先順位を定義するための方法です。
+
+  「コストメリット」はこの場合、何もしなかった場合に発生するコストと似たような意味を持ちます。もし仮に不具合の修正をしなかった場合に重大なトラブルが見込まれる場合、修正のためのコストとトラブルが発生した場合のコストが時と共に増加します。売上が見込まれる新しい機能の実装を後回しにした場合、この機能をデリバリしないことのコストは時と共に増加します。これは機会費用あるいは「遅延コスト」と呼びます。
 
 
-  Think of "Cost Benefit" in a similar way to the cost of not doing something. If we decide NOT to fix something and it leads to significant damage, then the cost to fix it and the resulting damage has gone up over time. Or if we delay building something which would have generated income if it had been ready sooner, then the cost of NOT having that thing has increased over time. This could be the opportunity cost or the "Cost of Delay".
+  遅延コスト (Cost of Delay, CoD) は次のように計算します:
 
 
-  We calculate the cost of delay as follows:
+  **遅延コスト = (ビジネス価値, BV + 緊急性, TC + リスク低減 または 機会創出, RR/OE)**
 
 
-  **Cost of Delay, CoD = (Business Value, BV + Time Criticality, TC + Risk Reduction or Opportunity Enablement, RR/OE)**
+  遅延コストを算出したら、遅延コストをジョブサイズで割ることでWSJFスコアを算出します。結果として最もコストメリットが高く、かつ小さなジョブが優先順位が高くなるようにスコアが算出されます。
 
 
-  Once we have the Cost of Delay, we can calculate the Weighted Shortest Job First score by dividing this by the job size; therefore favouring the highly cost beneficial but smallest jobs first:
+  **WSJF = 遅延コスト ÷ ジョブサイズ**
 
 
-  **WSJF = Cost of Delay ÷ Job Size**
+  このプラクティスは Don Reinertson が著書 "Principles of Product Development Flow" の中で確立したもので、それまで使われていた "Shortest Job First" を進化させたものです。Scaled Agile Framework (SAFe) で取り上げられ、原則の中に盛り込まれました。
 
-
-  This practice was established by Don Reinertson in the "Principles of Product Development Flow" as an evolution of the 'shortest job first' method used previously. It has been popularised in the Scaled Agile Framework methodology, supporting many of its guiding principles.
 whyDo: >-
-  This practice is a great way of taking big, unrefined work items, driving down
-  details and establishing a shared and objective priority, which can be easily
-  communicated to stakeholders and other interested parties.
+  この方法は未完成の大きな作業項目を細部まで掘り下げ、客観的な優先順位を確立し」、ステークホルダーやその他の関係者に共有することができる優れた方法です。
+
+  チーム全体でこのプラクティスを実施する場合、より多くの観点を用いてプライオリティや順序性を確立することができます。結果として
 
 
-  In running this exercise with the whole team, a more rounded view of the priority and sequencing is established; bringing the team closer to the urgency for working on particular items vs others.
+  In running this exercise with the whole team, a more rounded view of the priority and sequencing is established; 特定の項目と他の項目との間で作業の緊急性をチームが把握できるようになります。
+
 howTo: >-
-  Start by scoring the components of the Cost of Delay, one by one. It's
-  recommended to use a fibonacci series, emphasising the larger the number the
-  greater the uncertainty and start by sizing the smallest item and relatively
-  sizing from there.
+  遅延コストの各要素のスコアを1個ずつつけます。スコアにはフィボナッチ数列を使うことが推奨されています。フィボナッチ数列を使うことで大きな数値はそれだけ不確実な要素を含んでいることが分かります。スコアをつける際には一番小さなアイテムにまずはスコアをつけ、相対見積を用いることで他のアイテムのスコアをつけます。
 
 
-  In practice this means you could start with Business Value and choose the item on your list which you would consider the lowest, give this a score of 1. Then find the next smallest item, decide whether this is equally valuable or more valuable and then score it accordingly. Continue through the list and then move on to Time Criticality, then Risk Reduction or Opportunity Enablement. Once all these have been scored, you can sum the results to get the Cost of Delay for each item. 
+最初はビジネス価値 (BV) です。リストに並んでいるワークアイテムのうちビジネス価値が最小と思われるものに1のスコアをつけます。次に小さなビジネス価値と思われるワークアイテムを見つけ、1と同等程度か、あるいはそれよりも大きいのか、相対的にスコアをつけます。全てのワークアイテムのスコアをつけたら緊急性のスコア、リスト低減あるいは機会創出のスコアと続けます。全ての項目にスコアをつけたら、結果を合計して遅延コストを算出します。 
 
 
-  *TIP: Don't spent too long debating the exact scores of each item, this is helped along by sticking to the fibonacci series.*
+  *注意: 各アイテムのスコアを正確に定義しようと時間を使いすぎないように気をつけます。フィボナッチ数列を用いるのは詳細の議論に集中しすぎることを避けるためです。*
 
 
-  Next move onto the job sizing; with the team who will be working on these work items; similar to before, start with the item which is believed to be the smallest job size on the list and give this a 1, then relatively size other items on the list based on this.
+  次はジョブサイズに移ります。対象のワークアイテムを実際に開発するチームが、同じようにリストの中で一番小さなジョブサイズのものを見つけて1をつけます。1のアイテムと他のアイテムを比較することでリストの中の全てのアイテムのスコアを定義します。
 
 
-  Once you have the Cost of Delay and Job Size, you're ready to calculate the Weighted Shortest Job First score. The higher the score, the higher the priority of the work item.
+  遅延コストとジョブサイズが定義できたら、WSJFスコアを算出します。スコアが高いものがプライオリティが高いものと考えます。
 
 
-  *TIP: You'll notice as you go that job size plays a big role in the eventual prioritisation of work items. It may be useful to review your backlog when you have your scoring and see if the majority of the value from a work item is garnered from a smaller slice of the original backlog item.*
+  *注意: ジョブサイズが結果として算出された優先順位に対して大きな影響を持つことに気がつくと思います。スコアリングの際にバックログを見直すことをお勧めします。あるアイテムを小さく分割した時に、分割結果の要素のうち特定の要素に分割前の価値のほとんどが集約されていることがあります。*
 mediaGallery: []
 difficulty: moderate
 participants: []
