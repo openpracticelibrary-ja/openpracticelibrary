@@ -37,10 +37,7 @@ whyDo: >-
 
   In running this exercise with the whole team, a more rounded view of the priority and sequencing is established; 特定の項目と他の項目との間で作業の緊急性をチームが把握できるようになります。
 
-howTo: >-
-aaaa
-
-mediaGallery: []
+mediaGallery: 
 difficulty: moderate
-participants: []
+participants:
 ---
