@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: ROAM Boards
-subtitle: A Foundational Practice for Risk Management
+title: ROAM ボード
+subtitle: リスク管理のための基本的なプラクティス
 date: 2021-03-24T17:42:58.673Z
 authors:
   - willowmck
@@ -10,86 +10,78 @@ tags:
 mobiusTag: foundation
 icon: /images/arboretum.jpg
 whatIs: >
-  ROAM Boards are a simple visualization for categorizing project or program
-  risks into four categories:
+  ROAM ボードはシンプルな可視化のためのツールです。プロジェクトやプログラムのリスクを4つのカテゴリに分類します:
 
 
-  * **R**esolved
+  * **R**esolved (解決済み)
 
-  * **O**wned
+  * **O**wned (担当割り当て)
 
-  * **A**ccepted
+  * **A**ccepted (受け入れ)
 
-  * **M**itigated
-
-
-  **Resolved** risks are the goal of this exercise, but it's not the only end state categorization that is useful.  
+  * **M**itigated (軽減)
 
 
-  Risks that are **Accepted** may be too tough to tackle given the current state of the project or given the resources that we have available.  It may also be a shortcoming of a technical aspect of the project that will be resolved in the future via an upgrade to a certain product in use.
+  **Resolved** (解決済み) リスクはこのエクササイズのゴールであるが、これが唯一のカテゴリではありません。  
 
 
-  **Mitigated** risks are those that we can lessen the effect of by taking some action.  Note that categorization of risks as mitigated means that we have already taken that action.
+  **Accepted** (受け入れ) リスクはプロジェクトやリソースの現状では取り組むことが難しいものを分類するカテゴリです。あるいは利用している特定のプロダクトが将来アップグレードなどで解決するが、現在では技術的な弱点となっているものなども含まれます。
 
 
-  Finally, **Owned** risks require someone to own them.  More on that in *How Do I Execute ROAM Boards*.
+  **Mitigated** (軽減) リスクはアクションを取ることで影響を縮小できるものを分類するカテゴリです。注意点としては、すでにアクションをとっているものを分類するカテゴリであることです。
+
+
+  **Owned** (担当割り当て) リスクは誰かがこのリスクに責任を負った状態にした場合に使用するカテゴリです。*ROAMボードの実施結果* セクションで詳しく説明します。
 whyDo: >-
-  Often when we start projects we are well aware that not everything will go
-  according to plan and we may even have a methodology or process for risk
-  tracking as we go throughout the program.  This may be as status meetings, bug
-  reports or simply a tracking page.  However, it's often not taken as a
-  collaborative effort with the brainpower of all stakeholders involved.  
+  プロジェクト開始時、我々は全てがうまくいくわけではないことをよく知っています。そのためプログラムやプロジェクトの中で使用するリスク管理の方法やプロセスが必要になります。例えばステータスミーティング、バグレポート、何らかのトラッキングページなどです。しかしこれらは全てのステークホルダーが集まって協力の上でリスクを管理する方法ではありません。
 
 
-  The impact of ROAM boards is defined through a collaborative effort throughout the lifetime of the program.  This encourages those involved to think creatively about how not only to solve or mitigate those problems, but also creates a sense of shared responsibility needed to uncover the hard problems that may end up being roadblocks to program success.
+  ROAM ボードはプログラムやプロジェクトを通じて全てのステークホルダーの協力のもと利用するものです。解決や軽減以外の方法で問題を解決する創造的な考え方を促すものであり、またプログラムやプロジェクトの成功を阻害する大きな問題に対する共同責任の考え方を醸成するものです。
 howTo: >-
-  This activity should be done at the project kickoff as one of the final
-  activities.  It should come after planning as a way to assess the overall plan
-  and make adjustments.
+  プロジェクトキックオフの際に最後のアクティビティとして使用します。計画を作成後、計画全体を調整するために使用します。
 
 
-  **Tools Needed**
+  **ツール**
 
 
-  Begin this practice with an empty whiteboard, lots of sticky notes, pens or markers and a timer.  
+  ホワイトボード、付箋、ペンやマーカーとタイマーを用意します。  
 
 
-  **First Step: Brainwriting**
+  **ステップ1: Brainwriting**
 
 
-  *Time: 5-7 minutes*
+  *所要時間: 5-7分*
 
 
-  First, explain that we are going to be silent for 5 minutes and write down any risks you see to the plan no matter how insignificant.  Once the timer goes off, please bring your stickies to the board.
+  まず5分程度、計画に対して何かリスクがあるか、各自で考えて付箋に書き留めてもらうようにします。この時どんな小さなものでも書き留めてもらうようにしてください。時間が来たらホワイトボードに持ち寄ります。
 
 
-  **Second Step: Readouts**
+  **ステップ2: 読み上げ**
 
 
-  The facilitator should read back the cards and ask for clarity.  Note that time management is key as you should guard for any discussions that take a deep dive into problem solving.  Remind the team that we are not trying to solve these problems, only to clarify what is stated on the card.  Use affinity mapping to place related cards together or eliminate duplicates base on the team's feedback.
+  ファシリテーターは付箋を読み上げ、書いた人に説明を依頼します。問題解決にまで踏み込むディスカッションになる可能性があるので、時間管理は重要です。問題を解決したいわけではなく、ここでは付箋に書いた内容の詳細を把握する目的であることは説明してください。チームのフィードバックをもとに関連する付箋を近くに置く、統合する、重複を削除するなどで情報を整理します。
 
 
-  **Third Step: Categorization**
+  **ステップ3: 分類**
 
 
-  Go through each set of affinity mapped cards and ask which category they should land in.  At the outset of the project there should not be any cards in the **Resolved** category.  
+  カードごとあるいは親和性の高いカード群ごとにどのカテゴリに分類するかをチームで決めます。プロジェクトの対処の段階では **Resolved** カテゴリには何もないはずです。
 
 
-  **Owned** cards need an owner and this can be a point of contention.  Make sure that the team knows that putting your name on the card does not mean you have to solve it, it just means you own the conversation going forward and tracking progress.  A single owner is preferred to limit the chance that no one keeps track of the work.
+  **Owned** に分類するためにはこの課題のオーナーが必要ですが、誰がオーナーになるかは議論が必要です。オーナーと指定された人は問題を自分で解決する必要はありません。議論が進んでいること、進捗を管理していることがオーナーに求めるものです。またチームがオーナーがすべきことを認識している必要があります。誰も進捗を把握しなくなる事態を避けるため、オーナーは一人であることが望ましいです。
 
 
-  For both the **Accepted** and **Mitigated** cards an explanation should be recorded of the reason this risk is being accepted at this time or how it is being mitigated.  This should then be transferred to some project board or website that is a visible reminder of the decisions made.
+  **Accepted** および **Mitigated** については、リスクを受け入れると決定した理由や軽減策を同時に記録します。決定内容については広く周知できるよう、プロジェクトボードやWebサイトに掲載します。
 
 
-  **Fourth Step: Revise the Plan**
+  **ステップ4: 計画の見直し**
 
 
-  After taking the risks into account, teams may choose to alter their plan to move forward some work for investigation into possible solutions or may choose to remove or delay work that is in the **Accepted** category.  
+  リスクを考慮した場合、チームは計画を見直したくなることがあると思います。例えば調査の時間を確保したり、 **Accepted** カテゴリにあるものに関連するワークアイテムを除外したり、あるいはスケジュールを後ろにずらしたりなどが考えられます。
 
-
-  Lastly, the team should now have a way to keep up with the risks on a weekly or bi-weekly cadence.  This could be done during sprint planning or backlog refinement or even during scrum of scrums if the team is large enough.
-time: 30-60 minutes
+  チームは週次あるいは2週に一度などの定期的なタイミングで進捗を管理したり見直したりする必要があります。例えばスプリントプランニングやバックログリファインメント、あるいはチームが大きい場合はScrum of Scrumなどで実施します。
+time: 30-60分
 difficulty: moderate
 participants:
-  - Project or program stakeholders
+  - プロジェクトやプログラムのステークホルダー
 ---
