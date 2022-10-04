@@ -38,6 +38,8 @@ whyDo: >-
   In running this exercise with the whole team, a more rounded view of the priority and sequencing is established; 特定の項目と他の項目との間で作業の緊急性をチームが把握できるようになります。
 
 howTo: >-
+  While there are many variations for this activity, my approach described below
+  
   遅延コストの各要素のスコアを1個ずつつけます。スコアにはフィボナッチ数列を使うことが推奨されています。フィボナッチ数列を使うことで大きな数値はそれだけ不確実な要素を含んでいることが分かります。スコアをつける際には一番小さなアイテムにまずはスコアをつけ、相対見積を用いることで他のアイテムのスコアをつけます。
 
 
@@ -54,6 +56,12 @@ howTo: >-
 
 
   注意： ジョブサイズが結果として算出された優先順位に対して大きな影響を持つことに気がつくと思います。スコアリングの際にバックログを見直すことをお勧めします。あるアイテムを小さく分割した時に、分割結果の要素のうち特定の要素に分割前の価値のほとんどが集約されていることがあります。
+  
+  has worked the best for me.
+  さまざまなバリエーションがありますが、私のアプローチは以下のようになります。
+
+
+  ***始める前に…***
 mediaGallery: []
 difficulty: moderate
 participants: []
