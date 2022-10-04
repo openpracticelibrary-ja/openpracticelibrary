@@ -10,27 +10,15 @@ tags:
 mobiusTag: options
 icon: /images/wsjf-template.jpg
 whatIs: >-
-  オルタネイトワールド(Alternate Worlds)はさまざまな視点を用いて新鮮なアイデアを出すアクティビティです。
-  創造的な思考をする人はどこからともなく素晴らしいアイデアを思いつくわけではありません。
-  その代わり、彼らは一般的なものを一般的でない方法で見ているのです。
-
+aaaaa
+aaaaa
 whyDo: >-
-  ファシリテーターはよくチームリーダーから悩ましい問題に対する新しいアイデアを探索する支援を依頼されます。参加者が自らの視点を取り除くことは難しく、（現実の、あるいは想像上の）制約にとらわれて新しいアイデアを思い浮かべることができません。
-
+bbbb
+bbbb
 howTo: >-
-  While there are many variations for this activity, my approach described below
-  has worked the best for me.
-  さまざまなバリエーションがありますが、私のアプローチは以下のようになります。
-mediaGallery:
-  - link: https://github.com/openpracticelibrary/opl-media/blob/master/Alternative%20Worlds.png?raw=true
-  - link: https://github.com/openpracticelibrary/opl-media/blob/master/Alternative%20Worlds%202.png?raw=true
-resources:
-  - link: www.luma-institute.com
-    linkType: web
-    description: Luma Institute
-people: 1-10+
-time: 15-60 min
-difficulty: easy
-participants:
-  - Product Team
+ccccc
+ccccc
+mediaGallery: []
+difficulty: moderate
+participants: []
 ---
