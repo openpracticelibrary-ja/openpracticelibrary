@@ -30,8 +30,12 @@ whatIs: >-
   このプラクティスは Don Reinertson が著書 Principles of Product Development Flow の中で確立したもので、それまで使われていた Shortest Job First を進化させたものです。Scaled Agile Framework (SAFe) で取り上げられ、原則の中に盛り込まれました。
 
 whyDo: >-
-  ファシリテーターはよくチームリーダーから悩ましい問題に対する新しいアイデアを探索する支援を依頼されます。参加者が自らの視点を取り除くことは難しく、（現実の、あるいは想像上の）制約にとらわれて新しいアイデアを思い浮かべることができません。
+  この方法は未完成の大きな作業項目を細部まで掘り下げ、客観的な優先順位を確立し」、ステークホルダーやその他の関係者に共有することができる優れた方法です。
 
+  チーム全体でこのプラクティスを実施する場合、より多くの観点を用いてプライオリティや順序性を確立することができます。結果として
+
+
+  In running this exercise with the whole team, a more rounded view of the priority and sequencing is established; 特定の項目と他の項目との間で作業の緊急性をチームが把握できるようになります。
 
 howTo: >-
   While there are many variations for this activity, my approach described below
