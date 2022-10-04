@@ -28,7 +28,6 @@ whatIs: >-
 
 
   このプラクティスは Don Reinertson が著書 Principles of Product Development Flow の中で確立したもので、それまで使われていた Shortest Job First を進化させたものです。Scaled Agile Framework (SAFe) で取り上げられ、原則の中に盛り込まれました。
-
 whyDo: >-
   この方法は未完成の大きな作業項目を細部まで掘り下げ、客観的な優先順位を確立し」、ステークホルダーやその他の関係者に共有することができる優れた方法です。
 
@@ -36,7 +35,6 @@ whyDo: >-
 
 
   In running this exercise with the whole team, a more rounded view of the priority and sequencing is established; 特定の項目と他の項目との間で作業の緊急性をチームが把握できるようになります。
-
 howTo: >-
   遅延コストの各要素のスコアを1個ずつつけます。スコアにはフィボナッチ数列を使うことが推奨されています。フィボナッチ数列を使うことで大きな数値はそれだけ不確実な要素を含んでいることが分かります。スコアをつける際には一番小さなアイテムにまずはスコアをつけ、相対見積を用いることで他のアイテムのスコアをつけます。
 
@@ -55,7 +53,16 @@ howTo: >-
 
   注意： ジョブサイズが結果として算出された優先順位に対して大きな影響を持つことに気がつくと思います。スコアリングの際にバックログを見直すことをお勧めします。あるアイテムを小さく分割した時に、分割結果の要素のうち特定の要素に分割前の価値のほとんどが集約されていることがあります。
 
-mediaGallery: 
-difficulty: moderate
+mediaGallery:
+  - link: https://github.com/openpracticelibrary/opl-media/blob/master/Alternative%20Worlds.png?raw=true
+  - link: https://github.com/openpracticelibrary/opl-media/blob/master/Alternative%20Worlds%202.png?raw=true
+resources:
+  - link: www.luma-institute.com
+    linkType: web
+    description: Luma Institute
+people: 1-10+
+time: 15-60 min
+difficulty: easy
 participants:
+  - Product Team
 ---
