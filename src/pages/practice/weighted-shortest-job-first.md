@@ -22,8 +22,12 @@ whyDo: >-
 
 
 howTo: >-
-ccccc
-ccccc
+  While there are many variations for this activity, my approach described below
+  has worked the best for me.
+  さまざまなバリエーションがありますが、私のアプローチは以下のようになります。
+
+
+  ***始める前に…***
 mediaGallery: []
 difficulty: moderate
 participants: []
