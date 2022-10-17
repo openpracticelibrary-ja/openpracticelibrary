@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: 4Ls Retrospective
-subtitle: A team activity to understand what was liked, learned, lacked, and
-  longed for at the completion of a sprint or project.
+title: 4Lsレトロスペクティブ
+subtitle: スプリントやプロジェクトの終了時に、何が良かったか、何を学んだか、何が足りなかったか、何が待ち望まれたかを理解するためのチーム活動。
 date: 2021-10-08T18:50:13.721Z
 authors:
   - scheurich
@@ -14,142 +13,139 @@ whatIs: >-
   What is the 4Ls Retrospective?
 
 
-  The 4 Ls retrospective is a team activity upon completion of a sprint or project designed to understand what worked, what didn’t, and what can be improved. The 4Ls stand for liked, learned, lacked, and longed for.
-whyDo: After a sprint/project, it can be helpful for the team to pause and take
-  stock of what happened. The 4Ls retrospective is a useful tool that empowers
-  the team to highlight the positive elements of a sprint/project and understand
-  the negative, allowing them to think from a factual rather than emotional
-  perspective.
+  4Lsレトロスペクティブは、スプリントやプロジェクトが完了したときに、何がうまくいき、何がうまくいかなかったのか、そして何が改善できるのかを理解するために行われるチームの活動です。4Lとは、like（好き）、learned（学んだ）、lacked（足りない）、longed for（憧れ）の頭文字をとったものです。
+whyDo: スプリントやプロジェクトの後、一旦立ち止まって何が起こったかを把握することは、チームにとって有益なことです。4Lsのレトロスペクティブは、チームがスプリントやプロジェクトのポジティブな要素を強調し、ネガティブな要素を理解し、感情的ではなく事実の観点から考えることを可能にする有用なツールです。
+
 howTo: >-
-  At the end of each sprint/project, the team will provide input on what they
-  liked, learned, lacked and longed for across key workstreams.
+  各スプリント/プロジェクトが終了した時点で、チームは主要なワークストリームについて、良かった点、学んだ点、不足していた点、待ち望んでいる点などの情報を提供します。
 
 
-  The targeted outcome will be a prioritized list of actionable improvements with assigned owners on focus areas designed to build trust, improve efficiency, and increase engagement as we plan for the next sprint.
+  その結果、次のスプリントを計画として、信頼の構築、効率の向上、エンゲージメントの向上を図るために、重点分野のオーナーとともに、実行可能な改善点の優先順位付けが行われます。
 
 
-  ### Sample Agenda
+  ### サンプル アジェンダ
 
 
-  * Introduction
+  * イントロダクション
 
-    * Kickoff 4Ls definition, workshop logistics, target outcomes
-  * Collection
+    * キックオフ 4Lsの定義、ワークショップの運営方法、目標成果
+  * コレクション
 
-    * Time boxed activity for participants to document in a digital collaboration tool (i.e. Miro) what was liked, learned, lacked and longed for in the last sprint/project phase
-  * Categorization
+    * 参加者がデジタルコラボレーションツール（Miroなど）に、前回のスプリント/プロジェクトフェーズで気に入ったこと、学んだこと、不足したこと、待ち望んだことを記録するタイムボックス形式のアクティビティ
+  * 分類
 
-    * Summarize & group lessons into themes
-  * Prioritization
+    * サマリしてテーマ別に各アイテムをグルーピング
+  * 優先付け
 
-    * Time boxed activity for participants to vote on top lessons to action
-  * Next Steps
+    * 参加者が行動すべき上位の教訓・アイテムを投票するタイムボックス形式のアクティビティ
+  * 次のステップ検討
 
-    * Assign owners to recommend future improvements for prioritized lessons. Regroup to share findings, align with account team & leadership, plan and implement in next sprint
+    * 優先順位の高い教訓・アイテムについて、今後の改善点を提案するオーナーを任命します。発見を共有するために再グループ化し、アカウントチームとリーダーシップへ連携し、次のスプリントで計画し、実装します。
 
-  ### Workshop Logistics
+  ### ワークショップの運営方法
 
 
   Google Meet:
 
 
-  * Plan for 60 minutes
+  * 60分セッションの計画
 
-  * Introduction - 5 minutes
+  * イントロダクション - 5分
 
-  * Collection - 15-20 minutes
+  * コレクション - 15-20分
 
-  * Categorization - 10 minutes
+  * 分類 - 10分
 
-  * Prioritization - 10 minutes
+  * 優先付け - 10分
 
-  * Next Steps - 10 minutes
-
-
-  Please use camera, chat and feel free to use the hand raise feature.
+  * 次のステップ検討 - 10分
 
 
-  Miro Board:
+  カメラ、チャット、挙手機能を自由に使ってください。
 
 
-  Participants access a digital collaboration tool, such as a Miro board.
+  Miroボード:
 
 
-  The board is divided into four quadrants to represent Liked, Learned, Lacked and Longed For. The quantity of quandrants may be adjusted to reflect workstreams as needed by editing the collaboration board (i.e. Miro).
+  参加者は、Miroボードなどのデジタルコラボレーションツールにアクセスします。
 
 
-  Participants use “sticky notes” to post what was Liked, Learned, Lacked and Longed For during the collection segment.
+  ボードは4つの象限に分けられ、「Liked」、「Learned」、「Lacked」、「Longed For」を表します。ボードの数量は、ワークストリームを反映させるために必要であれば、コラボレーションボード（Miroなど）を編集すること調整することができます。
 
 
-  Team to collaborate and align on categorization of “themes” (i.e. Planning, Technical, Leadership, Communication, etc..)
+  参加者は「付箋」を使って、コレクションセッション中に気に入ったこと、学んだこと、不足したこと、憧れたことを貼り付けます。
 
 
-  Participants use “voting buttons” to select top actionable improvements during the prioritization segment.
+  ”テーマ”の分類（例えば、企画、技術、リーダーシップ、コミュニケーションなど）について、チームで協力・連携して書き出します。
 
 
-  ### Facilitating the 4Ls Retrospective
+  優先順位付けの際、参加者は「Voteボタン」を使って、実行可能な改善点を上位から選びます。
+  
+
+  ### 4Lsレトロスペクティブのファシリテーション
 
 
-  ***Set the tone and expectations***
+  ***トーンと期待値の設定***
 
 
-  Before starting the retrospective, make sure all participants understand its purpose. If the sprint/project being reflected on was stressful, consider addressing this openly and honestly before starting the retrospective. It is ultimately the facilitators job to set the tone and expectations for the activity, and it shouldn’t be taken lightly. The most successful retrospectives are completed when the team is fully bought into its importance and value, so the facilitator must take extra care to ensure this has happened before starting.
+  レトロスペクティブを始める前に、参加者全員がその目的を理解していることを確認する。もしスプリント/プロジェクトがストレスの多いものだった場合、レトロスペクティブを始める前に、そのことについて率直かつ正直に話し合うことを検討してください。活動の方向性と期待を定めるのは、最終的にはファシリテーターの仕事であり、軽視してはいけません。最も成功するレトロスペクティブは、チームがその重要性と価値を完全に理解しているときに機能します。したがって、ファシリテーターは、開始前にこれが起こったことを確認するために特別な注意を払う必要があります。
 
 
-  ***Determine what was liked about the sprint/project***
+  ***スプリント／プロジェクトで何が良かったかを見極める***
 
 
-  The first item in the 4 Ls retrospective is intended to uncover what people liked about the sprint/project. This is intentionally broad and open ended. It’s up to the facilitator to guide participants into more and more useful insights into what they liked, and why they liked it. The goal is to uncover the underlying reasons for why a particular thing was liked, in order to ensure it happens again during the next sprint/project.
+  4Lsレトロスペクティブの最初の項目は、人々がスプリント/プロジェクトについて何を気に入っているかを明らかにすることを目的としています。この項目は意図的に幅広く、自由に設定できるようになっています。参加者が何を気に入ったか、そしてなぜそれを気に入ったかについて、より多くの有益な洞察を得るよう参加者を導くのは、ファシリテーター次第です。目標は、特定のものが好まれた根本的な理由を明らかにすることであり、次のスプリント/プロジェクトでそれが再び起こるようにするためです。
 
 
-  ***Determine what was learned***
+  ***何を学んだかを見極める***
 
 
-  The most valuable lessons are often learned from mistakes made, or challenges overcome during the completion of actual work. Unfortunately, these lessons often go unshared with the team. This element of the retrospective asks participants to reflect on and share anything they might have learned.
+  最も貴重な教訓は、実際の仕事を完成させる過程で生じた失敗や克服すべき課題から得られることが多いです。しかし残念ながら、このような教訓はチーム内で共有されないことが多いのです。この振り返りの要素は、参加者が学んだことを振り返り、共有することを求めるものです。
 
 
-  It’s important for the facilitator to ensure the team understands no learning is too small to share, as well as to guide people into uncovering more learnings than they might have realized.
+  ファシリテーターは、共有するには小さすぎる学びはないとチームに理解させるとともに、自分たちが思っている以上の学びを発見できるように導くことが重要です。
 
 
-  ***Uncover what was lacked***
+
+  ***不足しているものを補う***
 
 
-  This step is designed to surface everything that held the team back during the sprint/project. This can be something as simple as slow communication with an outside team, or something more complicated that requires extra analysis to uncover. The purpose of documenting what was lacked during a sprint/project is to make sure you don’t run into the same problem in future sprints/projects.
+  このステップでは、スプリントやプロジェクトにおいて、チームの足かせとなったものをすべて洗い出すことを目的としています。これは、外部チームとのコミュニケーションの遅れのような単純なものから、明らかにするために特別な分析を必要とするような複雑なものまであります。スプリントやプロジェクトで何が足りなかったかを文書化する目的は、今後のスプリントやプロジェクトで同じ問題に遭遇しないようにするためです。
 
 
-  It’s common for participants to feel uncomfortable sharing what was lacking if they feel leadership doesn’t want to hear about it. This might be because they believe the solution is too expensive or time consuming to be worth investing in. Either way, it’s again up to the facilitator to ensure the team feels comfortable sharing as much as possible during this step.
+  参加者は、リーダーシップがそのことについて聞きたくないと感じた場合、何が不足していたかを共有することに気まずさを感じるのが一般的です。これは、その解決策が高価であったり、時間がかかったりするため、投資する価値がないと考えるからかもしれません。いずれにせよ、このステップでチームが安心してできるだけ多くのことを共有できるようにするのは、やはりファシリテーター次第です。
 
 
-  ***Document what was longed for***
+  ***待ち望まれたものの文書化***
 
 
-  The last element of the 4 Ls retrospective involves reflecting on what was longed for. This can be something tangible like better equipment, or something less tangible, like more or less involvement from leadership.
+  4Lsレトロスペクティブの最後の要素は、待ち望んでいたものを振り返ることです。これは、より良い機器のような目に見えるものであっても、リーダーシップの関与の多寡のような目に見えないものであってもかまいません。
 
 
-  Be careful that the ‘Longed for’ section isn’t simply a mirror of the what was lacked section. It will often be similar, but it gives you the opportunity to determine and prioritize what is needed based on the positive impact it may have. For example, if ‘faster computers’ was listed in the ‘Lacked’ section, ‘fast computers’ isn’t necessarily the only thing to add in this step. You might consider including ‘faster internet’ or ‘better software’ as other things that would solve for what was lacked.
+  「憧れ」のセクションが、「欠けていたもの」のセクションの単なる鏡にならないように注意してください。似たようなものになることが多いのですが、何が必要かを判断し、それがもたらすであろうプラスの影響に基づいて優先順位をつける機会を与えてくれるのです。たとえば、「欠けているもの」のセクションで「より速いコンピュータ」がリストアップされていた場合、このステップで追加すべきは、必ずしも「速いコンピュータ」だけではありません。足りないものを解決するものとして、「より速いインターネット」や「より良いソフトウェア」などを含めることを検討してもよいでしょう。
 
 
-  ***5 tips to a successful 4Ls retrospective***
+  ***4Lsレトロスペクティブを成功させるための5つのTips***
 
 
-  1. Give people space and time to reflect. 30-60 minutes of uninterrupted time to take stock of their thoughts.
+  1. 人々に考えるためのスペースと時間を与える。30～60分間、自分の考えを把握するための中断されない時間。
 
-  2. Ask everyone to turn off their devices so they can focus on the retrospective. If distracted by phones or laptops, it will be harder to reflect.
+  2. 振り返りに集中できるよう、全員に機器の電源を切るよう依頼する。携帯電話やノートパソコンに気を取られていると、振り返りがしにくくなります。
+  
+  3. 正解も不正解もないことを皆に保証してください。これはテストではありません。何がうまくいき、何がうまくいかなかったかについて、率直なフィードバックができないと感じたら、レトロスペクティブは貴重な洞察を見いだすことはできないでしょう。
 
-  3. Assure everyone that there are no right or wrong answers. It’s not a test! If people feel like they are unable to give honest feedback on what worked and what didn’t, the retrospective won’t uncover valuable insights.
+  4. 感情ではなく、行動に焦点を当てるよう、チームに促す。目的は、客観的なフィードバックと振り返りを収集することです。スプリントがストレスフルだった場合、振り返りを行う前に、緊張を和らげ、雰囲気を明るくするために、できることを検討する。(深呼吸、背中をたたく)
 
-  4. Encourage team to focus on action, not emotion. The goal is to collect objective feedback and reflection. If sprint was a stressful one, consider a symbolic debrief activity to ease tension and lighten the mood before holding your retrospective. (Deep breath, pat on back)
+  5. 4Lsレトロスペクティブを使用して、困難なスプリントの後にリモートチームを集め、制約のないコラボレーションを行います。リモートチームは孤立しがちで、正式な報告や反省の場がないため、士気が低下することがあります。オンラインレトロスペクティブを開催すると、チームの距離が縮まるだけでなく、何が困難で何がストレスだったかを発見し、次のスプリントがスムーズに進むようにする機会を与えることができます。
+  
 
-  5. Use the 4Ls retrospective to bring remote teams together after a difficult sprint to collaborate without constraints. Remote teams often feel isolated, and the lack of a formal debrief and reflection can harm morale. Hosting an online retrospective not only brings teams closer, but gives an opportunity to discover what was challenging or stressful to ensure the next sprint runs smoother.
-
-
-  ***Assign followups and action items***
-
-
-  This is perhaps the most important step in the retrospective process. If you don’t take the time to assign followup action items to specific people or teams, you won’t gain much from having completed the process.
+  ***フォローアップとアクションアイテムの割り当て***
 
 
-  Before ending the retrospective, ask for volunteers to own next steps. For any followup that doesn’t have a volunteer, assign it to the person most responsible for uncovering the insight during the retrospective. Close the session out by confirming everyone understand what is expected of them moving forward, and thank them for their time.
+  これは、おそらくレトロスペクティブプロセスで最も重要なステップです。もし、特定の人やチームにフォローアップのアクションアイテムを割り当てる時間を取らなければ、プロセスを完了したことから多くを得ることはできないでしょう。
+
+
+  レトロスペクティブを終了する前に、次のステップを担当するボランティアを募りましょう。ボランティアがいないフォローアップについては、レトロスペクティブで洞察を発見した最も責任のある人物へ割り当てます。最後に、全員が今後期待されることを理解し、時間を割いてくれたことに感謝し、セッションを終了します。
 resources:
   - link: https://miro.com/templates/4-ls-retrospective/
     description: Miro Board
