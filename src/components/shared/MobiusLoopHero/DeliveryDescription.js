@@ -3,11 +3,10 @@ import { Box, Typography } from "@material-ui/core";
 const DeliveryDescription = () => (
   <Box>
     <Typography gutterBottom variant="body2">
-      Delivery practices focus on delivering the options you have decided on and
-      getting feedback from the users and stakeholders.
+    デリバリープラクティスは、決定した選択肢（Options）を提供し、ユーザーやステークホルダーからフィードバックを得ることに重点を置いています。
     </Typography>
     <Typography variant="body2">
-      <i>What was the measured impact? What did you learn?</i>
+      <i>測定されたインパクトはどのようなものでしたか？何を学んだのでしょうか？</i>
     </Typography>
   </Box>
 );
