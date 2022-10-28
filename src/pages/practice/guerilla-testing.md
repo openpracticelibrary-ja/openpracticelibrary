@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Guerilla Testing
-subtitle: Lean, agile and low-cost method of quickly capturing user feedback
+title: ゲリラテスト
+subtitle: ユーザーからのフィードバックを素早く取り込む、リーン、アジャイル、ローコストな手法
 date: 2021-03-23T16:27:41.082Z
 authors:
   - dsunwar
@@ -10,113 +10,112 @@ tags:
 mobiusTag: delivery
 icon: /images/screenshot-2021-03-23-at-15.56.00.png
 whatIs: >-
-  > #### *“Have trouble getting actual customers for usability testing because
-  of the company's legacy systems, or vice versa ?”*
+  > #### *“レガシーシステムである、もしくはその逆であるが故に、ユーザビリティ・テストのための実際の顧客を集めるのが難しいですか？”*
 
   >
 
-  > #### *“Don't have the money and time and experts to do usability testing?” or,*
+  > #### *“ユーザビリティテストを行うためのお金や時間、専門家がいない？” or,*
 
   >
 
-  > #### *“The organisation thinks usability testing isn’t necessary.”*
+  > #### *“ユーザビリティテストは必要ないと考えている組織。”*
 
 
-  * Guerrilla testing is a low-cost, lean, and agile method of collecting data for testing and validating a hypothesis in a short session focused on specific tasks.
+  * ゲリラテストとは、特定のタスクに焦点を当てた短いセッションで、仮説のテストと検証のためのデータを収集する、低コストでリーンかつアジャイルな手法のことです。
 
-  * Participants are not recruited in advance instead approached in a number of environments by the team, where similar demographics are targeted. For e.g shoppers in coffee shops, admin in an office environment and more.
+  * 参加者は事前に募集されることはなく、チームが様々な環境で、似たような層をターゲットにしてアプローチしていきます。例えば、コーヒーショップでの買い物客、オフィスでの管理職などです。
 whyDo: >-
   
 
-  * A simple method for collecting enough data to make well-informed strategic design decisions.
+  * 十分な情報を得た上で戦略的な設計を決定するための十分なデータを収集するシンプルな方法です。
 
-  * Running these tests doesn't necessitate a big budget
+  * これらのテストを実行するために、大きな予算は必要ありません。
 
-  * Assist senior stakeholders and product teams in understanding the importance of usability testing and customer feedback
+  * ユーザビリティテストと顧客フィードバックの重要性を理解するために、シニアステークホルダーとプロダクトチームを支援します。
 
-  * Everyone on the team can facilitate without any research experts
+  * 研究の専門家がいなくても、チームのみんながファシリテーターになれます。
 
-  * Flexible approach that can be implemented at any stage of product development
+  * 製品開発のどの段階でも実施可能な柔軟なアプローチです。
+  
 howTo: >-
-  1. **Preparations:**
+  1. **準備:**
 
 
-  * Learning outcome: Agree with the team on the list of task you as a team want to learn from the usability testing
+  * 学習成果: ユーザビリティテストからチームとして学びたいタスクのリストをチームと合意します。
 
-  * Prepare scenarios: Make sure the tasks are easy to read, understand and follow with clear instructions. For example:
+  * シナリオ準備: タスクは、読みやすく、理解しやすく、明確な指示があるものにしましょう。例えば：
 
-    *Scenario: You are “admin” in xx company, your daily job…...*
+    *シナリオ: あなたは○○会社で「管理者」として、日々の仕事を…...*
 
-    *Task: Add “xx company details” and submit.*
-  * Create a prototype: This can be low-fidelity to interactive
+    *タスク: “○○会社詳細”を追加してサブミットする。 *
+  * プロトタイプを作成: Lo-Fi（極端に高音質なものではない録音環境を志向する価値観）からインタラクティブまで対応可能です。
 
-  * Participants: Agree on the total number of users and their demographics required. In addition, 3-5 users should suffice for this type of usability testing, as the emphasis is primarily on qualitative data.
-
-
-  2. **Logistics:**
+  * 参加者: 必要なユーザーの総数およびその属性について合意してください。また、このタイプのユーザビリティ・テストでは、主に定性的なデータを重視するため、3～5人のユーザーで十分です。
 
 
-  * Find a location: It’s best to test in the location that is specific to targeted demographics and environment who use the applications if possible
-
-    *For e.g: If your app is about buying a coffee, you can arrange a testing in a coffee shop*
-  * Always get permission: make sure the venue's staff is aware of your plans.
-
-  * Recording equipments: Always take camera or phone to take a video
-
-  * Extra helping hands: Always take someone with you as an observer and notetaker to capture insights.
+  2. **ロジスティクス:**
 
 
-  3. **Introduce and learn about your participants:**
+  * 場所を見つける: 可能であればターゲットとする層やアプリケーションを利用する環境に特化した場所でテストするのがベストです。
+
+    *例: コーヒーを買うためのアプリであれば、コーヒーショップでのテストをアレンジすることができます。*
+  * 常に許可を得る: 会場のスタッフに予定を伝えてください。
+
+  * レコーディング機材: 常にカメラや携帯電話で動画を撮影します。
+
+  * エクストラ: 観察者やメモ係として常に誰かを連れて行き、洞察を得ます。
 
 
-  * Approach and introduce yourself, then inquire if they have 10-20 minutes available.
+  3. **参加者の紹介と学習:**
 
-  * Check to see if they meet the particular criteria (demographics) you're looking for.
 
-    For e.g: What is their level of technological knowledge? What devices do they use on a daily basis? How often do they use it?
+  * ターゲットへ近づいて自己紹介をし、10～20分ほど時間があるかどうか尋ねます。
 
-  4. **Explain the intent of your usability testing:**
+  * あなたが探している特定の条件（デモグラフィック：人口統計学的な属性の総称）を満たしているかどうかを確認します。
 
-      Give specifics on the testing's purpose and how the results will be helpful in the future.
+    例: 技術的な知識はどの程度なのか？彼らは日常的にどんなデバイスを使っているのか？どれくらいの頻度で使っているのか？
 
-     *“We are not testing you. We are just testing the flow of the application. Your feedback will help us to improve our product.”*
-  5. **Ask Permission:**
+  4. **ユーザビリティ・テストの意図の説明:**
 
-   Inquire if the participant is okay with you filming and photographing them for observation purposes.
+      テストの目的、結果が今後どのように役立つかを具体的に説明します。
 
-   *“Are you ok for us to take your picture and video while conducting a usability testing? If yes, Are you also OK if we use the assets for internal/ External use?”*
+     *“私たちはあなたをテストしているのではありません。アプリケーションのフローをテストしているだけです。あなたのフィードバックは、私たちの製品の改善に役立ちます。”*
+  5. **許可を得る:**
 
-  6. **Always apply “Think out loud” practice:**
+   観察のために参加者を撮影することに同意するかどうか尋ねてください。
 
-    Understanding the process that goes on behind the user's eyes is a good idea.
+   *“ユーザビリティテストを実施する際に、写真や動画を撮影してもよいですか？また、そのアセットを社内外で使用することに問題はありませんか？”*
 
-   *“I will also ask you to think out loud practice, meaning just say what you are thinking, trying to accomplish and expect to happen throughout”*
+  6. **常に「声に出して考える」プラクティスを実践:**
 
-  7. **Observe their interaction, also ASK questions but don't lead**
+    ユーザーの目の前で進行しているプロセスは、良いアイデアだと理解します。
 
-    Observe their actions and responses, and if they seem stuck, inquire as to why they are stuck and what they expect to happen next. Don't give them the answer or tell them what you expect to happen. Instead, inquire of them.
+   *“また、声に出して考えるプラクティスをしてもらいます。つまり、あなたが考えていること、達成しようとしていること、期待することを、そのまま口に出してくださいということです。”*
 
-   *“What happened, can you tell us what you are thinking?”*
+  7. **相手の行動を観察し、質問する。ただし、リードしない。**
 
-   *“In your opinion, What do you think should happen next?”*
+    相手の行動や反応を観察し、行き詰まっているようであれば、なぜ行き詰まっているのか、次に何が起こることを期待しているのかを尋ねてください。答えを与えたり、あなたが期待することを伝えたりしてはいけません。代わりに、相手に質問してください。
 
-  8. **Capture insights and share:**
+   *“何が起こったのか、何を考えているのか？を教えてください。”*
 
-   There are various ways of capturing findings and share with the wider team including the stakeholders. You can either make a note or rate in the following order along with your notes:
+   *“この後、どのような展開を考えていますか？”*
 
-   1 - Completed without any problem
+  8. **インサイト（洞察）の取得と共有:**
 
-   2 - some problems
+   発見を捕らえ、ステークホルダーを含むより広いチームと共有するには、さまざまな方法があります。メモを作成するか、メモと一緒に以下の順序で評価することができます:
 
-   3 - Not completed, some problem
+   1 - 問題なく完了
+
+   2 - いくつかの問題点
+
+   3 - 未完了、いくつかの問題点
 
   ![Guerrilla Testing, Usability Testing](/images/screenshot-2021-03-23-at-15.44.58.png "Empathy map and task insight")
 
 
-  **9. Thank and incentivize participants:**
+  9. **参加者への感謝とインセンティブ:**
 
-
-  Finally, thank the participants for their time and, if necessary, provide incentives.
+   最後に、時間を割いてくれた参加者に感謝し、必要であれば、インセンティブを与えます。
 mediaGallery:
   - link: https://www.youtube.com/watch?v=0YL0xoSmyZI
 resources:
