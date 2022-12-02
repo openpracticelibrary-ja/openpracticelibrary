@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Lightning Talks
-subtitle: Short, highly focused presentations
+title: ライトニングトーク
+subtitle: 短時間に集中して行うプレゼンテーション
 date: 2021-03-12T16:53:09.861Z
 authors:
   - karenbatt
@@ -12,106 +12,98 @@ tags:
 mobiusTag: delivery
 icon: /images/lightning-talks.png
 whatIs: >-
-  Lightning talks are short, highly focused and effective presentations.  When
-  they are done well, they are a great way to get your point across in a limited
-  period of time. The time restriction forces speakers to edit the message, and
-  only the critically important elements remain. They have been used a lot by
-  scientists and tech groups to switch the focus from “look at everything I
-  know” to “what is the most important thing for you to know right now?”
+  ライトニングトークとは、短時間で集中して、効果的なプレゼンテーションを行うものです。限られた時間の中で、自分の言いたいことを伝えるには最適な方法です。時間的な制約があるため、スピーカーはメッセージを編集せざるを得ず、決定的に重要な要素だけが残ることになります。科学者や技術者グループが、「私の知っていることをすべて見てください」から「あなたが今知っておくべき最も重要なことは何ですか」に焦点を切り替えるためによく使われています。
 
 
-  Lightning talks have a specific format and recommended structure, that make them stand out from other short talks.
+  ライトニングトークには、他のショートトークとは一線を画す、特定のフォーマットと推奨構成があります。
 
 
-  For your Lightning talk there are 3 main formats to choose from: 1) Lightning talk, 2) PechaKucha® and 3) Ignite.
+  ライトニングトークには、1) ライトニングトーク、2) PechaKucha®、3) Igniteの3つの主なフォーマットがあり、選択することができます。
 
 
-  **1) Lightning talk**
+  **1) ライトニングトーク**
 
 
-  * A lightning talk is usually 5 minutes long, or can be up to 10 (predetermined limit)
+  * ライトニングトークは通常5分、最大10分（所定の制限あり）まで可能。
 
-  * Slide use is optional
+  * スライド使用はオプション
 
-  * The number of slides used is also optional
+  * 使用するスライドの枚数も任意
 
-  * Slides are advanced by the speaker, and there is no restriction on how long a slide can be displayed
+  * スライドは演者によって進められ、スライドの表示時間には制限がない
 
 
   **2) PechaKucha®**
 
 
-  PechaKucha® means “chit chat” in Japanese, and this style of talk came from a desire to "talk less, show more”. It is different to a traditional Lightning talk in the following ways:
+   PechaKucha®とは日本語で「雑談」を意味し、「あまり話さず、たくさん見せよう」という思いから生まれたトークスタイルです。従来のライトニングトークとは、次のような点で異なります。:
 
 
-  * It requires the use of 20 slides
+  * 20枚のスライドを使用することが必要
 
-  * Slides advance automatically every 20 seconds
+  * 20秒ごとにスライドが自動で進む
 
-  * Talk time is always 6 minutes 40 seconds
+  * 通話時間は常に6分40秒
 
 
   **3) Ignite**
 
 
-  Ignite talks are similar to PechaKucha® talks in concept, and also require 20 slides. There are 2 differences:
+  IgniteトークはPechaKucha®トークとコンセプトが似ており、また20枚のスライドが必要です。2つの違いがあります。:
 
 
-  * Slides advance automatically every 15 seconds
+  * スライドは15秒ごとに自動で進む
 
-  * Talk time is always 5 minutes exactly
+  * 通話時間は常に5分ジャスト
 whyDo: >-
-  Lightning talks are really useful for introducing a new topic, for presenting
-  a challenge/call to action, for sharing knowledge/experience and can be a
-  refreshing way to provide status updates.
+  ライトニングトークは、新しいトピックの紹介、課題・行動要請の提示、知識・経験の共有、近況報告などに非常に有効な手段です。
 
 
-  Lightning talks are a great way for scrum teams to share their experience with each other either specifically about the current sprint challenges or the project more generally.  The team can also use them to give feedback to the product owner and other stakeholders at the end of a sprint. Even the product owner can use this format to share their vision/business needs with the scrum team/s for upcoming sprints.
+  ライトニングトークは、スクラムチームにとって、現在のスプリントの課題またはプロジェクト全般に関する体験を共有するための素晴らしい方法です。また、スプリントの終わりにプロダクトオーナーや他のステークホルダーにフィードバックを与えるためにも使うことができます。プロダクトオーナーも、このフォーマットを使って、次のスプリントのビジョンやビジネスニーズをスクラムチームと共有することができます。
 
 
-  Lightning Talks are often used in “lunch and learns” where the team listens to different members presenting solutions, ideas and other relevant content related to the sprint or larger project. You can also use lightning talks as a way to present a topic, and then debate together what has been presented, just don’t forget to time box this part too!
+  ライトニングトークは、スプリントやプロジェクトに関連したソリューションやアイデア、その他の関連コンテンツをさまざまなメンバーが発表する「ランチ＆ラーニング」でよく使用されます。また、トピックを提示し、提示された内容について一緒に議論する方法としても使用できます、この場合もタイムボックスをお忘れなく!
+
 howTo: >-
-  Here’s how to structure your talk to make it a Lightning talk, rather than
-  anything else:
+  ここでは、むしろライトニングトークになるような構成にする方法を紹介します:
 
 
-  * Confirm what Format your Lightning talk will follow, and the required length
+  * ライトニングトークのフォーマットと必要な長さを確認
 
-  * Write your Title
+  * タイトルを書く
 
-  * Write your Conclusion (think of this as marking your destination on your map)
+  * 結論を書く（地図に目的地を記すようなものだと考えてください）
 
-  * What is the Idea you want to get across? (keep this to ONE line only)
+  * 伝えたいことは何ですか？(1行にまとめてください。）
 
-  * What is the Main objection to this idea/ main problem faced? (again, just ONE line)
+  * このアイデアに対する主な反論／直面している主な問題は何ですか？(こちらも、1行で。）
 
-  * Bring the Idea+Main objection together (this is often a balance, so acknowledge the tension between the 2 elements, and focus on the outcome you want to achieve)
+  * アイデア＋主な反論をまとめる（これは多くの場合、バランスなので、2つの要素の間の緊張を認め、達成したい成果にフォーカスする。）
 
-  * Now go back and develop what else is absolutely crucial to say (only this, nothing more). Think about your Idea, your Main Objection, and how they come together.
-
-
-
-
-  I find it helpful to think of this like mapping out the landlarks on your journey, focusing on the most important elements needed to guide the audience from the start to their destination, without getting lost along the way.
+  * さて、もう一度戻って、他に絶対に言うべき重要なことは何か（これだけで、それ以上はない）を考えてください。あなたのアイデア、あなたの主な反論、そしてそれらがどのように組み合わされるかを考えてみてください。
 
 
 
 
-  If you are going to use slides...
-
-
-  * Then choose the words for your slides (only use them when absolutely necessary, and use as few as possible!)
-
-
-  **Tips for presenting:**
-
-
-  Once you have created your content, the final challenge is to get to the stage where you can give your whole presentation **with your eyes closed**. I mean this literally. When you are able to do your presentation without looking at your notes, without even using your slides, then you are ready.
+  これは、旅先での地点をマッピングするようなもので、スタート地点から目的地まで、観客を迷わせることなく導くために必要な最も重要な要素にフォーカスできると考えています。
 
 
 
 
-  This way, on the day of your presentation, even if you have a last minute logistical nightmare (which can happen despite your best planning and preparation), you can provide value to your audience/team/customer, by communicating the most important thing for them to know now.
+  スライドを使用する場合...
+
+
+  * スライドに使う言葉を選びます(絶対に必要なときだけ使い、できるだけ少なくしましょう！)
+
+
+  **プレゼンテーションのコツ:**
+
+
+  コンテンツを作成したら、最後の課題は、**目を閉じたまま**すべてのプレゼンテーションを実施できる段階に到達することです。これは文字通りの意味です。メモも見ず、スライドも使わず、プレゼンテーションができるようになったら、準備は完了です。
+
+
+
+  こうすることで、プレゼン当日、たとえ直前になってロジスティクスの悪夢に見舞われたとしても（最善の計画と準備をしても起こり得ることです）、聴衆／チーム／顧客にとって今最も重要なことを伝えることで、価値を提供することができます。
 mediaGallery:
   - link: https://www.thebostoncalendar.com/system/events/photos/000/235/956/original/SF_LightningTalks_edited.png?1548953347
   - link: https://www.youtube.com/watch?v=aCHyrkPCol8

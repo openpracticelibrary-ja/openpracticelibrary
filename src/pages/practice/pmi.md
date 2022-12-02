@@ -1,30 +1,24 @@
 ---
 templateKey: practice-page
-title: Plus, Minus, Interesting (PMI +-?)
-subtitle: A quick team retrospective, or way to evaluate ideas
+title: プラス, マイナス, 興味深い (PMI +-?)
+subtitle: チームでの簡単な振り返り、またはアイデアの評価方法
 date: 2019-05-02T07:12:57.079Z
 authors:
   - kattekrab
 tags: []
 mobiusTag: delivery
 icon: /images/plus-minus-interesting.png
-whatIs: PMI is a quick and easy way to get people thinking for a
-  retrospective.  It can also be used at the end of the day as a team checkin
-  for fast paced intensive work sessions, and can be used to facilitate the
-  whole group populating an engagement journal entry.
-whyDo: It promotes "And" thinking.  Not just good, or bad, but points of
-  interest too, it invites people to reflect in what happened without
-  necessarily judging those events as good or bad. But it still lets people vent
-  and celebrate as necessary.
+whatIs: PMIは、レトロスペクティブで考えさせるための迅速で簡単な方法です。 また、一日の終わりに、速いペースの集中ワークセッションのチームチェックインとして使用したり、グループ全体のエンゲージメントを促進するために使用することもできます。
+whyDo: 「And」を考えることを促します。 良いこと、悪いことだけでなく、関心事も含めて、必ずしもその出来事が良いとか悪いとか判断せずに、起こったことを振り返るように誘導します。また、必要であれば、ガス抜きしたり、祝ったりすることもできます。
+
 howTo: >-
-  This can be a whole group discussion, or done in pairs or threes, or even a
-  solo reflection, writing exercise.
+  これは、グループ全体のディスカッションでも、2人組や3人組で行うものでも、また一人で反省したり、文章を書いたりするものでもよいでしょう。
 
 
-  Ask everyone to reflect on the work, and jot down the plus points, the minus points, and the interesting points.
+  全員に仕事を振り返ってもらい、プラスポイント、マイナスポイント、興味深いことなどを書き留めてもらいます。
 
 
-  The idea is to focus most on the interesting points, rather than dwell on the positives and negatives.  It's also an opportunity to compare perspectives.  One person may feel an event, or activity was interesting, whilst another found it positive etc.
+  大事なのは、プラスとマイナスにこだわるのではなく、興味深い（面白い）ポイントに最も焦点を当てるということです。 また、見方を比較する機会にもなります。 ある人はある出来事や活動を面白いと感じ、別の人はそれをポジティブだと感じるかもしれません。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/Plus%20Minus%20Interesting.png?raw=true
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/PMI2.gif?raw=true
