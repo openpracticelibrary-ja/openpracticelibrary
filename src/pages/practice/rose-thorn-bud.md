@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: Rose, Thorn, Bud
-subtitle: Understand what's working, what's not, and areas of opportunity
+subtitle: 何がうまくいっていて、何がうまくいっていないのか、チャンスはどこにあるのかを理解する
 date: 2021-04-07T17:38:43.019Z
 authors:
   - heyjerrybecker
@@ -11,54 +11,47 @@ tags:
 mobiusTag: delivery
 icon: /images/rose-thorn-bud.png
 whatIs: >-
-  Rose, Thorn, Bud (RTB) is a team practice born in the Design Thinking
-  community. It is extremely versatile and can be used as a team retrospective,
-  customer journey analysis, or in conjunction with an ideation session to help
-  prioritize ideas for development. 
+  Rose, Thorn, Bud　(RTB) は、デザイン思考のコミュニティで生まれたチームプラクティスです。非常に汎用性が高く、チームの振り返りやカスタマージャーニー分析として、あるいはアイデア出しのセッションと組み合わせて、開発するアイデアの優先順位付けに活用することができます。
 
 
-  In a RTB session, participants share their thoughts about a particular topic and list ideas or thoughts on different-colored stickies that define that thought/idea as something that isn't working well, something that IS working well, and ideas that have a lot of potential if further developed.
+  RTBセッションでは、参加者が特定のトピックについて考えを共有し、その考えやアイデアを、うまくいっていないもの、うまくいっているもの、さらに発展させれば多くの可能性があるものと定義して、さまざまな色の付箋にリストアップします。
 
-
-  It's a great way to ideate or analyze as a team and collaboratively prioritize what to do next.
-whyDo: RTB is a great way to ideate or analyze as a team and collaboratively
-  prioritize what to do next. It allows everyone on the team to participate in
-  sharing, analyzing ideas, and even building upon ideas to help set the
-  direction of next steps for the team, whether it be product/project-related or
-  as a self-reflection of how the team is working together so far.
+  チームとしてアイデア出しや分析を行い、次に何をすべきかの優先順位を共同で決めることができます。
+whyDo: RTBは、チームでアイデア出しや分析を行い、次に何をすべきかを共同で優先順位付けするための素晴らしい方法です。RTBでは、チーム全員がアイデアを共有し、分析し、さらにアイデアを発展させることで、製品/プロジェクトに関連するものであれ、チームがこれまでにどのように協力してきたかを振り返るものであれ、チームの次のステップの方向性を定めるのに役立ちます。
 howTo: >-
-  First, here are the definitions of terms:\
-
-  a. **Rose** = something that is working well or something positive\
-
-  b. **Thorn** = something that isn’t working or something negative\
-
-  c. **Bud** = an area of opportunity or idea yet to be explored
+  まず、用語の定義です:
 
 
-  \
+  a. **Rose（薔薇）** = うまくいっていること、ポジティブなこと
 
-  Now that we're on the same page with our terms, let's talk about how to facilitate this!
+
+  b. **Thorn（棘）** = うまくいっていないこと、ネガティブなこと
+
+
+  c. **Bud（蕾）** = まだ開拓されていない機会やアイデアの領域
+
+
+  さて、条件が同じになったところで、これをどのように促進させるかについてお話ししましょう!
 
 
   **Steps:**
 
 
-  1. On a whiteboard or digital whiteboarding tool, create 3 columns and label them "Rose," "Thorn," and "Bud."
+  1. ホワイトボードやデジタルホワイトボードツールに3つの列を作り、"Rose（薔薇）"、"Thorn（棘）"、"Bud（蕾）"のラベルを貼る。
 
-  2. Write the topic of analysis above the columns to give the team direction (e.g. "How did this last week go as a team?" or "The customer journey of discovering our application")
+  2. カラム列の上に分析テーマを書き、チームの方向性を示す（例：「先週はチームとしてどうだったか」、「当社のアプリケーションを発見するまでのカスタマージャーニー」など）。
 
-  3. Give participants 3 pads of stickies - one red, one blue, and one green. Also give them a sharpie (if facilitating remotely, just use the 3 stickie colors mentioned above)
+  3.赤、青、緑の付箋を3枚参加者に渡す。シャープペンも渡す（遠隔で進行する場合は、上記の3色の付箋を使うだけでよい）。
 
-  4. Give the team 10-15 minutes of silent generation to write down ideas/thoughts on appropriately-colored stickies according to their category (Red = rose, Blue = thorn, Green = bud). One idea per stickie.
+  4. チームに10～15分の無音発生時間を与え、カテゴリーに応じた適切な色の付箋にアイデアや考えを書き出させる（赤＝Rose、青＝Thorn、緑＝Bud）。1枚の付箋には、1つのアイデアを記述する。
 
-  5. Have participants put their stickies up on the board in the appropriate column
+  5. 参加者に付箋をボード上の該当する欄に貼ってもらう
 
-  6. Cluster stickies based on themes and label these themed categories with a different-colored stickie (this is called [affinity mapping](https://openpracticelibrary.com/practice/affinity-mapping/))
+  6. 付箋をテーマごとに分類し、そのテーマごとに色の違う付箋を貼る。 (これは[affinity mapping](https://openpracticelibrary-ja.netlify.app/practice/affinity-mapping/)と呼ばれている)
 
-  7. Review stickies as a team and identify action-items that can help improve work going forward (e.g. ideas for improving pain points communicated in "thorns" or how to further develop ideas that are "buds").
+  7. チームで付箋を見直し、今後の業務改善に役立つアクションアイテムを特定する（例："Thorn（棘）"で伝えられたペインポイントを改善するアイデア、"Bud（蕾）"で伝えられたアイデアをさらに発展させる方法など）。
 
-  8. Assign action items to team members and set up a follow-up meeting to discuss progress/results
+  8. チームメンバーにアクションアイテムを割り当て、進捗状況や結果について話し合うためのフォローアップミーティングを設定する
 mediaGallery:
   - link: https://www.youtube.com/watch?v=h9IgcCDAQRw
   - link: https://www.youtube.com/watch?v=pWM40XWatsU

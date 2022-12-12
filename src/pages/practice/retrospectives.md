@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Retrospectives
-subtitle: Reflect, inspect and adapt ways of working to drive continuous team improvement
+title: レトロスペクティブ
+subtitle: チームの継続的な改善を推進するために、仕事の進め方を振り返り、点検し、適応させる
 date: 2017-11-21T05:00:00.000Z
 authors:
   - tdbeattie
@@ -15,115 +15,104 @@ tags: []
 mobiusTag: delivery
 icon: /images/heroes-journey-retro.png
 whatIs: >-
-  Retrospectives provide opportunities for groups to reflect, inspect and adapt
-  their ways of working. They often take place at the end of sprints but can be
-  scheduled at any time. There are a myriad of types of retrospectives you can
-  run with your team, and it's good to mix things up to keep things from getting
-  stale which leads to decline in involvement. You might run something like in
-  the header image (The Heroes Journey), then maybe try this sailboat retro the
-  next time:
+  レトロスペクティブは、グループが自分たちの仕事を振り返り、検査し、適応させるための機会を提供します。多くの場合、スプリントの終わりに行われますが、いつでも実施することができます。チーム内で実施できるレトロスペクティブの種類は無数にあり、陳腐化して参加意欲が低下するのを防ぐために、いろいろと混ぜて実施するとよいでしょう。ヘッダー画像（The Heroes Journey）のようなものを実施して、次回はこのヨットのレトロを試してみてはいかがでしょうか。
 
   ![](https://openpracticelibrary.github.io/opl-media/images/pirate-retro.png)
-whyDo: Retrospectives facilitate continuous improvement. Rather than wait until
-  the end of a project to run a full "lessons learned" exercise for the entire
-  delivery, we encourage taking short time boxes during delivery for the team to
-  course correct and find ways to improve their way of working. This should come
-  in the form of  actions agreed by the team with owners and estimated time due
-  dates, allowing for tracking and helping to ensure their completion.
+whyDo: レトロスペクティブは、継続的な改善を促進します。プロジェクトが終了するのを待って納品物全体の「教訓」をまとめるのではなく、納品中に短い時間枠を設けて、チームが軌道修正し、作業方法を改善する方法を見出すことを推奨します。これは、チームによって合意された行動とその所有者、予定される期限という形で行われ、トラッキングを可能にし、確実に完了するよう支援します。
 howTo: >-
-  ## Who do you need?
+  ## 必要なのは誰？
 
-  * Facilitator
+  * ファシリテーター
 
-  * The Team
-
-
-  ## Suggested Time
-
-  * Varies based on the duration of the time period the retrospective is covering. We recommend allowing 30-60 minutes for a one week sprint retrospective.
+  * チーム
 
 
-  ## Difficulty
+  ## 推奨時間
 
-  * Facilitator: Easy
-
-  * Participants: Easy
+  * レトロスペクティブの対象となる期間の長さによって異なります。1週間のスプリントレトロスペクティブには、30～60分の時間を確保することを推奨します。
 
 
-  ## Facilitation Materials Needed
+  ## 難易度
+
+  * ファシリテーター: Easy
+
+  * 参加者: Easy
 
 
-  There are lots of different formats retrospectives can take (see the references for links to some excellent resources which provide ideas). Typical materials used during facilitation include:
-
-  * Flat space which will hold sticky notes
+  ## 必要なファシリテーションのマテリアル
 
 
-  * Stickies (preferably a wide variety)
+  レトロスペクティブには、さまざまな形式があります（アイデアを提供する優れたリソースへのリンクは、参考文献を参照してください）。ファシリテーションで使用される代表的なマテリアルには、以下のものがあります:
+
+  * 付箋を貼れるフラットなスペース
 
 
-  * Sharpie pens
+  * 付箋 (できればいろいろな種類を)
 
 
-  * White-board pens if using a white board or MagicWhiteboard paper
+  * シャーペン
 
 
-  * Clock for time boxing
+  * ホワイトボードやMagicWhiteboard紙を使用する場合は、ホワイトボードペン
 
 
-  ## Advice
-
-  * Be careful not to dwell too heavily on things outside of the teams control. Ensure you track them and raise them to the relevant owners but value can rarely be found in a one hour ranting session.
+  * 時刻を記録するための時計
 
 
-  * Retro's are within reason whatever a team needs to be. They can be broad and encompass multiple issues and problems, or with the teams permission can drill down into specific issues using techniques such as the 5 whys.
+  ## アドバイス
+
+  * チームのコントロール外のことにあまり深く立ち入らないように注意してください。1時間のセッションで価値が見出されることはほとんどありません。
 
 
-  * Locations can play a major role in the outcome of a Retrospective. Changing a Retro location to a Cafe, pub or even using techniques such as the walking retro can help to drive out different problems/issues that might not have come up otherwise
+  * レトロは、チームが必要とするものであれば、どんなものでもよいのです。また、チームの許可を得て、「5つのなぜ」のような手法で特定の問題を掘り下げていくこともできます。
 
 
-  ## Tips for remote working
+  * レトロスペクティブの結果には、場所が大きな役割を果たすことがあります。レトロの場所をカフェやパブに変えたり、ウォーキングレトロのようなテクニックを使うことで、他の方法では出てこなかったような別の問題や課題を引き出すことができます。
 
 
-  * This event can be completed quite easily remotely.
+  ## リモートワークにおけるTips
 
 
-  * Use a virtual whiteboarding tool or another tool that suits the purpose.
+  * このイベントは、リモートでも、簡単に完了することができます。
 
 
-  * Prep virtual retro board beforehand.
+  * バーチャルホワイトボードツールなど、目的に合ったツールを利用する。
 
 
-  * Rotate on retrospective formats among the multiple available, to collect different aspects and engage more with the people.
+  * バーチャルレトロボードの事前準備。
 
 
-  * Everyone has cameras on.
+  * 複数のレトロスペクティブ形式をローテーションすることで、さまざまな側面を収集し、人々との関わりを深めることができます。
 
 
-  * Everyone co-edits the board.
+  * 全員カメラオン。
 
 
-  * Ask different participants to playback the different topics.
+  * 全員でボードを共同編集。
 
 
-  * Ensure everyone has a chance to contribute.
+  * 異なる参加者に異なるトピックを考えてもらう。
 
 
-  * Ensure improvement actions are tracked and monitored:
-
-  > * agree on their prioritisation among the team before the are fed back into the backlog.
-
-  > * agree who is in charge of feeding them back to the backlog.
-
-  > * review improvement actions from previous retrospectives.
+  * 全員が貢献できる機会を確保する。
 
 
-  * Encourage a social element such as bring your own drink or food or add in a fun game for celebrating the hard work done by the team.
+  * 改善策の追跡と監視を確実に行う:
+
+  > * バックログに戻す前に、チーム内で優先順位を決定する。
+
+  > * それらをバックログにフィードバックする担当者を決める。
+
+  > * 過去のレトロスペクティブから改善アクションを見直す。
 
 
-  * You can consider a rotational responsibility to organise the social event among the team.
+  * 飲み物や食べ物を持ち寄るなど、社交的な要素を盛り込んだり、チームの労をねぎらうための楽しいゲームを取り入れたりします。
 
 
-  **Want to run this practice remotely? See the Mural Template below! 💻🙏**
+  * チーム内での交流会の開催を持ち回りで担当することを検討してもよいでしょう。
+
+
+  **この練習をリモートで実行したいですか？下記参考の「Mural Journey Retro Template」をご覧ください! 💻🙏**
 mediaGallery:
   - link: https://openpracticelibrary.github.io/opl-media/images/pirate-retro.png
 resources:
@@ -143,13 +132,13 @@ resources:
   - link: https://retromat.org/en/?id=122-64-55-48-71
     linkType: web
     description: "Retromat: Retro ideas"
-  - link: https://openpracticelibrary.com/practice/realtime-retrospective/
+  - link: https://openpracticelibrary-ja.netlify.app/practice/realtime-retrospective/
     linkType: web
     description: Realtime Retrospective
   - link: https://app.mural.co/template/d246d203-18d4-46c5-ab80-0a92f528c1b0/1c7943fa-954c-46b1-a8c2-dc92983dfb76
     linkType: web
     description: Mural Journey Retro Template
-  - link: https://openpracticelibrary.com/blog/facilitation-tips-for-remote-sessions/
+  - link: https://openpracticelibrary-ja.netlify.app/blog/facilitation-tips-for-remote-sessions/
     linkType: web
     description: Remote Facilitation Tips
 jumbotron: /images/heroes-journey-retro.png
