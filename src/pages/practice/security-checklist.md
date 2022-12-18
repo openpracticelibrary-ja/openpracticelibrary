@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Security checklist
-subtitle: "Shift left security by running through a checklist during code review. "
+title: セキュリティ チェックリスト
+subtitle: "コードレビュー時にチェックリストを実行することで、セキュリティをシフトレフトする。 "
 date: 2021-04-24T00:19:05.345Z
 authors:
   - ladynerd
@@ -10,122 +10,118 @@ tags:
 mobiusTag: delivery
 icon: /images/glenn-carstens-peters-rlw-uc03gwc-unsplash.jpg
 whatIs: >-
-  This Security Checklist from the team at [SafeStack.io](https://safestack.io)
-  was created to improve security culture in dev teams and help them
-  consistently check their code for common security risks. 
+  [SafeStack.io](https://safestack.io)のチームによるこのセキュリティチェックリストは、開発チームのセキュリティ文化を向上させ、一般的なセキュリティリスクについてコードを一貫してチェックできるようにするために作成されました。
 
 
-  The earlier that vulnerabilities are discovered, the cheaper and easier they are to fix. The tool is intended for use as part of a software team’s code review process to improve security posture, and the quality of the code they release.
+  脆弱性の発見が早ければ早いほど、その修正にかかるコストは低くなり、また修正も容易になります。このツールは、ソフトウェアチームのコードレビュープロセスの一部として使用され、セキュリティ姿勢とリリースするコードの品質を向上させることを目的としています。
 
 
-  ### Introducing the Security Checklist
+  ### セキュリティチェックリストの導入
 
 
-  * Identify a core group of people who are enthusiastic about improving their code review culture. 
+  * コードレビュー文化の向上に熱心なコアグループを特定する。
 
-  * Start with a single system and expand incrementally. 
+  * まずは1つのシステムから始め、段階的に拡張していく。
 
-  * Identify key quality metrics and measure them. 
+  * 主要な品質指標を特定し、それを測定する。
 
-  * Integrate the checklist directly into your build-test-release workflow.
-
-
-  The security checklist has three phases 
+  * チェックリストをビルド-テスト-リリースのワークフローに直接組み込むことができます。
 
 
-  * Before code is pushed
 
-  * During the code review 
-
-  * Before the code review is marked complete
+  セキュリティチェックリストは、3つのフェーズで構成されています 
 
 
-  ### Code Review Security Checklist
+  * コードがプッシュされる前
+
+  * コードレビュー時  
+
+  * コードレビューが完了と判定される前
 
 
-  #### Before pushing code to the team repository
+  ### コードレビューセキュリティチェックリスト
 
 
-  * Have all secrets been removed from the committed code?
-
-    * Yes/No
-
-  #### Before completing the code review
+  #### チームリポジトリにコードをプッシュする前に
 
 
-  * Have unresolved risks been raised and documented?
+  * コミットされたコードからすべてのシークレット情報が取り除かれたのか？
 
     * Yes/No
 
-  #### During a review of the code (with author, reviewers, tester)
+  #### コードレビュー完了前
 
 
-  * Have the right people been engaged to review the code?
-
-    * Yes/No
-  * Is the purpose of the change stated and understood by the reviewers?
+  * 未解決のリスクは提起され、文書化されているか？
 
     * Yes/No
-  * Is there debug functionality in the code?
+
+  #### コードレビュー時（コーダー、レビュアー、テスターと共に）
+
+
+  * コードのレビューに適切な人が参加しているか？
+
+    * Yes/No
+  * 変更の目的は明記され、レビュアーに理解されているか？
+
+    * Yes/No
+  * コードにデバッグ機能はあるか？
 
     * No
-    * Yes, and it can only run in test environments.
-  * Is user-supplied data:
+    * Yes、そしてテスト環境でのみ実行可能。
+  * ユーザー提供のデータか:
 
-    * Validated before it is used or stored? 
-    * Escaped when it is passed to an interpreter?
-  * Do log entries:
+    * 使用または保存される前に検証されているか？
+    * インタープリタに渡されるときにエスケープされるか？
+  * ログを記録する:
 
-    * Cover all key events and states?
-    * Include enough information to uniquely identify the event?
-    * Exclude secrets and customers’ PII?
-  * For frameworks, libraries, tools and other dependencies:
+    * 主要なイベントや 状態をすべてカバーしているか？
+    * イベントを一意に特定するのに十分な情報を含んでいるか？
+    * 機密情報や顧客の個人情報を除外しているか？
+  * フレームワーク、ライブラリ、ツール、その他の依存関係に対して:
 
-    * Are they being used effectively?
-    * Have new dependencies been vetted?
-    * Are they up-to-date?
-  * Do response messages:
+    * 効果的に使われているか？
+    * 新しい依存関係は検証されたか？
+    * 最新版か?
+  * レスポンスメッセージ:
 
-    * Make use of appropriate status codes? 
-    * Exclude information that should remain internal to the
-      system?
-    * Limit information to the correct level of authorization?
-  * To testers:
+    * 適切なステータスコードを使用しているか？
+    * システム内部に残すべき情報を除外しているか？
+    * 情報を適切なレベルの権限に限定しているか？
+  * テスター向け:
 
-    * Is the test coverage sufficient?
-    * Are misuse cases represented?
+    * テストカバレッジは十分か？
+    * 誤用のケースは表現されているか？
 
-  See the [Code Review Security Checklist Implementation Manual](https://academy.safestack.io/wp-content/uploads/2021/01/code_review_security_checklist_implementation_manual_2020-02-20.pdf) for details.
+  詳細はこちら[Code Review Security Checklist Implementation Manual](https://academy.safestack.io/wp-content/uploads/2021/01/code_review_security_checklist_implementation_manual_2020-02-20.pdf) 。
 whyDo: >
-  Improve code review culture by consistently applying secure coding practices. 
+  セキュアコーディングのプラクティスを一貫して行うことにより、コードレビュー文化を改善できます。
 
 
-  It is a good starting point for building better security practices in to the software development process. Additions and modifications to fit local practice are encouraged.
+  これは、ソフトウェアの開発プロセスにおいて、より良いセキュリティの実践を構築するための良い出発点です。ローカルのプラクティスに合わせて追加・修正することが推奨されます。
 
 
-  It is not comprehensive. It is not intended as a standalone teaching tool, an accountability mechanism, or as a complete guide to secure development.  
+  包括的なものではありません。また、独立した教材、説明責任の仕組み、安全な開発への完全なガイドとして意図されているわけでもありません。  
 howTo: >-
-  The security checklist itself can be included as a template in a code review
-  request and the review tools configured to require its completion. It may
-  still be helpful to have physical copies visible around teams’ workstations. 
+  セキュリティチェックリスト自体をコードレビューリクエストのテンプレートとし て含め、レビューツールでその完了を要求するように設定することができます。また、チームのワークステーションの周囲に物理的なコピーを置いておくと便利でかもしれません。
 
 
-  The first phase takes place before the original author shares their code with the team and consists of the author verifying they haven’t included any real passwords, keys, tokens, or other secrets in their code. 
+  最初のフェーズは、コードを作成した人がチームと共有する前に、実際のパスワード、キー、トークン、その他の秘密事項がコードに含まれていないことを確認するところからです。
 
 
-  The next phase happens during review and each item may be completed by any of the reviewers besides the original author. The reviewers confirm the right people have been tagged in and that they all understand the intended change. 
+  次の段階はレビューで、各項目は開発者以外のレビュアーの誰でも完成させることができます。レビュアーは、正しい人がタグ付けされ、全員が意図した変更を理解していることを確認します。
 
 
-  They then check for the presence of debug code, the handling of untrusted data and response information, the correct use of tools, and that there is sufficient log and test coverage.
+  そして、デバッグコードの有無、信頼できないデータやレスポンス情報の扱い、ツールの正しい使い方、十分なログとテストの網羅性などをチェックします。
 
 
-  Finally, if the code review has raised risks beyond the scope of the review to fix, the reviewers raise the risk to their team and ensure it is logged somewhere it will be reviewed. This can also be completed by any of the reviewers.
+  最後に、コードレビューの結果、レビューの範囲を超えたリスクが摘出された場合、レビュアーはそのリスクをチームに提起し、レビューされる場所にログが残るようにします。これは、レビュアーのだれでも完了することができます。
 
 
-  ### Modifying the security checklist 
+  ### セキュリティチェックリストの修正
 
 
-  Teams should modify the checklist to suit their needs. They shouldn’t remove safety steps because they are unable or unwilling to perform them. The entire team should be involved in decisions to modify the checklist, and the modified checklist tested on a single system to ensure it works as intended. Changes should result in a checklist that is focused, brief, actionable, collaborative, tested, and integrated. 
+  チームは、自分たちのニーズに合わせてチェックリストを修正する必要があります。自分たちができないから、やりたくないからという理由で、安全対策を削除してはいけません。チェックリストの変更の決定にはチーム全体が参加し、変更後のチェックリストは1つのシステムでテストし、意図したとおりに機能することを確認する必要があります。変更の結果、焦点の定まった、簡潔で実行可能な、協力的で、テストされ、統合されたチェックリストが得られるはずです。
 
 
   Cover photo by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/checklist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
