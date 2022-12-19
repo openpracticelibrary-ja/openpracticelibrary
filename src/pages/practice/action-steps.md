@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Action steps
-subtitle: Commit the first step towards action
+title: アクションステップ
+subtitle: アクションまでの最初のステップにコミットする
 date: 2021-09-02T00:59:12.052Z
 authors:
   - kattekrab
@@ -10,48 +10,45 @@ tags:
 mobiusTag: options
 icon: /images/actionsteps-miro-template.png
 whatIs: >-
-  Commitment to action
+  アクションに対するコミットメント
+
+  これはアクションへの最初の一歩を踏み出すことにコミットするようすべての人に呼びかける共同プラクティスです。
 
 
-  This is a collaborative practice that invites everyone to commit to taking a first step towards action.  
-
-
-  Inspired by the idea that 1000 mile journey begins with one step, action steps gets people to think about the first step they will take to continue the work begun together today. Informed by De Bono's Action shoes.
+  千里の道も一歩からという考え方から着想を得て、「アクションステップ」では今日一緒に始める仕事を続けていく最初のステップをみんなに考えてさせます。
+  このプラクティスは De Bono 氏の Action shoes を参考にしています。
 whyDo: >-
-  Meetings can sometimes feel like they're all talk, and no action.  
+  会議はときに「話すだけ」で行動が伴わないことがあります。
 
 
-  This is a quick and easy practice to get people to think about what they will do next, and put words into action. 
+  このプラクティスは素早く簡単にみんなに次にやることを考えさせ、言葉から行動に移させます。
+
+  またこれは、ワークショップの最後にも最適です。
 
 
-  It's also a great way to finish a workshop.
-
-
-  ![Whiteboard covered with sticky notes, and hand drawn feet with "Action Steps" written at the top](/images/ActionSteps.jpg "Example of Action Steps in Action using sticky notes.")
+  ![付箋で覆われているホワイトボード。手書きで「Action Steps」と一番上に書いてある](/images/ActionSteps.jpg "Example of Action Steps in Action using sticky notes.")
 howTo: >-
-  Talk: Ask everyone to reflect on the work that's been done, and how they might
-  continue that work beyond the meeting.
+  話す: 全員に対して、会議で行われた作業をふりかえり、その作業をどのように会議後も続けるかを尋ねます。
 
 
-  Type: Get everyone to type down (or write) 
+  書く：全員にそれを書いてもらいます
 
 
-  * Who - Name
+  * 誰 - 名前
 
-  * What - Action to take
+  * 何を - 実施する行動
 
-  * When - Time and Date it will be done.
+  * いつ - それが終わる日時
 
-  * With -  Help from someone to get it done, review it, or celebrate it!
+  * 誰と - おわらせるために手伝って貰う人、レビューする人、あるいは、祝う人！
 
-
-  Read: Get each person to read their card out loud, and request help from someone in the room
-
-
-  Review: Use [Affinity Mapping](https://openpracticelibrary.com/practice/affinity-mapping/) to cluster and summarise action steps, or if there's a lot of actions to take, perhaps vote to prioritise what the group sees as most important to start with.
+  読む：（付箋などに）書いたことを読み上げ、参加者に手伝ってもらえるかリクエストします
 
 
-  Action Steps can be a useful practice to include at the end of a Retrospective, or following any activity that's generated a lot of ideas, and people want a clear idea of where to start, or what to do next.
+  レビュー: [アフィニティマッピング](https://openpracticelibrary-ja.netlify.app/practice/affinity-mapping/)  を使って、アクションステップを分類しまとめます。また、取るべきアクションがたくさんある場合は、何から始めるべきかをグループで最も重要だと思われるものに投票しなにから始めるべきか優先順位をつけても良いでしょう。
+  
+  
+  アクションステップはふりかえりの最後や、多くのアイデアを生み出したあとの活動のあと、みんながどこから始めるべきか明確にしたいとき、次に何をやるべきかを決めたいときなどに役立つでしょう。
 mediaGallery:
   - link: https://raw.githubusercontent.com/openpracticelibrary/openpracticelibrary/master/static/images/ActionSteps.jpg
 resources:
