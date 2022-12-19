@@ -16,7 +16,7 @@ whatIs: >-
 
 
   千里の道も一歩からという考え方から着想を得て、「アクションステップ」では今日一緒に始める仕事を続けていく最初のステップをみんなに考えてさせます。
-このプラクティスは De Bono 氏の Action shoes を参考にしています。
+  このプラクティスは De Bono 氏の Action shoes を参考にしています。
 whyDo: >-
   会議はときに「話すだけ」で行動が伴わないことがあります。
 
@@ -26,6 +26,7 @@ whyDo: >-
   またこれは、ワークショップの最後にも最適です。
 
 
+  ![付箋で覆われているホワイトボード。手書きで「Action Steps」と一番上に書いてある](/images/ActionSteps.jpg "Example of Action Steps in Action using sticky notes.")
 howTo: >-
   話す: 全員に対して、会議で行われた作業をふりかえり、その作業をどのように会議後も続けるかを尋ねます。
 
