@@ -26,7 +26,6 @@ whyDo: >-
   またこれは、ワークショップの最後にも最適です。
 
 
-  ![付箋で覆われているホワイトボード。手書きで「Action Steps」と一番上に書いてある](/images/ActionSteps.jpg "Example of Action Steps in Action using sticky notes.")
 howTo: >-
   話す: 全員に対して、会議で行われた作業をふりかえり、その作業をどのように会議後も続けるかを尋ねます。
 
