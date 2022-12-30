@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Abstraction Laddering
-subtitle: Reconsider a problem statement by broadening or narrowing its focus
+title: アブストラクション・ラダリング
+subtitle: 焦点をひろげたり狭めたりして課題を再考する
 date: 2021-03-30T18:10:19.767Z
 authors:
   - heyjerrybecker
@@ -9,64 +9,53 @@ tags:
   - value
 mobiusTag: discovery
 icon: /images/abstraction-ladder-example.jpeg
-whatIs: Abstraction Laddering is a problem-framing activity that has
-  participants reconsider problem statements by broadening or narrowing its
-  focus. Participants brainstorm and explore "why" and "how" statements
-  generated from the initial problem statement in order to explore context,
-  possibilities, and potentially reframe the original problem statement to one
-  that is more compelling or broader in nature.
-whyDo: Taking time to explore a given problem statement can help you reframe the
-  statement in a way that better lends itself to innovative thinking. Of course,
-  sometimes at the end of this activity it is decided that the original problem
-  statement was the best, and in that case you at least explored other options
-  to validate the current wording. But in many cases, the problem statement is
-  reworded or reframed in a way that broadens the aperture of creative
-  solutions, allowing for more ideas and increasing the creative potential of
-  your solution.
+whatIs: アブストラクション・ラダリングは課題について焦点を広げたり狭めたりすることで、参加者が課題を再考する方法です。
+  参加者は最初の課題をより説得力のある広がりのある性質のものにリフレーミングするために、ブレインストーミングを行い、その課題から生まれた「なぜ（Why）」と「どのように（How）」を探求します。
+whyDo: 所与の課題をじっくり検討する時間をとることで、イノベーティブな思考に適した課題にリフレーミングすることができます。
+  もちろん、このプラクティスを実施しても当初の課題がベストであると判断されることもあります。しかし、多くの場合、課題は創造的な解決策にいたる間口を広げるように言い換えられたりリフレーミングされ、より多くのアイデアや生まれたり、あなたの解決策の創造性を高めます。
 howTo: >-
-  **Steps to facilitate this practice:**
+  **やり方:**
 
 
-  "**Why" Framing**
+  **"なぜ" フレーミング**
 
 
-  1. Identify an initial problem statement
+  1. 課題を特定する
 
-  2. On a whiteboard or digital whiteboarding tool (if facilitating remotely), draw a ladder with multiple rungs. If facilitating in person, ensure each participant has a pad of stickies and a sharpie
+  2. ホワイトボードやデジタルホワイトボードに、複数の段があるはしごを描く
 
-  3. Write your initial problem statement in the middle rung
+  3. 「課題」を真ん中の段に書く
 
-  4. Ask the group to write down 3 reasons as to WHY this is a problem, with each reason on its own stickie
+  4. これが「なぜ」課題なのか、3つの理由を参加者それぞれに付箋に書いてもらう（1つの理由に付き1つの付箋を使う）
 
-  5. Cluster stickies that are similar together on the board and present them to the group. Reword clusters with a new stickie to captures the problem statements at a level that captures the essence of all stickies in that cluster
+  5. 似ている付箋をグルーピングし、それぞれグループに対して、グループ全体を表す言葉で言い換えて付箋に書く
 
-  6. Give the group 3 dots and have them vote on which problem statements they like the most
+  6. 参加者それぞれに3つのドットを渡し、どの課題が最も重要か投票してもらう
 
-  7. Place the top 3 stickies on the next rung of the ladder
+  7. 上位3つの付箋をひとつ上の段に置く
 
-  8. Repeat steps 4 through 7 for the new problem statements 2 more times
-
-
-  **"Causality" framing**
+  8. ステップ4〜7を新しい課題について2回繰り返す 
 
 
-  1. Going back to the original problem statement, ask the group to write down 3 things that answers the question "what problems does this cause?"
-
-  2. Cluster stickies that are similar together on the board and present them to the group. Reword clusters with a new stickie to captures the problem statements at a level that captures the essence of all stickies in that cluster
-
-  3. Give the group 3 dots and have them vote on which problem statements they like the most
-
-  4. Place the top 3 stickies on the next rung of the ladder
-
-  5. Repeat steps 1 through 4 for the new problem statements 2 more times
+  **"因果関係" フレーミング**
 
 
-  **Problem Statement Selection**
+  1. 元の課題に戻り、参加者に「この原因となっている課題はなにか？」とたずね、3つの回答を参加者それぞれに付箋に書いてもらう
+
+  2. 似ている付箋をグルーピングし、それぞれグループに対して、グループ全体を表す言葉で言い換えて付箋に書く
+
+  3. 参加者それぞれに3つのドットを渡し、どの課題が最も重要か投票してもらう
+
+  4. 上位3つの付箋をひとつ下の段に置く
+
+  5. 1〜4のステップを、新しい課題について2回繰り返す 
+
+  **課題の選択**
 
 
-  1. By now, you have a myriad of related problem statements that range from the more abstract (at the top of the ladder) to more concrete (at the bottom of the ladder). In a final vote, have each team member select which problem statement they think is most worth solving in order to generate the biggest impact. 
+  1. ここまでで、より抽象的なもの（はしごの1一番上）からより具体的なもの（はしごの一番下）まで、無数の関連する課題が出てきたことになります。最終投票では、各参加者がどの課題が最も解決する価値があるかを選ぶことで、最もインパクトのある課題を選びます。
 
-  2. Take the top-voted statement and now you're ready to ideate solutions!
+  2. 最も得票数が多かった課題がわかったら、（解決策を考える）アイディエーションの準備が整ったことになります！
 mediaGallery:
   - link: https://www.youtube.com/watch?v=1gOt5ggmQVQ
   - link: https://miro.medium.com/max/700/1*kY6LkR83TppZyJKTg1tMnw.jpeg
