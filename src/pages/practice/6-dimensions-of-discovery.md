@@ -120,7 +120,6 @@ howTo: >-
   *"文化"とは？* 
 
 
-  > "Ideas, customs, and social behaviour of a particular group of people or society." "Maintain an organism in conditions suitable for growth." (common biology def.)
   > "特定の集団または社会の思想、習慣、社会的行動" "生物を成長に適した状態に維持すること"（一般的な生物の定義）
 
   >
@@ -177,14 +176,12 @@ howTo: >-
   *"作業環境"とは？* 
 
 
-  > "All your surroundings when working. Your physical working environment is, for example, your work tools as well as air, noise and light. But your working environment also includes the psychological aspects of how your work is organised and your wellbeing at work." 
   > "仕事をするときの周囲の環境すべて"のことです。物理的な作業環境とは、例えば、作業道具や空気、騒音、光などです。しかし作業環境には、仕事がどのように組織化されているかという心理的側面や、仕事中のウェルビーイングも含まれます。"
 
 
   **コミュニケーション**:
 
 
-  Stakeholder, staff & customer engagement, meeting cadence, online, offline, 1 to 1, 1 to many, fast feedback loops, realtime/async.
   ステークホルダー、スタッフと顧客エンゲージメント、打ち合わせ頻度、オンライン、オフライン、1対1、1対多、高速フィードバックループ、リアルタイム/非同期
 
 
@@ -211,7 +208,6 @@ howTo: >-
   *"ガバナンス"とは？* 
 
 
-  > "the framework of rules, relationships, systems and processes within and by which authority is exercised and controlled in corporations."
   > 企業において権限が講師され管理される、その内部での、そしてそれによる規則、関係、システム、プロセスの枠組み"
 
   >
