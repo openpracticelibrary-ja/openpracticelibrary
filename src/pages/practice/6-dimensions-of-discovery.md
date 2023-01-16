@@ -2,7 +2,6 @@
 templateKey: practice-page
 title: 発見の6次元
 subtitle: 課題と明るい点を6つの側面から収集、文書化、分類、優先順位付けする
-  across 6 dimensions.
 date: 2020-04-19T22:51:08.252Z
 authors:
   - kattekrab
@@ -208,7 +207,7 @@ howTo: >-
   *"ガバナンス"とは？* 
 
 
-  > 企業において権限が講師され管理される、その内部での、そしてそれによる規則、関係、システム、プロセスの枠組み"
+  > 企業において権限が行使され管理される、その内部での、そしてそれによる規則、関係、システム、プロセスの枠組み"
 
   >
 
@@ -216,7 +215,7 @@ howTo: >-
 
   >
 
-  > "プロジェクトに与える影響を顕彰するための指示や意思決定の手順や指標"
+  > "プロジェクトに与える影響を検証するための指示や意思決定の手順や指標"
 
 
   Credit to [David Worthington](https://www.linkedin.com/in/david-worthington-2b65b84/) and [Arash Dadras](https://www.linkedin.com/in/arash-dadras/) for introducing this practice.
