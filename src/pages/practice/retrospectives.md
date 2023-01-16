@@ -112,7 +112,7 @@ howTo: >-
   * チーム内での交流会の開催を持ち回りで担当することを検討してもよいでしょう。
 
 
-  **この練習をリモートで実行したいですか？下記参考の「Mural Journey Retro Template」をご覧ください! 💻🙏**
+  **このプラクティスをリモートで実行したいですか？下記参考の「Mural Journey Retro Template」をご覧ください! 💻🙏**
 mediaGallery:
   - link: https://openpracticelibrary.github.io/opl-media/images/pirate-retro.png
 resources:
