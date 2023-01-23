@@ -1,7 +1,7 @@
 ---
 participants:
   - The Team
-subtitle: Quickly sketch rough ideas for the user interface.
+subtitle: ユーザーインターフェースのラフなアイデアを素早くスケッチする
 resources:
   - link: 'https://www.nngroup.com/articles/wireflows/'
     linkType: web
@@ -19,11 +19,11 @@ resources:
   - link: 'https://library.gv.com/sprint-week-tuesday-d22b30f905c3'
     linkType: web
     description: 'The "Tuesday" portion of the book '
-  - link: 'https://openpracticelibrary.com/practice/event-storming/'
+  - link: 'https://openpracticelibrary-ja.netlify.app/practice/event-storming/'
     linkType: web
-    description: Event Storming
+    description: イベント ストーミング
 templateKey: practice-page
-title: UI Design Workshop
+title: UI デザインワークショップ
 date: 2018-10-30T15:46:12.331Z
 authors:
   - rdebeasi
@@ -32,86 +32,70 @@ authors:
 tags: []
 icon: /images/ui-donal.png
 whatIs: >-
-  * A UI workshop is an activity in which participants quickly sketch rough
-  ideas for the user interface.
+  * UIワークショップとは、参加者がユーザーインターフェースのラフなアイデアを素早くスケッチするアクティビティです。
 
 
-  * These ideas can be written on a whiteboard, sticky notes, or sheets of
-  paper. (A tall sticky note makes a great template for a mobile screen.)
+  * アイデアを、ホワイトボード、付箋紙、紙などに書き込むことができます。(長細い付箋紙を使えば、モバイル画面のテンプレートにもなります)
 
 
-  * The workshop can be run with just a facilitator and a UX designer, but
-  including the entire team is even better.
+  * ワークショップは、ファシリテーターとUXデザイナーだけで行うこともできますが、チーム全員を含めるとさらに効果的です。
 
 
-  * At the end of the workshop, the participants can vote by adding dots to
-  their favorites.
+  * ワークショップの最後には、参加者がドットをお気に入りに対して投票することができます。
 
 
-  * Later, the best "low-fidelity" designs can serve as the basis for
-  interactive prototypes or more complete designs.
+  * その後、最適な「ローファイ（Lo-Fi）」デザインは、インタラクティブなプロトタイプやより完全なデザインの基礎となることができます。
 whyDo: >-
-  * UI design workshops help take a high-level business process (such as an
-  [event storm](https://openpracticelibrary.com/practice/event-storming/)) and
-  turn it into something concrete that developers can begin working on.
+  * UIデザインワークショップは、開発者が作業を開始できる状態にするために、ハイレベルなビジネスプロセス([イベントストーム](https://openpracticelibrary-ja.netlify.app/practice/event-storming/)のようなもの)や、具体的なものを把握するのに役立ちます。
 
 
-  * This activity generates new ideas and builds a shared understanding,
-  particularly if the entire team participates.
+  * このアクティビティは、特にチーム全員が参加することで、新しいアイデアを生み出し、共通理解を深めることができます。
 
 
-  * Jump-start development by creating just enough design for the team to begin
-  working.
+  * チームが作業を開始するのに必要なだけのデザインを作成し、開発をスタートダッシュすることができます。
 
 
-  * A quick, rewarding activity like this one builds confidence and experience
-  in team members who might be new to user experience design.
+  * このような短時間のアクティビティは、ユーザー・エクスペリエンス・デザインに不慣れなチームメンバーの自信と経験を育みます。
 
-
-  * Participants can produce the design assets they need to move forward, even
-  if the team does not have a dedicated UX designer.
+  * 参加者は、専任のUXデザイナーがいないチームでも、前進するために必要なデザインアセットを作成することができます。
 howTo: >-
-  1. Describe what we're sketching:
+  1. スケッチしているものを説明する:
 
-  * User goal
+  * ユーザーのゴール
 
-  * What size sticky
+  * どのサイズの付箋か
 
-  * Mobile-first?
+  * モバイルファースト?
 
-  * How long they have
+  * どのくらいあるか？
 
-  * Use multiple stickies to depict the user flow
-
-
-  2. Everyone sketches - 10 min
+  * 複数の付箋を使い、ユーザーフローを描く
 
 
-  3. Playback from each person (and put stickies on board) - 2 min per person
+  2. みんなでスケッチする - 10 min
 
 
-  4. Gather feedback - 2-3 min per each person's flow (green/red stickies with
-  comments on what exactly they like/dislike)
+  3. 各自からプレイバック（付箋も貼る） - 2 min/各自
 
 
-  5. Another round of sketching - 5-7 min
+  4. フィードバックを収集する - 2-3 min/各自 (緑・赤の付箋に好きなもの・嫌いなもののコメントを記載)
 
 
-  6. Mark each screen with a letter and number
+  5. もう一回スケッチする - 5-7 min
 
 
-  7. More playback - 2 min per person (tell everyone to write down the
-  letter/number combo of what they like)
+  6. 各画面にアルファベットと数字でマークをつける
 
 
-  8. Merge based on the votes/bingo
+  7. もう一度プレイバックする - 2 min/各自 (好きなものをアルファベットと数字で書くように言う)
 
 
-  ### Alternate facilitation style
+  8. 投票/ビンゴに基づくマージ
 
-  Instead of merging the designs in steps 6-8, ask the team to dot vote on
-  elements of each deisgn. A UX designer can then use those sketches as
-  inspiration for more detailed wireframes.
+
+  ### もう一つのファシリテーション・スタイル
+
+  ステップ6～8のデザインを統合する代わりに、各デザインの要素についてチームで点数投票を行うように依頼します。UXデザイナーは、これらのスケッチをインスピレーションとして、より詳細なワイヤーフレームを作成することができます。
 jumbotron: /images/ui-donal.png
 area: delivery-deliver
 time: 30 min - 1 hour
@@ -133,7 +117,7 @@ mobiusTag: delivery
 
 ## Why use it?
 
-- UI design workshops help take a high-level business process (such as an [event storm](https://openpracticelibrary.com/practice/event-storming/)) and turn it into something concrete that developers can begin working on.
+- UI design workshops help take a high-level business process (such as an [event storm](https://openpracticelibrary-ja.netlify.app/practice/event-storming/)) and turn it into something concrete that developers can begin working on.
 - This activity generates new ideas and builds a shared understanding, particularly if the entire team participates.
 - Jump-start development by creating just enough design for the team to begin working.
 - A quick, rewarding activity like this one builds confidence and experience in team members who might be new to user experience design.
