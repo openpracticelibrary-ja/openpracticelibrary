@@ -50,7 +50,7 @@ howTo: >-
 
   ## どのようにフィットするか
 
-  VSM は特に[メトリクス ベース プロセスマッピング](https://openpracticelibrary.netlify.app/practice/metrics-based-process-mapping/) （MBPM）と一緒にやると効果的です。一緒に実施すると、VSM はシステム全体を通るマクロレベルの価値の流れを見える化することで、改善における戦略的な意思決定ができるのに対して、MBPMはミクロレベルのフローを見える化することで、戦術的な改善を行うことができます。
+  VSM は特に[メトリクス ベース プロセスマッピング](https://openpracticelibrary-ja.netlify.app/practice/metrics-based-process-mapping/) （MBPM）と一緒にやると効果的です。一緒に実施すると、VSM はシステム全体を通るマクロレベルの価値の流れを見える化することで、改善における戦略的な意思決定ができるのに対して、MBPMはミクロレベルのフローを見える化することで、戦術的な改善を行うことができます。
   
 メディアギャラリー:
   - link: https://openpracticelibrary.github.io/opl-media/images/vsm.jpg
