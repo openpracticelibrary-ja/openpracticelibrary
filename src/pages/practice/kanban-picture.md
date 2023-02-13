@@ -1,122 +1,114 @@
 ---
 participants: []
 templateKey: practice-page
-title: Kanban Picture
+title: カンバンピクチャー
 subtitle: >-
-  The Kanban Picture suggests a "work dynamic" for teams starting with the
-  Kanban Method.
+  カンバン方式をこれから始める方々は、カンバンピクチャーを使ってダイナミクスを学ぶことができます。
 date: 2019-10-15T18:32:07.285Z
 authors:
   - andresuman
 tags: []
-whatIs: A suggestion to explain and start with the Kanban Method.
+whatIs: カンバン方式を始める方々への説明の仕方
 howTo: >-
-  #### Functional Item
+  #### Functional Item (機能アイテム)
 
 
-  “Between dogs and camels, all things are animals. You should avoid rats and
-  Elephants” - Although there is variability in the size of the items, we avoid
-  the extremes. A functional item generates value, each card on the board
-  represents a delivery of value perceived by the business. if you want a dog,
-  it’s leg, tail or head alone does not generate value.
+  「犬からラクダ、全て動物です。ネズミやゾウなど極端なサイズのものは避けるべきです」
+  アイテムのサイズには大小ありますが、極端なものは避けるべきです。Functional Itemは価値を生み出すものです。
+  カンバンボードのカードにはビジネスが価値を認識できるものを表現します。
+  例えば犬が欲しい場合、犬の足だけ、尻尾だけ、頭だけなどでは価値は認識できませんよね。
 
 
-  #### Replenishment
+  #### Replenishment (補充)
 
 
-  Replenishment is the act of understanding and committing to demand. It is like
-  a wedding - after the commitment point it is not desirable to give up the item
-  (although it may happen ☹️ ). Kanban is a pull system - Frequent replenishment
-  is more agile, on-demand replenishment is most agile!
+  Replenishmentは要求を理解し、デリバリをコミットする行為です。
+  これは結婚のようなものです。コミットした後にデリバリを諦めることは起こり得ますが、望ましいことではありません。
+  カンバンは「Pull」が原則です。頻繁なReplenishmentはよりアジャイルで、オンデマンドのReplenishmentはもっともアジャイルと言えます。
 
 
-  #### Kanban Meeting
+  #### Kanban Meeting (カンバンミーティング)
 
 
-  “Stop starting, start finishing!” iterates across the tickets from right
-  (closest to completion) to left (most recently started). “Ask the cards, not
-  the people” - What can we do to finish this job?
+  “Stop starting, start finishing! (あれもこれも始めるのではなく、まず終わらせよ)” 
+  の考え方をもとに、チケットをもっとも完了に近い右にあるものから取り掛かり、
+  終わらせた上で最近開始された左にあるものに移っていきましょう。
+  一つ一つのジョブを終わらせるためには我々は何ができるか、人ではなくカードを見ることで確認しましょう。
 
 
-  #### Done/Demo
+  #### Done/Demo (完了/デモ)
 
 
-  At the end of the work, the team can demonstrate the result to the
-  stakeholders. The team may decide to demonstrate on small batches of
-  functionality of the same subject or on demand.
+  仕事が終わったら、チームはステークホルダーに結果をデモンストレーションすることができます。
+  同じテーマの機能を小さい単位で少しずつデモンストレーションするか、あるいはオンデマンドで実施することもできます。
+
+  #### Retrospectives (レトロスペクティブ)
+
+  一定のインターバルで仕事のアウトプットを評価し、メトリックを分析して、継続的に改善をし続けることができます。
 
 
-  #### Retrospectives
+  #### WIP Limit (WIPの制限)
 
 
-  Evaluate work output at regular intervals, analyze metrics and seek continuous
-  improvement.
+  仕掛かり中の仕事　(WIP) の数を制限します。画像に書き込まれている "WIP Limits" の数字は、
+  ワークフロー内に存在して良い最大のFunctional Itemの数を表現しています。
+  この仕組みは仕上げることを促進し、重要な議論を呼び起こします。
+  「新しいものを開始することをやめ、終了することを開始しましょう。」
 
 
-  #### WIP Limit
-
-
-  Limit work in progress. These sample numbers represent the maximum number of
-  functional items for workflow. Promote finishing and provoke important
-  discussions. “Stop starting, start finishing!”
-
-
-  #### One Way
+  #### One Way (一方通行)
 
 
   Do not move cards backwards. An item flows when work is completed at each
   step. If a correction needs to be made, keep the item in the same column,
   eventually signaling that a block exists. Focus on finishing.
 
-
-  #### Metrics
-
-
-  *Throughput* - The amount of items delivered in a given time frame, usually
-  weeks.
-
-  *Lead Time* - The clock starts ticking on replenishment and ends when the item
-  is delivered.The number of calendar days to get an item done is the lead time.
-
-  *CFD* - Cumulative Flow Diagram Shows demand, WIP, approximate average lead
-  time and delivery rate capabilities.
-
-  To collect these metrics you only need the start and finishing date for an
-  item then count how many items you have per day in each column.
+  カードは後ろに移動してはいけません。各ステップで作業が完了したらアイテムを移動することができます。
+  もし作ったものに対する修正が必要であれば、列を移動せず現在ある場所に置いたままにし、
+  ブロックとなる障害があることを明示しておきます。
+  完了させることに集中しましょう。
 
 
-  #### Explicit Policies
+  #### Metrics (メトリック)
 
+  *スループット* - 特定の時間枠の中でデリバリーできたアイテムの数。時間枠はたいてい数週間を指します。
 
-  Post policies where you can see them. Policies are rules for how we work and
-  should be developed collaboratively. Example - pull criteria, wip limits, date
-  to deploy.
+  *リードタイム* - Replenishmentからアイテムがデリバリーされるまで計測されます。
+  リードタイムはアイテムが完成するまでのカレンダーの日付を指します。
+
+  *累積フロー図 (CFD)* - 要求、WIP、平均リードタイム、デリバリ率などを確認できます。
+
+  これらのメトリックはアイテムの開始日終了日、および各列で何日かかったかが分かれば計測できます。
+
+  #### 明示的なポリシー
+
+  ポリシーは見えるところに掲示します。ポリシーとは我々の仕事の仕方のルールであり、協力して作り上げていくものです。
+  例 - プルの条件、WIPの制限、デプロイ日など。
 
 
   #### SDM
 
-
-  Service Delivery Manager is a suggested role to manage the flow. SDM manages
-  blockers, collects metrics, and supports team for flow improvement.
-
-
-  #### Class of Service
+  サービスデリバリマネージャーはフローを管理するためのロールとして配置することをお勧めします。
+  SDMは障害を管理し、メトリックを収集し、フローの改善の観点でチームを支援します。
 
 
-  Class of service is based on cost of delay and defines how this category of
-  item is treated in the system. A “tiger on fire” (expedite) has higher
-  priority than other animals (standard). The most common classes of services
-  are standard, expedite, fixed-date and intangible.
+  #### Class of Service (サービスクラス)
 
 
-  #### Extra
+  サービスクラスは遅延コストをベースとして、このカテゴリのアイテムがシステムでどのように扱われるべきかを定義するものです。
+  「火のついた虎」(特急) は他の動物 (標準) と比較して優先順位が高く扱われます。
+  よく使われるサービスクラスは、標準、特急、定期納期、無形です。
 
 
-  #### *Blocker/Block Column*
+  #### その他
 
 
-  Do not have a column for blocked items. A block is a condition for an item in
-  some column of workflow, not a part of the workflow.
+  #### *ブロッカー/ブロック列*
+
+  何らかの障害がありブロックされたアイテム用の列はありません。
+  「ブロック」はワークフロー内の列にあるアイテムの状態であり、ワークフローの一部ではありません。
+
+
 jumbotron: /images/kanban-picture-english.png
 area: delivery-deliver
 icon: /images/kanban-picture-english.png
@@ -126,69 +118,4 @@ mediaGallery:
       https://openpracticelibrary.github.io/opl-media/images/kanban-picture-english.png
 mobiusTag: delivery
 ---
-## What is it?
 
-A suggestion to explain and start with the Kanban Method.
-
-## Why use it?
-
-It's simple and it's a funny explanation.
-
-## Explanation
-
-**Functional Item**
-
-“Between dogs and camels, all things are animals. You should avoid rats and Elephants” - Although there is variability in the size of the items, we avoid the extremes. A functional item generates value, each card on the board represents a delivery of value perceived by the business. if you want a dog, it’s leg, tail or head alone does not generate value.
-
-**Replenishment**
-
-Replenishment is the act of understanding and committing to demand. It is like a wedding - after the commitment point it is not desirable to give up the item (although it may happen :( ). Kanban is a pull system - Frequent replenishment is more agile, on-demand replenishment is most agile!
-
-**Kanban Meeting**
-
-“Stop starting, start finishing!” iterates across the tickets from right (closest to completion) to left (most recently started). “Ask the cards, not the people” - What can we do to finish this job?
-
-**Done/Demo**
-
-At the end of the work, the team can demonstrate the result to the stakeholders. The team may decide to demonstrate on small batches of functionality of the same subject or on demand.
-
-**Retrospectives**
-
-Evaluate work output at regular intervals, analyze metrics and seek continuous improvement.
-
-**WIP Limit**
-
-Limit work in progress. These sample numbers represent the maximum number of functional items for workflow. Promote finishing and provoke important discussions. “Stop starting, start finishing!”
-
-**One Way**
-
-Do not move cards backwards. An item flows when work is completed at each step. If a correction needs to be made, keep the item in the same column, eventually signaling that a block exists. Focus on finishing.
-
-**Metrics**
-
-_Throughput_ - The amount of items delivered in a given time frame, usually weeks.
-
-_Lead Time_ - The clock starts ticking on replenishment and ends when the item is delivered.The number of calendar days to get an item done is the lead time.
-
-_CFD_ - Cumulative Flow Diagram Shows demand, WIP, approximate average lead time and delivery rate capabilities.
-
-To collect these metrics you only need the start and finishing date for an item then count how many items you have per day in each column.
-
-**Explicit Policies**
-
-Post policies where you can see them. Policies are rules for how we work and should be developed collaboratively. Example - pull criteria, wip limits, date to deploy.
-
-**SDM**
-
-Service Delivery Manager is a suggested role to manage the flow. SDM manages blockers, collects metrics, and supports team for flow improvement.
-
-**Class of Service**
-
-Class of service is based on cost of delay and defines how this category of item is
- treated in the system. A “tiger on fire” (expedite) has higher priority than other animals (standard). The most common classes of services are standard, expedite, fixed-date and intangible.
-
-**Extra**
-
-**_Blocker/Block Column_**
-
-Do not have a column for blocked items. A block is a condition for an item in some column of workflow, not a part of the workflow.
