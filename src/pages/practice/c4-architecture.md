@@ -12,7 +12,7 @@ tags:
 mobiusTag: foundation
 icon: /images/c4-architecture-containers.png
 whatIs:
-  '**C4モデル**'は、
+  C4モデルは、
   ソフトウェアシステム
   のアーキテクチャモデ
   リングに対するムダのないグ
