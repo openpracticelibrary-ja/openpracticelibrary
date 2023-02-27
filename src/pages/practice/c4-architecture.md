@@ -11,7 +11,8 @@ tags:
   - learn
 mobiusTag: foundation
 icon: /images/c4-architecture-containers.png
-whatIs: **C4モデル**は、ソフトウェアシステムのアーキテクチャモデリングに対するムダのないグ
+whatIs: **C4モデル**は、ソフトウェアシステムのアーキテクチャモデ
+  リングに対するムダのないグ
   ラフィカルな表記技法です。[](https://en.wikipedia.org/wiki/C4_model#cite_note-:0-1)
   これは、システムコンテナやコンポーネントにする構造分解に基づいており、
   [Unified Modelling Language (UML)](https://en.wikipedia.org/wiki/Unified_Modeling_Language "Unified Modeling Language") や
