@@ -22,18 +22,18 @@ perspectives:
   - facilitation-tips-for-remote-sessions
 templateKey: practice-page
 whatIs: >-
-  * 「プライオリティスライダー」は、これから着手する活動（アジャイル開発）でのトピック（関心事）の相対的な優先度をメンバー間で議論して合意するためのツールです。
+  * プライオリティスライダーは、これから着手する活動（アジャイル開発等）でのトピック（関心事）の相対的な優先度をメンバー間で議論して合意するためのツールです。
   * 複数のトピックの相対的な優先度を可視化します。
-  * 各トピックの相対的な重要性をスライダーで表現します。（例：右はより優先度高、左は優先度低）
-  * このプラクティスはチームの自律性を高めるための手法です。（下記「意思決定」を参照）
+  * 各トピックの相対的な重要性をスライダーで表現します。（例：右は優先度高、左は低）
+  * このプラクティスによりチームの意思決定の自律性を高めることができます。
 
-  ホワイトボードには「ユーザーエクスペリエンス」、「セキュリティ」などの単語が書き、単語の横に数字(優先度)を書いた付箋を貼ります。(https://github.com/openpracticelibrary/opl-media/blob/master/images/final_priority-sliders.png?raw=true)
+  ホワイトボードには「ユーザーエクスペリエンス」、「セキュリティ」などの単語を書き、単語の横に数字(優先度)を書いた付箋を貼ります。(https://github.com/openpracticelibrary/opl-media/blob/master/images/final_priority-sliders.png?raw=true)
   
 whyDo: >-
   * これからの活動で注力する領域が何なのかをメンバーで合意することに役立ちます。
   * ステークホルダ間で動機や要望を明確にすることができます。
   * その後の活動の優先順位を決めるためのフィルタリング機構として使用することができます。（例えばプロダクトバックログアイテムの優先順位付け）
-  * チームの意思決定（例えば、機能の採否やプロダクト戦略に関する決定）に利用することができます。プロダクトに関する優先度判断の客観的な基準がスライダーとして明確化されることで、スライダーを判断基準としてチームが自律的に意思決定を行うことができます。（意思決定の度に複数のステークホルダに意見を聞いてまわるという事が少なくなります。）
+  * チームの意思決定（例えば、機能の採否やプロダクト戦略に関する決定）に利用することができます。プロダクトに関する優先度判断の客観的な基準がスライダーとして明確化されることで、スライダーを判断基準としてチームが自律的に意思決定を行うことができます。（意思決定の都度、複数のステークホルダに意見を聞き調整を行うという事を減らすことができます。）
 
 howTo: >-
   Steps:
@@ -63,7 +63,7 @@ resources:
   - link: https://www.ready-to-innovate.com/priority-sliders
     linkType: web
     description: Try out an online example
-  - link: https://openpracticelibrary.com/blog/facilitation-tips-for-remote-sessions/
+  - link: https://openpracticelibrary-ja.netlify.app//blog/facilitation-tips-for-remote-sessions/
     linkType: web
     description: Remote Facilitation Tips
 mediaGallery:
