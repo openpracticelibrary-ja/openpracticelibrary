@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: 🧠 Cognitive Loadometer 🌡
-subtitle: A simple tool to measure cognitive load and improve focus
+title: 🧠 認知負荷（Cognitive Load）メーター 🌡
+subtitle: 認知負荷を測定し、集中力を高めるシンプルなツール
 date: 2021-07-21T23:07:25.555Z
 authors:
   - fabiopereira
@@ -12,52 +12,49 @@ tags:
 mobiusTag: options
 icon: /images/cognitive-loadometer-thumb-opl.png
 whatIs: >-
-  Cognitive Loadometer is a simple tool to measure the Cognitive Load of a team.
-  In cognitive psychology, cognitive load refers to the used amount of working
-  memory resources or the total amount of mental effort being used in the
-  working memory, as John Sweller refers in the book "Cognitive Load Theory".
+  認知負荷（Cognitive Load）メーターは、チームの認知負荷を測定するためのシンプルなツールです。認知心理学において、認知負荷とは、ジョン・スウェラーが「認知負荷理論（Cognitive Load Theory）」という本の中で言及しているように、作業記憶（working memory）の使用量、または作業記憶で使われている心的活動の総量のことを指します。
 
 
-  ### When should I use this tool?
+  ### このツールはいつ使えばいいか？
 
 
-  When a team is expressing some signs of:
+  チームが以下のような何らかの兆候を表している場合:
 
 
-  * Being overwhelmed with information and tasks
+  * 情報やタスクに圧倒される
 
-  * Not being able to handle the expected demand
+  * 想定される需要に対応できない
 
-  * Having to juggle too many priorities
+  * 多くの優先事項をこなす必要がある
 
-  * Having difficulty focusing on what really matters
+  * 本当に大切なことに集中することが困難
 whyDo: >-
-  Measuring Team Cognitive Load can improve team's productivity, focus,
-  motivation and even mitigate burnout risks.
+  チームの認知負荷を測定することで、チームの生産性、集中力、モチベーションを向上させ、燃え尽き症候群のリスクを軽減することもできます。
 
 
-  [Team Topologies](https://teamtopologies.com/) theory, by Matthew Skelton and Manuel Pais, mentions Team Cognitive Load as an important element of a team. According to Skelton and Pais "when we talk about cognitive load, it’s easy to understand that any one person has a limit on how much information they can hold in their brains at any given moment. The same happens for any one team by simply adding up all the team members’ cognitive capacities." They also mention that "when assigning responsibilities to a given team, we hardly ever discuss cognitive load. Perhaps because it’s hard to quantify both the available capacity and what the cognitive load will be". Inspired on other subjective scales, like [Pain Scale](https://en.wikipedia.org/wiki/Pain_scale), [Fabio Pereira](http://fabiopereira.me/) and [Jorge Galdino](https://www.linkedin.com/in/jorgegaldino/) created the Subjective Cognitive Load Scale used on this tool.
+  Matthew SkeltonとManuel Paisによる[Team Topologies](https://teamtopologies.com/)理論では、チームの重要な要素として、チーム認知負荷(Team Cognitive Load)に言及しています。SkeltonとPaisによれば、「認知的負荷について語るとき、どんな人でも、ある瞬間に脳内に保持できる情報量に限界があることを理解するのは簡単だが、同じことが、チーム全員の認知のキャパシティを単純に足し合わせることで、1つのチームにも起こるうる。」 また、「あるチームに責務を割り当てるとき、認知負荷について議論することはほとんどない。おそらく、利用可能な能力と認知的負荷の両方を定量化するのが難しいからだろう」とも述べています。[Pain Scale](https://en.wikipedia.org/wiki/Pain_scale)のような他の主観的尺度にインスパイアされて、[Fabio Pereira](http://fabiopereira.me/) と [Jorge Galdino](https://www.linkedin.com/in/jorgegaldino/) は、このツールで使用する主観的認知負荷尺度を作成しました。
 
 
-  As a team's cognitive capacity exceeds, it leads to delays, quality issues, and often, a decrease in team members’ motivation. [Research shows](https://www.ama-assn.org/practice-management/physician-health/4-approaches-cut-physicians-mental-workload-and-burnout) that people with higher levels of cognitive workload have increased rates of burnout.
+  チームの認知能力が限界を超えると、遅延や品質問題につながり、しばしばチームメンバーのモチベーションが低下します。また、認知的作業負荷が高い人は、燃え尽き症候群の割合が高くなることが[研究により](https://www.ama-assn.org/practice-management/physician-health/4-approaches-cut-physicians-mental-workload-and-burnout)わかっています。
+
 howTo: >-
-  This tool has been built on top of Google Forms and it is extremely simple and
-  easy to use:
+  このツールは、Googleフォームの上に構築されており、非常にシンプルで使い勝手が良い:
 
 
-  **1. Copy** - make a copy of the tool [here](https://docs.google.com/forms/d/1JS-aJ3X7rfttWP-Jw_JXNXg0xqIJpUANKRHcrwSaJmo/copy) - this copy is yours
+  **1. コピー** - ツールをコピーをする [こちら](https://docs.google.com/forms/d/1JS-aJ3X7rfttWP-Jw_JXNXg0xqIJpUANKRHcrwSaJmo/copy)
+  
+
+  **2. カスタマイズ** - チーム名(TEAM_X)を変更する
 
 
-  **2. Customize** - Change the Team Name (TEAM_X) to reflect your team name
+  **3. 共有** - [この手順](https://support.google.com/docs/answer/2839588?hl=ja)でチームに送信する
 
 
-  **3. Share** - Send it to your team using [this step by step](https://support.google.com/docs/answer/2839588?hl=en)
+  **4. 分析** - [このシートで](https://support.google.com/docs/answer/2917686?hl=ja)チームの反応を分析することができるようになる
 
-
-  **4. Analyse** - Now you can analyse your team responses [on a sheet](https://support.google.com/docs/answer/2917686?hl=en)
 mediaGallery:
-  - link: https://media-exp3.licdn.com/dms/image/C4D12AQHdxWbXjxyLtg/article-inline_image-shrink_1500_2232/0/1626910927641?e=1632355200&v=beta&t=uRbPjhu8dUb5BxW-kssPaQDulooNnnZ6eci9xCaVjMk
-  - link: https://media-exp3.licdn.com/dms/image/C4D12AQFAx4ocnMpPlQ/article-inline_image-shrink_1500_2232/0/1626911001352?e=1632355200&v=beta&t=eFGajyp3-Xc2Tsm0tElXjBpRkF40AeFpczxsmNrpvEE
+  - link: https://raw.githubusercontent.com/openpracticelibrary/opl-media/master/cogload2.png
+  - link: https://raw.githubusercontent.com/openpracticelibrary/opl-media/master/cogload1.png
 resources:
   - link: https://en.wikipedia.org/wiki/Cognitive_load
     linkType: web
@@ -65,6 +62,9 @@ resources:
   - link: https://teamtopologies.com/
     linkType: web
     description: Team Topologies
+  - link: https://amzn.asia/d/faZjXSW
+    linkType: web
+    description: チームトポロジー 価値あるソフトウェアをすばやく届ける適応型組織設計
   - link: https://itrevolution.com/cognitive-load/
     linkType: web
     description: Team Cognitive Load
