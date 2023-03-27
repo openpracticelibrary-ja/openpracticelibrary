@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Creativity Warmups
-subtitle: Break down mental barriers and stretch creative thought before
-  ideating solutions
+title: クリエイティビティ・ウォームアップ
+subtitle: メンタルの壁をこえてクリエイティブな思考をストレッチする
 date: 2021-05-10T18:08:42.749Z
 authors:
   - heyjerrybecker
@@ -10,40 +9,32 @@ tags:
   - ideate
 mobiusTag: options
 icon: /images/creativity-warmups.png
-whatIs: Creativity Warmups are a set of quick, creative thinking activities that
-  act as a mental warmup to stretch the group's creative thinking.
+whatIs: クリエイティビティ・ウォームアップは、ワークショップやミーティングの開始前に実施する、短時間の活動です。参加者は、ブレインストーミングやアイデアの共有を始める前に、リラックスした雰囲気でコミュニケーションの壁を取り払い、クリエイティブな思考に切り替えることができます。
 whyDo: >-
-  Taking time to stretch the team's creative thinking is a fantastic way to get
-  more creative ideas from an ideation session for your product, service, or
-  project team. Completing any of these mini practices helps expand thinking and
-  can lead to even more creative and innovative ideas.\
+  チームがクリエイティブな思考をストレッチするために時間をとることで、製品やサービスあるいはプロジェクトチームが行うアイデア創出セッションの際に、クリエイティブなアイデアを創出することができるようになります。
+  以下のミニ・プラクティスはよりクリエイティブでイノベーティブなアイデア創出をするために役に立つでしょう。
+  
+  創造性ウォームアップは、[トーランス創造性思考テスト](https://www.testingmom.com/tests/torrance-test/#:~:text=What%20is%20the%20Torrance%20Test,child%20may%20have%20already%20taken.) （TTCT）に基づいています。TTCTは、個人の思考がどれだけ創造的に働いているかを評価し、子供たちには、上級クラスへの進級や入学試験の一部として行われることがよくあります。これらのテストは、お子さんがすでに受けた知能や推理力のテストとは大変異なります。伝統的に教えられる科目（例えば、読解力や数学力）ではなく、創造性を評価します。テストでは、以下のようないくつかの側面で採点されます。
 
-  \
+  * 絵に対する創造的なタイトル
+   
+  * 表現力
+   
+  * イメージ力
+   
+  * ユーモア
 
-  Creativity Warmups are based on the [Torrance Test of Creative Thinking](https://www.testingmom.com/tests/torrance-test/#:~:text=What%20is%20the%20Torrance%20Test,child%20may%20have%20already%20taken.) (TTCT). **The TTCT** assess how creatively a person's mind works and are often given to children to determine advanced placement or as part of an entrance examination. They are very different from intelligence and reasoning tests your child may have already taken. Instead of traditionally taught subjects such as reading or math, these tests assess creativity. Testers are scored on a number of aspects. This includes:
-
-
-  * Creative titles for pictures
-
-  * Expressions
-
-  * Imagery
-
-  * and Humor
 howTo: >-
-  1. Pick one or a few exercises to run with your team and hand out the
-  [templates](http://home.iitk.ac.in/~sahus/se367/project/TTCT.pdf) for each
-  exercise to all participating members. 
+  1. まず、お題を[テンプレート](https://innovators-guide.ch/wp-content/uploads/2012/12/torrance-creativity-test.pdf) から選択してください。状況や参加者のニーズに応じて、適切なアクティビティを選ぶことが重要です。
 
-     If running remotely, have templates prepared on your favorite digital whiteboarding tool (Miro, Mural, Jamboard, etc).
-  2. Explain the exercise to the group. Be sure to mention that this is to stretch creative thinking, so big, wild, and unique ideas are most valuable. For each exercise, the point is for team members to come up with ideas they think no one else will come up with - this helps participants push past obvious answers and explore more creative ideas (see where this is going? 😉 )
+  2. 参加者にアクティビティの目的と手順を説明し、質問に答えてください。これは創造的思考を伸ばすためのものであり、大きく、野性的で、ユニークなアイデアが最も価値があることを必ずつたえましょう。各エクササイズのポイントは、チームメンバーが誰も思いつかないようなアイデアを出すことです。こうすることで、参加者はありきたりなアイデアを超えて、より創造的なアイデアを探求することができます。
 
-  3. For each exercise, put 5 minutes on the clock and have participants silently work on their ideas. If they run out of room, have extra templates printed out to hand to them so they can keep ideating. Don't worry about allocating points to each idea...this is just for warming up our brains!
+  3. ウォームアップアクティビティを実施し、参加者がアクティビティに集中できるように、適切な時間と空間を提供してください。各エクササイズに5分ずつ時間をかけ、参加者に黙々とアイデアを練ってもらいましょう。スペースが足りなくなったら、テンプレートを余分に印刷して渡して、アイデアを出し続けられるようにします。各アイデアへの配点は気にしないでください...これは頭をウォームアップするものなのです！
 
-  4. After time is up, you can either close out the exercises and move right into an ideation session OR you can have team members share their ideas with the group. If you want you can even open a dot-voting round to have people vote on their favorite ideas and award the winner of the most votes some kind of creative trophy 🏆💡
+  4. アクティビティが終了したら、参加者にフィードバックを求め、彼らがどのように感じたかを共有してもらいましょう。
+  時間が終わったら、エクササイズを終了して、すぐにアイデア出しのセッションに移ることもできますし、チームメンバーにグループ内でアイデアを共有してもらうこともできます。必要であれば、投票ラウンドを開いて、お気に入りのアイデアに投票してもらい、最多得票者には何らかのクリエイティブなトロフィーを授与してもいいかもしれません💡💡。
 
-
-  Now that you have your team creatively warmed up, try rolling right into an ideation session for your product and see the creative ideas that emerge!
+  チームをクリエイティブにウォームアップさせたところで、さっそく製品のアイデア出しのセッションに参加して、出てきたクリエイティブなアイデアを確認してみましょう！
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/Creativity%20Warmups.png?raw=true
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/Creativity%20Warmups%202.jpeg?raw=true
