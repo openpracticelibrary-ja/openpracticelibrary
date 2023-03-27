@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run build && && rm -rf ../cache"
+  command = "npm run build && rm -rf ../cache"
   functions = "lambda"
 [build.environment]
   NODE_VERSION = "12"
