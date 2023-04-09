@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: Readyの定義（Definition of Ready, DoR)
+title: Readyの定義
 subtitle: 作業項目が着手可能な状態かを判断する
 date: 2018-08-16T03:38:19.000Z
 authors:
@@ -11,7 +11,7 @@ tags:
 mobiusTag: foundation
 icon: /images/dor.jpg
 whatIs: >-
-  * プロダクトバックログアイテム(PBI)をスプリントバックログに移してスプリント（開発/コーディング）を開始するための準備が整っているかを判定する基準です。INVEST基準がよく使われます。
+  * Readyの定義（Definition of Ready, DoR）は、プロダクトバックログアイテム(PBI)をスプリントバックログに移してスプリント（開発/コーディング）を開始するための準備が整っているかを判定する基準です。INVEST基準がよく使われます。
 
   * チームが共同で作成し、維持し、遵守する基準です。
 whyDo: |-
