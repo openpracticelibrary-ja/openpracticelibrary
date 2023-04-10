@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: Lightning Decision Jam
+title: ライトニング・ディシジョン・ジャム
 subtitle: A workshop to solve any problem, with any amount of people
 date: 2020-01-23T14:01:25.612Z
 authors:
@@ -9,56 +9,48 @@ tags:
   - ideate
 mobiusTag: discovery
 icon: /images/decision-jam-small.png
-whatIs: This is a workshop exercise that you can use for **almost anything**.
-  Created by the amazing team at [AJ&Smart](https://ajsmart.com/), the Lightning
-  Decision Jam involves getting a few people in a room to define and solve
-  challenges. It is a handful of practices you run with a group to identify pain
-  points or problems to solve, to prioritize those problems, to ideate solutions
-  to the most important problems, and to prioritize those solutions. Finally,
-  you assign next steps for the team to take in order to run a solution
-  experiment.
+whatIs: このプラクティスは、ほとんど何にでも使うことができるワークショップです。
+  ライトニング・ディシジョン・ジャムは[AJ&Smart](https://ajsmart.com/) によって作られたもので、
+  数人のチームで課題を定義したり解決するために行われます。
+  このプラクティスを使うことで、ペインポイントや解決すべき課題の特定と優先順位付けを行い、最も重要な課題に対する解決策のアイデア出しと優先順位付けを行うことができます。
+  最後に、解決策の試行するために、チームが取るべき次のステップを割り当てます。
 whyDo: >-
-  The Lightning Decision Jam (LDJ) is an insanely flexible combination of
-  exercises, taking the best of the world’s problem-solving processes ([Design
-  Thinking](https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular)/[Gamestorming](https://gamestorming.com/)/[Design
-  Sprints](https://openpracticelibrary.com/practice/design-sprint/)/[Agile](http://www.agilenutshell.com/)
-  to name a few) and crushing them down to their absolute essence. It is great
-  to use if you feel like your team either is not currently focused on constant
-  improvement OR you find the meetings you have about improving or problem
-  solving never have any follow-through. Oh, or you are in a group where a small
-  group of people tend to dominate the conversation! This helps to ensure
-  **everyone**'s ideas are considered 👏👏👏
-
-
-  The LDJ is awesome for helping the team find areas of improvement. It helps drive the conversation toward a clear experiment to discover a solution within a very short period of time. So if you want to have fast follow-through for your team, this is a great workshop to try out!
+  ライトニング・ディシジョン・ジャム（JDJ）は世界的に著名な問題解決プロセスである[デザイン思考](https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular)/[Gamestorming](https://gamestorming.com/)/ [デザインスプリント](https://openpracticelibrary.com/practice/design-sprint/)/[Agile](http://www.agilenutshell.com/)
+  から柔軟にエクササイズを組み合わせ、そのエッセンスを集めたものです。
+  もしいまのチームが継続的な改善にフォーカスできていないと感じていたり、
+  改善のためのミーティングがうまく行かないと感じているならこのプラクティスは有用かもしれません。
+  おっと、あるいはあなた自身がミーティングを独占してしまいがちでも役に立ちます！
+  このプラクティスは「全員」のアイデアを尊重することができます。👏👏👏
+  
+  LDJ は改善できる領域を見つけることを手助けします。このプラクティスによって非常に短い期間で解決案を見つけるための会話を促進します。ですから、素早く改善活動を行いたいなら非常に効果的ですので、是非試してみてください。
 howTo: >-
-  ### Overview of Steps
+  ### ステップ
 
-  **1.** Identify the things that are working
-
-
-  **2.** Capture all the problems or things holding the group back
+  **1.** いま取り組んでいることを特定する
 
 
-  **3.** Prioritize those problems
+  **2.** チームがもっている全ての問題や課題を取り上げる
 
 
-  **4.** Reframe the problems as standardized challenges
+  **3.** それらの問題・課題を優先順位付けする
 
 
-  **5.** Ideate solutions to the problems as individuals
+  **4.** 問題を一般化/抽象化した課題にリフレームする
 
 
-  **6.** Prioritize solutions as a team
+  **5.** 個々人で解決案を出す
 
 
-  **7.** Decide what solution to execute on
+  **6.** チームとして解決案の優先順位付けをする
 
 
-  **8.** Make solutions actionable (S.M.A.R.T)
+  **7.** どの解決案を実施するか決める
 
 
-  Check out the step-by-step video from the creator of the Lightning Decision Jam (AJ&Smart) in the gallery below on how to facilitate this jazz.
+  **8.** 解決案を実行可能にする（S.M.A.R.T）
+
+
+  このジャズをどのように進行させるか、ライトニング・ディシジョン・ジャムの作成者（AJ&Smart）によるステップバイステップのビデオを下のギャラリーでご覧ください。
 mediaGallery:
   - link: https://youtu.be/33hBnZzoFAg
   - link: https://www.youtube.com/watch?v=w9MvYDaA1Bk
