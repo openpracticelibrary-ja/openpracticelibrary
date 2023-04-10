@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Confidence Voting
-subtitle: Gains consensus around a team's agreement or disagreement on the
-  current activity, event or questions
+title: 自信の投票（コンフィデンス-ボーティング）
+subtitle: 現在のアクティビティ、イベント、質問について、チームの同意または不同意をもとにコンセンサスを得る
 date: 2018-08-10T11:25:16.000Z
 authors:
   - tdbeattie
@@ -14,104 +13,101 @@ tags:
 mobiusTag: foundation
 icon: /images/fist-of-five-voting-method.jpg
 whatIs: >-
-  * A practice that gains consensus around a team's agreement or disagreement on
-  the current activity, event or questions
+  * 現在のアクティビティ、イベント、または質問について、チームの同意または不同意を中心に合意を得るためのプラクティスです。
 
 
-  * A group voting on how confident they are in doing something or learning something
+  * 何かをすること、何かを学ぶことにどれだけ自信があるか、グループで投票します。
 
 
-  * A safety check
+  * 安全性をチェックします。
 whyDo: >-
-  * Builds a consensus for team agreement to progress or not progress
+  * 前に進めるか・進めないか、チームの合意形成を図ることができます。
 
 
-  * A facilitator will conduct the vote. As a topic discussion concludes, the facilitator will ask the participants to vote how confident they are on understanding the topic, the ability to execute, and sufficent resources and time.
+  * ファシリテーターが投票を実施します。トピックディスカッションが終了したら、ファシリテーターは参加者に、トピックの理解、実行能力、十分なリソースと時間について、どの程度自信があるか投票するよう求めます。
 
 
-  * At the count of 3, all participants will raise their hand and raise fingers indicating their confidence: 1 for low, 5 for high and 2, 3 or 4 for anything in between.
+  * 3つ数えたら、参加者全員が手を挙げ、自信を示す指を立てます： 0が低い、5が高い、1、2、3、4がその中間です。
 
 
-  *  In the end the facilitator will count the votes and open a discussion on what is yet to be cleared or addressed before moving on to the next topic.
+  *  最後にファシリテーターが集計し、まだクリアできていないこと、対処できていないことについてディスカッションを行い、次のトピックに移ります。
 howTo: >-
-  **Determine the goal:** You can use confidence voting to check in on a topic
-  with the group, to build consensus on a topic, or to move forward on a topic
-  on which you're stuck. Choose one goal.
+  **ゴールを決める:** 自信の投票は、あるトピックについてグループで確認したり、トピックについて合意を形成したり、行き詰まっているトピックを前進させたりするために使用することができます。ゴールを1つ選びます。
 
 
-  **Suggest the practice:** "I've got a suggestion: let's try using confidence voting for this scenario. We can use it to (*pick one:* check-in || gain consensus || move forward). It only takes a couple minutes. We'll be able to quickly hear from everyone in the room in a democratic way, and take a quantitative measurement of where we collectively stand. I can facilitate. Any objections to us doing it -- right now?"
+  **プラクティスを提案する:** "提案があります：このシナリオに自信の投票を使ってみましょう。私たちはそれを使って、(*次の中から一つ選択:* チェックイン || コンセンサスを得る || 前進するか判断する)とすることができます。ほんの2分ほどで済みます。民主的な方法で部屋にいる全員の意見を素早く聞き、私たちが集団的にどのような立場にあるのかを定量的に測定することができるます。私が進行役を務めます。今すぐやることに反対はないですか？"
 
 
-  **Explain the practice:** "It's pretty simple: I want you to think of a score from zero to five, which represents your point of view on the current topic at hand. A vote of zero (*facilitator shows a closed fist, held above their head)* is a vote of no confidence; a five (*facilitator shows open hand)* represents full confidence. We'll count to three, and then everyone will show their vote at the same time, raising their hands above their head. I'll then tally up the average, and then I'll guide the discussion on how we arrived at our votes. Any questions before we begin?"
+  **プラクティスを説明する:** "とてもシンプルです： 今のトピックについて、0点から5点までの点数を考えてください。0点（*ファシリテーターは閉じた拳を頭上に掲げる*)は同意しない・自信が全くない票、5点（*ファシリテーターは開いた手を示す*）は完全同意・自信が完全にあることを表す。3つ数えたら、全員が同時に手を上げて票を示します。その後、私が平均値を集計し、どのように投票に至ったかについてディスカッションを誘導します。始める前に何か質問はありますか？"
 
 
-  *It's vital that you capture the vote first, before allowing any discussion on the topic itself. Capturing the vote first ensures that you actually get around to capturing it, and ensures that you prioritize hearing from everyone in a democratic fashion. And, capturing the vote first will then provide a framework for facilitating the subsequent conversation in a way that can reduce the tendency for the 'loudest voice in the room' to dominate.*
+  *トピックそのものについて議論する前に、まず投票結果を把握することが重要です。最初に投票をすることで、実際の意思を取得することができ、民主的な方法で全員から意見を聞くことを優先させることができます。また、最初に投票を行うことで、その後の会話を円滑に進めるための枠組みができ、「その場で最も声の大きい人」が支配的になる傾向を抑えることができます。*
 
 
-  **State the question**: "So, the question at hand is: should we do Indian food for dinner tonight? Get your vote in your head and get ready to show your score on the count of three, ready?"
+  **質問を伝える**: "さて、目下の問題は、今夜の夕食をインド料理にするかどうか？頭の中で投票を済ませ、3つ数えたら点数を表示する準備をしよう、いいですか"
 
 
-  **Count**: 1, 2, 3, vote!
+  **カウント**: 1, 2, 3, 投票してください!
 
 
-  *Everyone votes at the same time and hands must be held high. This may seem trivial but, for more contentious topics (although this could be one), it is important that people do not look to others in the room to see how to vote.*
+  *全員が同時に投票し、手は高く上げる必要があります。これは些細なことかもしれませんが、より論争的なテーマ（これもそうかもしれませんが）の場合、人々が投票方法を確認するために部屋の他の人を見ないようにすることが重要です。*
 
 
-  *Each person votes by holding up 0, 1, 2, 3, 4, or 5 fingers.*
+  *各自、0、1、2、3、4、5本の指を立てて投票します。*
 
 
-  *The facilitator (or vote caller) looks around the room and quickly tallies the votes.  The votes breakdown like this:*
+  *ファシリテーター（または投票呼びかけ人）は、部屋を見渡し、素早く票を集計します。 票の内訳は次の通りです。:*
 
 
-  **0 fingers (a fist)**: No way, terrible choice, I will not go along with it. A way to block consensus. If you are running a vote to decide and move forward, it is vital that you explain that fists are the way to block consensus.
+  **0 fingers (こぶし)**: とんでもない、ひどい選択だ、付き合いきれない。コンセンサスを阻害する方法です。 決めて前進するための投票を実行する場合、拳は合意を阻止する方法であることを説明することが肝心です。
 
 
-  **1 finger**: I have serious reservations with this idea, but I vote to move forward, but I’d prefer to resolve the concerns before supporting it.
+  **1 finger**: このアイデアには重大な懸念がありますが、前進するために、懸念事項を解決してから支持したいと思います。
 
 
-  **2 fingers**: I have some concerns, but I’ll go along and try it.
+  **2 fingers**: 不安はありますが、付き合ってやってみようと思います。
 
 
-  **3 fingers**: I will support the idea.
+  **3 fingers**: 私はその考えを支持します。
 
 
-  **4 fingers**: I like this idea, sounds good.
+  **4 fingers**: このアイデア、いいですね。
 
 
-  **5 fingers**: Absolutely, best idea ever! I’ll champion it.
+  **5 fingers**: 絶対に、最高のアイデアです！私がチャンピオンになります。
 
 
-  Based on the goal of the vote (as noted above), the facilitator takes the next step:
+  投票の目的（前述の通り）に基づき、ファシリテーターは次のステップに進みます:
 
 
-  **Goal**: **Check-in** — The facilitator announces the results, uses the results to adjust the session, make changes, start a discussion, or other actions based on how the vote went and how he/she sees the process progressing. Was the vote what you expected? Different? Do you believe changes are required?
+  **Goal**: **Check-in** — ファシリテーターは結果を発表し、投票の結果やプロセスの進行状況を見て、セッションの調整、変更、議論の開始などに利用します。投票の結果は予想通りでしたか？違ったか？変更が必要だと思いますか？
+
+  例:
 
 
-  For example:
+  "この投票は、チェックインのために行っています。平均は3.2でした。つまり、平均すると、チームは物事を良く感じていることになります。この結果は、あなたが予想していたものでしたか？違うか？変更が必要だと思われますか？"
 
 
-  "We're doing this vote to check-in on things. Our average was 3.2, which means, on average, the team is feeling good about things. Was this result what you had expected? Different? Do you believe changes are required?"
+  **Goal**: **コンセンサスを得る** — 0、1、2がある場合は、理由を聞いてみてください。彼らはどんな予約をしているのでしょうか？理由の簡単な要約や根底にあるものについてコメントを求めます。他の人からもコメントを求めます。その後、再度投票を呼びかける。新たな情報を得た場合は、質問を再表明し、再度投票することもできます。
 
 
-  **Goal**: **Learn and gain consensus** — If you have some 0s, 1s, or 2s, ask for reasons. What reservations do they have? You ask for a brief summary or a bottom-line of the reasons. Ask for other bottom-line comment from others. Then call another vote. You may learn new information to restate the question and vote again.
+  例:
 
 
-  For example:
+  "平均は4.2点で、つまり、平均してチームはこのアイデアを気に入っているということです。そして、いくつかの異常値が見られました -- 何人かは0点でした。そのうちのお一人から、投票の理由を簡単にお聞かせください。"
 
 
-  "Our average was 4.2, which means, on average, the team likes this idea. And I saw a few outliers -- a couple of you scored it as zero. Let's hear from one of the outliers -- can you briefly share the summary reason behind your vote?"
+  **Goal**: **投票をして前進を判断する** — 全員が指を立てていれば、それはイエスです。全員が拳を挙げていれば、それは明確なノーです。混在している場合は、拳を挙げている手の数と、指を立てている手の数（1～5）の勝敗を決めます。
 
 
-  **Goal**: **Vote and move forward** — If everyone has fingers up, that is a yes. If everyone has a fist up, that is a clear no. If there is a mix, it is a winner take all, number of hands with fists, vs. number of hands with fingers up (1 thru 5).
+  例:
 
 
-  For example:
+  "投票をして前に進めるかどうか判断するために実施しています。私たちのチームは拳と指が混在していたのですが、指よりも拳（自信なし）の方が多かったです。この状況だと勝者総取りで、拳の方が勝者なので、提案に反対することにしました。投票結果を我々の決定として記録しておく。もし、状況が変わって、この決定を見直す必要が出てきたら、すぐにまた実行できます。今は、意見が対立したまま決定に至ったということを認識し、それをコミットして前に進むことが重要です。"
 
 
-  "We're doing this to vote and move forward. Our team had a mixture of fists and fingers, but there were more fists (no confidence) than fingers. In this situation, winner takes all, and fists are the winners, so we've decided against the proposal. I'll record the results of the vote as our decision. If we ever need to revisit this decision because our situation has changed, we can quickly run it again. For now, we need to recognize that we've reached our decision with some disagreement, and it's important that we commit to it and move forward."
+  **投票をして前進を判断する**のバリエーションとして、議題が自動的に進むか否かのカットオフスコアを事前に発表し（例：「2以下は前進せず、2以上はGO」）、平均スコアを算出し、その結果を用いて迅速に前進させる方法があります。
 
-
-  A variation on the **vote and move forward** approach is to pre-announce a cutoff score that would automatically advance or defeat the agenda topic (i.e. "2 or below means we don't move forward; anything above 2 is a go"), calculate the average score, and use the result to quickly move forward.
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/fist-of-five-voting-method.jpg?raw=true
 resources:
