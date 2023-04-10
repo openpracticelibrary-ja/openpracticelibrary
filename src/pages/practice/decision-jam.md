@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: ライトニング・ディシジョン・ジャム
-subtitle: A workshop to solve any problem, with any amount of people
+subtitle: さまざまな問題を解決するためのワークショップ
 date: 2020-01-23T14:01:25.612Z
 authors:
   - heyjerrybecker
