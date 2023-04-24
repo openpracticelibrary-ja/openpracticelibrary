@@ -1,5 +1,5 @@
 ---
-subtitle: From ideas to essential features and outcomes
+subtitle: アイデアから本質的な機能、成果へ
 participants:
   - Product Owner/Manager
   - UXD
@@ -10,7 +10,7 @@ resources:
     linkType: web
     description: Design the Box
 templateKey: practice-page
-title: Design The Box
+title: デザイン ザ ボックス (箱の設計)
 date: 2018-11-08T14:59:58.041Z
 authors:
   - valyonchev
@@ -24,42 +24,30 @@ people: 2+
 time: 30-60 min
 difficulty: easy
 whatIs: >-
-  This Design Thinking practice is exactly what the title says - the team
-  members have to imagine the box/packaging for a new product. They need to come
-  up with slogans that correspond to the essence of the product/service,
-  highlight the most important valuable features it aims at.
+  このデザイン思考のプラクティスは、まさにタイトル通り、チームメンバーが新商品の箱やパッケージを想像しなければなりません。そして、その商品・サービスの本質を表すスローガンを考え、その商品・サービスが目指している最も重要な価値を強調させる必要があります。
 
-  It gets the team to think from a big picture perspective and from the shoes of
-  the potential customers and to start designing a new product/service.
+  これにより、大局的な視点と潜在的な顧客の立場に立って考え、新しい製品・サービスの設計に着手するように促します。
 
-  In different formats you may either start with a blank box or provide carton
-  to  participants and ask them to design the box in the process.
+  いくつかのフォーマットがあり、白紙の箱から始めるか、参加者にダンボールや厚紙を提供し、そのプロセスで箱をデザインしてもらうこともできます。
 whyDo: >-
-  * Helps translate vision into a set of characteristics to describe how it
-  would feel and look when achieved
+  * ビジョンを、実現したときにどのように感じ、どのように見えるかを表す一連の特徴に変換する助けになります。
 
-  * It allows to easily articulate the product/service goal
+  * 製品・サービスのゴールを簡単に明示的に表現することができます。
 
-  * Allows the team to think big without the constraints of the present and the
-  context they are in or where they are coming from
+  * チームが現在置かれている状況や出身地などの制約を受けずに、大きく考えることができるようになります。
 
-  * Serves as a stepping stone to Value Proposition or Lean Canvas by
-  articulating some of the most important use cases, features and benefits.
+  * 最も重要なユースケース、特徴、利点を明確にすることで、バリュープロポジションやリーンキャンバスへの足がかりにできます。
 
-  * Provides really good input for the goal to be used in Impact Mapping
+  * インパクトマッピングで使用するゴールについて、良いインプットを提供できます。
+  
 howTo: >-
-  ### Why & How to combine it with other practices?
+  ### なぜ＆どのように他の練習と組み合わせるのか？
 
-  * This practice is really helpful if you find it hard to articulate the goal
-  during an [Impact
-  Mapping](https://openpracticelibrary.com/practice/impact-mapping/) session. It
-  can help articulate product vision and ambitions
+  * [インパクトマッピング](https://openpracticelibrary-ja.netlify.app/practice/impact-mapping/) のセッションでゴールを明確にするのが難しい場合、このプラクティスは本当に役立ちます。製品のビジョンや野望を明確にするのに役立ちます。
 
-  * It is also a good transition from a vision into a more concrete description
-  of expected product/service design, e.g. through [Event
-  Storming](https://openpracticelibrary.com/practice/event-storming/)
+  * また、ビジョンから、期待される製品・サービスのデザインをより具体的に説明するために、例えば[イベントストーミング](https://openpracticelibrary-ja.netlify.app/practice/event-storming/)を通じて移行するのも良い方法です。
 
-  * It can provide interesting input for Value Proposition and Lean Canvas
+  * バリュープロポジションとリーンキャンバスへ、興味深いインプットを提供することができます。
 mediaGallery:
   - link: >-
       https://github.com/openpracticelibrary/opl-media/blob/master/images/design-the-box-300x195-1.jpg?raw=true
@@ -83,15 +71,15 @@ In different formats you may either start with a blank box or provide carton to 
 
 ## Why & How to combine it with other practices?
 
-* This practice is really helpful if you find it hard to articulate the goal during an [Impact Mapping](https://openpracticelibrary.com/practice/impact-mapping/) session. It can help articulate product vision and ambitions
-* It is also a good transition from a vision into a more concrete description of expected product/service design, e.g. through [Event Storming](https://openpracticelibrary.com/practice/event-storming/)
+* This practice is really helpful if you find it hard to articulate the goal during an [Impact Mapping](https://openpracticelibrary-ja.netlify.app/practice/impact-mapping/) session. It can help articulate product vision and ambitions
+* It is also a good transition from a vision into a more concrete description of expected product/service design, e.g. through [Event Storming](https://openpracticelibrary-ja.netlify.app/practice/event-storming/)
 * It can provide interesting input for Value Proposition and Lean Canvas
 
 ## Related Practices
 
-* [Impact Mapping](https://openpracticelibrary.com/practice/impact-mapping/)
-* [Event Storming](https://openpracticelibrary.com/practice/event-storming/)
-* [Kano Model ](https://openpracticelibrary.com/practice/kano-model/)
+* [Impact Mapping](https://openpracticelibrary-ja.netlify.app/practice/impact-mapping/)
+* [Event Storming](https://openpracticelibrary-ja.netlify.app/practice/event-storming/)
+* [Kano Model ](https://openpracticelibrary-ja.netlify.app/practice/kano-model/)
 * Lean Canvas
 * Value Proposition Canvas
 
