@@ -1,5 +1,5 @@
 ---
-subtitle: Learn domain language. Talk about requirements. Tell domain stories.
+subtitle: ドメイン固有言語を学ぶ。要求について会話する。ドメインのストーリーを語る。
 participants:
   - moderator
   - domain experts
@@ -23,7 +23,7 @@ resources:
     linkType: web
     description: Domain Storytelling on LeanPub
 templateKey: practice-page
-title: Domain Storytelling
+title: ドメイン ストーリーテリング
 date: 2018-11-07T20:41:32.665Z
 authors:
   - hofstef
@@ -39,52 +39,40 @@ people: 2-20
 time: 10-30 min per Domain Story
 difficulty: moderate
 whatIs: >-
-  A workshop format that helps participants understand how people and/or
-  software systems work together. Both existing or future state business
-  processes can be analysed.
+  ドメインストーリーテリングは、人とソフトウェアシステムがどのように連携しているかを理解するためのワークショップです。
+  このプラクティスによって既存または将来の状態のビジネスプロセスを分析することができます。
 
-
-  Domain Storytelling is driven by domain experts who share typical examples of
-  how they work. These examples are known as Domain Stories. While listening,
-  the moderator records the domain stories using a pictographic language, so
-  domain experts can see immediately if the moderator understands their story
-  correctly. The moderator guides the domain experts by asking questions, for
-  example *who* – *does what* – *with what* – *why*.
-
-
-  A Domain Story covers *one concrete example*. It shows something that
-  *actually* happens, rather than all things that could *possibly* happen. After
-  several stories, the participants are able to talk about the people,
-  activities, tools, work objects, and events in that domain.  Often, the
-  conversation that was started with Domain Storytelling is later continued with
-  [user stories](https://openpracticelibrary.com/practice/user-story-mapping/),
-  example mapping, [event
-  storming](https://openpracticelibrary.com/practice/event-storming/), etc.
 whyDo: >-
-  * learn about a new domain and pick up its language
+  * 新しいドメインについて学び、そのドメイン言語を習得する
 
-  * elicit requirements
+  * 要求を引き出す
 
-  * bridge gaps between departments
+  * 部門間のギャップを埋める
 
-  * find boundaries for (micro)services or bounded contexts ([domain-driven
-  design](https://openpracticelibrary.com/practice/domain-driven-design/))
+  * find boundaries for (micro)services or bounded contexts ([domain-driven design](https://openpracticelibrary.com/practice/domain-driven-design/))
+  * （マイクロ）サービスや境界づけられたコンテキストの境界（ドメイン駆動設計）を見つける
 
-  * show how new software systems will change current business processes
+  * 新しいソフトウェアがどのようビジネスプロセスを変えるか明らかにする
 
-  Domain Storytelling is versatile and can facilitation adapted for the purpose,
-  for example:
+  ドメインストーリーテリングは汎用性が高く、目的に応じてファシリテーションを調整することができます。
+  例えば、以下のようなことです：
 
   * the level of detail (e.g. "big picture" or detailed workflows)
+  * 詳細レベル（例：「ビッグピクチャー」「詳細ワークフロー」）
 
-  * the number of participants
+  * 参加者の数
 
-  * the tools (e.g pen & paper, sticky notes, digital modeling tools)
+  * ツール（例：ペン、付箋、デジタルモデリングツール）
 howTo: >-
-  While listening, the moderator records the domain stories using a pictographic
-  language, so domain experts can see immediately if the moderator understands
-  their story correctly. The moderator guides the domain experts by asking
-  questions, for example *who* – *does what* – *with what* – *why*.
+  ドメインストーリーテリングは、ドメインエキスパートが人とソフトウェアの連携の例（ドメインストーリー）を共有することで進んでいきます。
+  モデレーターは、ドメインストーリーを聞きながら、グラフィックレコーディングのように内容を図式化します。
+  ドメインエキスパートは、その絵を見てモデレーターが自分のストーリーを正しく理解しているかどうかをすぐに確認することができます。
+  モデレーターは、「誰が」「何を」「どのように」「なぜ」するのか、といった質問をしながら、ドメインエキスパートを導きます。
+
+
+  1つのドメインストーリーは、 *1つの具体的な事例* を扱い、 起こりうることではなく、実際に起こったことを示すものです。
+  数回のストーリーテリングのあと、参加者はそのドメインにおける人、活動、ツール、ワークオブジェクト、イベントなどについて話すことができるようになります。
+  ドメインストーリーテリングで始まった会話は、その後、[ユーザーストーリー](https://openpracticelibrary-ja.netlify.app/practice/user-story-mapping/) 、実例マッピング、[イベントストーミング](https://openpracticelibrary-ja.netlify.app/practice/event-storming/) などに引き継がれていきます。
 mediaGallery:
   - link: 'https://youtu.be/63ck9AjH9O8'
   - link: >-
