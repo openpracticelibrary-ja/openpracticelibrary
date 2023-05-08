@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: Candy or Swag?
+title: Candy or Swag？
 subtitle: コラボレーションや透明性といったオープンな組織の原則の価値を示す
 date: 2020-01-03T21:46:17.737Z
 authors:

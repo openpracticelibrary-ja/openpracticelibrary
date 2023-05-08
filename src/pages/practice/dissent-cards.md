@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Dissent Cards
-subtitle: Create an environment in which people can disagree in a productive way.
+title: ディセント カード
+subtitle: 生産的な方法で反対意見を述べることができる環境を作る
 date: 2021-06-25T15:22:49.248Z
 authors:
   - only-chrisbh
@@ -10,73 +10,64 @@ tags:
   - insight
 mobiusTag: options
 icon: /images/potatoes-1585060_1920.jpg
-whatIs: It's a way to encourage greater diversity of ideas and increase the
-  psychological safety necessary for disagreement to occur productively within
-  the group. This practice is taken from L. David Marquet's book, 'Leadership is
-  language'.
+whatIs: アイデアの多様性を高め、グループ内で意見の相違が生産的に起こるために必要な心理的安全性を高めるための方法です。このプラクティスは、L. David Marquetの著書「Leadership is language」から引用しています。
 whyDo: >-
-  During the options phase, the aim is to critically assess the options
-  generated before producing the hypotheses and moving to commitment. Doing this
-  objectively allows the team to regularly 'disagree and commit' to action
+  オプションフェーズにおいて、仮説を立ててコミットメントに移る前に、生成されたオプションを批判的に評価することが目的です。これを客観的に行うことで、チームは定期的に「反対とコミット」を繰り返し、行動に移すことができます。
 
 
-  This practice ensures the problem is looked at from different angles and encourages the team to focus on being curious rather than compelling. The practice not only pays off in the moment, but for future discussions within the team, by engendering the psychological safety necessary to think more critically and contribute all their ideas, not just the ones they think others will agree with.
+  このプラクティスによって、問題をさまざまな角度から見ることができ、チームが強制されるのではなく、好奇心を持つことに集中するようになります。このプラクティスは、その瞬間だけでなく、今後のチーム内での議論においても、より批判的に考え、他の人が賛成すると思うアイデアだけでなく、すべてのアイデアを提供するのに必要な心理的安全性を生み出すことで、成果を上げることができるのです。
 
 
-  This practice is not only relevant for new teams, but also for teams that have worked together for a long time and are finding themselves generating fewer outliers and their views are consistently clustering together.
+  このプラクティスは、新しいチームだけでなく、長い間一緒に仕事をしてきて、異常値の発生が少なくなり、意見が一貫してまとまってきているチームにも関係します。
 howTo: >-
-  During a session where you're looking to generate options, hand out a card at
-  random to each member of the team. The cards can take any form, but they
-  indicate a role; either you have free choice or you must dissent. Marquet uses
-  red and black cards on a ratio of one red to every five black.
+  選択肢を生み出すためのセッションで、チームの各メンバーにランダムにカードを配ります。カードはどのような形でもよいが、自由な選択ができるか、反対しなければならないか、という役割を示すものです。Marquetは、赤と黒のカードを、赤1枚、黒5枚の割合で使用します。
 
 
-  During the discussion of an option, anybody with a red card **must** dissent. The card makes it safe to do so. The individual is not just being obtuse, it was the card that forced them to do it, it's their role!
+  選択肢の議論中、レッドカードを持つ者は、**必ず**反対しなければなりません。カードがあるからこそ、安全にできるのです。その人はただ鈍感なのではなく、カードによってそうせざるを得なかったのであり、それが彼らの役割なのです！
+
+  ブラックカードを受け取ったとしても、希望すれば反対意見を述べることができます。ただし、選択する自由はあります。
 
 
-  If you received a black card you can still dissent if you wish, however you have the freedom to choose.
+  このプラクティスで重要なのは、ブラックカードを持った人は、議論の間、説得するのではなく、好奇心を持つこと、つまり、反対者の主張が正しいかもしれないという考えを受け入れることです。
 
 
-  Critical to this practice is that those with the black cards must then be curious rather than compelling during the discussion; Open to the idea that the dissenter may have a valid point. 
+  このプラクティスは、レッドカードが何枚あるのか、どの参加者がレッドカードを持っているのかを誰も知らない場合、心理的安全性を高めるために特に効果的です。このプラクティスを数回行ううちに、グループは「反対意見を言うのは難しい」と感じていたのが、「反対意見を言うのは簡単なだけでなく、そうすることでチームから評価される」と感じるようになります。このプラクティスは、参加者に特定の視点から考えるよう促すという点で、Edward de Bonoの「The six thinking hats approach」と多くの点で共通しています。
 
 
-  This practice works especially well to develop psychological safety if nobody knows how many red cards are out there, nor which participant(s) has the red card(s). Within a few sessions of this practice the group will move from feeling that to dissent is hard, to feeling it's not only easy to dissent, but doing so will be valued by the team. In many respects this practice shares characteristics of The six thinking hats approach by Edward de Bono; in that it encourages participants to think from a specific view point.
+  **このプラクティスを次のステップに進めるために:**
 
 
-  **Take this practice to the next level:**
+  プラクティスを持続させるためには、異論を唱える人への対応が前向きで客観的であることが必要です。好奇心を保つために、以下の質問を試してみてください:
 
 
-  Ensuring the practice is sustained requires the response to the dissenter to be positive and objective. Try these questions to remain curious:
+  \- "その視点の背景には何があるのか、詳しく教えてください。"
 
 
-  \- "Can you elaborate on what is behind your point of view?"
+  \- "他のメンバーが見落としているものは何だと思いますか？"
 
 
-  \- "What can you see that the rest of the group has overlooked?"
+  \- "ここでのリスクは何だとお考えでしょうか？"
 
 
-  \- "What do you see are the risks here?"
+  もし、カードが無くても、このプラクティスを行うことができます:
 
 
-  If you're caught without the cards you can still encourage this practice:
+  \- "さて、ジェーンの話を聞いたところで、グループの誰かから、この視点に対するチャレンジを聞いてみたいと思います。"
 
 
-  \- "Ok, we've heard from Jane, I'd now like to hear a challenge to this point of view from somebody in the group"
+  もしくは、
 
 
-  or
+  \- "サラ、ジェーンが言ったことに異議を唱える方法を考えてくれませんか？"
 
 
-  \- "Sarah, could you think of a way to challenge what Jane has just said please?"
+  \- "さて、そろそろ仮説が見えてきたようです。それを検証するための実験をする前に、仮に時間を飛ばして、その結果が失敗だったとしたら、どんな理由が考えられるでしょうか？"
 
 
-  \- "Ok, we seem to be arriving at a hypothesis here. Before we design an experiment to test it, let's just imagine we skip forward in time and find the outcome is a failure; what reasons could there be for the failure?"
+  **最終的な考察:**
 
 
-  **Final Thought:**
-
-
-  Remember, just because there is dissent, doesn't mean there is a problem or that certain people must have their way. Use the 'Disagree and Commit' practice to arrive at the best decision for the group, and allow the them to move forward as one to deliver with purpose and passion.
+  反対意見があるからといって、問題があるわけでも、特定の人が思い通りにしなければならないわけでもないことを忘れないでください。プラクティス「Disagree and Commit」を使って、グループにとって最良の決断を下し、目的意識と情熱を持って、一丸となって前進することができるようにしましょう。
 resources:
   - link: https://davidmarquet-com.3dcartstores.com/Dissent-Cards--It-is-important-to-create-environments-where-people-feel-it-is-safe-to-share-what-they-see_p_14.html
     linkType: purchase
@@ -87,7 +78,7 @@ resources:
   - link: https://www.goodreads.com/book/show/97030.Six_Thinking_Hats?ac=1&from_search=true&qid=NZLZH4guvO&rank=1
     linkType: purchase
     description: The Six Thinking Hats by Edward de Bono
-  - link: https://openpracticelibrary.com/practice/disagree-and-commit/
+  - link: https://openpracticelibrary-ja.netlify.app/practice/disagree-and-commit/
     linkType: web
     description: Move to action with purpose and passion
 people: 3+
