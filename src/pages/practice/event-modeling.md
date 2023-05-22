@@ -1,6 +1,6 @@
 ---
-title: Event Modeling
-subtitle: To model Event-Driven Software Systems
+title: イベントモデリング
+subtitle: イベント駆動ソフトウェアシステムをモデル化する
 date: 2019-09-30T16:02:56.547Z
 authors:
   - pcarney8
@@ -23,17 +23,11 @@ participants:
   - Directors and Owners
 templateKey: practice-page
 whatIs: >-
-  Event Modeling is a way to design a blueprint for an Information System of any
-  size or scale. It is done in a way that allows the clearest communication of
-  the system's workings to the largest possible cross-section of roles in an
-  organization. The system can be checked for completeness by following the
-  single thread of data propagation through it.
+  イベントモデリングは、あらゆる規模や規模の情報システムの設計図を設計する方法です。システムの動作を組織内のできるだけ多くの役割に明確に伝えることができるように行われます。システム内の単一のデータ伝播スレッドを追跡することで、システムの完全性をチェックできます。
 whyDo: >-
-  To help better understand and model an information system with clarity for all
-  (linking UX/UI all the way through to persistance) through a visual
-  representation.
+  視覚的な表現を通じて、ユーザーエクスペリエンス（UX/UI）から持続性まで、すべての人に対して情報システムを明確に理解し、モデル化するために行います。
 howTo: >-
-  ## Further Information
+  ## 参考情報
 
   [EventModeling.org - What is Event
   Modeling?](https://eventmodeling.org/posts/what-is-event-modeling/)
