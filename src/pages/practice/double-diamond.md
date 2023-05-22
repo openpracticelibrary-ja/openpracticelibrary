@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Double Diamond
-subtitle: A structured approach to tackle challenges in four phases, from
-  exploring to taking focused actions.
+title: ダブル ダイヤモンド
+subtitle: 探求からフォーカスするアクションを起こすまで、4つのフェーズで課題に取り組む構造的なアプローチ
 date: 2021-04-27T08:17:59.530Z
 authors:
   - ilaria66
@@ -12,70 +11,66 @@ tags:
 mobiusTag: foundation
 icon: /images/pasted-image-0.png
 whatIs: >-
-  This is a practice used in the design process or design workshop and it should
-  have four phases:
+  これはデザインプロセスやデザインワークショップで使われるプラクティスで、4つのフェーズがあります:
 
 
-  * **Discover**: Understand what the problem is, this means speaking to and spending time with people who are affected by the issues.
+  * **Discover（探求）**: 問題が何であるかを理解する。これは、問題の影響を受けている人々と話し、時間を過ごすことを意味する。
 
-  * **Define**: The insight gathered from the discovery phase can help to define the challenge in a different way.
+  * **Define（定義）**: ディスカバリーフェーズで集めた洞察は、課題を別の方法で定義するのに役立つ。
 
-  * **Develop**: Give different answers to the defined problem, seeking inspiration from elsewhere and co-designing with a range of different people.
+  * **Develop（開発）**: 定義された問題に対して異なる答えを出し、他からインスピレーションを得て、さまざまな人と共同設計を行う。
 
-  * **Deliver**: Involves testing out different solutions at small-scale, rejecting those that will not work and improving the ones that will.
+  * **Deliver（提供）**: 小規模でさまざまな解決策を試し、うまくいかないものは却下し、うまくいくものは改良していく。
 
 
-  Design workshops can be used to innovate your business.
+  デザインワークショップは、ビジネスのイノベーションに活用できます。
 
 
   ![](https://lh4.googleusercontent.com/u2a8gEevScp7Dm3DfsxitYBVxFdO7q7zwqreY_9aL_0LuYoEYdE1Qu_wlcPbZHb8akHrxdCupS9OCO_T6_zwU4VUyT-gS1AoQXi9w2rOdgrnRme-PH7lH8etb0p_ydeRTQA-HCkB)
 
 
-  You can use the double diamond also in the context of Visual thinking and sketchnoting, for building a poster using an iterative approach with continuous diverging and then converging for elements, metaphors, colours from start to end.
+  ダブルダイヤモンドは、ビジュアルシンキングやスケッチノートの文脈でも使うことができ、最初から最後まで、要素、メタファー、色彩を連続的に発散し、収束させる反復的アプローチでポスターを作成します。
 
 
   ![](https://lh6.googleusercontent.com/-S7gSPttp7GOkUY3zUiTY6LU0wO2bNwoeifNHh4INQwrMG6nCnD9MB_prvffTjvCGaf7hc31GbnYGZVs7_8LmkzcD1tkqatC4nWX6zrlZstiNMplwMtIPGvBnjzbzYWLQXYbAWOQ)
 
 
-  An example is when I wanted to explain the journey of the Residency in a one-(large)-page summary for the Residency (for a final Demo, but also for any other customer visiting the LAB). The flow of the journey was one of the most important things I wanted to express.
+  例えば、研修生のジャーニーを、研修生のための1ページ（大）のサマリー（最終デモ用、LABを訪れる他のお客さんにとっても意味があるサマリー）で説明したいと思ったときです。ジャーニーの流れは、私が表現したい最も重要なことの一つでした。
 
 
-  You can apply the same process to any poster, this is just an example.
-whyDo: It's useful to break down problems in any complex system, be it business,
-  government, or social organizations to find creatively possible solutions.
+  同じプロセスをどのポスターにも適用することができます。
+whyDo: ビジネス、政府、社会組織など、あらゆる複雑なシステムの問題を分解し、創造的に可能な解決策を見出すのに有効です。
 howTo: >-
-  Typically multiple competences are involved in a workshop to combine
-  creativity and rationality and it’s very important to put the voice of the
-  customer at the center of the Idea and Design.
+  一般的にワークショップでは、創造性と合理性を両立させるために複数のコンピテンシーが関わり、お客様の声をアイデアとデザインの中心に据えることが非常に重要です。
 
 
-  The process of designing has iterative steps of diverging and converging:
+  デザインのプロセスには、発散と収束の繰り返しステップがあります:
 
 
-  1. **Discover / Research**: Diverge by exploring the idea by doing analysis, brainstorming and prioritizing
+  1. **Discover（探求） / Research（調査）**: 分析、ブレーンストーミング、優先順位付けを行い、アイデアを探求することで発散させる
 
-  2. **Define / Synthesis**: Converge by focusing on the right idea
+  2. **Define（定義） / Synthesis（統合）**: 正しいアイデアに集中することで収束する
 
-  3. **Develop / Ideation**: Diverge by generating potential solutions for .eg: prototype
+  3. **Develop（開発） / Ideation（観念化）**: プロトタイプのような潜在的な解決策を生み出すことで発散させる
 
-  4. **Deliver / Implementation**: Converge by Iterating with the solution that works through validation.
-
-
-  The approach used for Visual thinking was the following:
+  4. **Deliver（提供） / Implementation（実装）**: 検証を経てうまくいった解決策を反復することで収束させる
 
 
-  1. Prepare the visual: identifying goal, target audience and how you want to deliver it. Identify the content (diverge) from the most important to the less important. Decide what to keep and divide in categories (converge)
+  ビジュアルシンキングに用いたアプローチは以下の通りです:
 
-  2. Metaphors: Ideate the metaphors (diverge) select the best metaphor/s (converge)
 
-  3. Layout and coherency: Build/copy a collection of simple icons (diverge) and decide the layout coherency (diverge and converse) for colours, lettering and pens’ size.
+  1. ビジュアルを準備する：ゴール、ターゲット、どのように届けたいかを明確にします。重要なものからそうでないものまで、内容を特定します（発散する）。残すものを決め、カテゴリーに分けます（収束させる）
 
-  4. Visual hierarchy: iteratively you can decide the number of iterations you need. I started to articulate visually the sketch note with the following steps:
+  2. メタファー: メタファーのアイデアを出す（発散） 最適なメタファーを選択します（収束）。
 
-  5. 1. The flow is one of the most important aspects to be able to use the board as a reference for the storytelling. I tested and changed the flow on a small A4, before finalising the content. At every iteration I showed someone what I was doing to collect feedback. This was extremely important!
-     2. I started a first sketch on a first on A4 (pencil)
-     3. A second on a long brown paper (with sticky notes and pencil), deciding the size & type of the support
-     4. The last on thick paper on the final board (120 cm x 240cm)
+  3. レイアウトと一貫性： シンプルなアイコンのコレクションを構築/コピーし（発散）、色、文字、ペンのサイズについてレイアウトの一貫性を決定します（発散と逆転）。
+
+  4. 視覚的な階層化：反復的に必要な数を決められます。私は、スケッチノートを次のような手順で視覚的に表現するようにしました:
+
+  5. 1. ボードがストーリーテリングの参考になるためには、フローが最も重要なポイントの一つです。私は、コンテンツを完成させる前に、小さなA4でフローをテストし、変更しました。その都度、誰かに見せてフィードバックを得ました。これは非常に重要なことでした！
+     2. A4（鉛筆）でファーストスケッチを始めます。
+     3. 次に、茶色の長い紙（と付箋と鉛筆を使って）に、サポートの大きさ＆種類を決めます。
+     4. 最後に、最終的な盤面へ記載します(120 cm x 240cm)
 
   ![Selecting icons and metaphors](https://lh6.googleusercontent.com/49yp1G15dmiQsjxoeeG_lIEJbuyZn7-gm__rRIIyY7xRdhjFTg81qH8HLYggv7xIczpU6P2H_66so7KoZBmCYc7ICDZaee2iGZKitREHlClSJIWoiNBvpXKKPEZSx-2YuvckX4SF "**SELECTING ICONS**")
 
