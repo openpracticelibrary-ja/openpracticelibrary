@@ -49,7 +49,6 @@ whyDo: >-
 
   * 部門間のギャップを埋める
 
-  * find boundaries for (micro)services or bounded contexts ([domain-driven design](https://openpracticelibrary.com/practice/domain-driven-design/))
   * （マイクロ）サービスや境界づけられたコンテキストの境界（ドメイン駆動設計）を見つける
 
   * 新しいソフトウェアがどのようビジネスプロセスを変えるか明らかにする
@@ -57,7 +56,6 @@ whyDo: >-
   ドメインストーリーテリングは汎用性が高く、目的に応じてファシリテーションを調整することができます。
   例えば、以下のようなことです：
 
-  * the level of detail (e.g. "big picture" or detailed workflows)
   * 詳細レベル（例：「ビッグピクチャー」「詳細ワークフロー」）
 
   * 参加者の数

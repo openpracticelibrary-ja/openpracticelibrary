@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: 共有原則の確立
-subtitle: Principles Over Practices
+subtitle: プラクティスよりも原則を
 date: 2019-05-22T16:05:41.031Z
 authors:
   - tenfourty
