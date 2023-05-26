@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Experience Mapping for Agile
-subtitle: Understand individuals' actual experience through a process, to
-  identify priorities from a new prespective
+title: アジャイルのためのエクスペリエンスマッピング
+subtitle: 個人の実体験をプロセスで理解し新たな視点で優先順位を特定する
 date: 2021-07-23T11:06:26.808Z
 authors:
   - karenbatt
@@ -10,87 +9,73 @@ tags:
   - validate
 mobiusTag: discovery
 icon: /images/customer_experience_journey_map_graphic.png
-whatIs: Experience Mapping or Journey Mapping is used to create a graphical
-  representation of a process and the journey that someone takes through that,
-  focusing on the emotional responses (their thoughts or feelings) through each
-  phase of the process, and at specific key steps, from the perspective of an
-  individual or a team. This practice is used heavily in UX design, in
-  hypothetical scenarios to evaluate potential customer experience, and has a
-  lot of value for Agile project work too, when involving the actual people and
-  teams that use existing processes.
-whyDo: Mapping the emotional experiences of people and teams through a process,
-  from start to end, is a way to identify risk areas and pain points to be
-  addressed, and may provide helpful information or uncover incorrect
-  assumptions that can be used when evaluating priorities.  It also helps to
-  identify opportunities.  The visual map that this practice creates enables the
-  agile team and stakeholders to see at a glance what specific things may need
-  to be addressed to improve the quality of the process experience, and improves
-  cross-functional alignment and focus.  It provides important input information
-  to prioritisation and decision-making practices.
+whatIs: エクスペリエンスマッピング（もしくはジャーニーマッピング）は、個人やチームの視点から、プロセスの各段階や特定の重要なステップにおける感情的な反応（思考や感情）に焦点を当て、プロセスとその中で誰かが歩む旅をグラフィカルに表現するために使用します。この手法は、UXデザインにおいて、潜在的な顧客体験を評価するための仮想シナリオに多用されています。また、アジャイルプロジェクトにおいても、既存のプロセスを実際に使用する人々やチームを巻き込む際に、多くの価値を発揮します。
+whyDo: プロセスの開始から終了まで、個人やチームの感情的な経験をマッピングすることで、対処すべきリスク領域や痛みのポイントを特定できるようになります。優先順位を評価する際に役立つ情報を提供したり、誤った前提を明らかにすることも可能になります。また、機会を特定するのにも役立ちます。このプラクティスが作成するマップにより、アジャイルチームと利害関係者は、プロセス体験の質を向上させるために具体的にどのようなことに取り組む必要があるのかを一目で確認できるようになり、部門を超えた連携と集中が強化されます。また、優先順位付けと意思決定に重要な情報を提供します。
 howTo: >-
-  Just like in Value Slicing, start by describing each key step of the process
-  taken, from start to finish, from left to right.
+  バリュースライシングと同じように、プロセスの主要ステップを初めから終わりまで洗い出すことから始めます。
 
 
-  If the process is long and complex, it can be helpful to aggregate or group steps in the process that naturally form a phase of the process, for example “creating a new user”, as is done in Value Slicing and Event Storming Practices. Creating phase groupings makes reading the map clearer for people who have not directly participated in the activity, for example, during a Walk the Walls, or a Sprint Review later. It also allows the feedback part of this practice to be more easily split into different sessions across a day, if required.
+  プロセスが長く複雑な場合、ステップを例えば「新規ユーザーの作成」といったフェーズにまとめると役立つことがあります。バリュースライシングやイベントストーミングのプラクティスでも行われる方法です。フェーズを作成することで、ウォーク・ザ・ウォールやスプリントレビューのような活動に直接参加していない人でもマップを理解しやすくなります。また、このプラクティスをいくつかのセッションに分割して実践することが簡単にできるようになります。
 
 
-  Once you have mapped the steps, and grouped them together in phases as required, go back, and for each individual step, list the Experience (emotional responses ie thoughts and feelings) each person has had. Giving feedback on individual Experience can be done in a number of ways, depending on the process, how many people are involved, the culture and context this practice is being done in, and how problematic the process is for individuals/team members:
+  ステップを洗い出し、必要に応じてフェーズにまとめたら、個々のステップに戻り、各人の経験（感情的な反応、つまり思考や感情）を洗い出します。経験を表現する方法は様々あります。適切な方法はプロセス、関与する人の数、このプラクティスが行われている文化や状況、プロセスが個人やチームメンバーにとってどの程度問題があるかなどに応じて異なります。:
 
 
-  * 1 word answers
+  * ひとつの単語
 
-  * Short sentence answers
+  * 短い文
 
-  * Emojis (limited selection or larger selection of options)
+  * 絵文字（選択肢を限定する場合もあるし、多くの選択肢を提供する場合もある）
 
-  * Numbers (1-4 or 1-6 where 1 is negative and 4 or 6 is positive. Using an even number for the range forces people to choose either more positive or more negative responses)
-
-
-  For Experience Mapping to work best, invite the actual people that use the process to participate, rather than just guessing. Removing our own personal bias from the equation is really important for this to be an effective practice in Agile. Asking a developer team how someone feels when using their solution isn’t necessarily going to give you an accurate evaluation of the experience for others.
+  * 数字（1～4または1～6で、1がマイナス、4または6がプラス。選択肢の数を偶数にすることで、肯定的と否定的のどちらかを選択してもらうことができる）
 
 
-  Complete the activity of giving feedback for the entire process before discussing any of the responses. It’s good to take a short break at this point, after giving feedback in writing, as you want people to be fully present and alert for the next stage of the activity, which is to go back as a group and review responses step by step. Depending on the process that is being mapped, this practice may bring up a lot of discussion. Creating a safe space for people to share their experience openly and without blame or shame is vital to the success of this practice, as it takes a lot of courage to speak out and be vulnerable in front of others, and the power of this should not be underestimated.
+  エクスペリエンスマッピングが最もうまくいくのは、ただ推測するのではなく、実際にそのプロセスを使用している人たちに参加してもらったときです。アジャイルを効果的に実践するためにはバイアスを取り除くことが本当に重要です。開発チームに自分たちのソリューションを使っている人がどう感じるかを聞いても、正確な評価が得られるとは限りません。
 
 
-  Once a step has been discussed, it is important for the facilitator to summarise the feedback. Use a large post-it, and place it below all the things that have been shared. How you do this depends on the feedback Experience format you have chosen. This can be done with a summarising word/short phrase, an emoji, a colour or a number (the average from all responses).
+  プロセス全体に対する経験の洗い出しが終わるまで、個別の経験に関する議論をしないようにしましょう。洗い出しが終わったあとに短い休憩を取ると良いです。その後は洗い出した経験を見直します。マッピングしたプロセスによっては多くの議論が巻き起こるかもしれません。参加者が自分の経験をオープンに共有できる安全な雰囲気を作ることに努めてください。自分の意見を他人にさらされる場所に打ち明けるのは勇気がいることです。
 
 
-  The Experience Map is drawn at the bottom of the whiteboard, to show visually how experiences change throughout the process, and even within subsets of the process. This is done by creating a simple graph, with the X axis bisecting the Y axis at the halfway point. The Y axis values show the range of emotions experienced, with positive responses plotted above the X axis, neutral emotional responses plotted at the X axis intersect point, and negative responses plotted below it. The X axis indicates the individual steps taken over time.
+  ひとつのステップについて話し合いが終わったら、ファシリテーターは経験を整理してまとめることが重要です。大きなポストイットを使い、共有されたすべての経験の下に配置します。まとめ方は経験を表現した形式によって異なります。要約する言葉や短いフレーズ、絵文字、色、数字（全回答の平均値）などとしてまとめることができます。
 
 
-  When using word/s to summarise the thoughts and feelings shared for a specific step, it can be difficult to place them accurately on a graph, although it is vital to be decisive with this essential element of map creation.
+  エクスペリエンスマップは、ホワイトボードの下部に描かれ、プロセス全体、さらにはプロセスのサブセット内で経験がどのように変化するかを視覚的に示すものです。エクスペリエンスマップはX軸とY軸を持つシンプルなグラフです。X軸にはステップが時系列順に並べられます。Y軸は経験に紐づく感情を表していて、上がポジティブ、真ん中がニュートラル、下がネガティブであることを示します。
 
 
-  The Experience Map can be created incrementally as feedback is given, after each step, although it is often more impactful to create it at the end of each subset or session. It is important for the participants to record their feedback before the graph is introduced, in order to obtain comments on thoughts and feelings that are as unbiased as possible.
+  特定のステップの経験を言葉としてまとめていた場合、Y軸上の位置を決めるのが難しくなります。しかし、エクスペリエンスマップを作成するためにはどこかを選ばなければいけません。
 
 
-  A NOTE ON TIMING
+  エクスペリエンスマップは、各ステップの話し合いが終わったあとに段階的に作成していくこともできます。しかし、各サブセットやセッションの最後に作成する方がインパクトがあることが多いです。できるだけ偏りのない思考や感情に関するコメントを得るために、グラフを導入する前に参加者から経験を洗い出すことが重要です。
 
 
-  It is really difficult to be able to estimate how much time you might need for this practice, as it depends on the following factors:
+  所要時間に関する注意点
 
 
-  * Number of steps and complexity of the process
-
-  * Number of people involved in sharing their Experiences
-
-  * Strength of Experiences themselves
+  エクスペリエンスマッピングの所要時間は次のような要素に左右されるため、一概に言えないのが実情です。:
 
 
-  Processes that bring up strong emotional responses will require more time for discussion, extra breaks especially after discussing particularly painful subsets, and great tact and leadership to facilitate this effectively. However, it is exactly these processes that benefit the most from this practice.
+  * ステップの数、プロセスの複雑さ
+
+  * 参加者の数
+
+  * 経験自体の強さ
 
 
-  A NOTE ON Journey Mapping
+  強い感情的な反応を引き起こすプロセスでは、議論の時間を増やし、特に痛みを伴う部分を議論した後は休憩時間を増やし、効果的に進めるための機転とリーダーシップが必要となります。しかし、このようなプロセスでこそ、エクスペリエンスマッピングから最も大きな利益を得ることができるのです。
 
 
-  Journey Mapping often includes more information about how someone interacts at each step with the process, for example, stating if the process is undertaken via email, via pull request etc. These are known as Touchpoints.  Journey Mapping may also record quotes from customers under the graph to help give more detail to a specific feedback point.  
+  エクスペリエンスマッピングに関する注意点
 
 
-  As with most things in Agile, focusing on what information is most important is key to being effective.
+  エクスペリエンスマッピングでは、例えば、電子メールやプルリクエストなど、プロセスの各ステップにおいて、誰かがどのようにやり取りをするのかについての詳細な情報が含まれることがあります。これらはタッチポイントと呼ばれます。 特定の経験をより詳しく説明するために、グラフの下に顧客から反応を記録することもあります。
+
+
+  アジャイルのほとんどのことに言えることですが、どの情報が最も重要であるかに焦点を当てることが、効果的であるための鍵です。
+mediaGallery:
+  - link: https://heartofthecustomer.com/wp-content/uploads/2019/04/Customer_experience_journey_map_graphic.png
+  - link: https://miro.medium.com/max/1838/1*ZsUu8nEGbxRCMaHE6fDanQ.png
 time: ""
 difficulty: moderate
 participants:
-  - team members or customers that use the process you want to understand in
-    terms of their experience step by step
+  - あなたが理解しようとしているプロセスを使っているチームメンバーや顧客
 ---
