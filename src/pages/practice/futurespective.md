@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Futurespective
-subtitle: Looking to the future
+title: フューチャースペクティブ
+subtitle: 未来への展望
 date: 2021-04-09T09:16:07.537Z
 authors:
   - agrossi-21
@@ -10,24 +10,17 @@ tags:
 mobiusTag: discovery
 icon: /images/silhouette-looking-to-the-future.jpg
 whatIs: >-
-  Futurespective is the exercise to place ourselves in the future by imagining
-  that our goals have been reached. They start such a retrospectives by
-  discussing the team goals to ensure that team members build a common
-  understanding. The goals are formulated and written down so that they are
-  visible for everybody. 
+  フューチャースペクティブとは、自分たちの目標が達成されたことを想像して、自分たちを未来に位置づける訓練です。このようなレトロスペクティブでは、まずチームの目標について話し合い、チームメンバーが共通認識を持つようにします。そして、その目標が誰にでもわかるように、文章化します。
 
 
-  Optionally teams can write down which benefits they got from reaching their goals. If team like to party they can even do a small celebration for having reached the goals, which can help to make teams aware of the importance of reaching it.
+  また、目標を達成することでどのようなメリットがあるかを書き出すこともできます。パーティーが好きなチームなら、目標達成の小さなお祝いをすることもできますし、目標達成の重要性をチームに認識させることができます。
 whyDo: >-
-  This practice fit for every context. You can predict the future, a little bit.
-  You can learn about your wounds and scars and negativity, as you can learn
-  about your hopes and positivity and good experiences.
+  このプラクティスは、あらゆる状況にフィットします。自分の傷や傷跡、ネガティブな部分を知ることもできるし、自分の希望やポジティブさ、良い経験を知ることもできます。
 
 
-  SMART Goals, first of all. Be careful to not have too many actions coming out of the futurespective. It helps when teams agree to only do the [](https://www.benlinders.com/2014/retrospective-exercise-vital-few-actions/) actions that are needed now to get started. There will be more retrospectives where teams can reflect and define those actions that will be most valuable to do at that time.
+  SMARTな目標をまず最初に立てます。フューチャースペクティブに対するアクションがたくさんで過ぎないように注意する必要があります。チームが、始めるために今必要な[Vital Few Actions](https://www.benlinders.com/2014/retrospective-exercise-vital-few-actions/) のみを行うことに同意することは助けになります。チームが振り返り、その時点で行うことが最も価値のあるアクションを定義できるレトロスペクティブが増えるでしょう。 
 howTo: >-
-  How long are we looking ahead? Is up to you. With regards a typical agile
-  project see below some advice:
+  いつまで先を見据えているのか？それはあなた次第です。典型的なアジャイルプロジェクトについては、以下のアドバイスをご覧ください:
 
 
   \- 1 sprint
@@ -42,26 +35,27 @@ howTo: >-
   \- a pain
 
 
-  Close your eyes and imagine you are there.
+  目を閉じて、自分がそこにいることを想像してください。
 
 
-  Steps for a successful futurespective:
+  成功させるためのステップ：:
 
 
-  1. Setup your board.
+  1. ボードをセットする
 
-  2. Step forward.
+  2. 一歩前に出る。
 
-  3. Look back at the past.
+  3. 過去を振り返ってみる。
 
-  4. Analyze the gap.
+  4. ギャップを分析する。
 
-  5. Step forward into the future again.
+  5. もう一度、未来へ踏み出す。
 
-  6. Look back at the past and find your improvements.
+  6. 過去を振り返って、自分の改善点を見つける。
 
-  7. Vote.
-mediaGallery: []
+  7. 投票。
+mediaGallery:
+  - link: https://www.youtube.com/watch?v=KawR6XUYZt8
 resources:
   - link: https://www.funretrospectives.com/category/futurespective/
     description: Futurespective

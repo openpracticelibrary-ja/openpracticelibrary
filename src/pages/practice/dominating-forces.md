@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Dominating Forces
-subtitle: Surface risks and issues, identify metrics, and define the impact of
-  strategy execution before it starts.
+title: 支配的勢力（Dominating Forces）
+subtitle: リスクや問題を表面化し、指標を特定し、戦略実行の影響を事前に定義する。
 date: 2021-09-03T23:47:16.126Z
 authors:
   - aspanner
@@ -10,50 +9,42 @@ tags: null
 mobiusTag: discovery
 icon: /images/dominatingforces.png
 whatIs: >-
-  This is a facilitated practice that communicates or validates existing or
-  helps establish new strategies to reach the specified goal(s) while also
-  taking into consideration detractors and challenges with regard to culture and
-  execution. This practice surfaces risks and potential issues for any
-  subsequent project, program, or product to be developed.
+  文化や実行に関する阻害要因や課題を考慮しながら、指定された目標に到達するための既存の戦略の伝達や検証、または新しい戦略の確立を支援する、ファシリテートされたプラクティスです。このプラクティスは、その後のプロジェクト、プログラム、製品開発におけるリスクや潜在的な問題を表面化させます。
 
 
-  Strategies should cover what we do and don't do and how we compete. And be clearly linked to the goals that the strategy supports.\
-
-  Culture should look at people, skills, communication, principles, and team structures/topologies.\
-
-  Execution should take into consideration processes, capabilities, tools, and metrics.
+  戦略は、私たちが何をし、何をしないか、どのように競争するかを網羅する必要があります。そして、その戦略がサポートする目標に明確にリンクしている必要があります。
+  文化は、人、スキル、コミュニケーション、原則、チームの構造/トポロジーに目を向けるべきです。
+  実行には、プロセス、能力、ツール、指標を考慮する必要があります。
 
 
-  If goals need to be established first then you can start off with 
+  もし、最初に目標を設定する必要があるのであれば、まず最初に以下から始めます。 
 
 
-  * [Start at the end](https://openpracticelibrary.com/practice/start-at-the-end/)
+  * [Start at the end](https://openpracticelibrary-ja.netlify.app/practice/start-at-the-end/)
 
 
-  If strategies are missing then start off with 
+  戦略がない場合は、次のように始めます。 
 
 
-  * [Impact Mapping](https://openpracticelibrary.com/practice/impact-mapping/)
+  * [インパクトマッピング](https://openpracticelibrary-ja.netlify.app/practice/impact-mapping/)
 
 
-  If there is no context of Mission, Vision, Goals, and strategies then it is recommended to start off with the practices around establishing a cohesive [Means to End](https://openpracticelibrary.com/practice/means-to-end/) framework.
+  ミッション、ビジョン、ゴール、戦略などの文脈がない場合は、まず、[Means to End](https://openpracticelibrary-ja.netlify.app/practice/means-to-end/)フレームワークを確立するためのプラクティスから始めることをお勧めします。
 whyDo: >-
-  The Why is to ensure strategy, culture and execution challenges (and bright
-  spots) are clearly identified.
+  このプラクティスは、戦略、文化、実行の課題（と明るいスポット）を明確に特定することが目的です。
 
 
-  This is where the rubber hits the road, marrying lofty goals and strategies with the reality of culture, people, communication, team structure, metrics, processes, and more.
+  高い目標や戦略と、文化、人材、コミュニケーション、チーム構造、測定基準、プロセスなどの現実を結びつけていく、まさにラバー・ヒッツ・ロードの場です。
 
 
-  When goals and associated strategies are formulated this exercise allows for immediate 'reality checks' and surfaces potential challenges and roadblocks that must be paid attention to. This allows to plan for risk mitigation strategies right from the start or even before an engagement, project or program of works kicks off.
+  目標や関連する戦略を策定する際、この演習ではすぐに「リアリティの確認」ができ、注意しなければならない潜在的な課題や障害物が浮かび上がります。これにより、スタート時、あるいはエンゲージメント、プロジェクト、作業プログラムのキックオフ前から、リスク軽減のための戦略を計画することができます。
 howTo: >-
-  Once the goal(s) are agreed upon you can run a 10-for-10 exercise to bring out
-  new strategies. If the strategies are already existing then the SME's need to
-  present the existing strategies and the related goals those strategies are in
-  support of.
+  目標が合意されたら、[10-for-10](https://openpracticelibrary-ja.netlify.app/practice/10-for-10/)のエクセサイズを実施し、新しい戦略を引き出すことができます。戦略がすでにある場合は、SME(Subject Matter Expert)が既存の戦略と、その戦略がサポートする関連目標を提示する必要があります。
 
 
-  After the goals and strategies have been agreed upon the facilitator can allow between 3 - 7  minutes to flush out the challenges (and bright spots if necessary) in the execution and culture area.
+  目標と戦略が合意された後、ファシリテーターは3～7分で、実行と文化の領域における課題（必要であれば明るい話題も）を洗い出すようにディスカッションします。
+mediaGallery:
+  - link: https://www.agilealliance.org/wp-content/uploads/2019/05/Figure-2.-Relating-Strategic-Themes-Legacy-Mindsets-and-Agile-Goals.jpg
 people: 3+
 time: 2 hrs
 difficulty: hard
