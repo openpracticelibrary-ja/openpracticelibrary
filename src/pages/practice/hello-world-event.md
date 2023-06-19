@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: '"Hello, World!" networking event'
-subtitle: Say "Hello" to the World and the World will say "Hello" to you!
+title: '"ハロー、ワールド!" ネットワーキングイベント'
+subtitle: あなたが世界に向けて"ハロー"と言えば、世界はあなたに"ハロー"と返してくれる
 date: 2021-04-26T12:00:12.713Z
 authors:
   - msanecki
@@ -10,30 +10,23 @@ tags:
 mobiusTag: foundation
 icon: /images/hello-world.png
 whatIs: >-
-  A "Hello, World!" or "Time to Hello World" event generally is a peer-2-peer
-  event that helps to meet other people in an organization.
+  "ハロー, ワールド!" または "ハロー、ワールドの時間" イベントは一般に組織内の他の人と出会うのに役立つピア・ツー・ピアのイベントです。
 
-  Such an event is very simple and easy to organize in most organisations and is used to make easier the basic networking activities of new peers.
+  このイベントはほとんどの組織において非常にシンプルで簡単に開催することができ、新しい仲間との基本的なネットワーキング活動をかんたんにします。
 
-  It is often one of the first events organized by new-hires learning the new network structure.
+  新入社員が新しいネットワーク構造（組織内のつながり）を学ぶために、最初に企画されるイベントでもあります。
 
-  This is one measure of an organization’s culture and openness; since the event is meant as an introduction for people unfamiliar with the organization, a more difficult "Hello, World!" event may indicate that the organization is less open and less network-based.
-whyDo: It can help you to extend the on-boarding in the organization, grow your
-  network faster and thanks to this have better work experience.
+  このイベントは、組織の文化やオープンさを測る指標にもなります。なぜなら、このイベントは組織にまだ慣れていない人向けのイベントであり、もし「ハロー、ワールド！」イベントの実施が難しいのであれば、それは組織がオープンでなく、つながりが希薄なことを示すかもしれないからです。
+whyDo: このイベントは新入社員のオンボーディングを促進し、社員のネットワーキングが速く行われ、より良い仕事体験につながるでしょう。
 howTo: >-
-  Use your intuition and discipline. You are in a meeting, discussing whatever
-  and you noticed a person talking about things important or interesting for
-  you.
+  あなた自身の直感やルールを使ってください。何を話しても構いません。相手の話の中で気がついたあなたにとって重要なことや興味のあることでもよいでしょう。
 
-  The person seems to be interesting or impress you or whatever reason algorithm-of-your-choice you apply.
+  メリットやデメリットなどの分析、やるべきかやるべきでないかなどあまり深く考えず、"ハロー、ワールド"ミーティングの招待状を送って、あなたがその人に会って雑談したいとか、ある具体的なトピックを話したいなどと説明しましょう。
 
 
-  Without thinking too much and analyzing pros cons should I or shouldn't I? ... you just send an invitation to "Hello World!" meeting explaining you want to meet this person, have a small talk, talk about a special subject (depends on the situation), whatever.
+  「会いたい人」リストは作らず、ただ直感に従ってこのプロセス（招待状を送る）を繰り返すことで、ネットワークを大きくするのです。
 
-
-  Every time you feel or see this spark you repeat the process....Do not create a To-Meet-List just send the invitation and let the network grow.
-
-  The key is to do it again and again, contacting new people again and again, never stopping extending your network including new people continuously.
+  重要なのはは「繰り返すこと」です。新しい人に繰り返しコンタクトしましょう。新しい人を含むネットワークの拡大を止めてはいけません。
 mediaGallery: []
 people: minimum 2 peers
 time: 20-30 min
