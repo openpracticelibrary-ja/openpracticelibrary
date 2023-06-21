@@ -62,5 +62,5 @@ howTo: >-
 
     * Empathy Mapping（共感マッピング）: <https://openpracticelibrary.com/practice/empathy-mapping/>
 
-    * How to prepare interview: (Sorry but the link is expired.)
+    * How to prepare interview: (Sorry but the link is incorrect.)
 ---
