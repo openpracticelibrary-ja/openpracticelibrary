@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: Proto-Persona
-subtitle: Define your target users
+subtitle: Define your target usersa
 date: 2019-09-30T14:03:05.075Z
 authors:
   - dsunwar
