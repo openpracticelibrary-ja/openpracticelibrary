@@ -11,8 +11,10 @@ tags: []
 mobiusTag: discovery
 icon: /images/screenshot-2021-02-05-at-16.11.47.png
 whatIs: >-
-  * ステークホルダが製品に何を求め、必要としているかをより理解するために１対１で会話を行います。
+  * ステークホルダインタビューは、ステークホルダが製品に何を求め、必要としているかをより理解するために行う１対１での会話です。
+  
   * 適切なインタビューからはユーザーのニーズ、ビジネスの目標、技術的な制限の3つの観点から有用な情報や洞察を得ることができます。
+  
   * プロダクトの成功に関心を持つステークホルダ達の認識や要望を分析していきます。
 
 
@@ -43,7 +45,7 @@ howTo: >-
 
   * **インタビューの調整・手配:** インタビューの日時や環境について合意します。対面/リモート、場所/リモート会議ツール、等。
 
-    **お役立ち情報:** 
+    **役に立つであろう情報:** 
 
     * **心理的安全性の確率:** 参加者がリラックスして話しやすい雰囲気を作り出すことが不可欠です。インタビューの意図を明確にし、情報がいつ、どのように、誰に共有されるかを明示し、アクティブリスニングを促して回答できる状況を作りましょう。
     * **他のチームメンバーとペアになる:** 技術、ビジネス、マーケティングの専門用語の検証に役立ちます。
@@ -51,16 +53,16 @@ howTo: >-
     * **インタビュー時間を区切る:** 45分から1時間程度が良いとされます。
     * **データを可視化する手法:** 共感マッピング（Empathy Mapping）、親和図（Affinity Mapping）、ユーザー（カスタマー）ジャーニーマッピング（User Journey Mapping）、プロトペルソナ（Proto-personas）
     * **質問の仕方:** インタビューを受ける人を誘導するような質問はやめましょう。オープンクエスチョン（Yes/Noで答える形式の質問ではなく、◯◯はどうですか？などのフリーテキストで答える形式の質問）が望ましいです。
-    * **もしも:**
+    * **こんな場合は？:**
       プロジェクトマネージャーとプロジェクト計画に合意済みの場合、ステークホルダのインタビューをスキップも良いででしょうか？いいえ、絶対にスキップすべきではありません。
 
   **Helpful links:**
 
-    * Preparatory Research（インタビューを実施する前の準備）: <https://www.thisisservicedesigndoing.com/methods/preparatory-research>
+    * インタビューを実施する前の準備（Preparatory Research）: <https://www.thisisservicedesigndoing.com/methods/preparatory-research>
 
-    * Tips for Writing a Discussion Guide（ディスカッションガイドを書くための留意点）: <https://medium.com/design-research-methods/tips-for-writing-a-discussion-guide-c08459131a54>
+    * ディスカッションガイドを書くための留意点（Tips for Writing a Discussion Guide）: <https://medium.com/design-research-methods/tips-for-writing-a-discussion-guide-c08459131a54>
 
-    * Empathy Mapping（共感マッピング）: <https://openpracticelibrary.com/practice/empathy-mapping/>
+    * 共感マッピング（Empathy Mapping）: <https://openpracticelibrary.com/practice/empathy-mapping/>
 
-    * How to prepare interview: (Sorry but the link is incorrect.)
+    * インタビューの準備方法（How to prepare interview）: (Sorry but the link is incorrect.)
 ---
