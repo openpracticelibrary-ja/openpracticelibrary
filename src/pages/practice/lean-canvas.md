@@ -39,6 +39,12 @@ tags:
 icon: /images/lean-canvas.png
 whatIs: >-
   リーンキャンバスはこれから企画するプロダクトに関する主要な情報を一枚の紙にまとめたものです。起業家やリーンスタートアップの場面でよく使われます。
+whyDo: |-
+  リーンキャンバスはプロダクトに関するアイデアを以下の観点から構造化します。
+  * プロダクトが解決する課題は何か。
+  * プロダクトの潜在顧客は誰か。
+  * プロダクトの販路
+  * プロダクトがどのように収益を作るか。
 howTo: >-
   リーンキャンバスは下記の順序で項目を記載していくことが良いとされています。
 
@@ -122,12 +128,10 @@ howTo: >-
 
   #### ビジネスモデルキャンバス
 
-  ビジネスモデルキャンバスは、新規開発や既存プロダクトの改善、またはビジネスモデルの理解に焦点を宛てた
-  The business model canvas is a variation that focuses on the development of
-  new, improving existing or understanding the current business model. In a time
-  where existing business models are disrupted this is a vital exercise. It adds
-  the dimension of Key Partners, Key Activities, Customer Relationships,
-  Customer Segments to the canvas.
+  ビジネスモデルキャンバスは、新規開発や既存プロダクトの改善、またはビジネスモデルの理解に焦点を宛てたリーンキャンバスの派生型です。
+  既存のビジネスモデルからの脱却が必要な場面では、このようなキャンバスを用いてビジネスモデルを考えることは重要な活動です。
+  キャンバスには、「重要なパートナー」、「重要な活動」、「顧客との関係性」、「顧客セグメント」といった要素がキャンバスに追加されます。
+
 area: discovery-loop-why
 time: 1hr +
 mediaGallery:
@@ -137,12 +141,6 @@ mediaGallery:
       https://github.com/openpracticelibrary/opl-media/blob/master/images/lean-canvas-small.png?raw=true
   - link: 'https://openpracticelibrary.com/images/ux-strategy-template.jpg'
 people: 1+
-whyDo: |-
-  This document will help structure your idea in terms of:
-  * What problem your product or service will solve
-  * Who your potential customers are
-  * How your product will be distributed and
-  * How you will make money from it.
 perspectives:
   - product-ownership
 difficulty: moderate
