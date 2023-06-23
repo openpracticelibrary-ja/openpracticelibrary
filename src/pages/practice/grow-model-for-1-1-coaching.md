@@ -1,9 +1,6 @@
----
-title: GROW Model for 1-2-1 Coaching
-subtitle: >-
-  The purpose of coaching is to unlock people's potential to maximise their
-  performance, facilitate personal and professional development . Here's a tool
-  to structure your coaching interaction.
+--
+title: 1-2-1コーチングのためのGROWモデル
+subtitle: コーチングの目的は、人々の潜在能力を引き出し、パフォーマンスを最大化し、個人的および専門的な開発を促進することです。ここでは、コーチングのやり取りを構成するためのツールを紹介します。
 date: 2020-02-23T17:34:54.362Z
 authors:
   - shabshah
@@ -26,44 +23,35 @@ participants:
   - ways of working etc
 templateKey: practice-page
 whatIs: >-
-  As per International Coach Federation (ICF)  (Professional) coaching is an
-  ongoing professional relationship that helps people produce extraordinary
-  results in their lives, careers, businesses or organizations. Through the
-  process of coaching, clients deepen their learning, improve their performance,
-  and enhance their quality of life.
+  国際コーチ連盟（ICF）によれば、コーチングとは、人々が生活、キャリア、ビジネス、または組織において並外れた結果を生み出すことを支援する継続的な専門的関係であるとされています。コーチングのプロセスを通じて、クライアントは学びを深め、パフォーマンスを向上させ、生活の質を高めることができます。
 
-  GROW is a framework created and evolved by Sir John Whitmore for structuring
-  your coaching conversations
-whyDo: >-
-  GROW coaching model helps manage time effectively by providing a structure for
-  a focussed coaching conversation. It is an effective model to hold coaching
-  conversations to help "coachee" solve  problems, set goals and  improve
-  performance. 
+  GROWは、John Whitmore卿が考案し、進化させた、コーチングの会話を構造化するためのフレームワークです。
+whyDo: GROWコーチングモデルは、集中的にコーチングを行うための構造を提供することで、時間を効果的に管理することができます。コーチが問題を解決し、目標を設定し、パフォーマンスを向上させるための会話を行うための効果的なモデルです。
 howTo: >-
-  While coaching is a specialised competency you don't have to wait to become a
-  certified coach to help your direct reports, project members, peers etc to
-  improve their performance, skills, attitudes or behaviors. 
+  コーチングは専門的なコンピテンシーですが、直属の部下やプロジェクトメンバー、同僚などのパフォーマンス、スキル、態度、行動を向上させるために、認定コーチになる必要はありません。
 
-  GROW is an acronym for:
 
-  G - Goals , objectives, desires or aspirations
+  GROWは以下の言葉の頭文字をとったものです
 
-  R - Reality - current situation, challenges, roadblocks, efforts taken, people
-  involved etc
+  * G - Goals: 目的、欲望、願望
 
-  O- Options, Opportunities, possibilities, available resources, influencers
+  * R - Reality: 現状、課題、障害、取り組み、関係者など
 
-  W - Way forward, will , actions, commitment and accountability
+  * O - Options: 機会、可能性、利用できるリソース、影響力を持つ人
 
-  Remember as Coach you must be skilled at the following :
+  * W - Way forward: 意志、行動、コミットメント、責任
 
-  * Building Trust and psychological safety
 
-  * Listening actively
+  コーチとして、次のことに長けていなければならないことを忘れないでください。
 
-  * Asking effective questions
 
-  * Suspending judgement
+  * 信頼関係の構築と心理的安全性
+
+  * 傾聴
+
+  * 効果的な質問をする
+
+  * 判断の保留
 resources:
   - link: 'https://www.performanceconsultants.com/grow-model'
     linkType: web
