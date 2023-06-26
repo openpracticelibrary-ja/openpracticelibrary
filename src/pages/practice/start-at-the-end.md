@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: スタート・アット・ザ・エンド
+title: 終わりから始める(Start at the end)
 subtitle: 成功とはどのようなものかを説明し、それをもとに目標を定義する
 date: 2018-12-18T18:26:48.625Z
 authors:
