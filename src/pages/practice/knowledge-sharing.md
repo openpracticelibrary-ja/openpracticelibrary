@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Knowledge Sharing
-subtitle: Share what we know, and what we wish to learn.
+title: ナレッジシェアリング
+subtitle: 知っていること、学びたいことを共有する
 date: 2021-10-19T08:01:59.370Z
 authors:
   - shaypeleg
@@ -9,32 +9,32 @@ tags:
   - culture
 mobiusTag: foundation
 icon: /images/knowledge-sharing-openpracticelibrary.png
-whatIs: "This is a tool for a team to collect topics: What we know, what we want
-  to learn, and then prioritise among possible knowledge sharing topics."
-whyDo: This is a practical way to quickly gather knowledge among the team and
-  gauge what the team knows and where are the knowledge gaps other team members
-  can fill. Done regularly, this will help the team to gain knowledge and create
-  an open culture.
+whatIs: ナレッジシェアリングは、チームメンバーから知っていること・学びたいことを集めて、知識を共有するの優先度を付けるためのツールです。
+whyDo: ナレッジシェアリングは、チームから知識を素早く収集し、チームが何を知っているのか、他のメンバーが埋められる知識のギャップはどこにあるのかを測定するための実践的な方法です。定期的に実施することで、チームは知識を深め、オープンな文化をつくることができます。
 howTo: >-2
-    ***Individually/asynchronous*** 
-
-  1. Select a column, fill in your name on top
-
-  2. At the top section of your space, fill in sticky notes for topics you wish to share, can teach or recently learned about, worth sharing.
-
-  3. At the bottom section of your space, fill in topics you are interested in learning more about
-
-     ***During a team gathering***
-  4. Notice the small emoji next to your name. After each participant has added their wish list of topics they want to learn, review each topic. If you can share on the subject, please put your name+emoji on the sticker.
-
-  5. Review the requested knowledge gaps topics, group together similar topics/stickers
-
-  6. We will use voting to decide what will be the next topic. Each participant gets four dots to vote on a possible next topic to be shared/learned. The highest topic will be at the top of the agenda.
-
-  7. Pull the topic to be discussed into the "next area" at the bottom of the chart. Items covered in previous sessions can be moved to the "done area".
+  ***個々人が非同期に***
 
 
-  Repeat the process. Any items that are covered or are no longer of interest can be pulled into the "discard area".
+  1. 列を選んで一番上に自分の名前を記入します。
+
+  2. 列の上側のセクションに、共有したい、教えることができる、最近学んだトピックを付箋に記入して貼り付けます。
+
+  3. 列の下側のセクションに、学びたいと思っているトピックを付箋に記入して貼り付けます。
+
+
+  ***チームで集まって***
+
+
+  4. 自分の名前の横に置かれた小さな絵文字に注目してください。参加者それぞれが記入した学びたいトピックを確認していきます。トピックについて知識を共有できる場合は、名前と絵文字を付箋に記入してください。
+
+  5. トピックを確認し、似ているものをグループ化します。
+
+  6. 共有するトピックを決めるために投票を行います。参加者はそれぞれ4つのトピックに投票することができます。得票数が最も高いトピックを優先して共有するものとします。
+
+  7. チャートの一番下にある「次のエリア」に共有するトピックを移動させます。すでに共有済みのトピックは「共有済み」に移動させます。
+
+
+  この作業を繰り返します。共有済みになったり、興味がなくなったりしたものは、「廃棄エリア」に移動させることができます。
 
 
   ![Knowledge Sharing board](/images/ks.png "Knowledge Sharing board")
