@@ -1,53 +1,46 @@
 ---
 templateKey: practice-page
-title: Means to End
-subtitle: Define and communicate Vision, Mission, Strategy, Goals, Tactics & Objectives
+title: 終わるための手段(Means to End)
+subtitle: ビジョン、ミッション、戦略、目標、戦術、目標を明確にして伝える
 date: 2021-09-08T02:31:59.708Z
 authors:
   - aspanner
 mobiusTag: foundation
 icon: /images/means2end.png
-whatIs: The Means to End practice helps define, differentiate, and communicate
-  an organisational Vision, Strategy, and the associated tactical
-  implementations through projects and initiatives (Tactics). Participants
-  define and explore the relationship and dependencies between the Visionary,
-  Strategic and Tactical layers.
-whyDo: Taking time to explore the meaning and correlation between Mission,
-  Vision, Strategies, Goals and tactical Objectives helps organisations to
-  create clarity and empower their teams and people, which in turn creates a
-  culture in support of establishing a high performing organisation ([Ron
-  Westrum](https://qualitysafety.bmj.com/content/13/suppl_2/ii22?ref=hvper.com&utm_source=hvper.com&utm_medium=website)).
+whatIs: Means to Endプラクティスは、組織のビジョン、戦略、そしてプロジェクトやイニシアティブを通じた戦術的な実行（タクティクス）を定義、差別化し、共有するのに役立ちます。参加者は、ビジョン、戦略、戦術の各レイヤー間の関係と依存関係を定義し、探求します。
+whyDo: ミッション、ビジョン、戦略、目標、戦術目標の意味と相関関係を時間をかけて探求することは、組織が明確さを生み出し、チームと社員に力を与えるのに役立ちます。その結果、[Ron
+  Westrum](https://qualitysafety.bmj.com/content/13/suppl_2/ii22?ref=hvper.com&utm_source=hvper.com&utm_medium=website)によるハイパフォーマーな組織の確立を支援する文化が生まれます。
 howTo: >-
-  Firstly, for this exercise, clarify the differences between Objective
-  (Tactical layer, short term) and Goal (strategic layer, longer term).
-  Different frameworks have different defintions, so it's important to level set
-  prior to starting this practice.
+  まず、この練習では、Objective（戦術層、短期）とGoal（戦略層、長期）の違いを明確にします。フレームワークによって定義が異なるので、このプラクティスを始める前にレベルをセットしておくことが重要になります。
 
 
-  Start off with the **Visionary Layer** with a [10-for-10 brainstorm](https://openpracticelibrary.com/practice/10-for-10/) or even better with a [Start with Why.](https://openpracticelibrary.com/practice/start-with-why/)
+  最初に**ビジョンレイヤー**として、 [10-for-10 brainstorm](https://openpracticelibrary-ja.netlify.app//practice/10-for-10/)を始める、もしくは、[Start with Why.](https://openpracticelibrary-ja.netlify.app//practice/start-with-why/)を行えると効果的です。
+
+  グループに問いかける:
 
 
-  Ask the group:
+  * ビジョン: 2年後、5年後、私たちの組織／チームはどうなっているか？それは私たちの目的にどのように役立っているのか？
+
+  * ミッション: ビジョンを達成し、目的を生きるために、私たちは日々何をしているのか？
 
 
-  * Vision: What will our organisation / team look like in 2 to 5 years from now? How does it serve our purpose?
-
-  * Mission: What are we doing on a daily basis to achieve our Vision and live our purpose?
+  重複を取り除き、ビジョン・ステートメントを1つにまとめます。次に、ミッション・ステートメントの重複を取り除き、ビジョンをサポートする上位5つ（最大）に投票します。その後、各ミッションが、ビジョン・ステートメントと直接かつ明確にリンクしていることを確認します。そうでない場合は、レイヤーが違っていたり、関連性がなかったり、ビジョンが不完全だったり、古かったりする可能性があります。
 
 
-  Remove duplicates and consolidate the Vision statement into one. Then de-duplicate the Mission statements and vote on the top 5 (max) in support of the Vision. Ensure that each Mission directly and clearly links to the Vision statement. If it doesn't it might be in the wrong layer, unrelated or the Vision might be incomplete or out of date.
+  次に、**戦略レイヤー**に移ります。まず、戦略的ゴールを設定する必要があります。そのためには、10-for-10のブレーンストーミングをもう1回行うか、[Start at the End](https://openpracticelibrary-ja.netlify.app//practice/start-at-the-end/)を使うのがよいでしょう。ゴールが決まったら、そのゴールをビジョン・ステートメントと対応させ、それぞれのゴールがビジョンをどのようにサポートしているかを明確にします。ゴールとビジョンが明確にリンクしたら、次のステップとして、各ゴールに関連するプラクティスを設定する[インパクトマッピング](https://openpracticelibrary-ja.netlify.app//practice/impact-mapping/)を行います。すべてのゴールとそれに対応する戦略が確立されたら、その戦略をミッションにリンクさせ、意味のあるものにする必要があります。
 
 
-  Then move into the **Strategic Layer**. First the strategic goals need to be established, for which you can use another 10-for-10 brainstorm, or better [Start at the End](https://openpracticelibrary.com/practice/start-at-the-end/). Once the Goals are agreed upon, map the Goals back to the Vision statement and articulate how each goal supports the Vision. Once the goals and Vision are clearly linked, the next step is an [Impact Mapping](https://openpracticelibrary.com/practice/impact-mapping/) exercise that establishes the related strategies linked to each goal. Once all goals and corresponding strategies are established, the strategies need to be linked back to the Mission and make sense. 
+
+  完了したら、自分を褒めてあげよう。一番大変な部分は終わりました。
 
 
-  Once you are done, pat yourself on the back. The hardest part is complete.
+  **戦術レイヤー**は、戦略をどのように実行するか、長期目標をサポートするためにどのような短期目標やOKRs(Objectives and Key Results)を達成するかに関係します。
 
 
-  The Tactical Layer is concerned with how to implement the strategy and what short-term objectives or OKRs to hit in support of the long-term goals.
+  既存のプロジェクトを戦術セクションにマッピングすることで、戦略を検証し、既存のイニシアティブが戦略に沿っているかどうかを確認することができます。新しいアイデアが必要な場合は、[How Might We](https://openpracticelibrary-ja.netlify.app//practice/hmw/)アイディエーションセッションを行うことができます。こうすることで、新鮮な視点を得ることができ、短いチーム目標や主要な結果を達成するための新しい戦術的アプローチを確立することができます。ここでも重要なのは、戦略レイヤー（戦略とゴール）とのマッピングを完了し、整合性を保つことです。
 
-
-  Existing projects can now be mapped to the tactics section to validate your strategy and ensure whether existing initiatives are still in alignment with the strategy. If you need new ideas you can run a [How Might We](https://openpracticelibrary.com/practice/hmw/) ideation session. This will allow you to get a fresh view and to establish new tactical approaches to achieve the short team objectives or key results. Important again is that the mapping with the strategic layer (strategy & goals) is completed to stay aligned.
+mediaGallery:
+  - link: https://www.researchgate.net/publication/4363603/figure/fig2/AS:670046728777751@1536762997576/BMM-Means-and-End-2.png
 difficulty: hard
 participants: []
 ---
