@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Social Contract
-subtitle: Build a constructive, fun team culture
+title: チームでの約束事
+subtitle: 建設的で楽しいチーム文化を築く
 date: 2017-11-21T05:00:00.000Z
 authors:
   - mtakane
@@ -15,145 +15,138 @@ tags:
 mobiusTag: foundation
 icon: /images/social-contract.jpg
 whatIs: >-
-  The Social Contract is a simple, yet highly effective manner to enable team
-  autonomy and self accountability for engagements. The Social Contract is
-  created by and for the team.  It looks to codify the behaviors and
-  expectations of the team. It also provides a mechanism for the team to radiate
-  and share its desired behaviours with management and other stakeholders.
+  Social Contract（直訳すると「社会的契約」、より実態に即した意訳で「チームでの約束事」）は、
+  チームの自律と自己責任を促進するシンプルながら非常に効果的な手法です。
+  この約束事は、チームによって、チームのために作られ、チームの行動と期待を規律を与えます。
+  またこれは、チームが取ろうとしている行動を管理職やステークホルダに発信する手段でもあります。
 
 
-  To effectively use this practice you should look to create the following outcomes:
+  以下の成果を目標に置くことで、このプラクティスをより効果的に活用することができます。
 
-  * Public display of the social contract
-
-
-  * Nobody is above the contract
+  * チームでの約束事を誰でも見える場所に掲示しましょう。
 
 
-  * The team agreed holds each other accountable to the contract. Having every team member physically sign the contract can provide a good starting point for this.
+  * この約束事はチームで合意したものです。誰かが勝手に変更することを許してはなりません。
 
 
-  * Revisit the social contract often and update it as necessary
+  * チームメンバーが互いに契約に従うことを合意しましょう。約束事に自筆で署名することで、約束を守る雰囲気を醸成することができます。
+
+
+  * 約束事の内容を頻繁に確認し、必要に応じて更新しましょう。
 whyDo: |-
-  * Quick means to clearly determine team dynamics and expectations
+  * チームの期待値を明確に判断する迅速な手段です。
 
-  * Promote autonomy and self governing of team behavior
+  * チームの行動の自律性と自己管理を推進します。
 
-  * The contract keeps the team consciously aware of how they work together
+  * チームがどのように協働するかを明示する。
 
-  * Establish empathy and context for future conversations between team members
+  * チームでのこの先の活動と話し合いのために、共感と文脈の下地を作ります。
 howTo: >-
-  ## Materials Needed
+  ## Social Contractの実践に必要なもの
 
 
-  * Wall space which will hold sticky notes.
+  * 付箋を貼り付けるための壁
 
-  * Whiteboard markers
+  * ホワイトボードマーカー
 
-  * Stickies (preferably a wide variety)
+  * 付箋（様々な大きさや色があるとよい）
 
-  * Large poster paper
-
-
-  Stick the large poster paper on the wall and label it "Social Contract."
+  * 大きなポスター用紙
 
 
-  Explain to the team that we're going to:
+  ポスター用紙を壁に貼り付け、タイトルとして「チームでの約束事」と書いておきましょう。
 
 
-  * Define the kind of culture we want our team to have
-
-  * Set some general guidelines
-
-  * Hold one another accountable to these guidelines
+  チームにこれからやることを説明します。
 
 
-  Ask open-ended questions about the team's desired way of working. If the team agrees to an answer, write the decision on a sticky note and put the note on the poster paper. If there's not consensus, throw the sticky note away or put it in the parking lot for later discussion.
+  * チームで醸成したい文化の定義
+
+  * ガイドラインの設定
+
+  * このガイドラインに対して互いに責任を持たせること
 
 
-  At the end, ask the team to sign the contract, and keep it in a visible place. Note that this is a living document so the team can revisit it later, change it, and initial it to indicate that everyone has agreed to the change.
+  チーム自身が望む働き方についてオープンな質問を行います（訳注：はい/いいえで答えさせる質問ではなく、フリーフォーマットで答えさせる質問。どうしたいですか？など）。回答にチームの皆が同意したら、その回答を付箋に書いてポスター用紙に貼ります。合意が得られない場合は、付箋を捨てるか、後で議論するためにParking Lot（アイデアの駐車場）に置きます。
 
 
-  As the team moves forward, encourage them to refer back to the contract when there are disagreements.
+  最後に、チームにお願いして約束事に署名をしてもらい、見えやすい場所に掲示します。これが効力をもつ有効な文書であり、チームが後でこれを見直し、修正し、全員が変更に同意したことを示すために署名を更新することができます。
 
 
-  ## Example Questions
+  チームが前進すると時として意見の不一致が生じます。そんなときにはこの約束事を参照するように勧めましょう。
 
 
-  Try to guide the team to a contract that encourages positivity, autonomy, and respect.
+  ## 約束事のサンプル
 
 
-  * What sort of team culture do you want to build?
+  前向きで、自主性を重んじ、尊重を促す約束事にチームを導くように努めてください。どんなチーム文化を築きたいですか？
+  
+  * オープンで、ポジティブで、非難のない、建設的なチーム
 
-  * Open, positive, blame-free, constructive
+  * 楽しい！
 
-  * Fun!
+  * 魔法も、魔術も、忍者もなし - 共有理解を培う
 
-  * No magic, no wizardry, no ninjas - build shared understanding
+  * 成功を祝う
 
-  * Celebrate success
+  * コアタイムは何時から何時までにしますか？10時から15時？
 
-  * What core hours do you want to work? 10am - 3pm?
+  * 時計を見て出勤/退勤するマインドセットを奨励することは良いアイデアではありません。チームが集まって会議を開くことができる一方で、人々が自分にとって意味のある時間に働く自由を与えましょう。
 
-  * The idea is *not* to encourage a clock-in/clock-out mindset. It's about giving people the freedom to work the hours that make sense for them while ensuring that the team can still meet together.
+  * ペアプログラミングやモブプログラミングについてのあなたの考えは？学びを得るためにやるのでしょうか、効率的な構築のためでしょうか？学んだことを共有するためでしょうか？
 
-  * What are your thoughts on pair programming? Mob programming? Mob to learn; pair to build? Focus, then share what you learned?
+  * 個々の働き方を尊重する
 
-  * Respect individual working styles
+  * ミーティングでのラップトップPCやスマートフォンの扱いはどうすべきですか？パソコンは閉じて、携帯も触らない？他の作業をする場合は退出すべき？
 
-  * How should we handle devices in meetings? Laptops closed and phones down? Step out if you need to work on something else?
+  * タスク管理の方法は？Jira？紙の付箋？うまく管理することで重要なことを見逃したり、作業を重複させたりするのを防ぐことができます。
 
-  * How do you want to track tasks? Jira? Paper stickies? This helps us avoid missing important stuff or duplicating work.
+  * 創造的な混乱を受け入れよう！
 
-  * Embrace creative chaos
+  ## ダメな例
 
+  対立を助長したり、上から命令を下すような行動を奨励するチームでの約束事を作らないようにしてください。以下に、約束事の良くない例を挙げます。
 
-  ## Don't do this
+  * コアタイムは9時から19時です。（デスクにいる時間が長ければ長いほど、より多くの仕事ができるという考え方）
 
+  * 複数のプロジェクトを同時にこなすことで生産性を向上させます。
 
-  Avoid building a social contract that encourages antagonistic, command-and-control behavior. Here's an example of a really bad social contract:
+  * プロダクトが壊れたときには、誰かを責めることで責任を明確にします。
 
+  * 本番環境へのデプロイでトラブルを起こすと我々が怒られてしまいます（上記項目に記載の通り）。恐ろしい！デプロイの回数・頻度はなるべく少なくしましょう。
 
-  * Core hours are 9am-7pm. The more time you spend at a desk, the more you'll accomplish.
-
-  * Be more productive by juggling several projects at once.
-
-  * Ensure accountability by finding someone to blame when things break.
-
-  * Deploying to production is scary because it's an opportunity to get blamed for something (see above). Code should be deployed as infrequently as possible.
-
-  * When you learn something, be sure to keep it to yourself so that everyone can see what a ninja rockstar wizard unicorn you are.
+  * 何かを学んだときには、自分がどれほどのニンジャ、ロックスター、魔法使い、ユニコーン（すごい能力を持った人や動物の喩え）であるかを皆に誇示するために、それを自分だけのもの成果にしておきましょう。
 
 
-  ## Tips for remote sessions
+  ## リモートワークで気をつけること
 
 
-  1. Consider to have a “pre-canned” social contract that is good for remote meetings, then allow people to add/change based on their thoughts.
+  1. リモートワークに適したチームの約束事を考えましょう。参加者の意見に基づいて追加や変更を行います。
 
-  2. Everyone signs with a Sticky-note with his/her name.
+  2. 各自、自分の名前が書かれた付箋で署名します。
 
-  3. Add remote working elements to the social contract (mute on entry, video on etc).
+  3. チームでの約束事にリモートワーキングの要素を追加します（入室時はミュートにする、ビデオをオンにするなど）。
 
-  4. Establish global communication norms and individual teams exceptions: response time, writing style, and tone, etc.
+  4. チーム横断で適用するコミュニケーションの規範と、個々のチームでカスタマイズしたルールを確立します（応答時間、ライティングスタイル、トーンなど）。
 
-  5. Use examples:
+  5. 以下のような例を用います：
 
 
-  > * One conversation at a time
+  > * １度に進めるのは１つの話題のみとする。
 
-  > * Assume positive intent
+  > * 前向きな意図を仮定する（訳注：おそらく、リモートワークの場合、相手の表情やしぐさなどのノンバーバルなコミュニケーション要素が読み取りづらいため、不確かな部分はまずはポジティブに解釈しようという意味）。
 
-  > * Do not delete or move others contribution
+  > * 他人の貢献を勝手に削除・移動しない。
 
-  > * Stay focused on our goal working iteratively
+  > * 自分たちの目標に集中し、反復的に作業をすすめる。
 
-  > * Respect breaks
+  > * 休憩を尊重する
 
-  > * Avoid other distractions like mail, and chat
+  > * 他の人の邪魔をしない（メール、チャットなど）
 
-  > * A contract can be updated based on needs...
+  > * 必要に応じて約束事を更新する。
 
-  > * Agree on the above adding a sticky w/name & location
+  > * 上記に同意し、名前と場所を署名する。
 mediaGallery:
   - link: https://www.youtube.com/o1le81ZgVLk
   - link: https://openpracticelibrary.github.io/opl-media/images/social-contract.jpg
