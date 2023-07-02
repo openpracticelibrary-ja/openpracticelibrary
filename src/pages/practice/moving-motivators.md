@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: Moving Motivators
-subtitle: Uncover what motivates your colleagues and yourself
+subtitle: 自分自身やチームメンバーを動機付けするものを明らかにする
 date: 2018-09-28T09:38:20.325Z
 authors:
   - alexismonville
@@ -9,33 +9,32 @@ tags:
   - culture
 mobiusTag: foundation
 icon: /images/2018-09-28-08.04.09.jpg
-whatIs: Moving Motivators is a practice to uncover what motivates your
-  colleagues and yourself.
-whyDo: The practice helps the team members to understand different perspectives.
+whatIs: Moving Motivators（直訳：動機付け要素の移動）は、自分自身やチームメンバーが何によって動機付けられるのかを明らかにするためのプラクティスです。動機付けに関するカードを並べ、動かすことで、動機付けを明らかにしていきます。
+whyDo: このプラクティスは、チームメンバーの様々な側面を理解するのに役立ちます。
 howTo: >-
-  ### Steps
+  ### 手順
 
 
-  * First, download and print the cards that you will find on the [Management 3.0 website](https://management30.com/practice/moving-motivators/). You can also buy sets of cards if you prefer.
+  * まず[Management 3.0のウェブサイト](https://management30.com/practice/moving-motivators/)からカードをダウンロードして印刷します。カードは購入することも可能です。
 
-    * Once you have the cards, play the game alone. That is your training.
-  * Sort the cards from left to right. The most important motivation factor is on the left; the less important is on the right.
+    * カードが準備できたら、練習としてまず一人でゲームを行います。
+  * カードを左から右に並べ替えます。最も重要な動機のカードは左に、重要でないカードは右に置きます。
 
-  * Consider a change in your life and how this change affects your motivation factors. Move the card up if it is a positive effect and down if it is a negative effect.
+  * 自分の人生で起きた変化と、その変化が動機にどのような影響を与えたかを思い出しましょう。それが肯定的な影響であればカードを上に、否定的な影響であればカードを下に動かします。
 
-  * Consider the transformation you would like your team to commit to and look at how it affects your motivators.
-
-
-  #### Further Information
+  * チームにコミットしてほしい変化を考え、それが自分の動機にどのような影響を与えるかを見てみます。
 
 
-  * [More about the Moving Motivators practices on the Management 3.0 website](https://management30.com/practice/moving-motivators/) * Moving Motivators is the assignment from the third chapter of [Changing Your Team From The Inside](https://www.goodreads.com/book/show/40692351-changing-your-team-from-the-inside)
+  #### 補足情報
 
 
-  **Want to run this practice remotely? Here's some help to jump start your session 💻🙏** 
+  * [Moving Motivatorsのより詳しい解説（Management 3.0ウェブサイト）](https://management30.com/practice/moving-motivators/)。Moving Motivatorsは[Changing Your Team From The Inside](https://www.goodreads.com/book/show/40692351-changing-your-team-from-the-inside)の第三章の課題です。
 
 
-  * [Moving Motivators Template on Miro](https://miro.com/app/board/o9J_kliJQ9o=/)
+  **リモートでこのプラクティスを実践したいなら、以下のセッションが役に立ちます。 💻🙏** 
+
+
+  * [MiroでのMoving Motivatorsのテンプレート](https://miro.com/app/board/o9J_kliJQ9o=/)
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/moving%20motivators.png?raw=true
   - link: https://openpracticelibrary.github.io/opl-media/images/2018-09-28-08.04.09.jpg
