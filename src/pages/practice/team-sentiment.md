@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Team Sentiment
-subtitle: Track the mood of a team with visible feedback
+title: チームセンチメント
+subtitle: チームの雰囲気を可視化する
 date: 2018-03-31T21:53:43.000Z
 authors:
   - tdbeattie
@@ -13,67 +13,53 @@ icon: /images/final_team-sentiment.png
 tags:
   - culture
 whatIs: >-
-  Team Sentiment practices track the mood of a team and provide a mechanism for
-  team members to rapidly feed back, either publically or anonymously, when
-  their mood has changed.
+  チームセンチメント（直訳：チームの感情状態）は、チームの雰囲気を把握し、
+  その雰囲気が変わったときにチームメンバーが迅速にフィードバックを提供するためのメカニズムを提供するプラクティスです。
+  記名方式でやっても匿名方式でやっても構いません。
 whyDo: >-
-  Team sentiment practices enable problems to be identified, radiated and
-  addressed early. They enable the team to quickly discuss where one or more
-  team members is suddenly troubled by the direction their work is going and can
-  also provide an information radiator to assess the overall team health and
-  feeling.
+  チーム・センチメントにより、問題の早期発見、可視化、対処が可能となります
+  チームメンバーが自分たちの仕事の方向性に悩んでいる場合、すぐにそれを話し合うことができます。
+  また、チームの健康状態や感情を評価するための情報ラジエーター（ダッシュボードやポスター等の、情報を可視化し公表するためのツールやデバイス）としても機能します。
 
 
-  Team sentiment practices are often introduced where there is a strong sense of
-  servant leadership in the working environment.
+  チームセンチメントは、働く環境においてサーヴァント型リーダーシップが強く感じられる場所でよく導入されます。
 howTo: >-
   ## Who do you need?
 
-  - Someone to introduce and facilitate the team sentiment practice(s).
+  - チームセンチメントのファシリテーター
 
-  - A cross functional team to continously use the practice. Multiple teams can
-  each use their own practice and multiple resulting artefacts can be used to
-  roll up and radiate wider organisational moood trends.
+  - このプラクティスを継続的に使う機能横断的なチーム。複数のチームがそれぞれこのプラクティスを使用して得る結果を使い、組織全体の雰囲気の傾向を可視化・公表することができます。
 
 
-  ## Suggested Time
+  ## 推奨される実施時間
 
-  - 5-10 minutes to introduce and make first use of the practice.
+  - プラクティスの紹介と初回の実践は5〜10分
 
-  - Ad hoc updates performed on an ongoing basis (with facilitator driving the
-  continuous adoption, use and value of the practice).
-
-
-  ## Difficulty
-
-  - Facilitator - Medium
-
-  - Participants - Easy
+  - チームセンチメントの継続的な更新を実施する。ファシリテーターは継続的な実践を推進し、このプラクティスを利点を活用する。
 
 
-  ## Facilitation Materials Needed
+  ## 難易度
 
-  To use "Mood Marbles" as the Team Sentiment practice
+  - ファシリテーター：中
 
-  - A number of containers to hold enough marbles (can be drawings of containers
-  on large flip-chart paper)
-
-  - Red and Green Marbles (can be sticky notes) to start with. Other colors can
-  be introduced.
+  - 参加者：簡単
 
 
-  Mood Marble containers are placed in a strategic place where all team members
-  will see and walk pass regularly (for example, near the door or on the way to
-  the bathroom).
+  ## ファシリテーションに必要なもの
+
+  「ムードマーブル（直訳：雰囲気の指標、雰囲気のマーカー）」をチームセンチメントで使用するために、
+
+  - 十分な種類のマーカーや付箋が入る容器（ポスターに容器の絵を描くだけでもよい）
+
+  - 始めは赤と緑の２色のマーカー（または付箋）を使うとよいです。（他の色でも構いません。）
+
+  ムードマーブルの容器は、全てのチームメンバーが頻繁に見る、または通りかかる場所に置きましょう（例えば、ドアの近くやトイレへの道の途中）。
+
+  チームに、現在の雰囲気について考えることをお願いしましょう。始めはポジティブ（緑）とネガティブ（赤）で、各チームメンバーは自分達の雰囲気を表す容器にマーカーを追加します。
+
+  チームメンバーは、いつでもマーカーを変更できます。
 
 
-  Team are encouraged to think about their current mood. Start with positive
-  (green) and negative (red) and each team member adds a marble to the container
-  that reflects their mood.
-
-
-  Team members are regularly reminded they can change their mood marble at any
-  time.
 mediaGallery:
   - link: >-
       https://github.com/openpracticelibrary/opl-media/blob/master/images/team%20sentiment%20mood.png?raw=true
