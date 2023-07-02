@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: チームセンチメント
-subtitle: Track the mood of a team with visible feedback
+subtitle: チームの雰囲気を可視化する
 date: 2018-03-31T21:53:43.000Z
 authors:
   - tdbeattie
