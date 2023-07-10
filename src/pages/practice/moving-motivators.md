@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: Moving Motivators
+title: モチベーションの可視化
 subtitle: 自分自身やチームメンバーを動機付けするものを明らかにする
 date: 2018-09-28T09:38:20.325Z
 authors:
@@ -9,7 +9,7 @@ tags:
   - culture
 mobiusTag: foundation
 icon: /images/2018-09-28-08.04.09.jpg
-whatIs: Moving Motivators（直訳：動機付け要素の移動）は、自分自身やチームメンバーが何によって動機付けられるのかを明らかにするためのプラクティスです。動機付けに関するカードを並べ、動かすことで、動機付けを明らかにしていきます。
+whatIs: Moving Motivators（直訳：動機付け要素の移動）は、自分自身やチームメンバーが何によって動機付けられるのかを可視化するプラクティスです。動機付けに関するカードを並べ、動かすことで、メンバーの動機を明らかにしていきます。
 whyDo: このプラクティスは、チームメンバーの様々な側面を理解するのに役立ちます。
 howTo: >-
   ### 手順
