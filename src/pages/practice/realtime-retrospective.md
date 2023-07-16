@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Realtime Retrospective
-subtitle: Getting feedback faster and improving the overall experience of your event.
+title: リアルタイムレトロスペクティブ
+subtitle: フィードバックを早期に得て素早くカイゼンする
 date: 2017-10-26T05:00:00.000Z
 authors:
   - mtakane
@@ -11,122 +11,113 @@ tags:
 mobiusTag: foundation
 icon: /images/realtime-retro-prep.jpg
 whatIs: >-
-  The Realtime Retrospective technique was created by Emily Webber. This is a
-  great way to capture feedback from a large number of participants in realtime
-  over an extended period of time. By the middle of your event you should
-  already have:
+  リアルタイムレトロスペクティブはEmily Webberが考案した手法で、大勢の参加者からのフィードバックをリアルタイムで長期に渡って収集するというものです。
+  イベントが中盤に差し掛かる頃には以下のような情報が得られているはずです。
 
 
-  * some feedback in a timeline-like fashion that includes both positive and negative things
+  * タイムライン形式でのフィードバック（ポジティブとネガティブの両方のフィードバックを含む）
 
 
-  * a capture of the mood and reaction of people over the course of time in a realtime manner
+  * リアルタイムでのメンバーの雰囲気と反応の記録
 
 
-  * lots of sticky notes on a wall
+  * 壁に貼られたたくさんの付箋
 
 
-  ## How does it fit?
-
-
-  * Typically done in the Culture and Collaboration area of the Foundation of the Open Practice Library.
+  Open Practice Libraryの基礎部分である「文化と協働」の領域が該当します。
 whyDo: >-
-  * Let's face it, nobody _likes_ filling out surveys, especially if it's more
-  than three questions. Why not have the participants write unfiltered,
-  uncensored, and quick feedback at the time they think of it? Realtime
-  Retrospectives provide a low bar of entry and is voluntary and easy to
-  participate anonymously.
+  * サーベイへの回答は誰にとっても面倒なものです。特に設問が３つ以上あると。フィードバックは思いついた時にすぐ、率直に、フリーフォーマットでやった方が良いはずです。リアルタイムレトロスペクティブは参加の敷居が低く、自発的に、簡単に、匿名で参加することができます。
 
 
-  * For long running days or weeks with multiple sessions or activities, you can visibly see people's moods or grasp of the information in realtime.
+  * スプリントが長く、複数のセッションや活動を含む場合、チームの雰囲気や情報をリアルタイムで可視化して把握することができます。
 
 
-  * When running similar sessions in quick succession, you may need to improve quickly and sometimes adjust on the fly.
+  * 連続して同様のセッションを実施する場合、迅速に改善する必要があり、場合によっては即座に調整することも必要です。
 howTo: >-
-  ## Who do you need?
+  ## 参加すべきメンバー
 
-  * A _Facilitator_ (person to setup/cleanup).
+  * ファシリテーター（セットアップとクリーンアップを実施する）
 
-  * Participants (anybody that was there during the timeframe).
-
-
-  ## Suggested Time
-
-  * ~10 minutes setting up and cleaning up.
-
-  * Wall is kept up over the course of 1-5 days for active participation.
+  * 参加者（その時間枠にその場に居た人たち）
 
 
-  ## Difficulty
+  ## 推奨実施時間
 
-  * Facilitator: Easy
+  * セットアップとクリーンアップ：10分未満
 
-  * Participants: Easy
+  * 掲示板は1〜5日間確保します。
+  
 
+  ## 難易度
 
-  ## Recipe
+  * ファシリテーター：Easy
 
-
-  ## Facilitation Materials Needed
-
-  * Drawing paper roll. Sticky notes tend to fall off walls otherwise.
-
-
-  * 8×6 sticky notes.
+  * 参加者：Easy
 
 
-  * At least 3 different colors of small 3×3 square sticky notes.
+  ## レシピ
 
 
-  * Several markers.
+  ### ファシリテーションに必要なもの
+
+  * 大きな模造紙（A1サイズなど）
+  
+
+  * 8cm × 6cmなど少し大きめの付箋
 
 
-  * Some painter's tape.
+  * 3cm x 3cmなどの小さな付箋（３色以上）
 
 
-  #### Preparations
+  * 複数のマーカーペン
 
 
-  * Find a wall or surface that is long enough to handle the amount of feedback you are expecting.
+  * テープ
 
 
-  * Make a long line to represent time.
+  #### 準備
 
 
-  * Draw a Happy Face above the line, a Sad Face below the line, and a Surprised Face along the line (this represents the type of feedback that you wish to receive – Positive, Negative, Surprised).
+  * フィードバックを掲載する壁をみつけ、模造紙を貼ります。
 
 
-  ![Realtime Retrospective Setup](/images/realtime-retro-prep.jpg "Sample Prep Setup for Realtime Retrospective")
+  * 時間を表す長い線を横に引きます。
+
+
+  * 時間軸の線の上にはハッピーな顔を描き、線の下には悲しい顔を描き、線に沿って驚いた顔を描きます（これは、あなたが受け取りたいフィードバックのタイプを表します - ポジティブ、ネガティブ、驚き）。
+
+
+  ![リアルタイムレトロスペクティブのセットアップ](/images/realtime-retro-prep.jpg "Sample Prep Setup for Realtime Retrospective")
 
 
   #### Step 1
 
 
-  Explain to your participants your goal of using this practice and how to use your prepped area. Key things to share:
+  このプラクティスの目的と、準備した模造紙の使用方法を参加者に説明します。共有すべき主なポイントは以下：
 
 
-  * Where to find materials for them to contribute.
+  * 参加者がこのプラクティスに参加するための手引の在り処。
 
 
-  * How the timelapse begins at the left and continues until the timeframe you designate as the end.
+  * 時間軸は左から始まり、あなたが終了と指定する地点まで続くこと。
 
 
-  * Any and all feedback is welcome, 1 post-it per feedback item.
+  * あらゆるフィードバックが歓迎されます、フィードバックアイテムごとに1つの付箋を使いましょう。
 
 
   #### Step 2
 
 
-  Cycle back constantly to review your feedback and make appropriate improvements based on them.
+  常にフィードバックを見直し、それに基づいて適切な改善を行ってください。
 
 
-  ## Related Practices
+  ## 関連するプラクティス
 
 
-  * Timeline Retrospectives by Patrick Kua uses a similar approach to gathering feedback in a sequential order
+  * タイムラインレトロスペクティブ：Patrick Kuaが考案したもの。フィードバックを時間軸に沿って並べるもので、リアルタイムレトロスペクティブに似たアプローチを採用している。
 
 
-  * Linda Rising has a concept of the Continuous Retrospective that uses the timeline aspect of the Timeline Retrospective and to reflect on it everyday as a team.
+  * Linda Rising：タイムラインレトロスペクティブの時間軸の考え方に基づき、そこに毎日チームのレトロスペクティブを反映していく連続的レトロスペクティブ。
 mediaGallery:
   - link: https://openpracticelibrary.github.io/opl-media/images/realtime-retro-prep.jpg
 resources:
