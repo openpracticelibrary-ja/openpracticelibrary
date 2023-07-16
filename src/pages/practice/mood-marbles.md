@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Mood Marbles
-subtitle: A mechanism for gauging team sentiment
+title: ムードマーブルズ
+subtitle: チームの感情や感じ方を計測するためのメカニズム
 date: 2021-06-22T14:39:16.257Z
 authors:
   - heyjerrybecker
@@ -11,54 +11,46 @@ tags:
 mobiusTag: foundation
 icon: /images/mood-marbles.jpeg
 whatIs: >-
-  Mood Marbles is a team culture practice that allows each person within a group
-  to communicate how they are feeling at any point in time by using various
-  colored stickies on a chart. The chart (physical or digital) is accessible to
-  all team members and is populated with 1 of 3 colored stickies by every team
-  member.
+  Mood Marbles(ムードマーブルズ、直訳で雰囲気を表すマーカー)は、グループのメンバーが自分の感じていることを色で伝えるというチームの文化を醸成するためのプラクティスです。
+  ホワイトボードと色付きの付箋を使う等の方法で行います。
+  メンバー全員がムードマーブルズを通じた気持ちの表現できます。
+  色は２色以上であれば何色でも構いませんが、以下の例では３色を使います。
 
 
-  These stickies correspond to psychological and emotional states:
+  ３色の付箋は、それぞれ下記の心理や感情を表現するものとします。
 
 
-  * Green = I'm feeling good! Let's keep goin!
+  * 緑：元気！いい感じ！この状態を継続しましょう！
 
-  * Yellow = I'm a little nervous or uncertain, but ok to continue
+  * 黄：少し緊張したり先行き不安な感じがしますが、このまま続けてみましょう。
 
-  * Red = I don't feel comfortable or safe right now
+  * 赤：心地良さや安心感を感じません
 
 
-  Stickies are anonymous and represent the current state of the team at any given time.
-whyDo: Providing an anonymous means for team members to communicate how they're
-  feeling is a great way to gauge psychological safety. While simple on the
-  surface, Mood Marbles is a great way to identify cultural red flags that might
-  pop up as a team works together. As a faciltator, you can keep an eye on the
-  Mood Marbles chart to know if the team is feeling safe and comfortable working
-  together, or if there needs to be a discussion or retrospective to tease out
-  details about something that is causing an issue within the team.
+  付箋は匿名で、任意の時点でのチームメンバーの心情を表すものとなります。
+whyDo: 匿名で自分の気持ちを伝える手段を提供することは、心理的安全性を計測するのに良い方法です。
+  ムードマーブルズはシンプルですが、チームの文化面のトラブルの兆候を特定するのに非常に役立ちます。
+  ファシリテーターとして、ムードマーブルズの表を注視して、チームが一緒に安全に快適に仕事をしているか、チーム内で問題が起きてないか、問題の原因の詳細を引き出すための議論や振り返りが必要かどうかを把握することができます。
 howTo: >-
   **Steps:**
 
 
-  1. Find some dedicated wall space to hang a large post-it paper with an outline of a jar drawn largely on it. If implementing this remotely, create a space on your digital whiteboard tool of choice (Miro, Mural, Jamboard, etc) with a jar outline (see media gallery for example)
+  1. 大きな模造紙にマーブルを入れる容器のイラストを描き、壁に貼りましょう。オンラインのホワイトボードツールでも構いません。
 
-     Give everyone on the team 3 different colored stickies:\
-     Green = I'm feeling good! Let's keep goin!\
-     Yellow = I'm a little nervous or uncertain, but ok to continue\
-     Red = I don't feel comfortable or safe right now
-  2. Tell the team that, any any point in time, they're welcome to put the color stickie that reflects their current emotional and psychological state in the jar
+     チーム全員に緑、黄、赤の３色の付箋を配ります。（書く色の意味は先述の例の通りとします。）
+  2. チームメンバーは現在の感情的および心理的な状態を反映する色の付箋をいつでも容器に入れることができます。
 
-  3. As a facilitator, keep checking the state of the jar to see if any colors are changing as you go. If you start to see some yellows, that's ok! Progress, but keep an eye on the chart. If you start to see a LOT of yellows, or ANY reds, find a way to address the issue...
+  3. ファシリテーターは容器の状態をチェックし続けて、色が進行と共に変化していないかを確認します。黄色の付箋が少し出る程度であれば問題ありません。黄色の付箋が大量に出始めたり、赤の付箋が出た場合は、問題を解決する方法を見つけてください。
 
 
-  **Tips for addressing yellow and red "marbles"**
+  **黄や赤のマーブルに対応するためのヒント**
 
 
-  * You can ask if the room is comfortable sharing who put yellow or stickies in the jar, and why, just have a conversation there on the spot!
+  * 誰が黄色や赤色の付箋を瓶に入れたのか、そしてその理由を共有することに快適さを感じているかどうかを尋ねてみると良いでしょう。その場で直接話し合うことができます。
 
-  * If you get the sense the room isn't comfortable speaking about it, you might try a [blind confidence vote](https://openpracticelibrary.com/practice/confidence-voting/) to find out who you need to talk to privately. Run the Confidence Vote as written in the link, but have everyone put their heads down and close their eyes before voting - that way it stays anonymous. Once you know who may be feeling uncomfortable by how everyone votes, you can set up private conversations with team members to learn more about what's contributing to the issue.
+  * もし、部屋の雰囲気がそのような話をするのに適していないと感じたら、[自信の投票](https://openpracticelibrary-ja.netlify.app/practice/confidence-voting/)をブラインド方式（全員が目を瞑って下を向いた状態で行う方式。各メンバーは他のメンバーの投票結果がわからない状態になり、匿名性が保たれる。）を試してみると良いでしょう。これにより、誰と個別に話をする必要があるかを探ることができます。みんながどのように投票するかで、誰が不安を感じているのかがわかったら、問題に寄与している可能性のあることを詳しく学ぶために、チームメンバーとの個別の会話を設定できます。
 
-  * Run a quick [Team Retro](https://openpracticelibrary.com/practice/retrospectives/) to tease out possible issues that may have contributed to yellow and red marbles.
+  * 黄や赤のマーブルの原因を探るため、早期に[レトロスペクティブ](https://openpracticelibrary-ja.netlify.app/practice/retrospectives/)を実施しましょう。
 mediaGallery:
   - link: https://www.youtube.com/watch?v=dtcKaVoKj2A
   - link: https://github.com/openpracticelibrary/opl-media-service/blob/master/Mood%20Marbles%20Template.png?raw=true
