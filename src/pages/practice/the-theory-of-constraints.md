@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: The Theory of Constraints
-subtitle: "“Any improvements made anywhere besides the bottleneck are an illusion.” "
+title: 制約理論
+subtitle: "“いかなる改善も、ボトルネック以外でおこなわれたことは幻想です。” "
 date: 2021-06-04T10:17:34.156Z
 authors:
   - tom-geraghty
@@ -10,59 +10,58 @@ tags:
 mobiusTag: foundation
 icon: /images/three-contract-management-bottlenecks-eliminated-by-automation.png
 whatIs: >-
-  Eliyahu Goldratt first described the Theory Of Constraints (ToC) in his 1984
-  book, "The Goal", which focused on manufacturing and was a key catalyst for
-  the revolution in the performance of manufacturing in subsequent years.
+  エリヤフ・ゴールドラットが最初に制約理論（TOC）を説明したのは、1984年の著書「ザ・ゴール」です。
+  製造業に焦点を当てたこの本は、その後の製造業における業績の革命の重要なきっかけとなりました。
 
 
 
-  The Theory of Constraints shows us that in any process, there must be a single bottleneck that limits the total throughput of the process: in the same way that a chain has a weakest link, a process has a single slowest component.
+  制約理論は、どのようなプロセスにおいても、プロセスの総スループットを制限する唯一のボトルネックが存在することを示しています。鎖に最弱の輪があるのと同じように、プロセスにもただ1つの最遅のコンポーネントがあるのです。
 whyDo: >-
-  Whilst it may be easy to improve some part of the process, if that component
-  isn't the bottleneck, it will either have zero effect on the throughput
-  because the bottleneck is upstream, or it will actually cause more pain in the
-  system by adding pressure to the bottleneck, if the bottleneck is downstream. 
+  プロセスの一部を改善するのは簡単かもしれませんが、そのコンポーネントがボトルネックでない場合、
+  ボトルネックが上流にあるときはスループットへの影響はゼロ、ボトルネックが下流にあるときは、
+  ボトルネックへの圧力を強めてしまい、システムにさらなる痛みをもたらすことになります。
 
 
 
-  This is why **“Any improvements made anywhere besides the bottleneck are an illusion.”** 
+
+  ですので、 **“いかなる改善も、ボトルネック以外でおこなわれたことは幻想”** なのです。
 
 
 
-  In some systems, the bottleneck is clear to see, such as a narrow junction on a busy street, or a bend in a garden hose. 
+  システムによっては、交通量の多い道路の狭い交差点や、庭のホースの曲がり目などのように、ボトルネックがはっきり見えるものもあります。
 
 
 
-  In some systems, especially those that don't have material, or "inventory" flowing through them, the constraint can be more difficult to see. This includes many business or technology processes such as software and product development. 
+  また、システムによっては、特に材料や「在庫」が流れていないシステムでは、制約が見えにくくなることがあります。これには、ソフトウェアや製品開発のような多くのビジネスプロセスや技術プロセスが含まれます。
 
 
 
-  Using the Theory of Constraints (ToC) to identify bottlenecks (constraints) in a process enables teams and organisations to decide where to focus optimisation work. When the optimisation, elevation, or removal of the constraint is complete, the process begins again to find the next constraint (because there is always the next one).
+  制約理論（TOC）を使ってプロセスのボトルネック（制約）を特定することで、チームや組織は、最適化作業の焦点をどこに置くかを決定することができます。制約の最適化、強化、または除去が完了すると、プロセスは次の制約を見つけるために再び始まります（常に次の制約が存在するからです）。
 howTo: >-
-  This practice assumes that you already have a way of measuring the process -
-  such as looking at tickets in jira, cards on a kanban board, or other tools.
-  If you don't, then you can use techniques such as MBPM or value stream
-  analysis to identify where the bottlenecks could be.
+  このプラクティスは、jiraのチケットやカンバンボードのカード、その他のツールなど、
+  プロセスを測定する方法がすでにあることを前提としています。
+  そうでない場合は、MBPMやバリューストリーム分析などのテクニックを使って、
+  どこにボトルネックがあるかを特定する必要があります。
 
 
 
-  Stage 1: **Identify** the constraint. Look at where "Work In Progress" (WIP) is piling up. 
+  ステップ1：制約を **特定します。** 「仕掛品」（WIP）が山積みになっている場所を見ます。
 
 
 
-  Stage 2: **Exploit** the constraint. Are there any quick improvements you can make to the throughput of this stage? This is essentially "making the most of what you have". Check to see if you've solved the constraint and moved the bottleneck somewhere else.
+  ステップ2：制約を **徹底的に活用します。** このステージのスループットを上げるために、すぐにできる改善はありますか？これは基本的に「今あるものを最大限に活用する」ことです。制約を解決し、ボトルネックがどこか別の場所に移ったかどうかを確認します。
 
 
 
-  Stage 3: **Subordinate** the constraint. Look at the rest of the process. Are other stages really aligned with this stage? Is there something another stage could do that could improve the flow through this stage? Maybe other stages could add a little more documentation, make a few tweaks to their process, or take on some of the work? Check to see if you've solved the constraint and moved the bottleneck somewhere else.
+  ステップ3：制約に **従属させます。** 残りのプロセスを見てください。他のステージはこのステージと本当に整合が取れていますか？このステージのフローを改善するために、他のステージができることはありますか？他のステージがもう少しドキュメントを追加したり、プロセスに少し手を加えたり、仕事の一部を引き受けたりできないでしょうか？制約を解決し、ボトルネックが別の場所に移ったかどうかを確認します。
 
 
 
-  Stage 4: **Elevate** the constraint. Maybe you need to add capacity or resources to the constraint? Can the constraint be increased in size or scale? Can you add more people, machines, or resources to it? Keep doing this until you've solved the constraint and moved the bottleneck somewhere else.
+  ステップ4：制約を **強化します。** 制約にキャパシティやリソースを追加する必要はありませんか？ 制約のサイズや規模を大きくできますか？より多くの人、機械、またはリソースを追加できますか？制約を解決し、ボトルネックがどこかに移動するまで、これを続けてください。
 
 
 
-  Stage 5: **Repeat** the process. You've just moved the bottleneck somewhere else. Find out where that is, and start again. This is a continuous process and there will always be a bottleneck somewhere!
+  ステップ5：プロセスを **繰り返します。** ボトルネックは別の場所に移動しただけです。ボトルネックがどこにあるのかを突き止め、もう一度繰り返してください。これは継続的なプロセスであり、必ずどこかにボトルネックがあります！
 mediaGallery: []
 resources:
   - link: https://www.toc-goldratt.com/en/product/The-Goal-A-Process-of-Ongoing-Improvement
