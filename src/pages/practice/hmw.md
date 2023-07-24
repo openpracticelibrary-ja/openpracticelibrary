@@ -62,7 +62,6 @@ howTo: >-
 
   * HMW は[インパクトマッピング](https://openpracticelibrary-ja.netlify.app/practice/impact-mapping/) の中でアクターの行動変化に影響のあるような成果物を探索する方法として利用することができます
 
-  * During [Event Storming](https://openpracticelibrary.com/practice/event-storming/) the team can often spot improvements or ideas for introducing a new way of handling the process, experiments to be carried out. A post-it with a draft HMW question can provide a nice bridge into a HMW and [Design of Experiments](https://openpracticelibrary.com/practice/design-of-experiments/) exercise.
   * [イベントストーミング](https://openpracticelibrary-ja.netlify.app/practice/event-storming/) で、プロセスのハンドリングや実験を導入する際に改善アイデアを見つけるためによく使われます。また、ドラフト版のHMW質問を書いた付箋はHMWや[デザインの実験](https://openpracticelibrary-ja.netlify.app/practice/design-of-experiments/) プラクティスでブリッジとして使われます。
 
   * [終わりから始める](https://openpracticelibrary-ja.netlify.app/practice/start-at-the-end/) のファシリテーション中にキー・クエスチョンのリストが作られますが、HMWは失敗につながりかねない仮定からキー・クエスチョンを作るための優れたアプローチです。
