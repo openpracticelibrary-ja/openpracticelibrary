@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Leaders Eat Last
-subtitle: Building Trust Between Leaders and Teams
+title: リーダーは最後に食べる
+subtitle: リーダーとチームの信頼を構築する
 date: 2020-10-01T20:58:55.856Z
 authors:
   - pcarney8
@@ -10,43 +10,29 @@ tags:
   - culture
 mobiusTag: foundation
 icon: /images/jehyun-sung-486247-unsplash.jpg
-whatIs: This concept is based on the United States Marine Corps' practice of
-  placing the needs of your Marines before you own. When a unit in the Marine
-  Corps is conducting training or deployed abroad, they will eat their meals
-  together as a team; from the most senior officer to the youngest enlisted
-  Marine. In this environment, one might think that those senior leaders would
-  get their food first, but it is the exact opposite. The call will come out for
-  the lowest rank to line up for chow, and taking it a step further, the most
-  senior Marines present **serve** **their subordinates**. This selfless act
-  shows the Marines that their leadership cares about them and that if there is
-  a shortage on food, they will be the ones to go without eating. This also
-  allows the leaders to see and talk to all of the Marines as they make their
-  way through the chow line, assessing their physical and mental wellbeing which
-  can be deteriorated in extreme training or combat conditions.
-whyDo: This simple gesture can have a profound impact on the way a team
-  interacts. In the Marine Corps, it is an honor and privilege to serve those
-  junior to your own rank. While allowing others to eat first is just one small
-  example of this, it can be used in many facets of leadership. Placing the
-  needs of the team before your own breaks down the mentality of, "I am senior
-  to you, so I have more privileges," and replaces it with, "My seniority comes
-  with more responsibilities, and it is my charged duty to take care of my
-  teammates and ensure their success." Through this, an atmosphere is fostered
-  in which the team trusts one another and feel like they belong. When the team
-  cares for each other, they don't feel threatened from within and can focus
-  their energy on common goals.
+whatIs: このプラクティスのコンセプトは、海兵隊の慣習である「自分より海兵隊を優先する」に基づいています。
+  海兵隊の部隊が訓練を行ったり、海外に派遣されたときは、最高幹部から燃焼の海兵隊員までチームとして一緒に食事をとります。
+  このような環境では、上級リーダーたちから食事をとると思うかもしれないが、それは正反対です。
+  最下層の海兵隊員たちは食事の列に並び、**上級隊員が部下に給仕**をする。
+  この無私の行為によって、リーダーは部下を大切にしていることや、もし食料が不足したらリーダーたちが食事を取らないことを示しています。
+  また、それによってリーダーは隊員全員が食事の列を通るのを見たり、会話をしたりすることができ、過酷な訓練や戦闘状況で悪化する可能性のある隊員の肉体的、精神的な状態を確認することができます。
+
+whyDo: このシンプルな取り組みがチームの相互作用に大きな影響を与えることがあります。
+  海兵隊では、自分より下の階級のものに使えることは名誉であり特権であると考えられています。
+  他者が先に食事をとるというのは、ほんの一例に過ぎず、リーダーシップのさまざまな面で活用することができます。
+  チームのニーズを自分より優先することで、「私はあなたより上位（のランク）であり、あなたより多くの特権を持っている」というメンタリティを壊し、「私が上位で有ることの意味は、より多くの責任を持つことや、私がチームメンバーの世話をし、成功に導くという責務が課せられていることである。」というメンタリティに置き換えるのです。
+  そうすることで、チームメンバーがでお互いに信頼し、自分の居場所であるという雰囲気が醸成されます。
+  チームメンバーがお互いに思いやることで、チーム内からの脅威を感じることなく、共通の目標にエネルギーを集中させることができます。
+  
 howTo: >-
-  This simple idea is not so simple to implement. It requires a mindset shift
-  from self preservation to team preservation. This includes those times when
-  everyone is tired and everything seems to be falling apart. It might be best
-  to implement in the little things you do to start developing the habit. It can
-  be consistently showing up to appointments 5 minutes early, asking the team if
-  they would like a drink when you are making a run to the store, asking what
-  you can do to help or support the team, volunteering to work the extra hour,
-  or giving the credit for success to the team while assuming responsibility
-  when the team fails.
-
-
-  Based on Simon Sinek's book "Leaders Eat Last: Why Some Teams Pull Together and Others Don't"
+  このアイデアはシンプルではありますが、実行するのは簡単ではありません。
+  自己保全からチームを保全することを優先する意識改革が必要です。
+  （意識改革をしている間）みんなが疲れて、すべてがバラバラになっているように見える期間もあるでしょう。
+  この習慣は(いきなり大掛かりに始めるより）少しずつ、あなたができることからスタートするのが最も良いでしょう。
+  それは、いつもミーティングの5分前に来たり、買い物に行くときにチームに飲み物がほしいか聞いたり、チームを手助けしたり、支援できることがないか聞いたり、1時間余分に働くことを申し出るようなことかもしれません。
+  あるいは、チームが失敗したときに責任を負い、成功したときにはチームの手柄として与えることかもしれません。
+  
+  このプラクティスはサイモン・シネックの「Leaders Eat Last: Why Some Teams Pull Together and Others Don't」という本に基づいています。"
 
 
   [Interview with Simon Sinek](https://www.quickbase.com/blog/why-leaders-should-always-eat-last-simon-sinek-interview)
