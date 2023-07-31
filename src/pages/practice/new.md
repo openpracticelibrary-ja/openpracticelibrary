@@ -94,9 +94,9 @@ howTo: >-
 
 
   再調査の前に、以下のコンテクストを使用して、オープンなリーダーシップと現代的なプラクティスを通じてチームの心理的安全性を高めるよう行動します。
-  Use the context below to steer behaviours and actions to increase psychological safety on the team via open leadership and modern practices, before repeating the survey.
 
 
+  
   ## 各問の背景と根拠
 
 
