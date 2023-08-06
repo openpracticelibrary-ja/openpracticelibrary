@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: 終わるための手段(Means to End)
+title: 目的と手段(Means to End)
 subtitle: ビジョン、ミッション、戦略、目標、戦術、目標を明確にして伝える
 date: 2021-09-08T02:31:59.708Z
 authors:
