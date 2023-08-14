@@ -128,7 +128,7 @@ howTo: >-
   Red Hatでは、全組織で[Open Decision
   Framework](https://github.com/red-hat-people-team/open-decision-framework)を使用して、
   [Red HatのWhyを見つけました](https://www.redhat.com/en/blog/why-open-has-been-red-hat%E2%80%99s-compass-and-purpose-25-years)。
- 「Openであることは世界の可能性を大きく広げる（Open unlock's the world's potential）」というものです。
+  [[「Openであることは世界の可能性を大きく広げる（Open]] unlock's the world's potential）」というものです。
 jumbotron: /images/golden-circle.webp
 area: discovery-loop-why
 time: 1 day to 1 year
