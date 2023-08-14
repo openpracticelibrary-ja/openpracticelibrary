@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Lean UX Workshop
-subtitle: Solve real problems for real users
+title: リーンUXワークショップ
+subtitle: 現実のユーザの現実の問題を解決する
 date: 2019-04-02T15:13:17.103Z
 authors:
   - rileyi
@@ -23,68 +23,56 @@ participants:
   - Designers
   - Product Owners
 whatIs: >-
-  In a Lean UX Workshop, participants practice interviewing and learning about a
-  user. Then, they prototype and refine a product that solves a real problem
-  faced by that person.
+  リーンUXワークショップで、参加者はユーザへのインタビュー方法とユーザについて学習する方法を練習することができます。
+  そして、そのユーザが実際に直面している問題を解決する製品を試作し、改良してプロトタイプを作成します。
+  
 whyDo: >-
-  This practice helps build a culture of user-centered design and lean UX. It's
-  a hands-on activity that can provide a break from presentations or technical
-  workshops. It's also a great icebreaker!
+  このプラクティスは、ユーザ中心設計（User Centered Design）とリーンUXの文化を醸成に役立ちます。
+  このハンズオンのアクティビティはプレゼンテーションや技術系のワークショップの休憩にもなるでしょう。
+  また、アイスブレイクとしても有効です。
 howTo: >-
-  ### Materials Needed
+  ### 必要な材料
 
-  * A timer or stopwatch (the [Time Timer](https://www.timetimer.com/) is great)
+  * タイマー
 
-  * A whiteboard (optional)
+  * ホワイトボード（任意）
 
-  * Lots of Lego! The [Large Creative Brick
-  box](https://www.lego.com/en-us/themes/classic/products/lego-large-creative-brick-box-10698)
-  is great.
+  * たくさんのLEGO!
 
-  ### Steps
+  ### ステップ
 
-  Before each step, spend a minute or two explaining what participants will do
-  and answering questions.
+  始める前に、これからどのようなことをするのか1,2分の時間を取って説明する。
 
-
-  * Introduce Lean UX and user-centered design. Depending on the audience,
-  consider one or more of the following *(10-15 min)*:
-    * Demonstrate a mock user interview
-    * Show a short video
-    * Describe an experience practicing user-centered design.
-  * Ask people to self-organize into groups of three and pick a role: User,
-  Designer, or Developer.
-
-  * Ask the designer to interview the user. *(3 min)*
-    * The designer asks user about his or her morning routine (from waking up to arriving at work).
-    * The interviewer looks for a problem that the user ran into and asks open-ended questions to learn more.
-  * Ask the developer and designer to prototype a solution to the problem using
-  Lego. *(7 min)*
-
-  * Have the developer and designer present their solution to user and get
-  feedback. If possible, they should let the user try out the product! *(3 min)*
-
-  * Have the team refine the Lego solution and gather additional feedback. *(7
-  min)*
-
-  * Ask two or three teams present their solutions. *(5 min)*
+  * リーンUXとユーザ中心設計の紹介する。参加者の前提知識などに応じて内容を調整しましょう（10 - 15分）
+    * ユーザインタビューのデモ
+    * 短い動画を流す
+    * ユーザ中心設計を実践した経験についてについて話す
+  * 参加者に3人一組になってもらい、ユーザ、デザイナー、開発者の役割分担を行ってもらう
+  * デザイナーにユーザーインタビューを行ってもらう（3分）
+    * デザイナーはユーザに朝のルーチンについてたずねる（朝起きたところから仕事場に着くまで）
+    * インタビュアーはユーザが問題を探し、オープンクエスチョンでより深く理解する
+  * 開発者とデザイナーにLEGOをつかって（ユーザの問題を）解決するプロトタイプをつくってもらう
+  * 開発者とデザイナーにプロトタイプをユーザに見せて、フィードバックを得るよう指示する。可能なら、ユーザに実際に使ってもらう（3分）
+  * チームでLEGOのプロトタイプを改善してもらう（7分）
+  * 2,3チームにプロトタイプをプレゼンしてもらう（5分）
 
 
   The facilitator should move from table to table to make sure teams are
   progressing. If teams finish early, they can build another prototype and A/B
   test the solution.
+  ワークショップ中、ファシリテーターは各チームを回って進んでいるか確認しましょう。
+  プロトタイプ作成が速く終わったチームがいたら、別のソリューションを作ってもらいA/Bテストできるようにしてもらいましょう。
 
   #### Tips
 
-  Consider writing these notes on a whiteboard.
+  次のことをホワイトボードに書いておくといいかもしれません。
 
   * Ask open-ended questions - not closed (yes/no) questions.
+  * オープンクエスチョンをつかおう。クローズド（はい/いいえ）クエスチョンではなく。
 
-  * Use the "ladder" technique: keep asking "why" to learn more.
+  * ラダー（はしご）テクニックを使おう。（なぜを繰り返して深掘りする）
 
-  * When you have something to measure, use ratings on on a scale from 1 to 11.
-  This helps participants give honest feedback instead of thinking of the rating
-  like a grade in school.
+  * なにか計測したいことがあったら、1〜11までで評価してもらいましょう。そうすると、参加者が学校でよくある評価（5段階や10段階）より正直なフィードバックを得られるかもしれません。
 mediaGallery:
   - link: >-
       https://openpracticelibrary.github.io/opl-media/images/img_20190402_114951.jpg
