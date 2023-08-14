@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: Lean Inception
+title: リーン・インセプション
 subtitle: how to align people and build the right product via the MVP
 date: 2020-06-10T11:17:26.615Z
 authors:
@@ -9,21 +9,18 @@ authors:
 tags: []
 mobiusTag: options
 icon: /images/book-training-lean-inception.jpg
-whatIs: Lean inception is the effective combination of Design Thinking and Lean
-  StartUp to decide the Minimum Viable Product (MVP). It is a collaborative
-  workshop that will help a group of people — typically an agile team, a squad,
-  or a product team — understand, align and plan the building of the lean
-  product. The construction of a successful product starts with a Lean
-  Inception.
+whatIs: リーン・インセプションは、デザイン思考とリーン・スタートアップを効果的に組み合わせた、MVP（実用最小限の製品）を決めるためのプラクティスです。
+  このプラクティスは共同作業を行うワークショップで、特にリーン製品を理解し、調整し、計画しようとしているアジャイルなチームにとって役に立つでしょう。
+  リーン・インセプションを使って成功する製品構築を始めましょう！
+  
 whyDo: >-
-  Because, in the end, you’ll know what is the best way to validate the product
-  to be developed, as such the hypothesis to be tested and goals to be reached.
+  開発する製品を検証する最善の方法はなにか、検証すべき仮説や到達すべき目標は何かを知ることができます。
+  
+  しかし、リーン・インセプションの最大のメリットは、最初の1分間にあります。
+  それは、チームの関係性を良くすることです。
 
-
-  However, the Lean Inception biggest benefit starts on its first minute: the improvement of the team relationship.
-howTo: The Lean Inception consists in a series of activities, usually scheduled
-  in a week! Check below an example of an agenda and read the explanation and
-  benefit of each step on the book.
+howTo: リーン・インセプションはさまざまなアクティビティで構成されており、通常は1週間で行われます。
+  詳細は、下記の例にあるアジェンダや書籍で各ステップを読んで確認しましょう。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/leraninception-agenda.jpg?raw=true
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/Lean%20Inception.jpg?raw=true
