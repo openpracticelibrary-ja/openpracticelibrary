@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: リーン・インセプション
-subtitle: how to align people and build the right product via the MVP
+subtitle: MVP を通じてチームの認識をそろえ、正しい製品を作る方法
 date: 2020-06-10T11:17:26.615Z
 authors:
   - paulocaroli
