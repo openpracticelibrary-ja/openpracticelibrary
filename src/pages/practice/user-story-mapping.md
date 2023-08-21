@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: User Story Mapping & Value Slicing
-subtitle: Create lightweight release plans by slicing value out of collections
-  of features
+title: ユーザーストーリーマッピング、バリュースライシング
+subtitle: ユーザーストーリー群をグループ分割し、軽量なリリース計画を作成する
 date: 2017-04-20T05:00:00.000Z
 authors:
   - mtakane
@@ -12,70 +11,85 @@ tags:
 mobiusTag: options
 icon: /images/final_value-slicing.png
 whatIs: >-
-  User Story Mapping is an evolution of the traditional Agile backlog, made
-  popular by Jeff Patton in 2008. It's an effective practice for creating
-  lightweight release plans that can drive standard Agile delivery practices. At
-  the end of user story mapping, you should have:
+  ユーザーストーリーマッピングは、2008年にJeff Pattonによって広められた、伝統的なアジャイルのバックログの進化形です。
+  これは標準的なアジャイルの、おおまかなリリース計画を作成するのに効果的なプラクティスです。
+
+  ユーザーストーリーマッピングでは、ユーザーの行動を時系列で横軸に並べ、各行動に対してプロダクトが提供する価値（ユーザーストーリー）を縦に並べていきます。
+  このとき、ストーリーは価値の高いものを上に配置します。
+
+  バリュースライシングでは、上記でマップしたストーリー群をスプリント毎に実装可能なグループに分けていきます。
+  ストーリーは価値の高い順に並んでいるため、このグルーピングは上記マップに「横線」を描くことで行います。
+  （横線を描くことがマップをスライスするように見える。実施例の２つめの動画のサムネイルを参照。）
+  
+  ユーザーストーリーマッピング＆バリュースライシングを実践すると、
 
 
-  * A backlog of scope items (captured as stories or simply feature titles) the team believes can be delivered in the planning window. This means some items will be placed out of scope
+  * チームがスプリント内で実装できると考えるバックログアイテム（と、次のスプリントに送るべきバックログアイテム）が識別され、定義されます。
 
 
-  * The backlog "sliced" into ~3 iterations, such that it forms the outline of plan
+  * ストーリー（顧客への提供価値）の一覧を3つ程度のイテレーションに「スライス」します。スライスされたストーリー群は階的なリリースの計画となります。
 
 
-  * Enough detail in the first iteration of the plan to get started with the work
+  * 最初のイテレーション計画は十分に詳細され、作業が開始できる状態になります。
+whyDo: >-
+  * 作業工数の見積は重要なステップです（見積が好きという人はいませんが）。ユーザーストーリーマッピングは、プランニングポーカーやTシャツサイジングのような見積手法よりもマシな見積手法です。
+
+
+  * プロダクトが提供する価値は、ユーザーの行動の初めから終わりの流れ沿って発案されていることが多いです。しかし伝統的なバックログはユーザーストーリーを提供価値の順に並べ替えるため、ユーザーの行動の流れとストーリーの関係性の情報が消えてしまいます。ユーザーストーリーマッピングは、複数のイテレーション（つまり、アジャイルのリリース計画）を計画するための軽量なメカニズムでユーザーの行動の流れとストーリーの紐付きを表現しています。
+
+
+  * ユーザーストーリーマッピングは、バックログの項目をビジネスプロセスの文脈で提示するため、Scrumプロジェクトの一般的な落とし穴である「全体像を見失う」という問題が発生しません。
 howTo: >-
-  ### Who do you need?
+  ### 参加者
 
 
-  * Facilitator (if the team is new to the approach)
+  * ファシリテーター（チームがユーザーストーリーマッピング＆バリュースライシングに不慣れな場合）
 
   * Product Owner
 
-  * User Experience Design
+  * UXデザイナー
 
-  * Analysts
+  * ビジネスアナリスト
 
-  * Developers
+  * 開発者
 
-  * Testers
-
-
-  ### Suggested Time
+  * テスター
 
 
-  * ~4 Hours not including breaks
-
-  * Facilitate in small sessions @ around ~90 minutes each
-
-  * Session can be done on different days
+  ### 推奨の実施時間
 
 
-  ### Difficulty
+  * ４時間以内（休憩除く）
+
+  * 90分程度のセッションに区切る
+
+  * セッション毎に日を分けることが可能
 
 
-  * Facilitator: Easy
-
-  * Participants: Easy
+  ### 難易度
 
 
-  ### Facilitation Materials Needed
+  * ファシリテーター: Easy
+
+  * 参加者: Easy
 
 
-  * [Drawing Paper roll](http://www.ikea.com/us/en/catalog/products/80324072/). Stickies tend to fall off walls otherwise.
-
-  * 3 different colors of wide format sticky notes like the [4x6 sticky notes](https://www.amazon.com/Post-Sticky-Janeiro-Collection-4621-SSAU/dp/B001UXFT70)
-
-  * 2 different colors of small square sticky notes like the [3x3 sticky notes](https://www.amazon.com/dp/B01N1UE0JY?psc=1)
-
-  * Markers
+  ### ファシリテーションに必要なアイテム
 
 
-  ### How does it fit?
+  * 模造紙
+
+  * [4x6サイズの付箋](https://www.amazon.com/Post-Sticky-Janeiro-Collection-4621-SSAU/dp/B001UXFT70)のような、横長の付箋３色。
+
+  * [3x3サイズの付箋](https://www.amazon.com/dp/B01N1UE0JY?psc=1)のような小さな正方形の付箋２色。
+
+  * マーカーペン
 
 
-  * Typically done in the Options part of the Open Practice Library
+  ### 実施フェーズ
+
+
+  * Open Practice LibraryのOptionのフェーズで行います。
 resources:
   - link: http://jpattonassociates.com/the-new-backlog/
     linkType: web
@@ -96,17 +110,6 @@ resources:
     linkType: web
     description: Remote Facilitation Tips
 area: discovery-loop-outcomes
-whyDo: >-
-  * No one likes estimating work effort, but it's an important step in many
-  environments. User Story Mapping presents an approach to estimation that many
-  teams find much more tolerable than practices like planning poker or t-shirt
-  sizing
-
-
-  * Many projects have a natural progression of work from beginning, middle to end. This progression is often lost in a traditional flat backlog. User Story Mapping captures this information with a lightweight mechanism to plan out more than one iteration (i.e. an Agile release plan)
-
-
-  * User Story Mapping presents backlog items in the context of the overall business process so you don't lose sight of "the big picture", a common pitfall in Scrum projects
 mediaGallery:
   - link: https://youtu.be/N8fxzeZh4Kc
   - link: https://youtu.be/VaN9rCQrdko
