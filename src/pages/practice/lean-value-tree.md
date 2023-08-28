@@ -34,7 +34,7 @@ howTo: >-
   ### 賭け
 
   各戦略目標は、一連の戦略的な「賭け」に分解されます。「賭け」とは目標の達成につながると会社が考える価値仮説です。「賭け」が機能しない場合、その「賭け」はツリーから外され、企業ビジョンの達成につながらないことに時間を浪費しないようにします。
-「賭け」という言葉は[VUCA](https://en.wikipedia.org/wiki/Volatility,_uncertainty,_complexity_and_ambiguity) の方法論を使用するための考え方の転換を強制するために、意図的に使われています。
+   「賭け」という言葉は[VUCA](https://en.wikipedia.org/wiki/Volatility,_uncertainty,_complexity_and_ambiguity) の方法論を使用するための考え方の転換を強制するために、意図的に使われています。
 
   ### イニシアチブ
 
