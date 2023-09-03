@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Observability
-subtitle: Handling the unknown unknowns.
+title: 可観測性
+subtitle: 未知の問題にどう対処するか
 date: 2021-03-19T11:06:35.939Z
 authors:
   - ckavili
@@ -10,57 +10,48 @@ tags:
 mobiusTag: foundation
 icon: /images/telescope-icon-telescope-planet-stars-earth-space-icon-white-isolated_138676-552.jpeg
 whatIs: >-
-  In [control theory](https://en.wikipedia.org/wiki/Control_theory),
-  observability is the ability to determine how well the internal states of a
-  system from the knowledge of its external outputs.
+  [制御理論（control theory）](https://ja.wikipedia.org/wiki/%E5%88%B6%E5%BE%A1%E7%90%86%E8%AB%96)において、可観測性（Observability）とは、システム外部から、システムの内部状態がどの程度良好であるかを決定する能力のことです。
 
 
-  In software, observability is our ability to know and discover what is going on in our systems. It helps us to have a holistic view and deep understanding of our systems, identify issues faster, understand what caused the issue, and ultimately offer better customer experiences.
+  ソフトウェアにおける可観測性とは、システムで何が起こっているかを知り、発見する能力のことです。システムを全体的に把握し、深く理解することで、問題をより早く特定し、問題の原因を理解し、最終的にはより良いカスタマー・エクスペリエンスを提供することができます。
 whyDo: >-
-  Since systems are exponentially growing complex, things that can go wrong are
-  increasing too. Often, we find ourselves looking for different answers to
-  different questions from yesterday. This increasing complexity is why
-  observability is so important and necessary today. Because an observable
-  system allows us to ask any questions at any point in time and helps us to
-  find our way from effect to cause.
+  システムは指数関数的に複雑化しているため、障害や失敗も増えています。昨日とは違う疑問に対して、違う答えを探していることがよくあります。このように複雑さが増しているからこそ、今日、可観測性が非常に重要で必要になります。観測可能なシステムであれば、どの時点でもどのような疑問でも対応することができ、結果から原因への道筋を見つけるのに役立つためです。
 
 
-  Observability helps us to understand what’s slow, what needs to be optimized, when an error or an issue happens, and more importantly why.
+  可観測性は、何が遅いのか、何を最適化する必要があるのか、エラーや問題がいつ発生するのか、さらに重要なのはその理由を理解するのに役立ちます。
+
+  観測可能なシステムは、次のような多くのことを伝えます:
 
 
-  An observable system can also tell us so many things, like:
+  * ユーザーが当社製品をどのように使用しているかを把握することで、機能や修正のスコープを設定することができる
+
+  * 機能と修正について、次に何を優先させるか
+
+  * 私たちが提供するコードは、私たちが期待する価値を提供するか、しないか。
 
 
-  * how our users use our products so that we can understand how to scope features and fixes
-
-  * what to prioritize next for features and fixes
-
-  * the code we ship deliver the value as we expect or not
+  そのため、ユーザーに関する質問に答えたり、私たちのアイデアを検証（または無効化）したり、意思決定をしたりするのにも役立ちます。
 
 
-  So it also can help us answer questions about our users, validate (or invalidate) our ideas, and make decisions. 
+  言い換えれば、可観測性によって、システムや迅速に対応すべきことについて、より深く共通の理解を得ることができます。
 
-
-  In other words, observability can give us a much deeper, shared understanding of our systems and what needs to be responded to quickly.
 howTo: >-
-  Observability focuses on asking any question about how the system works. That
-  means we need to start asking questions and gather good data to be able to
-  answer them.
+  可観測性は、システムがどのように機能するかについてあらゆる質問をすることにフォーカスします。つまり、私たちは質問を始め、それに答えられるように良いデータを集める必要があります。
 
 
-  Traditionally, observability is a combination of telemetry data; metrics, logs, and traces (these are also referred to as the “three pillars of observability”).
+  伝統的に、可観測性とは、テレメトリーデータ：メトリクス/ログ/トレースの組み合わせです（これらは「可観測性の3本柱」とも呼ばれる）。
 
 
-  * Metrics: is a measure of software characteristics that are quantifiable or countable. It might be how many requests per second are being handled by a given service, how much memory is being used, etc. Usually, metrics are the starting point and a great way to measure overall performance and health.
+  * メトリクス： ソフトウェアの特性を数値化したり、数えたりできる指標。あるサービスによって処理されている1秒あたりのリクエスト数や、使用されているメモリ量などがそれにあたります。通常、メトリクスは出発点であり、全体的なパフォーマンスと健全性を測定する優れた方法です。
 
-  * Event: An event is a detailed record of something that the system did.
+  * イベント： イベントとは、システムが行ったことの詳細な記録です。
 
-  * Logs A log is an immutable, time-stamped, human-readable text of each event over time.
+  * ログ： ログとは、不変で、タイムスタンプが押され、人間が読むことのできる、時間の経過に伴う各イベントのテキストです。
 
-  * Traces: A trace is a representation of a series of related events showing the end-to-end path of a single request or a transaction. Traces help us to identify the work done at each level, therefore, help us to identify latency along the path and which layer causes a bottleneck or a failure.
+  * トレース： トレースとは、1つのリクエストやトランザクションのエンド・ツー・エンドの経路を示す、一連の関連イベントの表現です。トレースは、各レベルで行われた処理を特定し、パスに沿った待ち時間や、どのレイヤーがボトルネックや障害を引き起こしているかを特定するのに役立ちます。
 
 
-  It doesn’t mean that these are going to be the only sources of information, but they are usually the main source of information. The important thing is to decide what is valuable and what does qualify for your systems. The next step is to correlate these different sources to be able to use them to quickly answer our questions. For example, using a unique request ID can get all the context from a user’s request at a specific point in time…like the time when the user complained but your monitors said things were all good.
+  これらが唯一の情報源になるという意味ではないが、通常は主要な情報源です。重要なのは、何が価値があり、何が自分のシステムにとって適格かを判断することです。次のステップは、これらの異なるソースを関連付け、質問に素早く答えられるようにすることです。例えば、一意のリクエストIDを使用することで、特定の時点におけるユーザーのリクエストからすべてのコンテキストを得ることができます。
 resources:
   - link: https://newrelic.com/resources/ebooks/what-is-observability
     linkType: web
