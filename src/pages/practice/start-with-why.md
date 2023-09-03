@@ -52,7 +52,7 @@ whyDo: >-
   目的は信念とエンゲージメントに結びつきます。
 
 
-  Dan Pinkは彼の著書[「Drive: The Surprising Truth About What Motivates Us」](https://en.wikipedia.org/wiki/Drive:_The_Surprising_Truth_About_What_Motivates_Us)で、
+  Dan Pinkは彼の著書「[Drive: The Surprising Truth About What Motivates Us](https://en.wikipedia.org/wiki/Drive:_The_Surprising_Truth_About_What_Motivates_Us)」で、
   「[MITや他の大学で行われた研究](http://people.duke.edu/~dandan/webfiles/PapersUpside/Large%20Stakes%20Big%20Mistakes.pdf)
   は、簡単な仕事（タスクが基本的かつ単純なスキルで構成されている場合）であれば、給与/ボーナスがパフォーマンスに繋がることを示している。(裏を返すと、複雑な仕事では給与/ボーナスとパフォーマンスの相関が低い。)」と述べています。
   これは、タスクが予め定義された作業ステップと唯一の解を持つ問題に対して有効でした。
@@ -126,9 +126,9 @@ howTo: >-
 
 
   Red Hatでは、全組織で[Open Decision
-  Framework](https://github.com/red-hat-people-team/open-decision-framework)を使用して、
-  [Red HatのWhyを見つけました](https://www.redhat.com/en/blog/why-open-has-been-red-hat%E2%80%99s-compass-and-purpose-25-years)。
-  [[「Openであることは世界の可能性を大きく広げる（Open]] unlock's the world's potential）」というものです。
+  Framework](https://github.com/red-hat-people-team/open-decision-framework)を用い、
+  [Red HatのWhy](https://www.redhat.com/en/blog/why-open-has-been-red-hat%E2%80%99s-compass-and-purpose-25-years)、即ち、
+  「Openであることは世界の可能性を大きく広げる（Open unlock's the world's potential）」を見出しました。
 jumbotron: /images/golden-circle.webp
 area: discovery-loop-why
 time: 1 day to 1 year
