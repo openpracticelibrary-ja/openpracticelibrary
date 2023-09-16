@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Rose Chart
-subtitle: Identify knowledge gaps and create learning focus areas for team members
+title: ローズチャート（薔薇図）
+subtitle: チームメンバーが伸ばすべきスキル領域を可視化し、成長の計画を立てる
 date: 2021-05-06T13:13:59.750Z
 authors:
   - heyjerrybecker
@@ -11,8 +11,9 @@ tags:
 mobiusTag: foundation
 icon: /images/rose-chart-example.png
 whatIs: 
-  ローズチャートは、個々人の能力を可視化するのに使われるグラフで、
+  ローズチャート（Rose Chart、薔薇図）は、個々人の能力を可視化するのに使われる円形のグラフで、
   個々の強みや今後伸ばしていくべき領域を明らかにします。
+  グラフの外観が鶏のトサカや、コウモリが翼を広げた様子に似ることから、鶏冠図、鶏頭図、コウモリの翼などとも呼ばれるようです。
 whyDo: >-
   チームの各メンバーのローズチャートを作成することで、
   チームの強みや能力がチームにどう備わっているのか、個々の成長の機会がどこにあるかを皆が理解できるようになります。

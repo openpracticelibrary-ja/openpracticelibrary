@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Mood Board
-subtitle: Find and share inspiration for solutions, features, and/or design elements
+title: ムードボード
+subtitle: ソリューション、機能、デザインを閃き、共有する
 date: 2021-06-02T17:48:15.611Z
 authors:
   - heyjerrybecker
@@ -10,39 +10,38 @@ tags:
   - ideate
 mobiusTag: options
 icon: /images/mood-board.png
-whatIs: The Mood Board is a collaborative practice to take time to discover and
-  share inspiration for product solutions, features, and/or design elements.
-  Team members take time to go search for ideas of what a solution might look
-  like, then share those ideas and what they like about each one with the rest
-  of the team.
-whyDo: Mood Boards are a great way to find inspiration for your product. They
-  can be used to find existing solutions to problems you're aiming to solve or
-  specific features or design elements you think would be a great fit for your
-  product. In giving all team members time to go out and explore existing
-  solutions, it helps provide creativity and direction for the team, as well as
-  specific design elements for your Product Designers to consider when either
-  building a rapid prototype or new A/B test. Sharing ideas in this way helps
-  speed up the process of what your solution should look like, decreasing the
-  time it takes to design and test new ideas.
+whatIs:
+  ムードボード（Mood Board）は、プロダクト、ソリューション、機能、デザインのインスピレーションを得てチームで共有するプラクティスです。
+  チームメンバーは、ソリューションがどうあるべきかのアイデア出しの時間を取り、
+  アイデアと良いと思った点をチームメンバーと共有します。
+whyDo:
+  ムードボードは製品のインスピレーションを見つけるのにとても良いプラクティスで、
+  課題に対するソリューションを見つけるため、またはプロダクトに必要な機能やデザインを明確化するために使われます。
+  チームメンバーにソリューションを探索する時間を与えることで、
+  チームに創造力が生まれ、目指すべきゴールが意識されるようになり、デザイナーがプロトタイプを作成したりA/Bテストを行う際のデザイン要素を検討するのに役立ちます。
+  このような方法でアイデアを共有することで、ソリューションのUIの検討プロセスが高速化し、新しいアイデアをデザインしてテストするまでの時間が短縮されます。
 howTo: >-
-  **Preparation:**
+  **準備:**
 
 
-  * Create a board/space in your favorite online collaboration tool for members to put screenshots of their ideas. You can use Miro or Mural for this, or you can use moodboard-specific tools like [Milanote](https://milanote.com/product/moodboarding) or [InVision](https://www.invisionapp.com/inside-design/boards-share-design-inspiration-assets/)
+  * メンバーがアイデアを描いたり貼り付けたりするためのオンラインボード/スペースを用意します。
+    MiroやMuralは良いツールですし、
+    [Milanote](https://milanote.com/product/moodboarding)や[InVision](https://www.invisionapp.com/inside-design/boards-share-design-inspiration-assets/)といった
+    ムードボード向けのツールを使うことも可能です。
 
 
-  **Steps:**
+  **手順:**
 
 
-  1. After aligning on a problem to solve or what your solution concept might be, have your product team members individually take 25-30 min to research ideas/products/services for inspiration on the internet.
+  1. 解決すべき課題やソリューションのコンセプトについて認識合わせをした後で、メンバーはそれぞれアイデア/製品/サービスの考案や調査を行ってインスピレーションを得る時間を25～30分間程度取ります。
 
-  2. Copy/paste findings to the board (images, notes...)
+  2. 調査結果（画像やノートなど）をボードに描き出します。
 
-  3. Keep an eye on what's being added, this could spark more great ideas!
+  3. 描かれているコンテンツを良く見てみましょう。さらに素晴らしいアイデアの閃きが出てくるかもしれません。
 
-  4. Play back and capture any big ideas that resonate with the group
+  4. グループに共感を呼ぶビッグアイデアを話し合いましょう。
 
-  5. If you want to narrow down ideas, implement a round of [dot-voting ](https://gamestorming.com/dot-voting/)to have people select their favorite ideas/elements
+  5. アイデアを絞り込みたい場合は、人々がお気に入りのアイデア/要素を選ぶ[ドット投票（dot-voting） ](https://gamestorming.com/dot-voting/)を行います。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/Mood%20Board.png?raw=true
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/Mood%20Board%203.png?raw=true
