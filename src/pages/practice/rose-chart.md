@@ -10,31 +10,33 @@ tags:
   - culture
 mobiusTag: foundation
 icon: /images/rose-chart-example.png
-whatIs: Rose Charts are visual artifacts to display personal competencies in key
-  learning areas in order to highlight strengths and opportunities for
-  up-skilling.
+whatIs: 
+  ローズチャートは、個々人の能力を可視化するのに使われるグラフで、
+  個々の強みや今後伸ばしていくべき領域を明らかにします。
 whyDo: >-
-  Having Rose Charts for each team member allows everyone to understand where
-  specific skills and competencies reside within the team, as well as areas of
-  growth opportunity for each individual. 
+  チームの各メンバーのローズチャートを作成することで、
+  チームの強みや能力がチームにどう備わっているのか、個々の成長の機会がどこにあるかを皆が理解できるようになります。
 
 
-  Having this information transparent amongst the entire team helps people know who to go to for specific knowledge and/or mentoring. It also gives team leaders a quick analysis of team skills in order to create tailored learning plans for individual team members who are less competent in some areas but want to improve.
+  この情報をチーム全体で透明にすることで、
+  スキル/知識やメンタリングについて誰に相談するのが良いかが分かりやすくなります。
+  また、チームリーダーはメンバーのスキルを分析し、
+  スキルアップを望むチームメンバーに向けた学習プランを作成することができます。
 howTo: >-
-  Steps:
+  ステップ：
 
 
-  * Identify key competency areas you wish to have team members self-evaluate on. Label these areas in the "Category" section of circular spider chart in the [Rose Chart template](https://www.slideshare.net/JerryBecker/rose-chart-template). Leave the 2 additional categories off to the right-hand side of the chart blank. These will be filled in by team members (more on that in a minute).
+  * 可視化したい能力のカテゴリを定義します。これらの領域を[Rose Chart Template](https://www.slideshare.net/JerryBecker/rose-chart-template)の「Category」にラベル付けします。チャートの右側の2つの追加カテゴリは空白のままにしておきます。これらはチームメンバーによって記入されます（後述）。
 
-  * Once your categories are selected, either digitally send or print out physical copies of a Rose Chart template for each team member.
+  * 各チームメンバーにRose Chart Templateを共有します。
 
-  * Have team members use the Rose Chart to self-assess their competency within each given category (see key at top-right of template for how to rate each category competency).
+  * チームメンバーは自身の能力・スキルを自己評価で記入します。（評価方法はテンプレート右上の凡例を参照）。
 
-  * Next, turn everyone's attention to the 2 blank category sections on the far-right of the template. Have team members create their own categories for these 2 areas, different than the ones on the left-hand spider chart. These are categories in which they personally wish to up-skill.
+  * テンプレートの右端にある2つの空白のカテゴリーは、チームメンバーが個人的にスキルアップしたいカテゴリーです。各メンバーが独自に記入しましょう。
 
-  * You can either have team members present their charts to everyone to drive conversation and potential pairing for mentoring, or have them hand over their charts directly to the team leader for review and subsequent planning.
+  * メンバー全員が自分のチャートをプレゼンします。内容を踏まえて、メンタリングのためのペアリングを組んだり、チームリーダーのレビューとスキルアップ計画を考えるための話し合いをしましょう。
 
-  * After a set amount of time (either at the end of an engagement or weekly, monthly, quarterly, etc) have team members update their rose charts in order to show growth in key areas. Review and do additional planning for knowledge-sharing based on these updates.
+  * 一定の時間が経過した後（エンゲージメントの終了時や週次、月次、四半期ごとなど）、メンバーにチャートを更新してもらいます。更新に基づいて知識共有のための追加計画をレビューし、計画を実行します。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/Rose%20Chart%20Example.png?raw=true
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/Rose%20Chart%20Blank.png?raw=true
