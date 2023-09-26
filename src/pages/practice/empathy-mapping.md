@@ -35,7 +35,6 @@ whatIs: >-
   * 対象が見たり、考えたり、実行したり、感じたりすることもとらえる
 
 
-
   共感マップはDave Gray が作成したプラクティスです。
   [XPLANE](http://www.xplane.com/)
 whyDo: >-
