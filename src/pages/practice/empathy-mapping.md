@@ -35,7 +35,7 @@ whatIs: >-
   * 対象が見たり、考えたり、実行したり、感じたりすることもとらえる
 
 
-  The Empathy map has been created as a practice by Dave Gray of
+
   共感マップはDave Gray が作成したプラクティスです。
   [XPLANE](http://www.xplane.com/)
 whyDo: >-
@@ -43,8 +43,7 @@ whyDo: >-
   ユーザ中心設計において、設計プロセスの最初期から使用するのがベストです。
 
 
-  Both the process of making an empathy map and the finished artifact have
-  important benefits for the organization:
+
   共感マップと作成過程で生まれた作成物のどちらも組織にとって重要なメリットがあります:
   
 
@@ -60,12 +59,7 @@ whyDo: >-
   * ペルソナを使って他の人とコミュニケーションする
 
     - 共感マップはユーザの態度やふるまいを消化しやすく図解する方法です。一度作成したら、プロジェクトを通して、真実の源としてとらえ、バイアスや根拠のない思い込みから守るべきものです。
-    
-  * Collect data directly from the user. When empathy maps are filled in
-  directly by users, they can act as a secondary data source and represent a
-  starting point for a summary of the user session. Moreover, the interviewer
-  may glean feelings and thoughts from the interviewee that otherwise would have
-  remained hidden.
+
   * ユーザから直接情報を収集する。ユーザが直接共感マップを埋めると、第2の情報源となり、ユーザセッションのようやくとして使うことができます。さらに、隠れていたかもしれないユーザの思考を感覚をインタビュアーがあとから拾うことができるかもしれません。
 howTo: >-
   ### いつ実施するか
