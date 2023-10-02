@@ -21,13 +21,6 @@ tags:
   - culture
 icon: /images/one-minute-mindfulness.png
 whatIs: >-
-  We live in a fast paced world. We can all benefit from incorporating stress
-  reduction into our daily routine in order to nurture and encourage our
-  well-being. Having just sixty seconds of mindful breathing exercise per day
-  may boost our physical and mental energy. One minute mindfulness is a
-  micro-habit to develop an empathetic mindset. It can be easily integrated into
-  scrum practices, we already have time and place for it at every start of daily
-  stand-ups.
   私達は、目まぐるしく変化する世界に生きています。ストレスを減らすプラクティスをデイリールーチンにすることで、私達の幸福を育み、促進することができます。
   私たちは目まぐるしく変化する世界に生きています。
   そんな中では、ストレス軽減を日常のルーチンに取り入れることで、私たちは、自分たちのウェルビーイングを育み、励ますことができます。
@@ -50,10 +43,7 @@ jumbotron: /images/one-minute-mindfulness.png
 area: foundation-culture-and-collaboration
 time: 1 minute
 whyDo: >-
-  Agile software development can be exacting, and stressed people tend to share
-  their worst ideas. The benefit of this practice is to calm the mind and body
-  to help team members manage stress levels. What’s more, mindfulness meditation
-  enhances creativity and innovation.
+  アジャイルソフトウェア開発は厳格であり、ストレスを感じている人々は、最悪のアイデアを共有しがちです。このプラクティスの利点は、心と体を落ち着かせて、チームメンバーがストレスレベルを管理できるようにすることです。さらに、マインドフルネス瞑想は創造性と革新性を向上させます。
 mediaGallery:
   - link: >-
       https://openpracticelibrary.github.io/opl-media/images/one-minute-mindfulness.png
