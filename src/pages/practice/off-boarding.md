@@ -1,7 +1,7 @@
 ---
 participants:
   - The Team
-subtitle: Practice destroying and re-creating your applications
+subtitle: アプリケーションの破棄と再作成
 resources:
   - link: 'https://openpracticelibrary.com/practice/everything-as-code/'
     linkType: web
@@ -13,7 +13,7 @@ resources:
       Container promotion on Red Hat OpenShift Container Platform in a hybrid
       cloud
 templateKey: practice-page
-title: Offboarding
+title: オフボーディング
 date: 2019-09-09T19:22:40.014Z
 authors:
   - pcarney8
@@ -22,16 +22,13 @@ tags:
   - methods
 icon: /images/axel-ahoi-hjeesk4ksds-unsplash.jpg
 whatIs: >-
-  Using
   [Everything-as-Code](https://openpracticelibrary.com/practice/everything-as-code/)
-  by putting all infrastructure and configuration data into code, applications
-  can be deployed in a repeatable and reliable fashion. Put it into action!
-  Deploy code in one environment, and then re-deploy into another environment. 
-  Or destroy the first one and re-deploy :D
+  を使用して、すべてのインフラストラクチャとコンフィギュレーションをコード化することで、
+  アプリケーションを反復可能で信頼性の高い方法でデプロイすることができます。
+  アプリケーションをある環境にデプロイし、別の環境を破棄して、再デプロイするようなこともできます。
 howTo: >-
-  Practice on a cadence (1-3 weeks) in order to catch all the bugs! Keep
-  repeating until all the bugs are caught! It gets easier each time, and
-  everyone on the team should practice it for a shared understanding.
+  すべての不具合を捕まえるために、定期的（1〜3週間程度）に実施しましょう。
+  実施するたびに簡単になっていきます。すべてのチームメンバーが実行することで、共有理解を構築しましょう。
 jumbotron: /images/axel-ahoi-hjeesk4ksds-unsplash.jpg
 area: foundation-technical
 mediaGallery:
@@ -40,8 +37,7 @@ mediaGallery:
       https://openpracticelibrary.github.io/opl-media/images/axel-ahoi-hjeesk4ksds-unsplash.jpg
 people: 1+
 whyDo: >-
-  To build resiliency and reliability for the automation of code deployment,
-  thus resulting in less downtime and more throughput.
+  デプロイの自動化のための回復性と信頼性を構築することがメリットですが、結果的にダウンタイムを減らし、スループットの向上に繋がります。
 perspectives: []
 difficulty: moderate
 jumbotronAlt: Photo by Axel Ahoi on Unsplash
