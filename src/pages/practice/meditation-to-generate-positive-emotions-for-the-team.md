@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: Meditation
+title: Meditation(メディテーション)
 subtitle: >-
   Generate positive emotions for the team and help to develop an empathetic
   mindset towards team members
