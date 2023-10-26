@@ -2,6 +2,7 @@
 templateKey: practice-page
 title: Meditation(メディテーション)
 subtitle: >-
+　　　　チームへのポジティブな感情を作り出すこととチームメンバーへの情緒的なマインドセットの構築を手助けする
   Generate positive emotions for the team and help to develop an empathetic
   mindset towards team members
 date: 2020-06-24T02:33:44.915Z
@@ -18,14 +19,22 @@ people: 2+
 time: '15 minutes '
 difficulty: easy
 participants:
-  - The team
+  - The team(チーム)
 whatIs: >-
+　　　　このプラクティスは10分を基本としたメディテーションを含む、Metta
+  Bhavana Buddhistのプラクティスです。
+　　　　これはチームメンバーへの情緒的なマインドセットを構築や静かな思考、ポジティブな感情を刺激、ストレスレベルの減少、不安からの解放などを手助けする。
+　　　　もっとも一般的なプラクティスのやり方は5つのステージからなる。ビギナーの方はどのプラクティスも２分から始めることをおすすめします。
   This practice consists of a meditation of 10 minutes based, on the Metta
   Bhavana Buddhist practice, that can help to develop an empathetic mindset
   towards team members, calm thoughts, stimulate positive emotions, reduce the
   level of stress, and relieve anxiety. The most common form of the practice is
   in five stages, each of which should last about 2 minutes for a beginner.
 whyDo: >-
+　　　　私たちはプロセスやツールよりも、個人との会話に価値を置く。なので私たちはチームメンバーの相互のやり取りを促すツールをメンバーに提供します。
+　　　　たまにチーム内の日々の業務で誤解が生じることがあります。同じように統合が欠けている場合には、私たちはチーム内に共感とポジティブな感情を作り出す手助けが必要です。
+　　　レトロスペクティブを始める前にこのプラクティスを実施することが推奨されます。
+　　　そうすることで、メンバーはより受容的で感情的で、そして穏やかになるでしょう。
   We value individuals and interactions over processes and tools, so we provide
   tools for team members to improve their interactions. Sometimes, because of
   daily work, misunderstandings may arise in the team, as well as lack of
@@ -33,85 +42,106 @@ whyDo: >-
   the team. It is suggested to do this practice before the start of a
   retrospective, so that people will be more receptive, empathetic, and calm.
 howTo: >-
-  ### Steps
+  ### Steps(ステップ)
 
+  チーム向けのポジティブな感情を作り出すための10分のメディテーションにグループを招待してみましょう。
   Invite the group to a 10-minutes meditation to generate positive emotions for
   the team.
 
 
+  このプラクティスは5つのステップをそれぞれ２分で行うことを説明しましょう
   Explain that this practice will have 5 stages of 2 minutes each:
 
 
-  1. Self
+  1. 自分自身(Self)
 
-  2. Friend
+  2. 友人(Friend)
 
-  3. Neutral person
+  3. ニュートラルな関係の人物(Neutral person)
 
-  4. Difficult person
+  4. 難しさのある人物(Difficult person)
 
-  5. Everyone in the team.
+  5. チーム全員(Everyone in the team).
 
 
+  通常はそのメディテーションを始める前に5つのステップのメンバーを選択しておくのが良いとされています。
+  なので、参加者には3人のチームメンバーを心に思い浮かべるよう伝えておいてください。
   It is usually best to choose the people for the stages before you begin the
   meditation. So, ask the participants to choose three team members in their
   minds:
 
 
-  * The first must be the person who they get along with best. It can be someone
+  * 最初に思い浮かべるメンバーは一緒にいて一番心地よい人を選択してもらいましょう。友達のような人を選んでもらいます
+    The first must be the person who they get along with best. It can be someone
   they consider their friend.
 
-  * The second person is someone neutral, preferably someone you have some
+  * 2人目はニュートラルな人です。好ましいのは、例えばコンタクトはとる、しかし特別「好き」「嫌い」の感情がない人物です。
+    その人はチームの中で、もっともコンタクトを取らなかった人かもしれません。
+    The second person is someone neutral, preferably someone you have some
   contact with but for whom you have no particular feelings of like or dislike.
   It may be the person with whom you have the least contact on the team.
 
-  * Finally, the third person will be the team member they dislike the most;
+  * 最後ですが、3人目はもっとも苦手な人物を選択してください。過去に問題があった人や、意見の対立があった人です。
+    一緒に働くことが難しいような人を選んでください。覚えておいてほしいことは、その人たちの態度を受け入れることを誘発するようなポジティブな願いは必要はないです。
+    Finally, the third person will be the team member they dislike the most;
   someone with whom they may have had a problem or disagreement: Someone who can
   be difficult to work with. Also bear in mind that well-wishing does not
   necessarily imply approval of any of their specific behaviours.
 
 
+  おすすめ
   Give some recommendations:
 
 
-  * In each stage, to generate positive emotions, use phrases to focus your
+  * どのステージでもポジティブな感情を作り出しましょう。あなたの気持ちに集中するためです。例えばIn each stage, to generate positive emotions, use phrases to focus your
   intention, such as:
-    * may I be happy
-    * may you be well
-    * may she be free from suffering
-    * may he make progress
-  * Using memories, such as reconnecting with times when you were experiencing
+    * 私は幸せか　may I be happy
+    * あなたはよくなっていくか　may you be well
+    * 彼女は苦しみから解き放たれるか　may she be free from suffering
+    * 彼は進むことができるか　may he make progress
+  * 記憶を使いましょう。過去にあなたが経験した、愛情深さを表現したときの記憶のようなものと繋がってください。
+    Using memories, such as reconnecting with times when you were experiencing
   an attitude of loving-kindness in the past.
 
-  * Using imagination, for example, to imagine people being happy or well or to
+  * 想像力を使いましょう。例えば、人々が幸せなこと、元気なこと、温かい光に包まれていること
+    Using imagination, for example, to imagine people being happy or well or to
   include them in warm rays of light.
 
-  * Attending to sensations in your body associated with loving- kindness, for
+  * あなたの体感覚とつながり、愛情深さに包まれている感覚を得てください。例えば、オープンな感情、温かさ、リラックスした感情です。
+    Attending to sensations in your body associated with loving- kindness, for
   example, openness, warmth, and relaxation.
 
 
+  全員が楽な姿勢で座っていることを確認してください
   Make sure everyone is seated comfortably.
 
 
+  ２分間×5回のタイマーが鳴るようにセットしてください。メディテーションのアプリを使うことをおすすめします。
+  (例えば、「Insight Timer」メディテーションのベルを鳴らせるようにプログラムできます。
   Set a timer for 2 minutes and repeat 5 times, the use of a meditation app is
   recommended (e.g. Insight Timer; it has a timer with programmable meditation
   bells).
 
 
+  参加者に目を閉じ自分の呼吸に集中するよう促してください。鼻から息を吸い、口からゆっくりと吐くように促してください。
   Ask participants to close their eyes and focus on their breath. Have them
   inhale through their nose and exhale through their mouth slowly.
 
 
+  メディテーションのガイドを始めます。例は以下です。
   Start to guide the meditation. This is an example:
 
 
-  *Begin the practice by acknowledging your current emotional state, whatever
+  *あなたの今の感情の状態と共にいるかのように始めてください。それが何であろうともです。そして、それはどんな種類の優しさや感謝を見つける時にも役に立ちます。
+  もしくは、クヨクヨと物事を考えてしまうことから良い願いに向かうことにも手助けとなります。
+  Begin the practice by acknowledging your current emotional state, whatever
   this is. Then, it is helpful to search for any elements of kindness,
   appreciation, or well-wishing and to dwell on them with a view that helps them
   enhance.*
 
 
-  * *1st stage: Self. Generate a feeling of loving-kindness towards yourself.
+  * *1st stage: 自分自身に対して。あなた自身に愛情深さを向けてください。
+    Self. Generate a feeling of loving-kindness towards yourself.
   Start by becoming aware of yourself and focusing on feelings of peace, calm,
   and tranquility. Then, let these grow in feelings of strength and confidence
   and develop as love within your heart. You can use an image, like a golden
