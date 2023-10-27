@@ -1,9 +1,8 @@
 ---
 templateKey: practice-page
-title: Quote Wall
+title: 名言の壁
 subtitle: >-
-  A collection of quotes or phrases captured from the team that may be
-  motivational, inspiring, or down-right hilarious!
+  やる気を起こさせたり、感動させたり、笑いを誘ったりするような、チームの名言やフレーズを集めたもの！
 date: 2019-02-01T13:17:20.779Z
 authors:
   - pcarney8
@@ -19,14 +18,11 @@ participants:
 tags:
   - culture
 whatIs: >-
-  This is a simple place to capture all the hilarious, inspiring, smart, and
-  silly things we might say throughout a Team's history together.
+  これは、チームの歴史を通じて私たちが口にした、愉快で、感動的で、スマートで、くだらないことを記録するためのシンプルな場所です。
 whyDo: >-
-  To help encourage a positive attitude, fun, and laughter while the Team works
-  together.
+  チームが一緒に働く間、前向きな姿勢、楽しみ、笑いを奨励することを促進します。
 howTo: >-
-  Create a board with the title "The Quote Wall" and capture people's quotes
-  with sticky notes!
+  「名言の壁」というタイトルのボードを作り、人々の名言を付箋で書き留めます。
 mediaGallery:
   - link: >-
       https://github.com/openpracticelibrary/opl-media/blob/master/images/quote%20wall%203.JPG?raw=true
