@@ -2,7 +2,7 @@
 templateKey: practice-page
 title: Meditation(メディテーション)
 subtitle: >-
-　　　　チームへのポジティブな感情を作り出すこととチームメンバーへの情緒的なマインドセットの構築を手助けする
+    チームへのポジティブな感情を作り出すこととチームメンバーへの情緒的なマインドセットの構築を手助けする
   Generate positive emotions for the team and help to develop an empathetic
   mindset towards team members
 date: 2020-06-24T02:33:44.915Z
@@ -21,20 +21,20 @@ difficulty: easy
 participants:
   - The team(チーム)
 whatIs: >-
-　　　　このプラクティスは10分を基本としたメディテーションを含む、Metta
+    このプラクティスは10分を基本としたメディテーションを含む、Metta
   Bhavana Buddhistのプラクティスです。
-　　　　これはチームメンバーへの情緒的なマインドセットを構築や静かな思考、ポジティブな感情を刺激、ストレスレベルの減少、不安からの解放などを手助けする。
-　　　　もっとも一般的なプラクティスのやり方は5つのステージからなる。ビギナーの方はどのプラクティスも２分から始めることをおすすめします。
+    これはチームメンバーへの情緒的なマインドセットを構築や静かな思考、ポジティブな感情を刺激、ストレスレベルの減少、不安からの解放などを手助けする。
+    もっとも一般的なプラクティスのやり方は5つのステージからなる。ビギナーの方はどのプラクティスも２分から始めることをおすすめします。
   This practice consists of a meditation of 10 minutes based, on the Metta
   Bhavana Buddhist practice, that can help to develop an empathetic mindset
   towards team members, calm thoughts, stimulate positive emotions, reduce the
   level of stress, and relieve anxiety. The most common form of the practice is
   in five stages, each of which should last about 2 minutes for a beginner.
 whyDo: >-
-　　　　私たちはプロセスやツールよりも、個人との会話に価値を置く。なので私たちはチームメンバーの相互のやり取りを促すツールをメンバーに提供します。
-　　　　たまにチーム内の日々の業務で誤解が生じることがあります。同じように統合が欠けている場合には、私たちはチーム内に共感とポジティブな感情を作り出す手助けが必要です。
-　　　レトロスペクティブを始める前にこのプラクティスを実施することが推奨されます。
-　　　そうすることで、メンバーはより受容的で感情的で、そして穏やかになるでしょう。
+    私たちはプロセスやツールよりも、個人との会話に価値を置く。なので私たちはチームメンバーの相互のやり取りを促すツールをメンバーに提供します。
+    たまにチーム内の日々の業務で誤解が生じることがあります。同じように統合が欠けている場合には、私たちはチーム内に共感とポジティブな感情を作り出す手助けが必要です。
+   レトロスペクティブを始める前にこのプラクティスを実施することが推奨されます。
+   そうすることで、メンバーはより受容的で感情的で、そして穏やかになるでしょう。
   We value individuals and interactions over processes and tools, so we provide
   tools for team members to improve their interactions. Sometimes, because of
   daily work, misunderstandings may arise in the team, as well as lack of
@@ -95,10 +95,10 @@ howTo: >-
 
   * どのステージでもポジティブな感情を作り出しましょう。あなたの気持ちに集中するためです。例えばIn each stage, to generate positive emotions, use phrases to focus your
   intention, such as:
-    * 私は幸せか　may I be happy
-    * あなたはよくなっていくか　may you be well
-    * 彼女は苦しみから解き放たれるか　may she be free from suffering
-    * 彼は進むことができるか　may he make progress
+    * 私は幸せか may I be happy
+    * あなたはよくなっていくか may you be well
+    * 彼女は苦しみから解き放たれるか may she be free from suffering
+    * 彼は進むことができるか may he make progress
   * 記憶を使いましょう。過去にあなたが経験した、愛情深さを表現したときの記憶のようなものと繋がってください。
     Using memories, such as reconnecting with times when you were experiencing
   an attitude of loving-kindness in the past.
