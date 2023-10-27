@@ -28,8 +28,8 @@ whatIs: >-
 whyDo: >-
   私たちはプロセスやツールよりも、個人との会話に価値を置く。なので私たちはチームメンバーの相互のやり取りを促すツールをメンバーに提供します。
   たまにチーム内の日々の業務で誤解が生じることがあります。同じように統合が欠けている場合には、私たちはチーム内に共感とポジティブな感情を作り出す手助けが必要です。
- レトロスペクティブを始める前にこのプラクティスを実施することが推奨されます。
- そうすることで、メンバーはより受容的で感情的で、そして穏やかになるでしょう。
+  レトロスペクティブを始める前にこのプラクティスを実施することが推奨されます。
+  そうすることで、メンバーはより受容的で感情的で、そして穏やかになるでしょう。
   We value individuals and interactions over processes and tools, so we provide
   tools for team members to improve their interactions. Sometimes, because of
   daily work, misunderstandings may arise in the team, as well as lack of
