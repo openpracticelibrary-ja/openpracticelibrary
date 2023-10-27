@@ -2,9 +2,7 @@
 templateKey: practice-page
 title: Meditation(メディテーション)
 subtitle: >-
-    チームへのポジティブな感情を作り出すこととチームメンバーへの情緒的なマインドセットの構築を手助けする
-  Generate positive emotions for the team and help to develop an empathetic
-  mindset towards team members
+    チームへのポジティブな感情を作り出すこととチームメンバーへの情緒的なマインドセットの構築を手助けする Generate positive emotions for the team and help to develop an empathetic mindset towards team members
 date: 2020-06-24T02:33:44.915Z
 authors:
   - maggieperera
