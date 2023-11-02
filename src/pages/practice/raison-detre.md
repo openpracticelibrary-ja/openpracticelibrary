@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Raison d'être
-subtitle: Defining the teams reason for being
+title: 存在意義 (レゾンデートル)
+subtitle: チームの存在意義を定義する
 date: 2021-01-27T19:24:30.965Z
 authors:
   - philipdouble
@@ -10,52 +10,46 @@ tags:
   - culture
 mobiusTag: foundation
 icon: /images/steps.jpg
-whatIs: This norming and forming practice is run as teams form or embark upon
-  new directions because it is important that they understand their reason for
-  coming together, their team's reason for being.  This exercise helps to define
-  a manifesto for the team so that everyone on the team agrees upon and has
-  crystal clarity on their purpose moving forward as well as being a guide-post
-  reminder as to that purpose during times of pressure or as that clarity
-  becomes muffled.
-whyDo: We perform this practice to ensure that all members of the team have
-  crystal clarity on the purpose of the team and that they are rowing in rhythm
-  and in the same direction. This is how we begin to form that cross-functional,
-  product-focused team instead of individuals seeing themselves as just
-  representing their portion of software delivery (i.e. backend, frontend, qa,
-  etc.).  This breaks down silos and makes people think of their role from the
-  point of view of the functionality that they are creating instead of the
-  discipline or skill-set which they represent on the team. This is also an
-  example of allowing teams to self-organize and come to conclusions organically
-  instead of from a top down approach.
+whatIs: なぜチームとして集まる必要があるのか、チームの存在意義が何なのかを明らかにすることは、チームにとって重要ことです。このプラクティスは、チームのフォーミング時や方針が新しくなるときに、チームとして実施することでチームの存在意義を明らかにします。
+  このプラクティスでは、チームのマニフェストを定義します。これは、チームの全員が明確に目標を理解できるようになるだけでなく、プレッシャーがあったり、目的の明確さが曇ってしまうようなときに、道標としての役割を果たします。
+  
+  
+whyDo: チームの全メンバーがチームの目的を明確に理解し、同じ方向へ同じリズムで進むことを確実にするために、このプラクティスを実行します。
+  これは、個々人がソフトウェアデリバリーの一部（バックエンド、フロントエンド、QAなど）を担当するだけの存在ではなく、クロスファンクショナルで製品に焦点を当てたチームを形成する方法です。
+  これにより、サイロを打ち破り、チームとして何を作ろうとしているのかという視点で自分の役割を考えるようになります。
+  また、これはチームがトップダウンのアプローチではなく自然に自己組織化することができる方法でもあります。
+  
 howTo: >-
-  We bring the entire cross-functional team together to run this practice. It
-  requires the team, a pen and each person to have a sheet of notebook paper
-  plus one extra sheet.
+  チーム全体を集めます。
+  チーム、ペン、各メンバーにノートの紙1枚ずつ、そして余分な紙1枚が必要です。
 
 
-  **Steps**
+  **ステップ**
+
+  1. チームに「このチームの目的は何ですか？なぜ私たちは集められましたか？私たちの存在理由は何ですか？」と尋ねます。
 
 
-  1. Ask the team "What is the purpose of this team? Why were we brought together? What is our reason for being?"
+  2. これに答えるための時間として3分間とります。（ポストイットや共有エリアで行わず、他の人の答えを見ずに各自が独立して答えるようにします。）
 
 
-
-  2. Give them 3 minutes to write a paragraph answering this. (Don't do this on post-its or post in common area - we want each person to answer independently without seeing others' responses).
-
-  3. Have each member of the team read their answer aloud, to the team. No debate or discussion at this point.
-
-     What we often see here - especially on new cross-functional teams where the members are coming from silos - is that they tend to skew the team's reason for being more toward their discipline than the team's functionality output.
-  4. Again, ask the same question from step 1.
-
-  5. Provide 3 more minutes and have the team to turn their sheet over and again write their paragraph.
+  3. チームの各メンバーが、チームに向かって自分の答えを声に出して読み上げます。この時点では議論や討論は行いません。
 
 
-
-  6. Take the one extra sheet of notebook paper and have the team then come together around a table and craft a single unified statement for their reason for being.
-
+  ここでよく見られるのは、特にメンバーがサイロから来た新しいクロスファンクショナルチームでは、チームの存在理由を自分たちの規律に偏らせがちであるということです。
 
 
-  7. Transfer the finalized 'manifesto' to a larger format - a poster or large piece of paper which can be hung in a central location in the team's work area as a regular reminder.
+  4. 再度、ステップ1の質問をします。
+
+
+  5. さらに3分間とり、紙の裏に書いてもらいます。
+
+
+  6. チームに周りに集まってもらい、存在理由についての一つの統一された「宣言」を作成してもらいます。
+
+
+  7. 最終的な「宣言」を、チームの作業エリアの中心的な場所に掲げるための、より大きなフォーマット（ポスターや大きな紙など）に転記します。これは定期的なリマインダーとなります。
+
+
 resources:
   - link: https://www.phaidon.com/store/design/bruce-mau-mc24-9781838660505/
     linkType: web
