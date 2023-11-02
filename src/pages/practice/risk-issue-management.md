@@ -1,9 +1,7 @@
 ---
 templateKey: practice-page
-title: Risk Management
-subtitle: Identify potential problems that might occur during the course of your
-  project and identify ways of avoiding them. Risks, which are occurring, will
-  become issues.
+title: リスク管理
+subtitle: プロジェクト進行中に発生する可能性のあるリスクと、それを回避する方法を特定する。発生しつつあるリスクは問題となる。
 date: 2018-08-28T08:32:36.565Z
 authors:
   - sandraarps
@@ -11,29 +9,27 @@ tags:
   - culture
 mobiusTag: foundation
 icon: /images/img_1606.jpg
-whatIs: To help the team identifying and evaluating risks (potential issues) and
-  finding actions to avoid or minimise their impact on time, cost and or scope.
-whyDo: It will reduce the likelihood of the event to happen and reduce the
-  magnitude of its impact
+whatIs: リスク管理とは、チームがリスク（潜在的な問題）を特定・評価し、時間、コスト、スコープへの影響を回避または最小化するためのアクションを見つけるのを支援することです。
+whyDo: 問題が起こる可能性を減らし、その影響を最小限にします。
 howTo: >-
-  * The best approach to identifying risks is to arrange a workshop where the
-  participants will brainstorm on potential, future risks
+  * リスクを特定する最善の方法は、参加者が潜在的な将来のリスクについてブレーンストーミングを行うワークショップを手配することです。
 
-  * First, risks needs to be identified which can have an impact to the project or outcome
 
-  * Some example of risks are:
-    * Inadequate delivery capability (due to team experience, lack of inconsistent methodology or process)
-    * Ineffective delivery (due to unclear roles & responsibilities, issues not being escalated)
-    * Inadequate management of stakeholders (due to expectations not being identified)
-    * Unclear project or activity value (due to poor evaluation of business ownership of benefits)
-    * Resource limitations (due to skill shortages)
-    * Failure to recognise & manage dependencies (due to lack of communication)
-    * Failure of external vendors / suppliers (due to poor engagement)
-  * Next, the risks need to be rated based on likelihood and impact at the present time
+  * まず、プロジェクトや成果に影響を与える可能性のあるリスクを特定する必要があります。
 
-  * Once the risks have been rated, mitigation strategies need to identified.
+  * リスクの例としては、以下のようなものがあります:
+    * 不十分なデリバリー能力（チームの経験、一貫性のない方法論やプロセスの欠如による）
+    * 非効率なデリバリー（役割と責任の不明確さ、問題がエスカレーションされないことによる）
+    * ステークホルダーの不適切な管理（期待が特定されていないことによる）
+    * プロジェクトやアクティビティの価値が不明確（利益の事業所有権の評価が不十分なことによる）
+    * リソースの制限（スキル不足による）
+    * 依存関係の認識と管理の不備(コミュニケーション不足による)
+    * 外部ベンダー／サプライヤーの失敗（不十分なエンゲージメントが原因）
+  *  次に、リスクを現時点での可能性と影響に基づいて評価する必要があります。
 
-  * Last but not least, the risks will be displayed in the team area, where the Daily Standup's happen. That way, the risks can be reviewed on a daily basis and dealt with, if / once they occur.
+  * リスクが評価されたら、軽減/緩和策を特定します。
+
+  * 最後に、リスクはデイリー・スタンドアップが行われるチーム・エリアに表示されます。そうすることで、リスクは日常的に見直され、発生した場合に対処することができます。
 mediaGallery:
   - link: https://d33wubrfki0l68.cloudfront.net/1f63ec8dbee313481682310211f24ba74ac91c08/c7c83/images/scaled/img_1606.jpg
 resources:
