@@ -136,6 +136,11 @@ howTo: >-
 
 
   * 1st stage: 自分自身に対して。あなた自身に愛情深さを向けてください。
+  自分自身について。慈愛の気持ちを自分自身に向けて作ってください。
+  自分の心に気づくことからスタートしてください。そして「平和」「穏やかさ」「静寂」といった感情に集中してください。
+  そして、こららの強さや自信といたt感覚を育みあなたの心で愛を育ててください。
+  あなたの想像力を使って、まるで黄金の光があなたの体から溢れてくるように、もしくは「健康で幸せになれるんだ」のようなフレーズを何度も自分自身に繰り返してください。
+  これらの方法は自分自身へ慈愛の心を向け刺激していく方法です。
   Self. Generate a feeling of loving-kindness towards yourself.
   Start by becoming aware of yourself and focusing on feelings of peace, calm,
   and tranquility. Then, let these grow in feelings of strength and confidence
