@@ -138,7 +138,7 @@ howTo: >-
   * 1st stage: 自分自身に対して。あなた自身に愛情深さを向けてください。
   自分自身について。慈愛の気持ちを自分自身に向けて作ってください。
   自分の心に気づくことからスタートしてください。そして「平和」「穏やかさ」「静寂」といった感情に集中してください。
-  そして、こららの強さや自信といたt感覚を育みあなたの心で愛を育ててください。
+  そして、こららの強さや自信といた感覚を育みあなたの心で愛を育ててください。
   あなたの想像力を使って、まるで黄金の光があなたの体から溢れてくるように、もしくは「健康で幸せになれるんだ」のようなフレーズを何度も自分自身に繰り返してください。
   これらの方法は自分自身へ慈愛の心を向け刺激していく方法です。
   Self. Generate a feeling of loving-kindness towards yourself.
@@ -150,7 +150,12 @@ howTo: >-
   loving-kindness for yourself.*
 
 
-  * 2nd stage: Friend. Bring them to mind as vividly as you can, and think of
+  * 2nd stage: 友人に対して。友人に対してできる限りビビットな感情を向け、そして彼/彼女の良いところに目を向けましょう。
+    友達や、彼/彼女らを愛する気持ちと繋がっていることを感じてください。
+    そしてそれらを勇気づけるために、静かに自分にむけることにより「彼/彼女はよくなる。彼/彼女は幸せになる」という思いを育んでください。
+    あなたの想像力を使って、まるで黄金の光があなたの体から溢れそれが彼/彼女らの中に入っていくように感じてください。
+    これらのテクニック”フェーズや創造”を同じく次のステージでも使用します。
+    Friend. Bring them to mind as vividly as you can, and think of
   him/her good qualities. Feel your connection with your friend, and your loving
   he/she, and encourage these to grow by repeating ‘may he/she be well; may
   he/she be happy’ quietly to yourself. You can also use an image, such as a
@@ -158,40 +163,52 @@ howTo: >-
   phrase or an image — in the next two stages as well.
 
 
-  * 3rd stage: Neutral person. Now extend your well-wishing and loving-kindness
+  * 3rd stage: ニュートラルな関係の人に対して。
+    今、あなたの試合の心を広げていき”ニュートラル”な人にも向けていきます。好ましいのはたまに連絡は取るけれども特段の好き嫌いの感情がない人です。
+    この人は例えばあなたがよく知らないけれども近くにいるような人です。こちらも同じく「彼/彼女はよくなる。彼/彼女は幸せになる」を繰り返してください
+    Neutral person. Now extend your well-wishing and loving-kindness
   towards a ‘neutral’ person, preferably someone you have some contact with but
   for whom you have no particular feelings of like or dislike, this may be
   someone you do not know well but see around: "May he/she be happy, may she/he
   be well".*
 
 
-  * *4th stage: Difficult person. Include in your loving-kindness a person you
+  * *4th stage: 難しい関係にある人。
+    慈愛の心を持ちあなたが好きではなかったり難しい関係にある人を想像し「彼/彼女はよくなる。彼/彼女は幸せになる」を繰り返しましょう。
+    嫌いだというような感情を感じ取らないようにしてみましょう。そして、肯定的に彼/彼女の事を考え、同じく肯定的な感情で同様に繰り返していきましょう。
+    Difficult person. Include in your loving-kindness a person you
   dislike or currently have difficulty with: "May he/she be happy, may she/he be
   well". Trying not to get caught up in any feelings of hatred, think of him/her
   positively, and send your positive emotions to him/her as well.*
 
 
-  * *5th stage: Everyone. First equalize your well-wishing across all four
+  * *5th stage: 全ての人へ向けて。
+    最初に、平等に今までに出てきた上記の4つのステージの人々に良い願いを考えていきましょう。
+    あなた自身、友人、ニュートラルな関係の人、難しい関係にある人です。
+    そして、徐々に良き願いをチームの全ての人々に広げていきます。
+    一つの波打つような慈愛の心をあなたの心からチームへと広げてゆきます。
+    同じく「幸せになる、よくなる」と繰り返しましょう。
+    Everyone. First equalize your well-wishing across all four
   people so far: yourself, the friend, neutral person, and difficult person.
   Then gradually extend the well-wishing to include all members of the team.
   Have a sense of waves of loving-kindness spreading from your heart to the
   team: May we be happy, may we be well.*
 
 
-  *Then, gradually relax out of meditation, and bring the practice to an end.*
+  *そして、次第に瞑想から戻り、このプラクティスを終了に導きます。Then, gradually relax out of meditation, and bring the practice to an end.*
 
 
-  When 10 minutes are over carry on with your sprint ceremonies.
+  そして、１０分のスプリントのイベントを終えていきます。When 10 minutes are over carry on with your sprint ceremonies.
 
 
-  The short version may include only 3 stages:
+  短いバージョンは3つのステージで行いますThe short version may include only 3 stages:
 
 
-  * 1st stage Self.
+  * 1つ目は自分自身　1st stage Self.
 
-  * 2nd stage: Friend.
+  * 2つ目は友人2nd stage: Friend.
 
-  * 5th stage: Everyone.
+  * 3つ目は５ステージ目の全員　5th stage: Everyone.
 
 
   Another variation could work is extending each stage from 2 minutes until 5
