@@ -211,11 +211,14 @@ howTo: >-
   * 3つ目は５ステージ目の全員　5th stage: Everyone.
 
 
+  もう一つのバリエーションはそれぞれのステージを２−5分延長することです
   Another variation could work is extending each stage from 2 minutes until 5
   minutes.
 
-  ### **Tips for remote working**
+  ### **リモートワークのためのTips Tips for remote working**
 
+  リモートでもかなりよく機能します。全てのマイクがミュートであることを確認し、参加者に静かな部屋へとうつりドアを閉めるよう促してください。
+  
   Works quite well remotely, be sure to mute all microphones and ask
   participants to move to a quiet room and close the door.
 mediaGallery:
