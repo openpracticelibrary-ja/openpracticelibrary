@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Spaghetti Wall
-subtitle: An always-open space for collaborating on new problems and ideas
+title: スパゲティ・ウォール
+subtitle: 問題解決やアイデア生成のためにいつでもオープンしているコラボレーションスペース
 date: 2021-04-22T11:59:18.427Z
 authors:
   - heyjerrybecker
@@ -9,75 +9,70 @@ tags:
   - value
 mobiusTag: discovery
 icon: /images/wall-of-ideas.jpeg
-whatIs: The Spaghetti Wall is a physical or digital workspace that is set up as
-  a place to capture budding ideas/challenges in your organization. As we go
-  about our work, we encounter pain points and problems that, if solved, would
-  help improve our way of working. Likewise, we may have "aha" moments for a
-  incremental or even disruptive innovation. The Spaghetti Wall is a designated
-  space where these problems and ideas can be captured at any time and
-  organically collaborated on by others in your organization. See what sticks!
+whatIs: スパゲティ・ウォールは組織内で新しいアイデアや課題をキャプチャする場所として設定された、物理的またはデジタルのワークスペースです。
+  仕事をする中で、改善すれば仕事の役に立つペインポイントや問題に遭遇することがあります。
+  同様に、インクリメンタルな、または、破壊的なイノベーションの「アハ体験」があるかもしれません。
+  スパゲティ・ウォールは、これらの問題やアイデアをいつでもキャプチャし組織内のメンバーとの協力を通じて有機的に共有できる専用のスペースです。
+  
 whyDo: >-
-  Visualizing these problems and ideas creates transparency and collaboration
-  within the organization, as well as ensures we are always seeking ways to
-  improve our way of working. It also serves as a starting point for new ideas
-  to mature through collaboration. 
+  問題やアイデアを可視化することで、組織内の透明性と協力が生まれ、継続的な働き方の改善を促します。
+  また、新しいアイデアがコラボレーションを通じて成熟するための開始点としても機能します。
 
 
-  Colleagues can visit the Spaghetti Wall at any time and quickly align on current problems and ideas the rest of the organization is capturing and working on. This not only promotes transparency, but colleagues can also  naturally gravitate toward the problems they are drawn to and help mature the idea by adding clarifying questions and ideas to the wall. This gives your problem-solvers and dreamers an outlet to use their skills to help drive organizational impact as well as strengthen your culture of innovation and collaboration. Collaboration for the win!!
+  同僚はいつでもスパゲティ・ウォールを訪れ、組織全体がキャプチャし取り組んでいる現在の問題やアイデアに素早く協調することができます。
+  これは透明性を促進するだけでなく、自然と問題に引き寄せられ、質問やアイデアを壁に追加してアイデアを発展させることができます。
+  また、問題解決家や夢想家はそのスキルを組織のインパクトの推進に役立てるだけでなく、イノベーションとコラボレーションの文化を強化することができます。
 howTo: >-
-  1. On a large, physical wall space or rolling whiteboard, label the Spaghetti
-  Wall. If performing this with a remote team, create a board in your favorite
-  digital whiteboarding tool (Miro, MURAL, Jamboard, etc). As this is a
-  constantly ongoing practice, this space should be one that can be occupied by
-  the Spaghetti Wall indefinitely (it's good to have it in the same place so
-  people always know where to find it 🙂 )
+  1. 大きな物理的な壁または移動式のホワイトボードに「スパゲティ・ウォール」とラベルを付けます。
+  このプラクティスをリモートチームで行う場合は、好みのデジタルホワイトボードツールを使いましょう。
+  これは常設のプラクティスであるため、無期限に専有できる場所に置くべきです。（同じ場所においておくことでいつでも場所がわかるようにしておくのが良いでしょう 🙂 ）
 
 
-  2. Communicate to the rest of the team what the Spaghetti Wall is and where to find it. Encourage colleagues to add ideas/challenges to the board, 1-per stickie note.
+  2. チームの他のメンバーと会話して、スパゲティ・ウォールがどこにあるのか会話しておきましょう。また、1つの付箋に1つの問題またはアイデアを書くように同僚に伝えておきましょう。
 
 
-  **If you have an idea for the wall...**
+  **もしあなたがアイデアを持っていたら…**
 
 
-  3. As you go about your work, look for problems/challenges/ideas you think the rest of the team might want to collaborate on. Add those ideas to the Spaghetti Wall in a space separate from existing stickies. Reach out to individuals you think might be able to add value and ask them to add thoughts.
+  1. 仕事中に他のメンバーがコラボレーションを望んで急いうな問題/課題/アイデアを探しましょう。見つかったらスパゲティ・ウォールに追加します。価値を追加できると思われる人に連絡し、意見を付いたしてもらうように依頼します。
 
 
-  **TIP:** In the early stages of your problem/idea try to align on a clearly-articulated problem statement and customer/user segment. You want to communicate as early as possible what problem you're trying to solve, and who has that problem. Then, create a solution statement that is worded in a way that it clearly solves the problem statement you aligned on. 
+  **TIP:** 問題やアイデアの初期段階では、問題を明確に記述することを試みてください。そして、その問題文を明確に解決するような解決文を作るのです。
 
 
-  4. If your idea starts to get some good traction and collaboration, consider refining the ideas with dot-voting to hone in on the solution collaborators think has the most potential for success. Refine this idea by adding some specifics.
+  2. アイデアが良い反響を得て協力が進展しているなら、最も有望と協力者が考えるアイデアに絞り込むために、ドット投票を検討しましょう。そして、アイデアをより具体化するために詳細な情報を追加します。
 
 
-  5. Allow this idea to mature with your collaborators until you're at a point where you feel you have a strong enough idea that you want to rapidly prototype it for validation. At that point, create a Lean Canvas or pitch deck to take to leadership for feedback.
+  3. このアイデアがプロトタイプによって検証するに足ると感じるようになるまで、協力者と成熟させます。この段階で、リーダーシップ（組織の意思決定者など）にフィードバックを求めるためにリーン・キャンバスやピッチデッキを作成します。
 
 
-  **TIP:** If you're having a hard time organically progressing the idea, try a more structured approach like a [Decision Jam](https://openpracticelibrary.com/practice/decision-jam/) to help outline steps to move the idea along.
+  **TIP:** もしオーガニックにアイデアを進展させることが難しい場合、 [ライトニング・ディシジョン・ジャム](https://openpracticelibrary-ja.netlify.app/practice/decision-jam/) のような構造化されたアプローチを試して、アイデアを前進させるためのアウトラインを描いてみましょう。
 
 
-  **If you are looking for problems to help solve...**
+  **問題を解決するのを手伝いたい場合…**
 
 
-  3. In your spare time, visit the wall and read through the current problems/ideas present. If any interest you, feel free to add stickies near it with questions/ideas you may have to help it mature. Suggest follow-on practices to run such as dot-voting to converge on ideas, or solution-sketching to visualize potential solutions. Keep visiting the wall in your spare time to continue driving the idea forward!
+  1. 時間があるときにスパゲティ・ウォールを訪れ、現在のもないやアイデアを読みます。興味を持てるものがあれば、質問やアイデアを追加します。ドット投票に参加してアイデアを収束させたり、ソリューションスケッチに参加して潜在的なソリューションを可視化してみましょう。アイデアを前進させるために継続的にスパゲティ・ウォールを訪れましょう。
 
 
-  **If leadership has a specific problem they want to solve...**
+  **リーダーシップ（組織のエグゼクティブやシニアマネージャー）が特定の問題を解決したい場合**
 
 
-  3. If leadership has a prioritized list of problems they want to focus on, take one and add it to a dedicated section of the Spaghetti Wall just for high-pri leadership challenges.
+  1. リーダーシップが焦点を当てたい問題のリストを持っているなら、スパゲティ・ウォール上にそれ専用の場所を用意しましょう。
 
 
-  4. Allow the team to diverge and converge on ideas to come to an aligned solution to experiment with
+  2. チームにアイデアの発散と収束をさせて、アイデアの効果を検証できるようにします
 
 
-  5. Take back to leadership for feedback & possible implementation
-
-
-  **Tip:** Have someone or a small group of people who are willing to help manage the Spaghetti Wall itself. This includes taking leadership challenges and adding them to that area of the board, as well as reaching out to collaborators to take mature ideas off the board (as they progress to development) and remove stale ideas that haven't been progressed in a wile (don't worry - if the idea becomes valid again, someone will add it back 🙂 )
+  3. フィードバックを受け、実装するためにリーダーシップに報告します
 
 
 
+  *Tip:* スパゲティウォール自体を管理するのを手伝ってくれる誰かまたは少数の人を配置しましょう。これには、リーダーシップの課題を取り上げ、ボードのその領域に追加すること、進行中のアイデアを取り上げる協力者に連絡すること（開発に進行中の場合）、進展していないアイデアを削除することが含まれます（心配しないでください、アイデアが再び有効になった場合、誰かがそれを再度追加します😊）。
 
-  And that's it! Now you have a common place for collaborating to solve problems and generate new ideas for your organization! Allow the Spaghetti Wall to organically evolve as your organization continues to learn form the work you do. And don't forget to share out updates and success stories from the wall to encourage more collaboration!
+
+  これで、組織内の問題を解決し、新しいアイデアを生み出すための共通の場所ができました！スパゲティウォールを組織が行う作業から学び続けるにつれて、有機的に進化させましょう。そして、壁からのアップデートと成功事例を共有して、さらなる協力を奨励しましょう！
+
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/Spaghetti%20Wall%202.jpeg?raw=true
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/Wall-of-Ideas-1--1024x571.jpeg
