@@ -11,7 +11,7 @@ const Partnerships = () => (
       Partnerships
     </Typography>
     <Typography>
-      No great open source project is without great collaboration.
+    優れたオープンソース・プロジェクトには、優れたコラボレーションが不可欠です。
     </Typography>
     <Box
       my={4}
@@ -22,21 +22,21 @@ const Partnerships = () => (
     >
       <PartnerLink
         altText="Red Hat Logo"
-        caption="Home of our product team and our largest Open Source Contributor."
+        caption="プロダクトチームの本拠地であり、最大のオープンソースコントリビューターでもあります。"
         imageSrc={RedHatLogo}
         title="Red Hat"
         url="https://www.redhat.com/en/services/consulting/open-innovation-labs"
       />
       <PartnerLink
         altText="Mobius Loop Logo"
-        caption="Our process model and partner in defining product lifecycle practices."
+        caption="私たちのプロセスモデルであり、プロダクトライフサイクルのプラクティスを定義するパートナーです。"
         imageSrc={MobiusLogo}
         title="Mobius Loop"
         url="https://mobiusloop.com"
       />
       <PartnerLink
         altText="Creative Commons Logo"
-        caption="Our content is as open source as our application software."
+        caption="私たちのコンテンツは、アプリケーション・ソフトウェアと同様にオープンソースです。"
         imageSrc={CCHeartLogo}
         title="Creative Commons"
         url="https://creativecommons.org"

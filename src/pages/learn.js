@@ -45,16 +45,14 @@ const Learn = () => (
       <HeroImage opacity={0.6}>
         <Box mx={8} color="common.white" textAlign="center" width="100%">
           <Typography color="inherit" variant="h3" gutterBottom>
-            Move past the buzzwords to deliver real business value, quickly.
+          バズワードを乗り越え、真のビジネス価値を迅速に提供する。
           </Typography>
           <Box marginBottom={6}>
             <Typography component="p" gutterBottom variant="h6">
-              The Open Practice Library is an open source, community-driven
-              inspired library of best practices and tools.
+            オープン・プラクティス・ライブラリーは、ベスト・プラクティスやツールを集めた、コミュニティ主導のオープンソース・ライブラリです。
             </Typography>
             <Typography component="p" variant="h6">
-              It helps individuals, teams and entire businesses figure out the
-              optimal ways to get to the best outcome.
+            これは、個人、チーム、そしてビジネス全体が、最高の結果のための最適な方法を見つける助けになるでしょう。
             </Typography>
           </Box>
           <Box mx="auto">
@@ -74,27 +72,20 @@ const Learn = () => (
         <div ref={scrollTo} />
         <Box my={6}>
           <Typography variant="h5" gutterBottom>
-            That can mean a lot of things to a lot of different kinds of people.
-            And the Open Practice Library can help all of them.
+          様々な役割ごとに様々な課題や取り組みがあります。オープン・プラクティス・ライブラリーは、そのすべての人々を助けることができます。
           </Typography>
           <Typography gutterBottom>
-            - A product owner who needs to build the right thing, the right way.
+            - 正しいものを正しい方法で作成する必要があるプロダクト・オーナー。
           </Typography>
           <Typography gutterBottom>
-            - A stakeholder who needs a roadmap to deliver metrics-based
-            business outcomes.
+            - メトリクスに基づくビジネス成果に向けてのロードマップを必要とするステークホルダー。
           </Typography>
           <Typography gutterBottom>
-            - A team lead who wants to get everyone’s input toward and aligned
-            to the same goal.
+            - 全員が同じ目標に向かって意見を出し合い、足並みを揃えることを望むチームのリーダー。
           </Typography>
           <Box marginTop={2}>
             <Typography component="p" variant="body1">
-              For everyone, these practices are created, tested and shared by
-              the people who use them day-to-day. The practices are for the
-              people looking to be inspired with new ideas to create better
-              experiences. And anyone who wants to find innovative, proven ways
-              to solve their challenges, big and small.
+            これらのプラクティスは、日々実践している人々によって作成され、テストされ、共有されています。プラクティスは、より良い経験を生み出すための新しいアイデアを求めている人々のためのものです。そして、大小を問わず、課題を解決するための革新的で実績のある方法を見つけたいすべての人のためのものです。
             </Typography>
           </Box>
         </Box>

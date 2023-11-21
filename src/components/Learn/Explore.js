@@ -15,7 +15,7 @@ const Explore = props => {
       px={4}
     >
       <Typography gutterBottom variant="h5" data-testid="exploreMsg">
-        Learn something new from your peers and experiment with best practices!
+      仲間から新しいことを学び、ベストプラクティスを試しましょう！
       </Typography>
       <Button
         variant="contained"

@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Service Blueprint
-subtitle: A business process diagram analyzed from the people perspective.
+title: サービス ブループリント
+subtitle: 人々の視点から分析したビジネスプロセスの図。
 date: 2018-11-14T18:39:21.278Z
 authors:
   - darcief
@@ -10,246 +10,236 @@ tags:
 mobiusTag: discovery
 icon: /images/service_design_blueprint.png
 whatIs: >-
-  > “In 1982, the term “[Service
-  Design](https://www.interaction-design.org/literature/article/service-design-design-is-not-just-for-products/?target=_blank)”
-  was coined by Lynn Shostack. She proposed that a business should develop a
-  “service blueprint” which details the processes within a company and how each
-  process interacts with other processes.”
+  > 1982年、リン・ショスタックによって[サービスデザイン](https://www.interaction-design.org/literature/article/service-design-design-is-not-just-for-products/?target=_blank)という言葉が作られました。彼女は、企業は「サービスブループリント（設計図）」を作成すべきであり、それは企業内のプロセスと、各プロセスが他のプロセスとどのように相互作用するかを詳述するものであると提唱しました。
 
 
-  Lynn Shostack later wrote an article for the [Harvard Business Review](https://hbr.org/1984/01/designing-services-that-deliver/?target=_blank) which evangelized service design methodology and the service blueprint.
+  リン・ショスタックはその後、[ハーバード・ビジネス・レビュー誌](https://hbr.org/1984/01/designing-services-that-deliver/?target=_blank)に寄稿し、サービス・デザインの方法論とサービス・ブループリントを広めました。
 
 
-  For the purposes of digital product and software practices, the Service Blueprint is an applied process chart which holistically dissects a particular operational workflow, product offering, business structure, or the like. The blueprint is always mapped from a people perspective providing empathy and shared understanding of the user, business, technical, and support actions for process steps, all in one easy to digest chart.
+  デジタルプロダクトやソフトウェアのプラクティスのために、サービス・ブループリントは、特定の業務ワークフロー、製品提供、ビジネス構造などを全体的に分解した応用プロセス・チャートです。ブループリントは常に人の視点からマッピングされ、ユーザー、ビジネス、技術、サポートの各プロセスステップに対する共感と共通理解を提供します。
 
 
-  The typical service blueprint for a technical project will identify:
+  技術プロジェクトの典型的なサービス・ブループリントには、以下のようなものがあります:
 
 
-  * **Phases:** A Service Blueprint is read from left to right, unfolding over time. Define the phases of how a user interacts with a service
+  * **フェーズ:** サービス・ブループリントは左から右へと読み進められ、時間とともに展開していきます。ユーザーがサービスとどのように相互作用するかのフェーズを定義します。
 
-  * **Physical Evidence:** Tangible items associated with each step of the process
+  * **物理的なエビデンス:** プロセスの各段階に関連する具体的な項目
 
-  * **People Actions:** User steps that people take as part of the process 
+  * **人々の行動:** ユーザーがプロセスの一環として行うステップ 
 
-  * **Line of Interaction:** Separates people actions from technical actions
+  * **相互作用のライン:** 人の行動と技術的行動を分離する
 
-  * **Front-stage Actions:** The technical interface or tools people interact with in each step
+  * **フロントステージでのアクション:** 技術的なインターフェースやツール
 
-  * **Line of Visibility:** Separates front-stage and back-stage actions
+  * **可視性のライン:** フロントステージとバックステージのアクションを分ける
 
-  * **Back-stage Actions:** Non-visible technical requirements needed for each step
+  * **バックステージでのアクション:** 各ステップに必要な目に見えない技術的要件
 
-  * **Line of Internal Interaction:** Separates technical actions from external support efforts
+  * **内部相互作用のライン:** 技術的な行動と外部サポート活動を分離
 
-  * **Support Channels:** Activities or tools required for the process to be delivered
+  * **サポート・チャンネル:** 提供するプロセスに必要なアクティビティまたはツール
 
-  * **Flow Lines:** Arrows are a key element of service blueprinting. They Indicate relationships and dependencies. An arrow could represent one-way exchange " --> "or a need for agreement and codependency " <--> " between the deferent parts of the blueprint. Missing elements and information as gaps are revealed in this process.
-
-
-  Secondary elements such as these can be added as needed:
+  * **フローライン:** 矢印はサービスブループリントの重要な要素です。矢印は関係と依存関係を示します。矢印は一方通行の交換" --> "を表すこともあれば、設計図の異なる部分間の合意と共依存" <--> "の必要性を表すこともある。このプロセスでは、欠けている要素やギャップとしての情報が明らかになります。
 
 
-  * **Policy/Rules:** Any policies, regulations and laws that affect on how a process is completed. This information helps to understand what can and cannot be changed as you optimize.
+  必要に応じて、以下のような二次的要素を追加することができる:
 
-  * **Emotional Journey:** The emotional status of the user during the different stages of the experience.
 
-  * **Time:** The estimated duration for each phase of the journey .Also, you can represent the time duration for each of the actors.
+  * **ポリシー/ルール:** プロセスの完了方法に影響するあらゆる方針、規制、法律。この情報は、最適化する際に変更できること、できないことを理解するのに 役立ちます。
 
-  * **Capture Insights:**
+  * **エモーショナル・ジャーニー:** 体験のさまざまな段階におけるユーザーの感情状態。
 
-    * Pain Points
-    * Follow-up Questions
-    * Critical Moments
-    * Opportunities
+  * **時間:** ジャーニー各フェーズの推定所要時間。また、各アクターごとの所要時間を表すこともできます。
 
-    The example below is a simple overview for the end result of a Service Blueprint. The chart typically begins as a whiteboard sketch and will iterate toward a more refined design. If it suites the project team a digital template could also be completed for this activity.
+  * **洞察のキャプチャ:**
+
+    * ペインポイント
+    * フォローアップのための質問
+    * 重要な瞬間
+    * 機会
+
+    以下の例は、サービス・ブループリントの最終結果を示す簡単な概要です。このチャートは通常ホワイトボードのスケッチから始まり、より洗練されたデザインへと反復していきます。プロジェクトチームに適していれば、このアクティビティ用にデジタルテンプレートを作成することもできます。
 
   ![service blueprint template](https://openpracticelibrary.github.io/opl-media/images/service_design_blueprint.png)
 
 
-  NOTE: Multiple users are usually added to the People actions because more than one user is often needed to complete a process step. A couple users make for a simple blueprint in a quick amount of activity time, while an increased number of users make for a more complex blueprint which will take longer to create.
+  NOTE: プロセス・ステップを完了するには複数のユーザーが必要になることが多いため、通常、People アクションには複数のユーザーが追加されます。2、3人のユーザーであればアクティビティ時間が短くシンプルなブループリントになりますが、ユーザー数が増えれば複雑なブループリントになり、作成に時間がかかります。
 whyDo: >-
-  The Service Blueprint can be used to map the actual experience of a service
-  (As is), the quick wins & evolution to be implemented short/middle term (To
-  be) and the long term strategy of evolution of the service (Ideal).
+  サービス・ブループリントは、サービスの実際の経験（As is）、短期的／中期的に実施すべき迅速な勝利と進化（To be）、サービスの進化の長期的戦略（Ideal）をマッピングするために使用することができます。
 
 
-  It can help you to:
+  次のようなことに役立ちます:
 
 
-  * Identify process problem areas and growth opportunities
+  * プロセスの問題領域と成長機会を特定する
 
-  * Find a new or existing product offering
+  * 新プロダクトまたは既存プロダクト商品を探す
 
-  * Recognise the business structure of a startup or established company
+  * 新興企業または既存企業の事業構造を理解する
 
-  * Align end to end perspectives on a service experience
+  * サービス体験のエンド・ツー・エンドの視点を合わせる
 
-  * Understand all the moving parts of a service
+  * サービスのすべての可動部分を理解する
 
-  * Align the team around a common understanding
+  * 共通理解のもとにチームをまとめる
 
-  * Visually share knowledge with others
+  * 知識を視覚的に他者と共有する
 
-  * Ensure that the pieces of an experience will fit together
+  * 体験の断片を最適に組み合わせる
 
-  * Envision customer flow and architecture of the service experience
+  * 顧客の流れとサービス体験のアーキテクチャを構想する
 
-  * Visualise an abstract concepts and make them tangible
+  * 抽象的な概念を視覚化し、具体化する
 
 
-  The blueprint will quickly point out assumptions and unknowns about a process across all business units, plus discover any confusion or misinterpretations within the process steps. This information can drive exploratory and validation research with users along with necessary technical and business research, to later define opportunities, strategy and solutions.
+  ブループリントは、すべてのビジネスユニットにわたるプロセスの仮定と未知数を迅速に指摘し、さらにプロセスステップ内の混乱や誤解を発見します。この情報は、必要な技術調査やビジネス調査とともに、ユーザーとの探索調査や検証調査を推進し、後に機会、戦略、ソリューションを定義することができます。
 howTo: >-
-  It is important to have primary users identified prior to starting the
-  blueprint but some exploration of secondary or tertiary persona groups will be
-  done with the activity. Focus on one (1) main process per service blueprint,
-  prioritized by the top user/business problems to be solved. Follow these steps
-  to initiate and develop blueprint:
+  ブループリントを開始する前に、主要ユーザーを特定することが重要ですが、アクティビティでは二次的または三次的なペルソナ・グループの調査も行います。1つのサービス・ブループリントにつき1つのメイン・プロセスに焦点を当て、解決すべきトップ・ユーザー/ビジネス上の問題によって優先順位をつけます。以下のステップに従って、ブループリントを作成します:
 
 
-  **Step #1:** Book a work area with a large whiteboard or flat wall surface to create the blueprint. It is ideal if the chart can remain in this area for the length of the project because it is often referenced with later activities.
+  **ステップ #1:** ブループリントを作成するために、大きなホワイトボードか平らな壁面のある作業エリアを確保します。ブループリントは後のアクティビティで参照されることが多いため、プロジェクト期間中この場所に置いておけると理想的です。
 
 
-  **Step #2:** Before the activity starts create a large physical template for the Service Blueprint chart. If a whiteboard is used make a grid with painters tape to mark off areas for Physical Evidence, People, a Line of Interaction, Front-stage, a Line of Visibility, Back-stage, a Line of Internal Interaction, and Support Channels. Be sure to leave extra space in the height of the action sections (especially People) for adding multiple rows. If a flat wall surface is available butcher paper and sticky notes will also work well.
+  **ステップ #2:** アクティビティが始まる前に、サービス・ブループリント・チャートのための大きなテンプレートを作成します。ホワイトボードを使用する場合は、ペインターズテープでグリッドを作り、「物理的なエビデンス」、「ピープル」、「相互作用のライン」、「フロントステージ」、「可視性のライン」、「バックステージ」、「内部相互作用のライン」、「サポートチャネル」のエリアをマークします。複数の列を追加するために、アクションセクション（特に人物）の高さに余分なスペースを残すようにしてください。平らな壁面があれば、画用紙や付箋紙でも良いです。
 
 
-  **Step #3:** Gather project team to the area and walk through an overview of the Service Blueprint template and why it will be helpful in reaching goals. Talk through the how-to instructions and ensure the team is aligned on guidelines. Also, see Tip #2 below for an easy way to introduce the blueprint concept.
+  **ステップ #3:** プロジェクト・チームを会場に集め、サービス・ブループリント・テンプレートの概要と、目標達成に役立つ理由を説明します。方法について説明し、チームがガイドラインに一致していることを確認します。また、ブループリントのコンセプトを簡単に紹介する方法については、以下のヒント #2を参照してください。
 
 
-  **Step #4:** As a team review and align on the business process that will be dissected for this service blueprint activity. Discuss the People who are involved with this process so there is consensus on the actions being considered. The chart is flexible and can unfold a simple or complex process depending on needs of the project.
+  **ステップ #4:** チームとして、このサービス・ブループリントのアクティビティで分解されるビジネス・プロセスをレビューし、合意します。このプロセスに関与する人々について話し合い、検討するアクションについてコンセンサスを得ます。このチャートは柔軟性があり、プロジェクトのニーズに応じて、単純なプロセスから複雑なプロセスを展開することができます。
 
 
-  **Step #5:** Facilitate the first step in the process by identifying each section of the blueprint as a vertical slice, ensure the team focuses on just one step at a time. With Front-stage consider tools such as email, interfaces or internal/external tools needed, etc., to complete the step.
+  **ステップ #5:** ブループリントの各セクションを垂直スライスとして限定することで、プロセスの最初のステップが進みやすくなり、チームが一度に1つのステップだけに集中できるようにします。フロントステージでは、ステップを完了するために必要な電子メール、インターフェイス、内部/外部ツールなどのツールを検討します。
 
 
-  * Often new users or front/back-stage requirements come up further along in the process chart so leave room for adding new rows.
+  * 多くの場合、新しいユーザーやフロント／バックステージの要件は、プロセス・チャートのさらに先に出てくるので、新しい行を追加する余地を残しておきます。
 
-  * For Physical Evidence consider hardware and devices, or anything tangible and draw a small picture of these items in the row.
+  * 「物理的なエビデンス」については、ハードウェアや機器など、形あるものを検討し、それらのアイテムの小さな絵を列記します。
 
-  * For People make sure to first focus upon primary users of the action, then add each user in a new row, to complete the step. The action steps can be drawn like a user flow diagram.
+  * 「ピープル」の場合は、まずアクションの主要なユーザーに焦点を当て、次に各ユーザーを新しい行に追加し、ステップを完了させるようにしてください。アクションステップは、ユーザーフロー図のように描くことができます。
 
-  * With Back-stage consider what makes the Front-stage feasible. Consider which databases or servers are required, etc. These sections are usually drawn like an information architecture diagram.
+  * 「バックステージ」では、「フロントステージ」を実現可能にするものを考えます。どのデータベースやサーバーが必要かなどを検討します。これらのセクションは通常、情報アーキテクチャ図のように描かれます。
 
-  * With Support Channels think of help systems, chat, or third-parties that help deliver that step.
+  * 「サポート・チャネル」とは、ヘルプ・システム、チャット、あるいはそのステップを提供するサード・パーティを指します。
 
 
-  **Step #6:** Take turns facilitating steps of the process chart and try to give everyone on the team a chance to work through at least one step. Or if the group is less inclined to collaborate feel free to use one facilitator for the entire blueprint.
+  **ステップ #6:** プロセスチャートの各ステップを交代で進行し、チーム全員が少なくとも1つのステップに取り組む機会を与えるようにします。また、グループがあまり協力したがらない場合は、1人のファシリテーターでブループリント全体を進行することもできます。
 
 
-  Some facilitator tips that are good to consider include:
+  ファシリテーターの心得として、以下のようなものが挙げられます:
 
 
-  **Tip #1:** Use different widths or colors of painters tape to separate the sections for Actions from Lines. Sometimes the blueprint length extends longer than anticipated (depending on number of process steps) so keep tape or butcher paper handy if that happens.
+  **ヒント #1:** ペインターズテープの幅や色を変えて、アクションとラインのセクションを分けてください。ブループリントの長さが予想以上に長くなることがあるので（工程数による）、そのような場合はテープや肉切り紙を手元に置いておきましょう。
 
 
-  **Tip #2:** Introducing the Service Blueprint can be a complex concept to adapt. Using a simple metaphor is a good way to overview the activity for a project team. As with some other user related tasks, the analogy of Live Theater works quite well. The story is usually shared via improv but goes something like this:
+  **ヒント #2:** サービス・ブループリントの導入は、複雑な概念に適応する可能性があります。単純な比喩を使うことは、プロジェクトチームにとってアクティビティを概観する良い方法です。他のユーザー関連のタスクと同様に、ライブシアターのアナロジーは非常に効果的です。ストーリーは通常即興で共有されますが、次のようなものです:
 
 
-  > On stage facing the audience (is the Front-stage) then there are actors (the People) who use props (their Physical Evidence) to act out scenes (the Steps) in a play (our Process). Behind the curtains (which is the Line of Visibility) many tasks produce the play (which is the Back-stage). Also there are partners who keep the theater operating (the Support Channels).
+  > 客席に面した舞台（これが「フロントステージ」）には俳優（「ピープル」）がいて、小道具（彼らの「物理的エビデンス」）を使って芝居（我々の「プロセス」）の場面（「ステップ」）を演じる。カーテンの裏側（これが「可視性ライン」）では、多くの仕事が芝居をプロデュースしている（これが「バックステージ」）。また、劇場を運営し続けるパートナーもいる（「サポート・チャンネル」）。
 
 
-  This is nicely explained while doing a quick whiteboard sketch to talk through the analogy and referencing the blueprint template.
+  これは、ホワイトボードにスケッチを描きながら、ブループリントのテンプレートを参照し、その例えを説明する良い方法です。
 
 
-  **Tip #3:** When the service blueprint activity begins, make sure to talk through each vertical step of the process chart out loud prior to documenting. This will ensure alignment and shared decision making.
+  **ヒント #3:** サービス・ブループリントのアクティビティが始まったら、文書化する前に、必ずプロセス・チャートの各垂直ステップを声に出して話し合うこと。そうすることで、意思統一と意思決定の共有が確実になります。
 
 
-  **Tip #4:** Be visual and use drawings whenever possible to represent the information shared, this will create an easy to reference chart (e.g. draw a cell phone when referring to this as physical evidence or draw a database symbol to reference this in back-stage actions). Also, use multiple colored pens to highlight certain areas of interest with each step, either with notes, boxes, dashed lines, etc.. For example, Red can quickly identify unknowns or problems and maybe Blue can identify opportunities, etc.. Draw a ‘key’ in one corner of the blueprint for viewers to understand symbols and color coding.
+  **ヒント #4:** 視覚的であること、そして共有された情報を表現するために可能な限り図面を使用することで、参照しやすいチャートを作成することができます（例：物理的エビデンスとして参照する場合は携帯電話を描く、バックステージのアクションで参照する場合はデータベースのシンボルを描くなど）。また、複数の色のペンを使って、各ステップで関心のある特定の領域を、メモ、ボックス、破線などで強調します。例えば、赤は未知数や問題を素早く特定でき、青は機会などを特定できるかもしれません。ブループリントの片隅に「凡例」を描き、見る人が記号や色分けを理解できるようにします。
 
 
-  **Tip #5:** If the blueprint sketch can not stay in the scheduled work area, digitize it and print it as a large poster this will go a long way as point of reference and makes a nice centerpiece for project presentations. Also, be sure to capture pictures through the activity, including panoramic shots! A time-lapse might be nice too.
+  **ヒント #5:** ブループリントのスケッチが、予定された作業エリアにとどまることができない場合は、それをデジタル化して大きなポスターとして印刷すると、参考資料として大いに役立つし、プロジェクトのプレゼンテーションの目玉にもなります。また、アクティビティ中の写真は、パノラマ写真も含めて必ず撮影しておくこと！タイムラプスもいいかもしれません。
 
 
-  **Tip #6:** Reference the blueprint after conducting research and update it based upon findings. It will be easier to do so if the blueprint is digitized after the initial activity.
+  **ヒント #6:** 調査後にブループリントを参照し、調査結果に基づいて更新します。最初のアクティビティ後にブループリントをデジタル化すれば、それが容易になります。
 
 
-  ## Outcomes
+  ## 成果（アウトカム）
 
 
-  A user-centered chart with holistic views across all business units required to deliver the process being reviewed. This includes a detailed contextual understanding of process unknowns, problems and opportunities, plus empathy for the people responsible for each step. This information can be used for research efforts and strategy development.
+  レビューの対象となるプロセスを実現するために必要な、すべてのビジネスユニットにわたる全体的なビューを持つユーザー中心のチャート。これには、プロセスの未知数、問題、機会に関する詳細な文脈的理解と、各ステップの責任者に対する共感が含まれます。この情報は、調査活動や戦略策定に活用できます。
 
 
-  Service blueprinting is a fun, collaborative activity that can truly drive direction for many projects,  plus the chart deliverable resonates well with stakeholders.
+  サービス・ブループリントは、多くのプロジェクトの方向性を真に推進することができ、楽しく協力的なアクティビティでもあります。
 
 
-  ## ‘Process’ Examples
+  ## ‘プロセス’例
 
 
-  * Enterprise B2B Application: Employee Workflow Process
+  * エンタープライズB2Bアプリケーション: 従業員のワークフロープロセス
 
-  * Software as a Service: User Journey Process
+  * SaaS: ユーザージャーニープロセス
 
-  * Service Organization: Customer Experience Process
+  * サービス組織: カスタマーエクスペリエンスプロセス
 
-  * Startup Company: Entire Business Process
+  * スタートアップカンパニー: ビジネスプロセス全体
 
 
-  ## Previous Steps
+  ## 事前のステップ
 
 
-  It is recommended to check some steps before start mapping to ensure we have the necessary information, user research and appropriate decisions taken:
+  必要な情報を入手し、ユーザー調査を行い、適切な決定を下すために、マッピングを開始する前にいくつかのステップを確認することをお勧めします。:
 
 
-  * Create your goal statement (Return to that statement as you build your map)
+  * ゴール・ステートメントを作成する（マップを作成する際にそのステートメントに立ち返ることができます）
 
-  * Define your target audience and needs
+  * ターゲット層とニーズを明確にする
 
-  * Choose the experience to map first
+  * 最初にマッピングする体験を選ぶ
 
-  * Select channels to map (in store, print, web, mobile)
+  * マッピングするチャンネルを選択する (実店舗, プリント, ウェブ, 携帯)
 
-  * Identify Stakeholders
+  * ステークホルダーを特定する
 
-  * Create the user story
+  * ユーザーストーリーを作成する
 
 
-  These are some examples of highly recommended practices that will help you to get ready to build a Service Blueprint:
+  以下は、サービス・ブループリントを構築する準備に役立つ、強く推奨されるプラクティスの例です:
 
 
-  * Journey Map
+  * ジャーニーマップ
 
-  * [Empathy Map](https://openpracticelibrary.com/practice/empathy-mapping/)
+  * [共感マッピング](https://openpracticelibrary-ja.netlify.app/practice/empathy-mapping/)
 
-  * [Proto-Persona](https://openpracticelibrary.com/practice/proto-persona/)
+  * [プロトペルトな](https://openpracticelibrary-ja.netlify.app/practice/proto-persona/)
 
-  * [Impact Map](https://openpracticelibrary.com/practice/impact-mapping/)
+  * [インパクトマッピング](https://openpracticelibrary-ja.netlify.app/practice/impact-mapping/)
 
 
-  ## Facilitation Notes
+  ## ファシリテーションの留意点
 
 
-  **Prerequisite Knowledge**: It is best if an understanding of the people ecosystem and primary users is known ahead of this activity. A priority of top user and business problems to solve should also be established. Spend time before starting the blueprint to determine one (1) main process to focus upon which aligns with the primary users and prioritized problems.
+  **前提知識**: このアクティビティに先立ち、人々のエコシステムと主要ユーザーについて理解しておくことが最善です。また、解決すべきトップユーザーとビジネス上の問題の優先順位も確立しておく必要があります。ブループリントを開始する前に、主要ユーザーと優先順位付けされた問題に合致する、焦点を当てるべき主要プロセスを1つ決定するために時間を費やします。
 
 
-  **Deliverable**: The level of  final chart fidelity should be determined by project requirements and goals, this blueprint can be reviewed as a photograph, digitized and shared virtually, or printed as a poster and displayed.
+  **可搬性**: このブループリントは、写真として見直したり、デジタル化してバーチャルに共有したり、ポスターとして印刷して掲示したりすることができます。
 
 
-  **Experimentation**: It is encouraged to experiment with the type of process reviewed. This activity works well for all industries and business categories.
+  **実験的**: どのようなプロセスを見直すか実験することが奨励されます。このアクティビティは、あらゆる業種や業態に有効です。
 
 
-  **Supply list for whiteboard:**
+  **ホワイトボード備品リスト:**
 
 
-  * Painters Tape (1” for Action rows, ¼” for Lines rows)
+  * ペインターズテープ (アクション列は1インチ、ライン列は1/4インチ)
 
-  * Dry Erase pens (multiple colours)
+  * ペン (複数の色)
 
-  * Camera(s) for documenting
+  * ドキュメント化のためのカメラ
 
-  * Sticky notes & Sharpies for good measure
+  * 付箋 & 念のためのシャープペン
 
 
-  **Supply list for wall space:**
+  **壁面用備品リスト:**
 
 
-  * Butcher Paper (white is best - might need two rows of paper)
+  * ブッチャー・ペーパー（白がベスト-2列必要かもしれない）
 
-  * Markers (multiple colours)
+  * マーカー (複数の色)
 
-  * or Sticky notes (multiple colours) & Sharpies
+  * or 付箋 (複数の色) & シャープぺん
 
-  * Camera(s) for documenting
+  * ドキュメント化のためのカメラ
 mediaGallery:
   - link: https://openpracticelibrary.github.io/opl-media/images/blueprint_concept_sketch.jpg
   - link: https://openpracticelibrary.github.io/opl-media/images/service_design_blueprint.png
@@ -408,5 +398,5 @@ It is encouraged to experiment with the type of process reviewed. This activity 
 
 ## Related Practices
 
-- [Event Storming](https://openpracticelibrary.com/practice/event-storming)
-- [Impact Mapping](https://openpracticelibrary.com/practice/impact-mapping)
+- [Event Storming](https://openpracticelibrary-ja.netlify.app/practice/event-storming)
+- [Impact Mapping](https://openpracticelibrary-ja.netlify.app/practice/impact-mapping)
