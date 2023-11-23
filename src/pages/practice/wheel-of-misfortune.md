@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Wheel-of-Misfortune
-subtitle: A game that aims to build confidence via simulated outage scenarios.
+title: インシデントのルーレット(Wheel of Misfortune)
+subtitle: インシデントシナリオを解決し、緊急対応を訓練するゲーム
 date: 2021-08-03T10:33:49.317Z
 authors:
   - msanecki
@@ -12,86 +12,83 @@ tags:
 mobiusTag: foundation
 icon: /images/fposter-small-wall_texture-product-750x1000.u5.jpg
 whatIs: >-
-  You can see the Wheel of Misfortune as an informal exercise or a game that
-  aims to build confidence to on-call engineers via simulated outage scenarios. 
+  インシデントのルーレット(Wheel of Misfortune)は、サービスが停止した場合を想定してオンコールエンジニア(緊急時対応を受け持つ運用担当)の対応を模擬し、対応力の自信をつけるためのゲームです。
 
 
-  With the game:
+  このゲームを通じて：
 
+  * ストレス下での問題解決とデバッグを訓練します。
 
-  * you practice problem debugging and solving under stress
+  * インシデント対応プロトコルの理解を深めます。
 
-  * you ensure the understanding of the incident response protocol
+  * チームや組織の他のエンジニアとの効果的なコミュニケーションを促進します。
 
-  * you promote effective communication with other engineers of your team and organization
+  * 他者の責任を批難しない文化を強調し促進します。
 
-  * you emphasize and promote blameless culture
-
-  * you share the experience of past incidents
-
+  * 過去のインシデントの経験を共有します。
 
 
 
 
-  Many thanks to:
+  Thanks to:
 
 
-  * Pavlos Ratis ([dastergon](https://github.com/dastergon)) for creating&publishing tooling for the game
+  * Pavlos Ratis ([dastergon](https://github.com/dastergon)): ゲームのためのツールを作成・公開してくれました。
 
-  * Jakub Filipczak ([jfilipcz](https://github.com/jfilipcz)) & Pavlos Ratis ([dastergon](https://github.com/dastergon)) for discussion about the idea and how to extend it for other purposes
+  * Jakub Filipczak ([jfilipcz](https://github.com/jfilipcz)) & Pavlos Ratis ([dastergon](https://github.com/dastergon)): アイデアと、このプラクティスの用途を広げる方法についてディスカッションしてくれました。
 whyDo: >-
-  It is a great way to train new hires, interns, and seasoned engineers to
-  become well-rounded on-call engineers.
+  これは、新入社員、インターン、経験豊富なエンジニアを、万能なオンコールエンジニアに育成するための優れた方法です。
 
 
-  Going beyond the initial idea you can use it to check how good your team or organization is prepared for unexpected events whatever it could be.
+  チームや組織が予期せぬ出来事にどれだけ備えているかをチェックするためにも使えます。
 
 
-  Depending on the way you lead the exercise, it can also be an opportunity to verify your monitoring/alerting works the way you think it does.
+  やり方によっては、意図した通りにモニタリングやアラートが機能しているかどうかを確認することも可能です。
 howTo: >-
-  #### Terminology
+  #### 用語
 
 
-  * Scenario: A past or fictional incident case.
+  * シナリオ：過去または架空のインシデントケース。
 
-  * Game Master: The host-coordinator of the session.
+  * ゲームマスター：セッションのホスト兼コーディネーター。
 
-  * Volunteer: The trainee oncall engineer.
+  * ボランティア：トレーニング中のオンコールエンジニア。
 
-    **Game Master** 
+    **ゲームマスター** 
 
-  1. Choose a volunteer to be the primary oncall engineer in front of the group.
+  1. プライマリーオンコールエンジニアとなるボランティアを選びます。
 
-  2. Find a balance between volunteer's experience and incident's difficulty.
+  2. ボランティアの経験とインシデントの難易度を把握しておきます。
 
-  3. Assist volunteers by answering questions that may arise in each theoretical action or dashboard observation. Engage with the rest of the team and ask for different ways to debug the problem following the volunteer's explanation.Team members may be made available over time for assistance in various topics.
+  3. インシデントへの対応アクションやダッシュボードの観察から生じる質問に答え、ボランティアを支援します。さらに、ボランティアの説明に基づいて、問題解決のためのさまざまなアプローチをチームの他のメンバーと共に探求します。また、チームメンバー様々なトピックに関する支援を提供できるように成長することでしょう。
 
-  4. At the end, have a debrief on the learnings of the session.
+  4. 最後に、セッションの学びについての報告会を実施します。
 
-     **Volunteer**  
-  5. Spin the wheel and attempt to fix the theoretical outage scenario.
+     **ボランティア**  
+  5. ルーレットを回して取り組むインシデントシナリオを決定します。
 
-  6. Explain to the Game Master and the rest of the group what actions you would take (lookup queries, checks in dashboards, etc.) to find the root causes, and eventually solve the incident.
+  6. インシデントに対してどのようなアクションを取るか（クエリの検索、ダッシュボードでのチェックなど）をゲームマスターや他のグループメンバーに説明し、根本原因を見つけてインシデントを解決します。
 
-  7. Always keep an eye on the time, since it is a simulated incident response scenario and not a routine troubleshooting process. During a real incident you might have an SLA or SLO breach and therefore you should take timing into account.
+  7. これはインシデント対応の模擬であり、通常のトラブルシューティングプロセスではないですが、本番同様に常に時間を意識すべきです。実際のインシデントではSLAやSLO違反が発生する可能性があるため、時間を考慮する必要があります。
 
-  8. Engage with the rest of the group. Keep them in the loop. Ask questions to different members depending on their expertise.
+  8. グループの残りのメンバーを巻き込みましょう。専門知識に応じて異なるメンバーに質問します。
+  9. Spin the wheel and attempt to fix the theoretical outage scenario.
 
-   **Tooling** 
+   **ツール** 
 
-  You can use this nice tool for your team/organization: https://dastergon.gr/wheel-of-misfortune/
+  右記の有用なツールが利用できます: https://dastergon.gr/wheel-of-misfortune/
 
 
-  Instruction: https://dastergon.gr/wheel-of-misfortune/instructions.html
+  説明: https://dastergon.gr/wheel-of-misfortune/instructions.html
 
 
   ![Game](/images/screenshot-from-2021-08-03-12-53-35.png)
 
 
-  Most importantly, **have fun**!
+  最も重要なことは, **楽しく実践することです**!
 
 
-  You can read a comprehensive example on how to conduct the exercise [here](https://landing.google.com/sre/book/chapters/accelerating-sre-on-call.html#xref_training_disaster-rpg).
+  このエクササイズをどのように行うかについての包括的な例は[こちら](https://landing.google.com/sre/book/chapters/accelerating-sre-on-call.html#xref_training_disaster-rpg)。
 time: 2+
 difficulty: easy
 participants:
