@@ -1,9 +1,8 @@
 ---
 templateKey: practice-page
-title: Stop the World Event
+title: ストップ・ザ・ワールド・イベント
 subtitle: >-
-  Empower team members to stop everything when they feel engagement is off
-  course
+  エンゲージメントが軌道から外れていると感じたら、チームメンバーにすべてを止める権限を与える
 date: 2017-10-26T20:20:14.000Z
 authors:
   - mtakane
@@ -12,69 +11,59 @@ icon: /images/final_stop-the-world.png
 tags:
   - culture
 whatIs: >-
-  A "Stop the World" event is when somebody on the Team identifies that the
-  engagement is off-course for one reason or another. The *FULL* Team then works
-  together to find a compromise that is acceptable to all and continues progress
-  towards customer success. By the end of the "Stop the World" event, the team
-  should:
+  ”ストップ・ザ・ワールド "イベントとは、チーム内の誰かが、エンゲージメントが何らかの理由で軌道から外れていると感じた時のことです。その後、チーム *全員* が協力して、納得できる妥協点を見つけ、顧客の成功に向けて前進を続けます。"ストップ・ザ・ワールド"イベントが終了するまでに、チームは以下のことを行う必要があります：
 
-  - All be in agreement with the proposed compromise
+  - 全員が妥協案に同意すること
 
 
-  - Identify actions or changes and owners
+  - アクションまたは変更と所有者を特定すること
 
 
-  - Maintain good Psychological Safety among the Team
+  - チーム内の心理的安全性を保つこと
 whyDo: >-
-  - There is an aspect of the engagement that is found to be missing. A key
-  output or outcome that supports customer success.
+  - エンゲージメントに欠けている側面がある場合。顧客の成功を支えるアウトプットや成果のための重要な要素になる。
 
 
-  - A practice or an outcome needs to change based on new customer information.
-  This change is one that would fundamentally change an output or outcome
-  previously agreed to.
+  - 新たな顧客情報に基づいてプラクティスや成果を変更する必要がある場合。この変更は、以前に合意したアウトプットや結果を根本的に変更するものである。
 
 
-  - The delivery team skillset changes for any reason that would affect customer
-  success.
+  - 顧客の成功に影響を与えるような理由で、デリバリーチームのスキルセットが変更された場合。
 
 
-  - Priority with the customer fundamentally changes the previously agreed
-  direction of the delivery team.
+  - それまで合意していたデリバリー・チームの方向性や優先順位を根本的に変える場合。
 
 
-  - An previously agreed to input to a practice is not met or will not be met.
+  - 以前合意したプラクティスへのインプットが満たされない、または満たされる見込みがない場合。
 howTo: >-
-  ## Who do you need?
+  ## 誰が必要か？
 
-  - Facilitator
+  - ファシリテーター
 
-  - Entire Team Involved
-
-
-  ## Suggested Time
-
-  - Until Consensus is reached
+  - チーム全体が参加
 
 
-  ## Difficulty
+  ## 推奨時間
 
-  - Facilitator: Difficult
-
-  - Participants: Moderate
+  - 合意が取れるまで
 
 
-  ## Facilitation Materials Needed
+  ## 難易度
 
-  - Comfortable setting to hold a conversation among just team members
+  - ファシリテーター: 難しい
 
-  - Additional needs determined by the team to hold the conversation
+  - 参加者: 中程度
 
 
-  ## How does it fit?
+  ## ファシリテーションに必要なもの
 
-  - Typically done in the Culture and Collaboration area of the Foundation of
-  the Open Practice Library
+  - チームメンバーだけで会話ができる快適な環境
+
+  - 会話を行うためにチームが要求した追加ニーズ
+
+
+  ## どのようにフィットするのか？
+
+  - 一般的に、オープンプラクティスライブラリーのFoundation領域にある「文化とコラボレーション」エリアで行われます。
 mediaGallery:
   - link: >-
       https://github.com/openpracticelibrary/opl-media/blob/master/images/stop%20the%20world.jpg?raw=true
