@@ -31,12 +31,6 @@ whyDo: >-
   実験文化を育てるとき、すぐにプロセスの変更に取りかかるのは逆効果です、 
   というのも、あまりに急ぎすぎると、新しい仕事のやり方を採用するのを躊躇してしまうことが多いからです。
 howTo: >-
-  A small team led Lego Labs at [ProductCon
-  LA](https://www.meetup.com/productmanagementLA/events/265177941/) and this
-  practice outlines the progress of that session, including photos of
-  participants. This was with a group of 30+ product management professionals
-  from various organizations, who met for the first time that day. The workshop
-  was facilitated over the course of 90 minutes.
   このプラクティスでは、 [ProductCon
   LA](https://www.meetup.com/productmanagementLA/events/265177941/) でレゴラボを率いた小さなチームが、参加者の写真を交えてそのセッションの経過を概説します。
   この日は、様々な組織から30人以上のプロダクトマネジメントの専門家が集まり、初めて顔を合わせました。ワークショップは90分にわたって進行されました。
