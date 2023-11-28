@@ -1,6 +1,6 @@
 ---
 templateKey: practice-page
-title: インシデントのルーレット(Wheel of Misfortune)
+title: 不幸の輪（ホイール・オブ・ミスフォーチュン）
 subtitle: インシデントシナリオを解決し、緊急対応を訓練するゲーム
 date: 2021-08-03T10:33:49.317Z
 authors:
@@ -12,7 +12,8 @@ tags:
 mobiusTag: foundation
 icon: /images/fposter-small-wall_texture-product-750x1000.u5.jpg
 whatIs: >-
-  インシデントのルーレット(Wheel of Misfortune)は、サービスが停止した場合を想定してオンコールエンジニア(緊急時対応を受け持つ運用担当)の対応を模擬し、対応力の自信をつけるためのゲームです。
+  不幸の輪(Wheel of Misfortune)は、サービスが停止した場合を想定してオンコールエンジニア(緊急時対応を受け持つ運用担当)の対応を模擬し、対応力の自信をつけるためのゲームです。
+  インシデント（不幸な出来事）を書いたルーレット（Wheel、輪）を回してインシデントをゲームで取り組む対象を選び、解決に取り組みます。
 
 
   このゲームを通じて：
@@ -72,7 +73,6 @@ howTo: >-
   7. これはインシデント対応の模擬であり、通常のトラブルシューティングプロセスではないですが、本番同様に常に時間を意識すべきです。実際のインシデントではSLAやSLO違反が発生する可能性があるため、時間を考慮する必要があります。
 
   8. グループの残りのメンバーを巻き込みましょう。専門知識に応じて異なるメンバーに質問します。
-  9. Spin the wheel and attempt to fix the theoretical outage scenario.
 
    **ツール** 
 
