@@ -1,9 +1,7 @@
 ---
 templateKey: practice-page
-title: Lego Labs
-subtitle: Experiment with processes for rapidly developing digital products. Go
-  from problem to prototype with feedback and iterations while building a Colony
-  on Mars (with legos)!
+title: Lego Labs（レゴラボ）
+subtitle: デジタルプロダクトを迅速に開発するためのプロセスを実験します。火星にコロニーを（レゴで）作りながら、問題からプロトタイプへとフィードバックと反復を行います！
 date: 2020-09-29T18:11:00.000Z
 authors:
   - darcief
@@ -13,26 +11,25 @@ tags:
   - learn
 mobiusTag: foundation
 icon: /images/productcon_legolabs_010.png
-whatIs: Legos inspire creativity and nostalgia, they also offer a great building
-  block for experimentation (no pun intended 😜 ). This workshop is for large or
-  small groups of people to experiment with software processes and is especially
-  helpful in gaining buy-in for new ways of working. The session touches upon
-  human-centered design, lean product development and agile delivery.
+whatIs: レゴは創造性とノスタルジーを刺激し、実験のための素晴らしい組み立てブロックでもあります。
+  このワークショップは、大人数または少人数のグループでソフトウェアのプロセスを実験するためのもので、
+  特に新しい働き方への賛同を得るのに役立ちます。
+  このセッションでは、人間中心設計、リーン製品開発、アジャイルデリバリーについて触れます。
 whyDo: >-
-  The Lego Labs workshop provides an opportunity to learn and practice iterative
-  approaches to building software in an environment free of the pressure of
-  business requirements. Participants of Lego Labs will fail fast and celebrate
-  successes while fostering camaraderie with teammates.
+  レゴラボ・ワークショップは、ビジネス要件のプレッシャーから解放された環境で、
+  ソフトウェアを構築するための反復的アプローチを学び、実践する機会を提供します。
+  レゴラボの参加者は、チームメイトとの友情を育みながら、素早く失敗し、成功を祝います。
 
 
-  > ### *“One of the best things a company can do when it comes to innovation is to provide employees with the time and resources they need to freely experiment with new techniques....”*
+  > ### *“イノベーションに関して企業ができる最善のことのひとつは、従業員が自由に新しい技術を試すのに必要な時間とリソースを提供することです...”*
 
   >
 
-  > ##### *— “8 Significant Ways to Foster a Culture of Experimentation,” Forbes*
+  > ##### *— 「実験文化を育てる8つの重要な方法」フォーブス誌
 
 
-  When growing a culture of experimentation it can be counterproductive to jump right into changes in process, primarily because too much too fast often deters people from adopting new ways of working.
+  実験文化を育てるとき、すぐにプロセスの変更に取りかかるのは逆効果です、 
+  というのも、あまりに急ぎすぎると、新しい仕事のやり方を採用するのを躊躇してしまうことが多いからです。
 howTo: >-
   A small team led Lego Labs at [ProductCon
   LA](https://www.meetup.com/productmanagementLA/events/265177941/) and this
@@ -40,202 +37,207 @@ howTo: >-
   participants. This was with a group of 30+ product management professionals
   from various organizations, who met for the first time that day. The workshop
   was facilitated over the course of 90 minutes.
+  このプラクティスでは、 [ProductCon
+  LA](https://www.meetup.com/productmanagementLA/events/265177941/) でレゴラボを率いた小さなチームが、参加者の写真を交えてそのセッションの経過を概説します。
+  この日は、様々な組織から30人以上のプロダクトマネジメントの専門家が集まり、初めて顔を合わせました。ワークショップは90分にわたって進行されました。
 
 
-  > ### *It is the year 2099. Earth is still awesome, but overpopulated. Interplanetary City Builders, Inc. has been awarded a contract to build the First Colony on Mars.* 👽
+  > ### *時は2099年。地球はまだ素晴らしいが人口過剰。インタープラネタリー・シティ・ビルダーズ社は、火星にファースト・コロニーを建設する契約を獲得しました。* 👽
 
   >
 
-  > ### *There is efficient transportation to-and-from the planet* 🚀 *and the necessary infrastructure is in place for workers to build quickly. The people who will colonize Mars have visited and are aware of the challenges so they will be involved in progress reviews to provide feedback.*
+  > ### *火星との効率的な往復交通手段 🚀があり、作業員が迅速に建設するために必要なインフラが整っています。火星をコロニー化することになる人々は、火星を訪れ、課題を認識しているため、進捗状況のレビューに参加し、フィードバックを提供します。*
 
   >
 
-  > ### *Two employees have been hired as Product Owners to guide the direction, Colonists are available to learn from, and a team of people are ready to start building.* 🛠
+  > ### *方向性を導くプロダクト・オーナーとして2人の社員が採用され、コロニストは学ぶために利用可能であり、チームの人々は建設を開始する準備ができています。* 🛠
 
 
-  ## ✔️ PLAN: Workshop Setup
+  ## ✔️ プラン: ワークショップのセットアップ
 
 
-  There is pre-production that will need to be completed as well as supplies prepared. Some things to consider include:
+  プリプロダクトを完成させ、材料を準備する必要があります。考慮すべき点は以下の通りです：
 
 
-  * Assign a facilitator and co-facilitator, the Product Owners
+  * ファシリテーターと共同ファシリテーターであるプロダクトオーナーをアサインします。
 
-  * Determine participants as employees / product teams
+  * 従業員／プロダクトチームとしての参加者を決定します。
 
-  * Decide on participants as Colonists (aka users for testing with)
+  * コロニスト（一緒にテストするユーザー）としての参加者を決定します。
 
-  * Schedule a time and place for the workshop & plan 1-3 hours
+  * ワークショップの時間と場所を決め、1～3時間の計画を立てます。
 
-  * [Create a presentation](https://drive.google.com/file/d/17qUa6JWR8ODGVqJ4IqRrTCm5n-IyZz_x/view?usp=sharing) document as facilitator’s guide (more templates in ‘links we love’ below)
+  * ファシリテーター・ガイドとして [プレゼンテーション・ドキュメントを作成](https://drive.google.com/file/d/17qUa6JWR8ODGVqJ4IqRrTCm5n-IyZz_x/view?usp=sharing) します（以下の「私たちが気に入っているリンク」にテンプレートがあります）
+  
+  * [プロセスの概要](https://drive.google.com/file/d/1CAWE9y8xNi7PIE08muHn3207MRaivEGk/view?usp=sharing) とコロニーの詳細をまとめた資料を作成します（以下のリンクに詳細な例があります）
 
-  * Make handouts of [process overview](https://drive.google.com/file/d/1CAWE9y8xNi7PIE08muHn3207MRaivEGk/view?usp=sharing) and Colony specifics (more examples in links below)
+  * 宇宙をテーマにした [プレイリスト](https://open.spotify.com/playlist/6FxlgF1Sw4OPkFam7UZbys?si=xxlMIvbwTUOK47jCvaoMHg) を作成して、楽しい雰囲気を演出します。
+  Create a space-y themed [playlist](https://open.spotify.com/playlist/6FxlgF1Sw4OPkFam7UZbys?si=xxlMIvbwTUOK47jCvaoMHg) to invoke a fun ambience
 
-  * Create a space-y themed [playlist](https://open.spotify.com/playlist/6FxlgF1Sw4OPkFam7UZbys?si=xxlMIvbwTUOK47jCvaoMHg) to invoke a fun ambience
+  * 必要なもの：レゴのピースとベースプレート、シャープペン、鉛筆と紙、プリントアウトした資料、3x3と8x6の付箋紙（ [ほしいものリスト](https://www.amazon.com/hz/wishlist/dl/invite/9uLky61?ref_=wl_share)を作成しましょう）
 
-  * Supplies needed: Assorted lego pieces & baseplates, sharpies, pencils & paper, printed handouts, sticky notes 3x3 + 8x6 (create a [shopping list](https://www.amazon.com/hz/wishlist/dl/invite/9uLky61?ref_=wl_share))
+  * 火星の地図：火星の大きな画像からカードストックに印刷できます。
 
-  * Map of Mars: This can be printed on card stock from a large image of the planet
-
-  * Brainstorming food: Healthy snacks and drinks for sessions longer than an hour
-
-
-  **Note:** Determining who should participate can be tough. In addition to cross-functional product team roles it is important to include leadership and different lines of business, which will help gain empathy and understanding of processes across an entire organization.
+  * ブレーンストーミング用の食べ物：1時間以上のセッションには健康的なスナックと飲み物が必要です。
 
 
-  ## ✔️ STEP 0: Agenda
+  **備考:** 誰が参加すべきかを決めるのは難しいことです。機能横断的なプロダクトチームの役割に加え、リーダーシップや異なるビジネスラインを含めることが重要です。これは、組織全体のプロセスの共感と理解を得るのに役立ちます。
 
 
-  Every good session should have an agenda. These steps can be added to a whiteboard or printed for participants to have an overview of the time together.
+  ## ✔️ ステップ 0：アジェンダ
 
 
-  1. **Intro & Scenario**
-
-  2. **Discovery to Roadmap**
-
-  3. **Teams to Ideation**
-
-  4. **Sprint 1 Planning**
-
-  5. **Sprint 1 Delivery**
-
-  6. **Feedback & Options**
-
-  7. **Sprint 2 Planning & Delivery**
-
-  8. **Reflect & Admire**
+  良いセッションには、必ずアジェンダが必要です。これらの手順をホワイトボードに書き込んだり、印刷したりして、参加者が一緒に過ごす時間の概要を把握できるようにします。
 
 
-  Plan the workshop according to the timeframe available. Each step can be shortened or lengthened based upon what is desired to be learned. For example, the second sprint can be removed or some of the exercises combined if necessary.
+  1. **イントロ＆シナリオ**
+
+  2. **ディスカバリーからロードマップへ**
+
+  3. **チームからアイデアへ**
+
+  4. **スプリント1 プランニング**
+
+  5. **Sスプリント1 デリバリー**
+
+  6. **フィードバックとオプション**
+
+  7. **スプリント2 プランニングとデリバリー**
+
+  8. **Rふりかえりと称賛**
 
 
-  ## ✔️ STEP 1: Intro & Scenario
+  利用可能な時間枠に応じてワークショップを計画してください。各ステップは、何を学びたいかによって、短くしたり長くしたりすることができます。例えば、必要であれば、2つ目のスプリントを削除したり、いくつかのエクササイズを組み合わせたりすることができます。
 
 
-  The goal in this step is to help participants know what to expect. After a brief introduction to why the workshop is happening, start with a [Social Contract](https://openpracticelibrary.com/practice/social-contract/) exercise to help instill a sense of trust amongst the group. Use participant handouts to assist in understanding the scenario and logistics for building a Colony on Mars. [The Mobius Loop](https://drive.google.com/file/d/1CAWE9y8xNi7PIE08muHn3207MRaivEGk/view?usp=sharing) process map may also be printed and available to discuss phases of iteration and steps for the workshop.
+  ## ✔️ ステップ 1：イントロ＆シナリオ
 
 
-  **Note:** Use the Interplanetary City Builders, Inc. scenario outlined above or be creative and develop something new based on session goals.
+  このステップの目的は、参加者に何を期待するかを知ってもらうことです。なぜこのワークショップが行われるのかを簡単に紹介した後、グループ間の信頼感を植え付けるために、[社会契約](https://openpracticelibrary.com/practice/social-contract/) の演習から始めます。火星にコロニーを作るためのシナリオとロジスティクスを理解するために、参加者用の資料を使います。[メビウス・ループ](https://drive.google.com/file/d/1CAWE9y8xNi7PIE08muHn3207MRaivEGk/view?usp=sharing) のプロセス・マップを印刷し、反復の段階やワークショップのステップについて話し合うために利用することもできます。
 
 
-  ## ✔️ STEP 2: Discovery to Roadmap
+  **備考:** 上記の「インタープラネタリー・シティ・ビルダーズ社」のシナリオを使うか、セッションの目標に基づいた新しいものを創造的に作成してください。
 
 
-  First is Discovery of the problem space where participants have an opportunity to ask questions of the Product Owners and the Colonists. Give a quick overview on how to conduct qualitative research and encourage note-taking on an [Empathy Map](https://openpracticelibrary.com/practice/empathy-mapping/), then allow the participants to ask open-ended questions and learn more. The goal is to get an understanding of the challenges and determine areas of the Colony that must be built.
+  ## ✔️ ステップ 2：ディスカバリーからロードマップへ
 
 
-  Next give a quick introduction to creating a Product Roadmap and explain the difference between Epics and Features. With insights from Discovery fresh in mind, ask the participants a [How Might We](https://openpracticelibrary.com/practice/hmw/) question to brainstorm out loud the high level build areas for the Colony, which will be the Epics. As ideas are shared, write those onto the 8x6 sticky pad, after ideation consolidate similar topics and collaborate on adding build areas to the Spine of the Roadmap.
+  最初に、参加者がプロダクトオーナーとコロニストに質問する機会を持つ、問題空間の探索（ディスカバリー）を行います。定性調査の方法について簡単に説明し、[共感マップ](https://openpracticelibrary.com/practice/empathy-mapping/) にメモを取るように促し、参加者が自由形式の質問をして、さらに学びを深めるようにします。その目的は、コロニーの課題を理解し、コロニーの建設が必要な分野を決定することです。
+
+
+  次にプロダクトロードマップの作り方を簡単に紹介し、エピックとフィーチャの違いを説明します。ディスカバリーでの洞察が新鮮なうちに、参加者に[How Might We](https://openpracticelibrary.com/practice/hmw/) の質問をして、コロニーのハイレベルな構築領域（エピックとなる）を声に出してブレインストーミングしてもらいます。アイデアが共有されたら、それらを8x6の付箋に書き込みます。アイデア出しの後、似たようなトピックを統合し、ロードマップの「背骨」にビルドエリアを追加するために協力します。
 
 
   ![ProductCon - Lego Labs](/images/legolabs-opl_1.png "Learning from Colonist")
 
 
-  ##### Facilitating Lego Labs at ProductCon in Los Angeles for a VIP group of conference attendees.
+  ##### ロサンゼルスで開催されたProductConで、会議参加者のVIPグループを対象にレゴ・ラボのファシリテーターを務めました。
 
 
-  ## ✔️ STEP 3: Teams to Ideation
+  ## ✔️ ステップ 3：チームからアイデアへ
 
 
-  Now that the Colony Epics have been determined, give an overview about working in cross-functional teams. Discuss the role of a Product Manager as voice of the business, a Product Designer as voice of the user, and a Software Engineer as voice of the system.
+  コロニーエピックが決定されたので、部門横断的なチームでの作業について概要を説明してください。ビジネスの代弁者としてのプロダクトマネージャー、ユーザーの代弁者としてのプロダクトデザイナー、システムの代弁者としてのソフトウェアエンジニアの役割について議論してください。
 
 
-  Allow participants to self-assign into groups of three based on those roles and choose a Mars build area (Epic) to focus upon. Each product team now has a set amount of time to brainstorm together what they will build as specific Features for the Colony area chosen. These features should be noted on 3x3 sticky and consolidated.
+  参加者は、役割に応じて3人1組のグループに分かれ、火星で重点的に開発するエリア（エピック）を選びます。各プロダクトチームは、選択したコロニーエリアの具体的な機能として何を構築するか、ブレインストーミングを行います。これらのフィーチャーは、3x3の付箋に書き留め、集約します。
 
 
   ![ProductCon - Lego Labs](/images/legolabs-opl_2.png "Ideation sessions")
 
 
-  ###### The teams ideating feature solutions for their build area.
+  ###### ビルドエリアの機能ソリューションのアイデアを出すチーム。
 
 
-  **Note:** Encouraging participants to choose a role on the team other than their current profession can help in gaining empathy for cross-functional tasks. For a longer workshop timeframe consider adding a quick brainstorm for the groups to create their team name.
+  **備考:** 参加者に、現在の職業以外のチームでの役割を選択するよう促すことは、部門横断的な仕事に対する共感を得るのに役立ちます。ワークショップの時間枠をもう少し長くしたい場合は、グループでチーム名を作るための簡単なブレインストーミングを追加することを検討してください。
 
 
-  ## ✔️ STEP 4: Sprint 1 Planning
+  ## ✔️ ステップ 4：スプリント 1 プランニング
 
 
-  Allow the teams to add features under the Epic on the roadmap and discuss that this gives a holistic view across each build area. Give an overview of how to prioritize a stack rank of the Features based upon User Value – with most valuable features at the top of the stack.
+  各チームがロードマップのエピックの下にフィーチャーを追加できるようにし、これにより各ビルド領域にわたる全体的なビューが得られることを話し合います。ユーザー価値に基づく機能のスタック ランクの優先順位付け方法の概要を説明します。最も価値のある機能をスタックの最上位に据えます。
 
 
-  Once the stack feels relevant provide an introduction to using a simple Kanban board for each team to prioritize a backlog. Discuss that the features on the Roadmap can be translated into User Stories and have the Product Managers on each team prepare to manage completion of each item added to the backlog.
+  スタックが妥当であると判断したら、バックログに優先順位をつけるために、各チームで簡単なカンバンボードを使用することを紹介します。ロードマップ上の機能はユーザーストーリーに変換できることを話し合い、各チームのプロダクトマネージャーに、バックログに追加された各項目の完了を管理する準備をさせます。
 
 
   ![ProductCon - Lego Labs](/images/legolabs-opl_3.png "Roadmap and prioritizing ")
 
 
-  ###### Groups adding features to the Roadmap and deciding on stack rank.
+  ###### ロードマップに機能を追加し、スタックランクを決定するグループ。
 
 
-  ## ✔️ STEP 5: Sprint 1 Delivery
+  ## ✔️ ステップ 5：スプリント 1 デリバリー
 
 
-  Refer to the Mobius Loop handout and explain moving through to the Delivery phase of the product development process. Give an overview of the feedback loop cycles for Build, Measure, Learn. Ensure team members keep the vision and Colonist’s needs in-mind.
+  配布資料メビウス…ループを参照し、プロダクト開発プロセスのデリバリー段階への移行について説明します。構築、測定、学習のフィードバックループサイクルの概要を説明します。チームメンバーがビジョンとコロニストのニーズを念頭に置いていることを確認します。
 
 
-  Detail a basic task list for building prototypes: 1) Build 2) Approve 3) Iterate 4) Repeat. Ensure the group understands the goal is to complete more than one feature / user story from their backlog. Allow teams to deploy the prototypes to the Mars Colony Map after completing a story or provide a couple minutes at the end of the building to do so.
+  プロトタイプを作るための基本的なタスクリストを詳しく説明します： 1) 作る 2) 承認する 3) 反復する 4) 繰り返す。バックログから複数の機能/ユーザーストーリーを完成させることがゴールであることをグループに理解させます。プロトタイプを火星コロニー・マップにデプロイする時間は、1つのストーリーを終えた後か、「1) 作る」工程の最後に数分間設けてください。
+
 
 
   ![ProductCon - Lego Labs](/images/legolabs-opl_4.png "Building rapid prototypes")
 
 
-  ###### People who had never met each other before working closely to create a Lego prototype.
+  ###### レゴのプロトタイプを作るために、初対面の人たちが緊密に協力し合っています。
 
 
-  ## ✔️ STEP 6: Feedback & Options
+  ## ✔️ ステップ 6：フィードバックとオプション
 
 
-  Refer back to the Mobius Loop and discuss the Options pivot, this is the time when teams will decide how to iterate based upon feedback. Provide some time for the entire group to now look at the prototypes holistically on the map.
+  メビウス・ループを参照し、オプションのピボットについて話し合います。これは、チームがフィードバックに基づいて反復する方法を決定する時間です。グループ全体がマップ上でプロトタイプを全体的に見る時間を設けます。
 
 
-  Allow the Colonists to study the work and think out loud about what they see or do not see. Product Owners should be sure to point out any reminders about the vision or goals. Teams can then ask clarifying questions about the feedback received. Talk to the group about developing actionable insights from user feedback, and ensure it is understood how that will inform iterations in the next sprint.
+  コロニストに製品を調査させて、見えているもの、見えていないものについて考えて声を出してもらいます。プロダクトオーナーは、ビジョンやゴールに関する注意点を指摘してください。チームは、受け取ったフィードバックについて明確な質問をすることができます。ユーザーからのフィードバックから実用的な洞察を得ることについてグループに話し、それが次のスプリントの反復にどのように反映されるかを理解させます。
 
 
   ![ProductCon - Lego Labs](/images/legolabs-opl_5.png "Feedback for iterations")
 
 
-  ###### Gathering feedback from the Colonists and Product Owners for iteration planning.
+  ###### コロニストとプロダクトオーナーからのフィードバックを集めて、イテレーションプランニングを行います。
 
 
-  Note: Most groups will immediately notice the holistic view of how each separate prototype connects with the other build areas on the Mars map. Often this develops some ideas about how to iterate, if this is not discussed Product Owners can point it out.
+  備考: ほとんどのグループは、それぞれのプロトタイプが火星マップ上の他のビルドエリアとどのようにつながっているかという全体的な見方にすぐに気づくでしょう。もしプロダクトオーナーがこれについて議論していなければ、指摘してください。
 
 
-  ## ✔️ STEP 7: Sprint 2 Planning & Delivery
+  ## ✔️ ステップ 7：スプリント 2 プランニングとデリバリー
 
 
-  At this point teams should be comfortable with the sprint process and some may be ahead of the group in planning out iterations for the prototypes. Before jumping in, ensure the teams are thinking about any Hangover Work that did not get done from the first sprint. This can be incorporated into what is built next.
+  この時点で、チームはスプリントのプロセスに慣れているはずで、プロトタイプのイテレーションを計画することで、グループの先を行っているチームもあるかもしれません。スプリントに入る前に、チームが最初のスプリントで完成しなかったハングオーバー・ワークについて考えていることを確認してください。これは、次に作るものに組み込むことができます。
 
 
   ![ProductCon - Lego Labs](/images/legolabs-opl_6.png "Workshop space")
 
 
-  ###### The full workshop room with Roadmap on the left side windows and Kanban board on the right.
+  ###### 左側にロードマップ、右側にカンバンボードが置かれたワークショップルーム。
 
 
-  ## ✔️ STEP 8: Reflect & Admire
+  ## ✔️ ステップ 8：ふりかえりと称賛
 
 
-  In true agile fashion, the workshop shall end with a [Retrospective](https://openpracticelibrary.com/practice/retrospectives/) for team reflection on what was learned and effectiveness of the session. Please also take time to admire how much creativity and dedication went into building an amazing lego Colony on Mars. If time is running short, consider a simple retrospective style such as Plus/Delta.
+  アジャイルの流儀に従い、ワークショップの最後には、セッションで学んだことやアジリティについてチームで振り返る[レトロスペクティブ（ふりかえり）](https://openpracticelibrary.com/practice/retrospectives/) を行います。また、火星に素晴らしいレゴコロニーを作るためにどれだけの創造性と献身があったかを賞賛する時間も取ってください。時間がない場合は、プラス/デルタのようなシンプルなレトロスペクティブスタイルを検討してください。
 
 
   ![ProductCon - Lego Labs](/images/productcon_legolabs_021.png "All prototypes on Mars map")
 
 
-  ###### The Colony prototypes added to Mars map with notes to identify features.
+  ###### 火星マップに追加された特徴を示すメモ付きのコロニーのプロトタイプ
 
 
-  **Note:** The Colony on Mars is one way to facilitate Lego Labs. If changing the scenario is what works best for participants feel free to do so!
+  **備考:** 火星のコロニーはレゴ・ラボを促進する一つの方法です。シナリオを変更することが参加者にとって最も効果的であれば、ご自由に変更してください！
 
 
   \_\_\_\__
 
 
-  ## ➡️ Tips for remote facilitation! ⬅️
+  ## ➡️ リモートでのファシリテーションのコツ！ ⬅️
 
 
-  The goal of Lego Labs is less about what is built and more about the practice and collaboration. This workshop can be redefined for a virtual environment by changing the scenario and setting.
+  レゴ・ラボの目標は、何を作るかよりも、実践とコラボレーションです。このワークショップは、シナリオや設定を変えることで、バーチャルな環境に再定義することができます。
 
 
-  The online lego modeling platform [mecabricks.com](https://www.mecabricks.com/) is an option for virtual building. Some other tools that work well for ideation and visual collaboration include [mural.co](https://mural.co/), [miro.com](https://miro.com/) or [Freehand](https://www.invisionapp.com/lp/ss-freehand-gen), and of course a video conference platform that works best for all participants involved should be utilized.
+  オンラインレゴモデリングプラットフォームの [mecabricks.com](https://www.mecabricks.com/) は、バーチャル建築のためのオプションです。アイデア出しやビジュアルコラボレーションに効果的な他のツールには、 [mural.co](https://mural.co/)、[miro.com](https://miro.com/) 、 [Freehand](https://www.invisionapp.com/lp/ss-freehand-gen) などがあります。もちろん、参加者全員にとって最適なビデオ会議プラットフォームも活用すべきです。
 mediaGallery:
   - link: https://images.squarespace-cdn.com/content/52fe796be4b0b557f85ce582/1601421361076-DHY58MPPUBOLNNHI1OUB/ProductCon_LegoLabs_03.png?format=1500w&content-type=image%2Fpng
   - link: https://images.squarespace-cdn.com/content/52fe796be4b0b557f85ce582/1601421518473-2W585GR9N7J44INP3UJJ/?format=1500w&content-type=image%2Fpng

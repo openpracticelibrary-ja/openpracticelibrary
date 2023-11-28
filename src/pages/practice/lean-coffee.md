@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Lean Coffee
-subtitle: Democratically generated agendas for more valuable conversations
+title: リーンコーヒー
+subtitle: より価値ある対話のための民主的なアジェンダの作成
 date: 2019-06-29T14:43:28.242Z
 authors:
   - prakritiverma
@@ -10,45 +10,45 @@ tags:
 mobiusTag: foundation
 icon: /images/lean-coffee-2.jpg
 whatIs: >-
-  * Lean Coffee started in Seattle in 2009 by Jim Benson and Jeremy Lightsmith
+  * リーンコーヒーは2009年にジム・ベンソンとジェレミー・ライトスミスによってシアトルでスタートしました。
 
-  * A structured, but agenda-less meeting.  Participants gather, build an agenda, and begin talking.
+  * 構造化された、アジェンダのない会議。参加者が集まり、アジェンダを作り、話し始めます。
 
-  * Intentionally minimalist - to be the least structure necessary for a coherent and productive meeting
+  * 意図的なミニマリズム - 首尾一貫した生産的な会議に必要な最小限の構造です。
 whyDo: |-
-  * Surfaces topics that the participants want to discuss
-  * Helps create more value out the of conversation since it's participant-run
-  * For meetings with a specific focus, add scope to the discussion topics
+  * 参加者が議論したいトピックが見つかります。
+  * 参加者が運営するため、会話からより多くの価値を生み出すことができます。
+  * 焦点を絞った会議では、ディスカッショントピックに幅を持たせます。
 howTo: >-
-  ### Materials Needed
+  ### 必要な材料
 
-  * Writing utensils for all participants (markers are easier to read from a distance)
+  * 参加者全員分の筆記用具（遠くからでもマーカーで書くと見やすい）
 
-  * Sticky notes (any medium size: 3x3, 4x6, etc)
+  * 付箋紙（3x3、4x6など、中サイズのもの）
 
-  * Time keeping device
+  * 時間を計る装置
 
-  * Wall surface or table
+  * 壁面またはテーブル
 
-  ### How to use it
+  ### やり方
 
-  * Set up a Personal Kanban with three columns:
-    * To Discuss
-    * Discussing
-    * Discussed
+  * 3つの列を持つパーソナルカンバンを作成します：
+    * 議論対象
+    * 議論中
+    * 議論終了
 
-  * What to discuss
-    * Ask each person to write down topics they would like to talk about on separate sticky notes.  Time-box to a few minutes, ideally 3-5.
-    * Lay out the topics and group duplicates or similar discussion points
+  * 何について議論するか
+    * 各自に、話したいトピックを個別の付箋に書いてもらいます。時間枠は数分、理想的には3～5分です。
+    * トピックを並べ、重複する論点や類似する論点をグループ化します。
 
-  * Vote & talk
-    * Use Dot Voting to prioritize the topics
-    * Start the timer and move the highest priority topic to the "Discussing" column.  Have a volunteer start the conversation.
-    * At the end of a set time-box, ask the group if they want to keep talking about that topic or move on to the next by asking for a visual indicator, where:
-      * Thumbs up = "keep talking about this topic"
-      * Thumbs sideways = "no strong opinion either way"
-      * Thumbs down = "end discussion and switch to next topic"
-    * Keep updating the Kanban board.  Continue this until you are out of time or out of topics.
+  * 投票と対話
+    * ドット投票でトピックに優先順位付けします。
+    * タイマーをスタートさせ、優先順位の高いトピックを「議論中」の欄に移動させます。ボランティアに会話を始めてもらいます。
+    * 決められたタイムボックスが終わったら、そのトピックについて話を続けるか、次のトピックに移るかをグループに尋ねます：
+      * 親指を立てる＝"このトピックについて話し続ける"
+      * 親指を横向き＝"どちらともいえない"
+      * 親指を下げる＝"議論を打ち切り、次のトピックに入れ替える"
+    * カンバンボードを更新します。これを、時間がなくなるか、トピックがなくなるまで続けます。
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/lean-coffee-2.jpg?raw=true
 resources:
@@ -73,37 +73,37 @@ perspectives: []
 ---
 ## What is it?
 
-* Lean Coffee started in Seattle in 2009 by Jim Benson and Jeremy Lightsmith
-* A structured, but agenda-less meeting.  Participants gather, build an agenda, and begin talking.
-* Intentionally minimalist - to be the least structure necessary for a coherent and productive meeting
+* リーンコーヒーは2009年にジム・ベンソンとジェレミー・ライトスミスによってシアトルでスタートしました。
+* 構造化された、アジェンダのない会議。参加者が集まり、アジェンダを作り、話し始めます。
+* 意図的なミニマリズム - 首尾一貫した生産的な会議に必要な最小限の構造です。
 
 ## Why use it?
 
-* Surfaces topics that the participants want to discuss
-* Helps create more value out the of conversation since it's participant-run
-* For meetings with a specific focus, add scope to the discussion topics
+* 参加者が議論したいトピックが見つかります。
+* 参加者が運営するため、会話からより多くの価値を生み出すことができます。
+* 焦点を絞った会議では、ディスカッショントピックに幅を持たせます。
 
 ## Materials Needed
 
-* Writing utensils for all participants (markers are easier to read from a distance)
-* Sticky notes (any medium size: 3x3, 4x6, etc)
-* Time keeping device
-* Wall surface or table
+* 参加者全員分の筆記用具（遠くからでもマーカーで書くと見やすい）
+* 付箋紙（3x3、4x6など、中サイズのもの）
+* 時間を計る装置
+* 壁面またはテーブル
 
 ## How to use it
 
-1. Set up a Personal Kanban with three columns: To Discuss, Discussing, Discussed
-2. What to discuss
-   * Ask each person to write down topics they would like to talk about on separate sticky notes.  Time-box to a few minutes, ideally 3-5.
-   * Lay out the topics and group duplicates or similar discussion points
-3. Vote & talk
-   * Use Dot Voting to prioritize the topics
-   * Start the timer and move the highest priority topic to the "Discussing" column.  Have a volunteer start the conversation.
-   * At the end of a set time-box, ask the group if they want to keep talking about that topic or move on to the next by asking for a visual indicator, where:
-     * Thumbs up = "keep talking about this topic"
-     * Thumbs sideways = "no strong opinion either way"
-     * Thumbs down = "end discussion and switch to next topic"
-   * Keep updating the Kanban board.  Continue this until you are out of time or out of topics.
+1. 3つの列を持つパーソナルカンバンを作成します：議論対象，議論中，議論終了
+2. 何について議論するか
+   * 各自に、話したいトピックを個別の付箋に書いてもらいます。時間枠は数分、理想的には3～5分です。
+   * トピックを並べ、重複する論点や類似する論点をグループ化します。
+3. 投票と対話
+   * ドット投票でトピックに優先順位付けします。
+   * タイマーをスタートさせ、優先順位の高いトピックを「議論中」の欄に移動させます。ボランティアに会話を始めてもらいます。
+   * 決められたタイムボックスが終わったら、そのトピックについて話を続けるか、次のトピックに移るかをグループに尋ねます：
+     * 親指を立てる＝"このトピックについて話し続ける"
+     * 親指を横向き＝"どちらともいえない"
+     * 親指を下げる＝"議論を打ち切り、次のトピックに入れ替える"
+   * カンバンボードを更新します。これを、時間がなくなるか、トピックがなくなるまで続けます。
 
 ## Further Information
 

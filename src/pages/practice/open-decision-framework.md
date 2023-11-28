@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Open Decision Framework
-subtitle: How to make transparent, inclusive, and customer-centric decisions
+title: Open Decision Framework（オープンな意思決定フレームワーク）
+subtitle: 透明性が高く、包括的で、顧客中心の意思決定を行う方法
 date: 2021-07-26T19:21:35.625Z
 authors:
   - ruhbehka
@@ -13,82 +13,74 @@ tags:
 mobiusTag: foundation
 icon: /images/odf.png
 whatIs: >-
-  Open decision making is an approach to arriving at actionable agreements
-  through participatory practices. It is **transparent**, **inclusive**, and
-  **customer-centric**. It involves clearly sharing problems, requirements, and
-  constraints with affected parties; collaborating purposefully with multiple
-  stakeholders to secure diverse opinions and comprehensive feedback; and
-  managing relationships and expectations across competing needs and priorities.
+  オープンな意思決定は、参加型の実践を通じて実行可能な合意に達するためのアプローチです。**透明性が高く、包括的で、顧客中心**です。問題、要件、制約を関係者と明確に共有すること、多様な意見や包括的なフィードバックを確保するために複数のステークホルダーと意図的に協力すること、競合するニーズや優先順位を超えて関係や期待を管理することが含まれます。
 
 
-  More generally, open decisions facilitate well-functioning meritocracies. For example; Open source communities are meritocratic to the extent that they pragmatically value concrete contributions over formal titles and encourage ideas from all corners of an organization.
+  より一般的には、オープンな意思決定は、十分に機能する能力主義を促進します。たとえば、オープンソースコミュニティは、形式的な肩書きよりも具体的な貢献を現実的に評価し、組織の隅々からのアイデアを奨励する点で、能力主義的です。
 
 
-  The Open Decision Framework illustrates how to take five open source principles--open exchange, participation, meritocracy, community, and “release early, release often”--and put them into practice throughout the process of making a decision or leading a project. The framework is flexible and offers practical steps designed to help teams collaborate with each other, identify and engage stakeholders, manage competing needs and priorities, communicate tradeoffs and business requirements, and make more open decisions.
+  オープンな意思決定フレームワークは、オープンな交流、参加、実力主義、コミュニティ、そして「早期にリリースし、頻繁にリリースする」というオープンソースの5つの原則を、意思決定やプロジェクトをリードするプロセスを通じて実践する方法を示しています。このフレームワークは柔軟性があり、チーム間のコラボレーション、ステークホルダーの特定と関与、競合するニーズと優先順位の管理、トレードオフとビジネス要件の伝達、よりオープンな意思決定を支援するために設計された実践的なステップを提供します。
 
 
-  *The Open Decision Framework is available under a Creative Commons CC-BY-SA 4.0 license, and all files are available on GitHub.*
+  *オープンな意思決定フレームワークは、クリエイティブ・コモンズのCC-BY-SA 4.0ライセンスの下で利用可能で、すべてのファイルはGitHubで入手できます。*
 whyDo: >-
-  The framework improves decision-makers ability to communicate transparently,
-  seek out diverse perspectives, collaborate more effectively across distributed
-  teams, and limit unanticipated impacts of business projects and decisions.
+  このフレームワークは、意思決定者が透明性のあるコミュニケーションを行い、多様な視点を求め、複数のチームにまたがるコラボレーションをより効果的に行い、ビジネスプロジェクトや意思決定が予期せぬ影響を受けないようにする能力を向上させます。
 
 
-  Red Hat's open culture – rooted in transparency, collaboration and meritocracy – was highlighted in *The Open Organization*, by Jim Whitehurst, the company's, then, president and CEO. 
+  透明性、コラボレーション、実力主義に根ざした Red Hat のオープンな文化は、当時の社長兼 CEO であった Jim Whitehurst 氏による *The Open Organization* で強調されています。
 
 
-  As interest in open source – both in technology and as the basis of open management and culture – has taken off, Red Hat created the Open Decision Framework to empower business leaders, decision-makers, and project managers to learn from the experiences of Red Hatters and openly contribute their findings back to the community.
+  オープンソースへの関心がー技術面でも、オープンな経営と文化の基盤としてもー高まる中、Red Hat はビジネスリーダー、意思決定者、プロジェクトマネージャーが Red Hatters の経験から学び、その成果をコミュニティに還元できるよう、オープンな意思決定フレームワークを作成しました。
 howTo: >-
-  The Open Decision Framework lists four steps (or "phases") that constitute the
-  open decision-making process:
+  オープンな意思決定フレームワークでは、オープンな意思決定プロセスを構成する4つのステップ（または「フェーズ」）を挙げています：
 
 
-  1. Ideation - Lead with transparency for the problem you wish to solve or make a decision on. Openly list possible approaches or constraints on the decision that are immovable.
+  1. アイディエーション - 解決したい、あるいは決断したい問題について、透明性をもってリードします。可能性のあるアプローチや、動かせない決定に対する制約をオープンにリストアップします。
 
-  2. Planning and research - Actively engage customers and collaborators. Solicit feedback and set the type of feedback desired. Be open about the timeframe, the scope, the feedback/research done, and how you will respond to negative commentary.
+  2. 企画とリサーチ - 顧客や協力者を積極的に巻き込みます。フィードバックを求め、望ましいフィードバックのタイプを設定します。時間枠、範囲、フィードバック／リサーチの完成度、否定的な意見への対応についてオープンにしましょう。
 
-  3. Design, development, and testing - Investigate the options generated from the feedback, highlight changes done based on the feedback and why other feedback was not feasible or used. Identify and leverage ambassadors to promote the options investigated.
+  3. 設計、開発、テスト - フィードバックから生まれた選択肢を検討し、フィードバックに基づいて行われた変更や、他のフィードバックが実現できなかった理由、使用されなかった理由を明らかにします。検討した選択肢を推進するアンバサダーを任命し、活用します。
 
-  4. Launch - Share the steps in making the decision (specifically the incorporation of the feedback). Acknowledge and be prepared to make the decision one that is continuously updated based on feedback.
-
-
-  You can use the Open Decision Framework with your teams today!  [download copies available online](https://opensource.com/open-organization/16/6/introducing-open-decision-framework). You can read the [plain text version](https://github.com/red-hat-people-team/open-decision-framework/blob/master/ODF-community.md) and even download [presentation slides](https://github.com/red-hat-people-team/open-decision-framework/blob/master/ODF-community.pdf) that explains the framework.
+  4. ローンチ - 意思決定（特にフィードバックの取り込み）のステップを共有します。フィードバックに基づき、継続的に更新される決定であることを認識し、準備をしてください。
 
 
-  You might also consider sharing the framework with your team's or organization's leadership. Track your team's progress using the [Open Decision Framework Maturity Model](https://github.com/red-hat-people-team/open-decision-framework/blob/master/maturity-model/Maturity-model-ODF.pdf)
+  オープンな意思決定フレームワークは、今すぐあなたのチームで使うことができます。[オンラインでダウンロード](https://opensource.com/open-organization/16/6/introducing-open-decision-framework)できます。[プレーンテキスト版](https://github.com/red-hat-people-team/open-decision-framework/blob/master/ODF-community.md) を読むことも、フレームワークを説明した[プレゼンテーションスライド](https://github.com/red-hat-people-team/open-decision-framework/blob/master/ODF-community.pdf) をダウンロードすることもできます。
 
 
-  ### The framework is powered by  open source principles:
+  また、フレームワークをチームや組織のリーダーと共有することも検討してください。[オープンな意思決定フレームワーク成熟度モデル(https://github.com/red-hat-people-team/open-decision-framework/blob/master/maturity-model/Maturity-model-ODF.pdf)を使用して、チームの進捗を追跡します。
 
 
-  **Open exchange**
+  ### このフレームワークはオープンソースの原則に基づいています：
 
 
-  Whether you're developing software or trying to solve a business problem, open exchange begins when you share your "source code" with others. A free exchange of ideas is critical to creating an environment where people can learn and use existing information to develop new ideas.
+  **オープンな情報交換**
 
 
-  **Participation**
+  ソフトウェアの開発であれ、ビジネス上の問題解決であれ、オープンな情報交換は「ソースコード」を他者と共有することから始まります。アイデアの自由な交換は、人々が学び、既存の情報を使って新しいアイデアを開発できる環境を作るために不可欠です。
 
 
-  When we are free to collaborate, we create. We can solve problems that no one person may be able to solve on their own. And when we can implement open standards, we enable others to participate in the future.
+  **参加型**
 
 
-  **Release early + often**
+  自由に協力し合えるとき、私たちは何かを創造します。一人では解決できないような問題を解決することができるのです。そして、オープンスタンダードを導入することで、他の人々が未来に参加できるようになるのです。
 
 
-  Rapid prototypes can lead to rapid failures, and that leads to better solutions faster. When you're free to experiment, you can look at problems in new ways and look for answers in new places. You can learn by doing.
+  **迅速＋頻繁なリリース**
 
 
-  **Meritocracy**
+  迅速なプロトタイプは迅速な失敗につながり、より良い解決策をより早く導き出します。自由に実験ができれば、新しい方法で問題をとらえ、新しい場所で答えを探すことができます。やってみることで学ぶことができるのです。
 
 
-  In a meritocracy, good ideas can come from anywhere, and the best ideas win. Everyone has access to the same information. Successful work determines which projects rise and gather support and effort from the community.
+  **実力主義**
 
 
-  **Community**
+  実力主義では、良いアイデアはどこからでも生まれ、最高のアイデアが勝ちます。誰もが同じ情報にアクセスできます。どのプロジェクトが成功するかは、コミュニティからの支持と努力を集めるかによって決まります。
 
 
-  Communities form around a common purpose. They bring together diverse ideas and share work. Together, a global community can create beyond the capabilities of any one individual. It multiplies effort and shares the work. Together, we can do more.
+  **コミュニティ**
+
+
+  コミュニティは共通の目的のもとに形成されます。多様なアイデアを持ち寄り、仕事を分かち合います。グローバル・コミュニティが力を合わせれば、一個人の能力を超えたものを創造することができます。努力を倍増させ、仕事を分かち合うのです。力を合わせれば、もっと多くのことができるのです。
 mediaGallery:
   - link: http://i.gzn.jp/img/2016/06/13/red-hat-open-decision-framework/a03.png
   - link: http://i.gzn.jp/img/2016/06/13/red-hat-open-decision-framework/a04.png
