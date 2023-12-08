@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
-title: Threat Modeling
-subtitle: A practice to learn What Could Go Wrong and What Are We Going To Do About It
+title: 脅威モデリング
+subtitle:  何が悪いことで、何をすべきかを学ぶプラクティス
 date: 2021-05-07T16:24:03.235Z
 authors:
   - dawud
@@ -11,93 +11,88 @@ tags:
 mobiusTag: discovery
 icon: /images/data-flow-diagram-elements.png
 whatIs: >-
-  Formally, threat modeling is a process by which potential threats are
-  identified and rated for severity and possible mitigations are discussed. Less
-  formally, threat modeling happens when you think about how the system you’re
-  building could be broken and consider what your team can do to prevent that
-  from happening.
+  正式には、脅威モデリングとは、潜在的な脅威を特定し、深刻度を評価し、可能な緩和策を検討するプロセスです。別の言い方をすると、脅威モデリングは、あなたが構築しているシステムがどのように壊れる可能性があるかを考え、それを防ぐためにあなたのチームができることを検討することです。
 
 
-  It is important to stress that threat modeling is a process, not a tool. While tools can help the process be more efficient (e.g., by providing visualization, tracking changes over time, or identifying changes to software that would more likely affect its threat model), tools by themselves cannot currently take the place of humans reasoning about how other humans would attack a system.
+  脅威モデリングはツールではなくプロセスであることを強調することが重要です。ツールはプロセスをより効率的にするのに役立つが（例えば、視覚化を提供したり、時系列の変化を追跡したり、脅威モデルに影響を与える可能性の高いソフトウェアの変更を特定したりする）、現在のところ、ツール自体は、他の人間がシステムをどのように攻撃するかを推論する人間の代わりにはなることは難しいとされています。
 
 
-  Threat modeling is most effective when multiple stakeholders come together to look at a system from different angles: developers, architects, service engineers, designers, and end users, along with security specialists. The discussion can be as simple as walking through how the system is used, how it is supposed to work, and how it actually works. Security specialists ask questions to get a better understanding of the security controls in place, and very often, everyone leaves with a better understanding of the risks that affect the system.
+  脅威モデリングは、複数のステークホルダー（開発者、アーキテクト、サービスエンジニ ア、設計者、エンドユーザー、セキュリティ専門家など）が一緒になって、システムをさまざまな角度から見るときに最も効果的になります。ディスカッションは、システムがどのように使用され、どのように機能すると想定され、実際にどのように機能するかについて説明するようなシンプルなものにすることができます。セキュリティ・スペシャリストは、実施されているセキュリティ管理についてよりよく理解するために質問し、多くの場合、全員がシステムに影響を与えるリスクについて深く理解して帰ります。
 
 
-  Several approaches can be used to perform the assessment, for example, a design-centric threat modeling approach focuses mainly on areas where data passes over a virtual boundary separating trusted and untrusted elements.
+  評価の実施にはいくつかのアプローチを用いることができます、 例えば、設計中心の脅威モデリングであれば、信頼できる要素と信頼できない要素を分離する仮想境界をデータが通過する領域に主に焦点を当てるアプローチが取られます。
 
 
-  **Benefits**
+  **メリット**
 
 
-  Threat modeling can improve the built-in security posture of a system by theorizing spotted threats and their adequate mitigations, as well as increase user confidence in that security posture. When performed correctly, it can provide a clear line of sight across a software project, helping to justify security efforts.
+  脅威モデリングは、発見された脅威とその適切な緩和策を論述することによって、システムに組み込まれたセキュリティへの対応を改善し、その姿勢に対するユーザの信頼を高めることができます。正しく実行されれば、ソフトウエアプロジェクト全体に明確な見通しをもたらし、セキュリティ対策の正当化に役立ちます。
 
 
-  **Threat modeling has these primary benefits:**
+  **脅威モデリングには、主に次のようなメリットがあります:**
 
 
-  * More secure systems: Threat modeling done properly and early establishes a foundation for building a secure system based on a secure design. Designing a system with security in mind throughout the process reduces the chances of finding vulnerabilities and gives teams more confidence to concentrate on the features being delivered.
+  * より安全なシステム： 早期に適切な脅威モデリングを行うことで、セキュアな設計に基づくセキュアなシステム構築の基盤が確立されます。プロセス全体を通じてセキュリティを念頭に置いてシステムを設計することで、脆弱性を発見する可能性が低くなり、チームは自信を持って提供する機能に集中できるようになります。
 
-  * Reduced cost by finding design flaws early and before release: Threat modeling normally occurs during the system design phase and allows for early identification of security risks. If vulnerabilities are found, early detection saves valuable time and monetary resources when mitigations are required. The cost of closing a security risk increases dramatically as a system nears release, and exponentially once it has been released to the public. The resulting costs of undetected vulnerabilities to a brand could even be immeasurable.
 
-  * Reduced exposure to weaknesses other methods may not uncover: Design and development teams use many different methods to develop systems. Code and test plan reviews help engineers evaluate a systems’ effectiveness, but may not divulge such security concerns as the need for input validation or cryptography. Threat modeling examines the relationships that exist between a component’s atomic elements, analyzes how data flows between them, and exposes potentially exploitable weak points.
+  * リリース前に設計上の欠陥を早期に発見することによりコストを削減： 脅威モデリングは通常、システム設計段階で行われ、セキュリティリスクを早期に特定することができます。脆弱性を早期に発見することで、緩和策が必要になったときの貴重な時間と金銭的リソースの節約につながります。セキュリティリスクを解消するためのコストは、システムのリリースが近づくにつれて劇的に増加し、公開後は指数関数的に増加します。発見されなかった脆弱性がブランドにもたらすコストは、計り知れないものになる可能性さえあります。
+
+
+  * 他の手法では発見できないような弱点に触れる可能性を減らす： 設計・開発チームは、システムを開発するためにさまざまな方法を用います。コードレビューやテストプランレビューは、エンジニアがシステムの有効性を評価するのに役立ちますが、入力検証や暗号化の必要性といったセキュリティ上の懸念事項は明らかにされないかもしれません。脅威モデリングは、コンポーネントの要素間に存在する関係を調べ、要素間のデータの流れを分析し、潜在的に悪用可能な弱点を明らかにすることが出来ます。
 whyDo: >-
-  The goal of the Threat Modeling process is to help Engineering teams document
-  knowable security threats to an application and make rational decisions about
-  how to address them, by providing an effective way to do the following:
+  脅威モデリングプロセスのゴールは、以下のような効果的な手段を提供するし、エンジニアリングチームがアプリケーションに対する既知のセキュリティ脅威を文書化し、その対処方法について合理的な決定を下せるようになることです：
 
 
-  * Detect problems early in the software development lifecycle — even before coding begins.
+  * ソフトウェア開発ライフサイクルの早い段階（コーディングが始まる前であっても）で問題を検出する。
 
-  * Propose realistic mitigations to the identified weaknesses before a release, preventing costly post-deployment re-coding.
+  * リリースの前に、特定された弱点に対する現実的な緩和策を提案し、コストのかかるデプロイ後の再コーディングを防ぐ。
 
-  * Spot design flaws that traditional testing methods and code reviews may overlook.
+  * 従来のテスト手法やコードレビューでは見落とされがちな設計上の欠陥を発見する。
 
-  * Think about threats and security issues unique to the service.
+  * そのサービス特有の脅威やセキュリティ問題を考える。
 
-  * Brainstorm as a group to evaluate new forms of attack.
+  * グループでブレインストーミングを行い、新しい攻撃形態を評価する。
 
-  * Help target testing and code review.
+  * ターゲットテストとコードレビューを支援する。
 
-  * Identify gaps in Compliance and Security Standards.
+  * コンプライアンスとセキュリティ基準のギャップを特定する。
 
-  * Highlight assets, threat agents, and controls to deduce components that attackers will target.
+  *攻撃者が標的とするコンポーネントを推測するするための資産、脅威エージェント、コントロールを特定する。
 howTo: >-
-  Basically, the Threat Modeler strives to improve the system’s built-in
-  security posture by:
+  基本的に、脅威モデラーは、システムに内蔵されたセキュリティ態勢を、以下によって改善するよう検討します:
 
 
-  * Understanding the system architecture, to the single-component level
+  * システム・アーキテクチャを単一コンポーネント・レベルで理解する。
 
-  * Providing a basis for secure design and implementation by helping Engineering teams understand what they are securing against
+  * エンジニアリングチームが何に対してセキュリティを確保するのかを理解できるようにすることで、安全な設計と実装の基礎を提供する。
 
-  * Discovering weaknesses by comparing architecture design and configuration against industry standards
+  * アーキテクチャの設計と構成を業界標準と比較することにより、弱点を発見する。
 
-  * Understanding the threat profile of a system and its components and enumerating potential weaknesses that may lead to an attacker reaching their goal
+  * システムとそのコンポーネントの脅威プロファイルを理解し、攻撃者が目的を達成するための潜在的な弱点を列挙する。
 
-  * Providing feedback for the application security lifecycle (e.g. a framework for penetration testing and analysis of the weaknesses)
-
-
-  ### Scope: One Threat Model or Many?
+  * アプリケーションセキュリティライフサイクルへのフィードバックを提供する（侵入テストのフレームワークや弱点の分析など）
 
 
-  Depending on the size of a particular service, one threat model can be completed or a number of threat models per system, whereby the system is broken down by features, components or Engineering teams.
+  ### スコープ:  1つの脅威モデルか、多くの脅威モデルか？?
 
 
-  Threat modeling by individual feature or component instead of creating a single threat model for the entire workload has a number of benefits:
+  特定のサービスの規模に応じて、1つの脅威モデルを完成させることもできるし、システムを機能別、コンポーネント別、エンジニアリングチーム別に分解して、システムごとに複数の脅威モデルを完成させることもできます。
 
 
-  * Smaller chunks of work allow for more granular tracking of progress, which aligns well with Engineering teams that are following agile-style delivery and gives leadership a constant view of progress.
+  ワークロード全体に対して単一の脅威モデルを作成するのではなく、個々の機能やコンポーネントごとに脅威モデルを作成することには、多くの利点があります:
 
-  * The resulting threat models tend to be more detailed, which results in more findings being identified.
 
-  * The threat model potentially can be reused as a dependency for other workload features that use the same components.
+  * 仕事のサイズを小さくすることで、進捗をより細かく追跡できる、これは、アジャイルスタイルのデリバリーに従うエンジニアリングチームとうまく調和し、リーダーシップが常に進捗状況を把握できます。
 
-  * Considering threat mitigations at the component level means that a single threat may have multiple mitigations at the overall workload level, resulting in an improved resilience against those threats.
+  * その結果、脅威モデルはより詳細になる傾向があり、より多くの発見が特定されることになります。
 
-  * Issues with a single threat model (e.g. a critical threat which is not yet mitigated) do not become launch blockers for the entire workload, but rather just for the individual feature.
+  * 脅威モデルは、同じコンポーネントを使用する他のワークロード機能の依存関係として再利用できる可能性があります。
 
-  * An Engineering team may consider components built by other teams within their company as “external systems” that need to be protected against, meaning that natural inter-team communication difficulties are also well examined by the threat models.
+  * コンポーネントレベルで脅威の緩和を考慮するということは、1 つの脅威がワークロード全体 のレベルで複数の緩和策を持つ可能性があるということであり、その結果、これらの脅威に対する回復力が 向上することにつながります。
+
+  * 単一の脅威モデルに関する問題（例えば、まだ緩和されていない重大な脅威）は、ワークロード全体の起動ブロッカーにはならず、むしろ個々の機能だけの起動ブロッカーになり影響が局所化します。
+
+  * エンジニアリングチームは、社内の他のチームが構築したコンポーネントを、防御すべき「外部システム」と見なすかもしれません、つまり、チーム間の自然なコミュニケーションの難しさも、脅威モデルによって十分に検証されます。
 mediaGallery:
   - link: https://i.ibb.co/nBWZVmX/Data-Flow-Diagram-Elements.png
 resources:
