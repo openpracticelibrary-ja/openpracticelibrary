@@ -1,7 +1,7 @@
 ---
 templateKey: practice-page
 title: 私のトリセツ（取扱説明書）
-subtitle: Connecting with colleagues in a deep and meaningful way
+subtitle: 仕事仲間と深く意味のあるつながりを作る
 date: 2021-08-05T13:05:58.124Z
 authors:
   - acammies
