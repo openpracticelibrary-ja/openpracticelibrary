@@ -5,15 +5,14 @@ authors:
   - Zenigata
   - itblaked
 howTo: >-
-  These tests are typically executed by a Continuous Integration (CI) tool, for
-  example [ Jenkins ](https://jenkins.io/) or
-  [TravisCI](https://www.travis-ci.com/). 
+  これらのテストは通常、継続的インテグレーション（CI）ツールによって実行される。
+  例：[ Jenkins ](https://jenkins.io/)、[TravisCI](https://www.travis-ci.com/)。
 
 
-  Easy and quick tests can be executed right after building (compiling) an application or when code is pushed or merged in source control.
+  アプリケーションをビルドした直後や、コードがソースコントロールにプッシュまたはマージされた際に簡単かつ迅速にテストを実行することができる。
 
 
-  Many of these tests can be run in parallel, decreasing the overall time taken to run a collection of tests.
+  これらのテストの多くは並行して実行することができ、複数のテストを実行するためにかかる全体の時間を短縮できる。
 resources:
   - link: https://jenkins.io/
     linkType: web
@@ -27,55 +26,55 @@ resources:
 participants:
   - Team members
 area: foundation-technical
-title: Test automation
-subtitle: Shortening the feedback loop and increasing the quality of code.
+title: テスト自動化
+subtitle: フィードバックのループを短縮し、ソースコードの品質を高める。
 date: 2021-04-13T00:30:23.187Z
 tags:
   - methods
 mobiusTag: foundation
 icon: /images/final_test-automation.png
 whatIs: >-
-  Test automation allows teams to remove the slow and manual testing cycles
-  related to software development. Test automation can include such things as:
+  テスト自動化により、チームはソフトウェア開発における遅くて手動のテストサイクルを排除することができる。
+  テスト自動化には、以下のようなものが含まれる：
 
-  * Static code analysis
+  * 静的コード解析
 
-  * Linting
+  * Lint処理
 
-  * Unit tests
+  * ユニットテスト
 
-  * End-to-end tests
+  * E2E テスト
 
-  * Security tests
+  * セキュリティテスト
 whyDo: |-
-  * Increase code quality
-  * Faster feedback
-  * Standardise approach to testing
+  * コード品質の向上
+  * 迅速なフィードバック
+  * テスト手法の標準化
 mediaGallery:
   - link: https://github.com/openpracticelibrary/opl-media/blob/master/images/test%20automation.jpg?raw=true
 people: 1+
 difficulty: moderate
 ---
-## What is it?
+## これは何？
 
-Test automation allows teams to remove the slow and manual testing cycles related to software development. Test automation can include such things as:
+テスト自動化により、チームはソフトウェア開発における遅くて手動のテストサイクルを排除することができる。テスト自動化には、以下のようなものが含まれる：
 
-- Static code analysis
-- Linting
-- Unit tests
-- End-to-end tests
-- Security tests
+- 静的コード解析
+- Lint処理
+- ユニットテスト
+- E2E テスト
+- セキュリティテスト
 
-These tests are typically executed by a build automation tool, for example [Jenkins](https://jenkins.io/). Easy and quick tests should be ran right after building (compiling) your application, such as unit tests and static code analysis. Also many of these tests can be run in parallel, decreasing the overall time taken to run the tests.
+これらのテストは通常、ビルド自動化ツールによって実行される。例えば、[Jenkins](https://jenkins.io/) などがありる。アプリケーションのビルド（コンパイル）直後に実行すべき簡単で迅速なテストには、ユニットテストや静的コード解析などがある。また、これらのテストの多くは並行して実行することができ、テストの実行にかかる全体の時間を短縮できる。
 
-## Why use it?
+## なぜ使うの？
 
-- It increases the code quality.
-- It shortens feedback loops.
-- It tells if your change broke some previously working code.
+- コードの品質を向上させる。
+- フィードバックループを短縮する。
+- 以前動作していたコードに対して、変更が影響を与えたかどうかを示す。
 
-## How to do it?
+## どうやって使うの？
 
-## Further Information
+## さらに他のリソース:
 
 - [Wikipedia Article - Test automation](https://en.wikipedia.org/wiki/Test_automation)
