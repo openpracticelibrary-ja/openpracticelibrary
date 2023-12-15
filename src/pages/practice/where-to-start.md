@@ -1,8 +1,7 @@
 ---
 templateKey: practice-page
-title: Where to Start
-subtitle: Solve the problem of choosing properly which product should be treated
-  in a digital transformation journey
+title: どこから始めるか
+subtitle: デジタルトランスフォーメーションジャーニーにおいて、どのプロダクトを扱うべきかを、適切に選択する
 date: 2021-04-23T17:29:11.380Z
 authors:
   - lhsribas
@@ -14,60 +13,55 @@ tags:
 mobiusTag: discovery
 icon: /images/where-to-start.jpeg
 whatIs: >-
-  This practice focus on helping people to unveil the most complex systems and
-  processes that are urging to be affected by transformational work in an
-  organization, with the purpose of strengthen and diffuse accross the
-  organization the knowledge of Design Thinking, Agile and DevOps culture. 
+  このプラクティスは、デザイン思考、アジャイル、DevOpsカルチャーのナレッジを組織全体で強化し、普及させることを目的として、組織の変革活動によって影響を受けることを強く望んでいる、最も複雑なシステムやプロセスを明らかにする手助けに重点を置いています。
 
 
-  * It is a tool that facilitates conversations about relative priorities;
+  * これは、相対的な優先順位についての会話を促進するツールです；
 
-  * Focuses the team on defining which system should be approached first in a transformational journey;
+  * トランスフォーメーションのジャーニーにおいて、どのシステムに最初にアプローチすべきかを定義することに、チームを集中させます；
 
-  * Clarifies the importance of the systems chosen across all the teams involved;
+  * 関係するすべてのチームにおいて、選択したシステムの重要性を明確にします；
 
-  * An exercise that increases team autonomy;
+  * チームの自主性を高めるエクササイズです；
 
-  * A practice that breaks the integration silos between the teams, bringing the sense of belonging to a digital transformation journey in the organization;
+  * チーム間のサイロ化を解消し、組織のデジタルトランスフォーメーションジャーニーに帰属意識をもたらすプラクティスです；
 whyDo: >-
-  Many organizations have extraordinary difficulty discovering where to start a
-  digital transformational journey, the complexity of such initiative creates a
-  huge dilemma for these organizations. 
+  多くの組織は、デジタルトランスフォーメーションのジャーニーをどこから始めればいいのかに大きな悩みを抱えています。このようなイニシアチブの複雑さは、組織に大きなジレンマを生み出しています。
 
 
-  ***The longer the company takes time to look ahead, will further the path be from its transformation?*** 
+  ***先を見通すのに時間がかかればかかるほど、変革への道は遠のくのだろうか？*** 
 
 
-  In a digital transformation, people are the most crucial element, and empower them is key to success. They know everything about their business and the better path for the organization.
+  デジタルトランスフォーメーションでは、人材が最も重要な要素であり、彼らに力を与えることが成功の鍵となります。彼らは自分たちのビジネスと組織にとってより良い道筋についてすべてを知っているはずです。
 
 
-  The **Where To Start** is a practice with focus on people and their ability to express their feelings about the processes, with a disruptive approach to encourage participants to work together towards a new path of success.
+  *どこから始めるか（Where To Start）* は、参加者が新たな成功の道筋に向かって共に努力することを促す破壊的なアプローチで、人々とプロセスに対する彼らの感情を表現する能力に焦点を当てたプラクティスです。
 howTo: >-
-  Participants should focus on answering key questions that will help better
-  address the points of cultural and digital transformation:
+  参加者は、文化とデジタルの変革ポイントによりよく対処するため、いくつかの重要な質問にフォーカスします:
 
 
-  * ***How is your operation?***
 
-  * ***What is the value of this system or process?***
+  * ***オペレーションはどうなのか?***
 
-  * ***What is your pain?***
+  * ***このシステムやプロセスの価値は何なのか？***
 
-  * ***What is your strategy?***
+  * ***ペインポイントは何なのか？***
 
-
-  1. We start the practice with relative priorities and concentrating the team's focus on defining which system should be approached first in a transformational journey;
-
-  2. Using sticky notes, everyone should work together to visualize how the operation is performed amongst users, systems, and the process involved;
-
-  3. For each system, list the value obtained, the pain points, and the desires in improving each system or process - raised in the design of the process;
-
-  4. Finally, participants should distribute these improvements in an estimated timeline and prioritize the most important ones.
+  * ***戦略は何なのか?***
 
 
-  **Optional:**
+  1. まず参加者は、プラクティスを相対的な優先順位からスタートさせ、変革のジャーニーにおいて最初に取り組むべきシステムを明確にすることにフォーカスします;
 
-  Practices such as [Priority Slides](https://openpracticelibrary.com/practice/priority-sliders/) can be used to prioritize improvements to the systems or processes to be focused on the timeline.
+  2. 付箋紙を使い、ユーザー、システム、プロセスの間でどのようなオペレーションが行われるかを全員で可視化します
+
+  3. 各システムについて、得られる価値、ペインポイント、各システムやプロセスを改善する上での要望を列挙します
+
+  4. 最後に、参加者は、これらの改善策を予定されたスケジュールで配分し、最も重要なものに優先順位をつけます.
+
+
+  **オプション:**
+
+  [プライオリティスライダー](https://openpracticelibrary-ja.netlify.app/practice/priority-sliders/)のようなプラクティスは、システムまたはプロセスの改善に優先順位をつけ、タイムラインに集中させるために使用できます。
 mediaGallery:
   - link: https://ik.imagekit.io/lhsribas/Where_to_Start_ghRqvjX1A.jpeg
   - link: https://ik.imagekit.io/lhsribas/all_Axx0FRUr2.png
