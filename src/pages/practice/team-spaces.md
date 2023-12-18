@@ -44,9 +44,6 @@ people: 1+
 time: '4 weeks (lead time), 1 day (setup)'
 difficulty: moderate
 whatIs: >-
-  This article contains a collection of best practices and lessons learned from
-  real facilities build-out of global, permanent labs facilities, as well as
-  experiences building temporary, ‘pop-up’ team spaces.
   このプラクティスの説明では、グローバルなの恒久的なラボ施設の構築から得られたベストプラクティスと実践からの教訓、また、一時的な「ポップアップ」チームスペースの構築経験が含まれています。
 whyDo: >
   意図的にワークスペースを設計することは、チームが物事を成し遂げる方法に大きな影響を与えることができます。
@@ -233,7 +230,6 @@ howTo: >-
 
 
 
-  #### Desks / Chairs / Storage
   #### デスク / 椅子 / ストレージ
 
 
