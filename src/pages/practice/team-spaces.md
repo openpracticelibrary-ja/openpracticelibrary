@@ -214,12 +214,12 @@ howTo: >-
   * チームの近くにボード（例えばスクラムボード）を見えるように掲示するスペースが必要です。例えば、バックログ、スクラムボード、イベントストーミング/MBPMボードなどです。これはチーム全員が席を離れずにボードを見ることができるようにするためです。
 
 
-  * 詳細については、この[実践](https://rht-labs.github.io/practice-library/practices/visualisation-of-work/)
-を参照してください。
+  * 詳細については、この[実践](https://rht-labs.github.io/practice-library/practices/visualisation-of-work/) を参照してください。
 
 
 
   #### ビデオカメラ
+  
 
 
   リモートでの作業や会議には、ウェブカメラが重要です。より多くのベンダー、第三者、リモート従業員が作業に関与する中、互いに見ることができると包摂感(inclusivity)が生まれます。
